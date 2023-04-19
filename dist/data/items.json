@@ -1,0 +1,1391 @@
+[
+	{
+		"id": 1001,
+		"name": "铁矿",
+		"type": "RESOURCE",
+		"miningFrom": "铁矿脉",
+		"stackSize": 100,
+		"preTechOverride": 1101,
+		"produce": true,
+		"description": "I铁矿"
+	},
+	{
+		"id": 1002,
+		"name": "铜矿",
+		"type": "RESOURCE",
+		"miningFrom": "铜矿脉",
+		"stackSize": 100,
+		"preTechOverride": 1102,
+		"produce": true,
+		"description": "I铜矿"
+	},
+	{
+		"id": 1003,
+		"name": "硅石",
+		"type": "RESOURCE",
+		"miningFrom": "硅矿脉",
+		"stackSize": 100,
+		"preTechOverride": 1105,
+		"produce": true,
+		"description": "I硅石"
+	},
+	{
+		"id": 1004,
+		"name": "钛石",
+		"type": "RESOURCE",
+		"miningFrom": "钛矿脉",
+		"stackSize": 100,
+		"preTechOverride": 1106,
+		"produce": true,
+		"description": "I钛石"
+	},
+	{
+		"id": 1005,
+		"name": "石矿",
+		"type": "RESOURCE",
+		"miningFrom": "石矿脉",
+		"stackSize": 100,
+		"preTechOverride": 1103,
+		"produce": true,
+		"description": "I石矿"
+	},
+	{
+		"id": 1006,
+		"name": "煤矿",
+		"type": "RESOURCE",
+		"miningFrom": "煤矿脉",
+		"stackSize": 100,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "2700000"
+		},
+		"preTechOverride": 1104,
+		"produce": true,
+		"description": "I煤矿"
+	},
+	{
+		"id": 1030,
+		"name": "木材",
+		"type": "RESOURCE",
+		"miningFrom": "树木",
+		"stackSize": 100,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "1500000"
+		},
+		"preTechOverride": 1612,
+		"produce": true,
+		"description": "I木材"
+	},
+	{
+		"id": 1031,
+		"name": "植物燃料",
+		"type": "RESOURCE",
+		"miningFrom": "植物",
+		"stackSize": 500,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "500000"
+		},
+		"preTechOverride": 1712,
+		"produce": true,
+		"description": "I植物燃料"
+	},
+	{
+		"id": 1011,
+		"name": "可燃冰",
+		"type": "RESOURCE",
+		"miningFrom": "可燃冰矿（珍奇）",
+		"stackSize": 50,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "4800000"
+		},
+		"preTechOverride": 1307,
+		"produce": true,
+		"description": "I可燃冰"
+	},
+	{
+		"id": 1012,
+		"name": "金伯利矿石",
+		"type": "RESOURCE",
+		"miningFrom": "金伯利矿（珍奇）",
+		"stackSize": 50,
+		"preTechOverride": 1112,
+		"produce": true,
+		"description": "I金伯利矿石"
+	},
+	{
+		"id": 1013,
+		"name": "分形硅石",
+		"type": "RESOURCE",
+		"miningFrom": "分形硅矿（珍奇）",
+		"stackSize": 50,
+		"preTechOverride": 1212,
+		"produce": true,
+		"description": "I分形硅石"
+	},
+	{
+		"id": 1014,
+		"name": "光栅石",
+		"type": "RESOURCE",
+		"miningFrom": "光栅石矿（珍奇）",
+		"stackSize": 50,
+		"preTechOverride": 1312,
+		"produce": true,
+		"description": "I光栅石"
+	},
+	{
+		"id": 1015,
+		"name": "刺笋结晶",
+		"type": "RESOURCE",
+		"miningFrom": "刺笋矿脉（珍奇）",
+		"stackSize": 50,
+		"preTechOverride": 1412,
+		"produce": true,
+		"description": "I刺笋结晶"
+	},
+	{
+		"id": 1016,
+		"name": "单极磁石",
+		"type": "RESOURCE",
+		"miningFrom": "单极磁矿（珍奇）",
+		"stackSize": 50,
+		"preTechOverride": 1512,
+		"produce": true,
+		"description": "I单极磁石"
+	},
+	{
+		"id": 1101,
+		"name": "铁块",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1201,
+		"description": "I铁块"
+	},
+	{
+		"id": 1104,
+		"name": "铜块",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1202,
+		"description": "I铜块"
+	},
+	{
+		"id": 1105,
+		"name": "高纯硅块",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1205,
+		"description": "I高纯硅块"
+	},
+	{
+		"id": 1106,
+		"name": "钛块",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1206,
+		"description": "I钛块"
+	},
+	{
+		"id": 1108,
+		"name": "石材",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1203,
+		"description": "I石材"
+	},
+	{
+		"id": 1109,
+		"name": "高能石墨",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "6750000"
+		},
+		"preTechOverride": 1204,
+		"description": "I高能石墨"
+	},
+	{
+		"id": 1103,
+		"name": "钢材",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1401,
+		"description": "I钢材"
+	},
+	{
+		"id": 1107,
+		"name": "钛合金",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1306,
+		"description": "I钛合金"
+	},
+	{
+		"id": 1110,
+		"name": "玻璃",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1303,
+		"description": "I玻璃"
+	},
+	{
+		"id": 1119,
+		"name": "钛化玻璃",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1609,
+		"description": "I钛化玻璃"
+	},
+	{
+		"id": 1111,
+		"name": "棱镜",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1403,
+		"description": "I棱镜"
+	},
+	{
+		"id": 1112,
+		"name": "金刚石",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "900000"
+		},
+		"preTechOverride": 1304,
+		"description": "I金刚石"
+	},
+	{
+		"id": 1113,
+		"name": "晶格硅",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1305,
+		"description": "I晶格硅"
+	},
+	{
+		"id": 1201,
+		"name": "齿轮",
+		"type": "COMPONENT",
+		"stackSize": 200,
+		"preTechOverride": 1501,
+		"description": "I齿轮"
+	},
+	{
+		"id": 1102,
+		"name": "磁铁",
+		"type": "MATERIAL",
+		"stackSize": 200,
+		"preTechOverride": 1301,
+		"description": "I磁铁"
+	},
+	{
+		"id": 1202,
+		"name": "磁线圈",
+		"type": "COMPONENT",
+		"stackSize": 200,
+		"preTechOverride": 1302,
+		"description": "I磁线圈"
+	},
+	{
+		"id": 1203,
+		"name": "电动机",
+		"type": "COMPONENT",
+		"stackSize": 100,
+		"preTechOverride": 1404,
+		"description": "I电动机"
+	},
+	{
+		"id": 1204,
+		"name": "电磁涡轮",
+		"type": "COMPONENT",
+		"stackSize": 100,
+		"preTechOverride": 1504,
+		"description": "I电磁涡轮"
+	},
+	{
+		"id": 1205,
+		"name": "超级磁场环",
+		"type": "COMPONENT",
+		"stackSize": 100,
+		"preTechOverride": 1604,
+		"description": "I超级磁场环"
+	},
+	{
+		"id": 1206,
+		"name": "粒子容器",
+		"type": "COMPONENT",
+		"stackSize": 100,
+		"preTechOverride": 1603,
+		"description": "I粒子容器"
+	},
+	{
+		"id": 1127,
+		"name": "奇异物质",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1408,
+		"description": "I奇异物质"
+	},
+	{
+		"id": 1301,
+		"name": "电路板",
+		"type": "COMPONENT",
+		"stackSize": 200,
+		"preTechOverride": 1402,
+		"description": "I电路板"
+	},
+	{
+		"id": 1303,
+		"name": "处理器",
+		"type": "COMPONENT",
+		"stackSize": 200,
+		"preTechOverride": 1505,
+		"description": "I处理器"
+	},
+	{
+		"id": 1305,
+		"name": "量子芯片",
+		"type": "COMPONENT",
+		"stackSize": 200,
+		"preTechOverride": 1611,
+		"description": "I量子芯片"
+	},
+	{
+		"id": 1302,
+		"name": "微晶元件",
+		"type": "COMPONENT",
+		"stackSize": 200,
+		"preTechOverride": 1405,
+		"description": "I微晶元件"
+	},
+	{
+		"id": 1304,
+		"name": "位面过滤器",
+		"type": "COMPONENT",
+		"stackSize": 200,
+		"preTechOverride": 1610,
+		"description": "I位面过滤器"
+	},
+	{
+		"id": 1402,
+		"name": "粒子宽带",
+		"type": "COMPONENT",
+		"stackSize": 200,
+		"preTechOverride": 1411,
+		"description": "I粒子宽带"
+	},
+	{
+		"id": 1401,
+		"name": "电浆激发器",
+		"type": "COMPONENT",
+		"stackSize": 200,
+		"preTechOverride": 1502,
+		"description": "I电浆激发器"
+	},
+	{
+		"id": 1404,
+		"name": "光子合并器",
+		"type": "COMPONENT",
+		"stackSize": 200,
+		"preTechOverride": 1503,
+		"description": "I光子合并器"
+	},
+	{
+		"id": 1501,
+		"name": "太阳帆",
+		"type": "PRODUCT",
+		"stackSize": 200,
+		"preTechOverride": 1708,
+		"description": "I太阳帆"
+	},
+	{
+		"id": 1000,
+		"name": "水",
+		"type": "RESOURCE",
+		"miningFrom": "海洋",
+		"stackSize": 20,
+		"isFluid": true,
+		"preTechOverride": 1107,
+		"produce": true,
+		"description": "I水"
+	},
+	{
+		"id": 1007,
+		"name": "原油",
+		"type": "RESOURCE",
+		"miningFrom": "原油涌泉",
+		"stackSize": 20,
+		"isFluid": true,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "4050000"
+		},
+		"preTechOverride": 1108,
+		"produce": true,
+		"description": "I原油"
+	},
+	{
+		"id": 1114,
+		"name": "精炼油",
+		"type": "MATERIAL",
+		"stackSize": 20,
+		"isFluid": true,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "4500000"
+		},
+		"preTechOverride": 1208,
+		"description": "I精炼油"
+	},
+	{
+		"id": 1116,
+		"name": "硫酸",
+		"type": "MATERIAL",
+		"miningFrom": "硫酸海洋",
+		"stackSize": 20,
+		"isFluid": true,
+		"preTechOverride": 1207,
+		"description": "I硫酸"
+	},
+	{
+		"id": 1120,
+		"name": "氢",
+		"type": "MATERIAL",
+		"miningFrom": "气态巨星轨道",
+		"stackSize": 20,
+		"isFluid": true,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "9000000"
+		},
+		"preTechOverride": 1109,
+		"description": "I氢"
+	},
+	{
+		"id": 1121,
+		"name": "重氢",
+		"type": "MATERIAL",
+		"miningFrom": "气态巨星轨道",
+		"produceFrom": "分馏塔",
+		"stackSize": 20,
+		"isFluid": true,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "9000000"
+		},
+		"preTechOverride": 1110,
+		"produce": true,
+		"mechaMaterialId": 1134,
+		"description": "I重氢"
+	},
+	{
+		"id": 1122,
+		"name": "反物质",
+		"type": "MATERIAL",
+		"stackSize": 20,
+		"potential": {
+			"type": "BigInt",
+			"value": "2576980377600000000"
+		},
+		"reactorInc": 2.1171588516621237e-17,
+		"preTechOverride": 1111,
+		"description": "I反物质"
+	},
+	{
+		"id": 1208,
+		"name": "临界光子",
+		"type": "MATERIAL",
+		"produceFrom": "射线接收站",
+		"stackSize": 100,
+		"potential": {
+			"type": "BigInt",
+			"value": "5153960755200000000"
+		},
+		"reactorInc": 68888,
+		"preTechOverride": 1602,
+		"produce": true,
+		"mechaMaterialId": 1506,
+		"description": "I临界光子"
+	},
+	{
+		"id": 1801,
+		"name": "氢燃料棒",
+		"type": "PRODUCT",
+		"stackSize": 30,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "54000000"
+		},
+		"preTechOverride": 1209,
+		"description": "I氢燃料棒"
+	},
+	{
+		"id": 1802,
+		"name": "氘核燃料棒",
+		"type": "PRODUCT",
+		"stackSize": 30,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "600000000"
+		},
+		"preTechOverride": 1210,
+		"description": "I氘核燃料棒"
+	},
+	{
+		"id": 1803,
+		"name": "反物质燃料棒",
+		"type": "PRODUCT",
+		"stackSize": 30,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "7200000000"
+		},
+		"potential": {
+			"type": "BigInt",
+			"value": "1"
+		},
+		"preTechOverride": 1211,
+		"description": "I反物质燃料棒"
+	},
+	{
+		"id": 1115,
+		"name": "塑料",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1308,
+		"description": "I塑料"
+	},
+	{
+		"id": 1123,
+		"name": "石墨烯",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "96000"
+		},
+		"preTechOverride": 1310,
+		"description": "I石墨烯"
+	},
+	{
+		"id": 1124,
+		"name": "碳纳米管",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "84000"
+		},
+		"preTechOverride": 1410,
+		"description": "I碳纳米管"
+	},
+	{
+		"id": 1117,
+		"name": "有机晶体",
+		"type": "MATERIAL",
+		"miningFrom": "有机晶体矿（珍奇）",
+		"stackSize": 100,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "1800000"
+		},
+		"preTechOverride": 1309,
+		"description": "I有机晶体"
+	},
+	{
+		"id": 1118,
+		"name": "钛晶石",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1409,
+		"description": "I钛晶石"
+	},
+	{
+		"id": 1126,
+		"name": "卡西米尔晶体",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1407,
+		"description": "I卡西米尔晶体"
+	},
+	{
+		"id": 1209,
+		"name": "引力透镜",
+		"type": "COMPONENT",
+		"stackSize": 100,
+		"preTechOverride": 1605,
+		"description": "I引力透镜"
+	},
+	{
+		"id": 1210,
+		"name": "空间翘曲器",
+		"type": "COMPONENT",
+		"stackSize": 100,
+		"preTechOverride": 1608,
+		"description": "I空间翘曲器"
+	},
+	{
+		"id": 1403,
+		"name": "湮灭约束球",
+		"type": "COMPONENT",
+		"stackSize": 20,
+		"preTechOverride": 1311,
+		"description": "I湮灭约束球"
+	},
+	{
+		"id": 1405,
+		"name": "推进器2",
+		"type": "COMPONENT",
+		"stackSize": 200,
+		"preTechOverride": 1507,
+		"description": "I推进器"
+	},
+	{
+		"id": 1406,
+		"name": "加力推进器",
+		"type": "COMPONENT",
+		"stackSize": 100,
+		"preTechOverride": 1508,
+		"description": "I加力推进器"
+	},
+	{
+		"id": 5003,
+		"name": "配送运输机",
+		"type": "LOGISTICS",
+		"stackSize": 200,
+		"isEntity": true,
+		"preTechOverride": 1509,
+		"description": "I配送运输机"
+	},
+	{
+		"id": 5001,
+		"name": "物流运输机",
+		"type": "LOGISTICS",
+		"stackSize": 200,
+		"isEntity": true,
+		"preTechOverride": 1510,
+		"description": "I物流运输机"
+	},
+	{
+		"id": 5002,
+		"name": "星际物流运输船",
+		"type": "LOGISTICS",
+		"stackSize": 50,
+		"isEntity": true,
+		"preTechOverride": 1511,
+		"description": "I星际物流运输船"
+	},
+	{
+		"id": 1125,
+		"name": "框架材料",
+		"type": "MATERIAL",
+		"stackSize": 100,
+		"preTechOverride": 1709,
+		"description": "I框架材料"
+	},
+	{
+		"id": 1502,
+		"name": "戴森球组件",
+		"type": "COMPONENT",
+		"stackSize": 100,
+		"preTechOverride": 1710,
+		"description": "I戴森球组件"
+	},
+	{
+		"id": 1503,
+		"name": "小型运载火箭",
+		"type": "PRODUCT",
+		"stackSize": 20,
+		"isEntity": true,
+		"preTechOverride": 1711,
+		"description": "I小型运载火箭"
+	},
+	{
+		"id": 1131,
+		"name": "地基",
+		"type": "COMPONENT",
+		"stackSize": 1000,
+		"canBuild": true,
+		"gridIndex": 901,
+		"preTechOverride": 1601,
+		"description": "I地基"
+	},
+	{
+		"id": 1141,
+		"name": "增产剂 Mk.I",
+		"type": "MATERIAL",
+		"stackSize": 200,
+		"ability": 1,
+		"preTechOverride": 1406,
+		"description": "I增产剂 Mk.I"
+	},
+	{
+		"id": 1142,
+		"name": "增产剂 Mk.II",
+		"type": "MATERIAL",
+		"stackSize": 200,
+		"ability": 2,
+		"preTechOverride": 1506,
+		"description": "I增产剂 Mk.II"
+	},
+	{
+		"id": 1143,
+		"name": "增产剂 Mk.III",
+		"type": "MATERIAL",
+		"stackSize": 200,
+		"ability": 4,
+		"preTechOverride": 1606,
+		"description": "I增产剂 Mk.III"
+	},
+	{
+		"id": 2001,
+		"name": "低速传送带",
+		"type": "LOGISTICS",
+		"stackSize": 300,
+		"grade": 1,
+		"upgrades": [
+			2001,
+			2002,
+			2003
+		],
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 301,
+		"preTechOverride": 2201,
+		"description": "I低速传送带"
+	},
+	{
+		"id": 2002,
+		"name": "高速传送带",
+		"type": "LOGISTICS",
+		"stackSize": 300,
+		"grade": 2,
+		"upgrades": [
+			2001,
+			2002,
+			2003
+		],
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 302,
+		"preTechOverride": 2202,
+		"description": "I高速传送带"
+	},
+	{
+		"id": 2003,
+		"name": "极速传送带",
+		"type": "LOGISTICS",
+		"stackSize": 300,
+		"grade": 3,
+		"upgrades": [
+			2001,
+			2002,
+			2003
+		],
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 303,
+		"preTechOverride": 2203,
+		"description": "I极速传送带"
+	},
+	{
+		"id": 2011,
+		"name": "低速分拣器",
+		"type": "LOGISTICS",
+		"stackSize": 200,
+		"grade": 1,
+		"upgrades": [
+			2011,
+			2012,
+			2013
+		],
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 304,
+		"preTechOverride": 2301,
+		"description": "I低速分拣器"
+	},
+	{
+		"id": 2012,
+		"name": "高速分拣器",
+		"type": "LOGISTICS",
+		"stackSize": 200,
+		"grade": 2,
+		"upgrades": [
+			2011,
+			2012,
+			2013
+		],
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 305,
+		"preTechOverride": 2302,
+		"description": "I高速分拣器"
+	},
+	{
+		"id": 2013,
+		"name": "极速分拣器",
+		"type": "LOGISTICS",
+		"stackSize": 200,
+		"grade": 3,
+		"upgrades": [
+			2011,
+			2012,
+			2013
+		],
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 306,
+		"preTechOverride": 2303,
+		"description": "I极速分拣器"
+	},
+	{
+		"id": 2020,
+		"name": "四向分流器",
+		"type": "LOGISTICS",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 307,
+		"preTechOverride": 2204,
+		"description": "I四向分流器"
+	},
+	{
+		"id": 2040,
+		"name": "自动集装机",
+		"type": "LOGISTICS",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 308,
+		"preTechOverride": 2205,
+		"description": "I自动集装机"
+	},
+	{
+		"id": 2030,
+		"name": "流速器",
+		"type": "LOGISTICS",
+		"stackSize": 100,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 309,
+		"preTechOverride": 2304,
+		"description": "I流速监测器"
+	},
+	{
+		"id": 2313,
+		"name": "喷涂机",
+		"type": "PRODUCTION",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 310,
+		"preTechOverride": 2407,
+		"description": "I喷涂机"
+	},
+	{
+		"id": 2107,
+		"name": "物流配送器",
+		"type": "LOGISTICS",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 601,
+		"preTechOverride": 2209,
+		"description": "I物流配送器"
+	},
+	{
+		"id": 2101,
+		"name": "小型储物仓",
+		"type": "LOGISTICS",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 401,
+		"preTechOverride": 2206,
+		"description": "I小型储物仓"
+	},
+	{
+		"id": 2102,
+		"name": "大型储物仓",
+		"type": "LOGISTICS",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 402,
+		"preTechOverride": 2207,
+		"description": "I大型储物仓"
+	},
+	{
+		"id": 2106,
+		"name": "储液罐",
+		"type": "LOGISTICS",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 403,
+		"preTechOverride": 2208,
+		"description": "I储液罐"
+	},
+	{
+		"id": 2303,
+		"name": "制造台 Mk.I",
+		"type": "PRODUCTION",
+		"stackSize": 50,
+		"grade": 1,
+		"upgrades": [
+			2303,
+			2304,
+			2305
+		],
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 503,
+		"preTechOverride": 2401,
+		"description": "I制造台 Mk.I"
+	},
+	{
+		"id": 2304,
+		"name": "制造台 Mk.II",
+		"type": "PRODUCTION",
+		"stackSize": 50,
+		"grade": 2,
+		"upgrades": [
+			2303,
+			2304,
+			2305
+		],
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 504,
+		"preTechOverride": 2402,
+		"description": "I制造台 Mk.II"
+	},
+	{
+		"id": 2305,
+		"name": "制造台 Mk.III",
+		"type": "PRODUCTION",
+		"stackSize": 50,
+		"grade": 3,
+		"upgrades": [
+			2303,
+			2304,
+			2305
+		],
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 505,
+		"preTechOverride": 2403,
+		"description": "I制造台 Mk.III"
+	},
+	{
+		"id": 2201,
+		"name": "电力感应塔",
+		"type": "LOGISTICS",
+		"stackSize": 100,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 101,
+		"preTechOverride": 2101,
+		"description": "I电力感应塔"
+	},
+	{
+		"id": 2202,
+		"name": "无线输电塔",
+		"type": "LOGISTICS",
+		"stackSize": 100,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 102,
+		"preTechOverride": 2102,
+		"description": "I无线输电塔"
+	},
+	{
+		"id": 2212,
+		"name": "卫星配电站",
+		"type": "LOGISTICS",
+		"stackSize": 30,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 103,
+		"preTechOverride": 2103,
+		"description": "I卫星配电站"
+	},
+	{
+		"id": 2203,
+		"name": "风力涡轮机",
+		"type": "PRODUCTION",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 104,
+		"preTechOverride": 2104,
+		"description": "I风力涡轮机"
+	},
+	{
+		"id": 2204,
+		"name": "火力发电厂",
+		"type": "PRODUCTION",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 105,
+		"preTechOverride": 2105,
+		"description": "I火力发电厂"
+	},
+	{
+		"id": 2211,
+		"name": "微型聚变发电站",
+		"type": "PRODUCTION",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 108,
+		"preTechOverride": 2108,
+		"description": "I微型聚变发电站"
+	},
+	{
+		"id": 2213,
+		"name": "地热发电站",
+		"type": "PRODUCTION",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 107,
+		"preTechOverride": 2107,
+		"description": "I地热发电站"
+	},
+	{
+		"id": 2301,
+		"name": "采矿机",
+		"type": "PRODUCTION",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 201,
+		"preTechOverride": 2305,
+		"description": "I采矿机"
+	},
+	{
+		"id": 2316,
+		"name": "大型采矿机",
+		"type": "PRODUCTION",
+		"stackSize": 30,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 202,
+		"preTechOverride": 2306,
+		"description": "I大型采矿机"
+	},
+	{
+		"id": 2306,
+		"name": "抽水站",
+		"type": "PRODUCTION",
+		"stackSize": 30,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 203,
+		"preTechOverride": 2307,
+		"description": "I抽水站"
+	},
+	{
+		"id": 2302,
+		"name": "电弧熔炉",
+		"type": "PRODUCTION",
+		"stackSize": 50,
+		"grade": 1,
+		"upgrades": [
+			2302,
+			2315
+		],
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 501,
+		"preTechOverride": 2404,
+		"description": "I电弧熔炉"
+	},
+	{
+		"id": 2315,
+		"name": "位面熔炉",
+		"type": "PRODUCTION",
+		"stackSize": 50,
+		"grade": 2,
+		"upgrades": [
+			2302,
+			2315
+		],
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 502,
+		"preTechOverride": 2405,
+		"description": "I位面熔炉"
+	},
+	{
+		"id": 2307,
+		"name": "原油萃取站",
+		"type": "PRODUCTION",
+		"stackSize": 20,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 204,
+		"preTechOverride": 2308,
+		"description": "I原油萃取站"
+	},
+	{
+		"id": 2308,
+		"name": "原油精炼厂",
+		"type": "PRODUCTION",
+		"stackSize": 30,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 506,
+		"preTechOverride": 2309,
+		"description": "I原油精炼厂"
+	},
+	{
+		"id": 2309,
+		"name": "化工厂",
+		"type": "PRODUCTION",
+		"stackSize": 30,
+		"grade": 1,
+		"upgrades": [
+			2309,
+			2317
+		],
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 508,
+		"preTechOverride": 2409,
+		"description": "I化工厂"
+	},
+	{
+		"id": 2317,
+		"name": "化工厂 Mk.II",
+		"type": "PRODUCTION",
+		"stackSize": 30,
+		"grade": 2,
+		"upgrades": [
+			2309,
+			2317
+		],
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 509,
+		"preTechOverride": 2410,
+		"description": "I化工厂 Mk.II"
+	},
+	{
+		"id": 2314,
+		"name": "分馏塔",
+		"type": "PRODUCTION",
+		"stackSize": 30,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 507,
+		"preTechOverride": 2408,
+		"description": "I分馏塔"
+	},
+	{
+		"id": 2205,
+		"name": "太阳能板",
+		"type": "PRODUCTION",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 106,
+		"preTechOverride": 2106,
+		"description": "I太阳能板"
+	},
+	{
+		"id": 2206,
+		"name": "蓄电器",
+		"type": "LOGISTICS",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 109,
+		"preTechOverride": 2411,
+		"description": "I蓄电器"
+	},
+	{
+		"id": 2207,
+		"name": "蓄电器（满）",
+		"type": "LOGISTICS",
+		"produceFrom": "能量枢纽",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"heatValue": {
+			"type": "BigInt",
+			"value": "270000000"
+		},
+		"preTechOverride": 2412,
+		"produce": true,
+		"mechaMaterialId": 1511,
+		"description": "I蓄电器（满）"
+	},
+	{
+		"id": 2311,
+		"name": "电磁轨道弹射器",
+		"type": "PRODUCTION",
+		"stackSize": 30,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 801,
+		"preTechOverride": 2311,
+		"description": "I电磁轨道弹射器"
+	},
+	{
+		"id": 2208,
+		"name": "射线接收站",
+		"type": "PRODUCTION",
+		"stackSize": 20,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 802,
+		"preTechOverride": 2110,
+		"description": "I射线接收站"
+	},
+	{
+		"id": 2312,
+		"name": "垂直发射井",
+		"type": "PRODUCTION",
+		"stackSize": 10,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 803,
+		"preTechOverride": 2312,
+		"description": "I垂直发射井"
+	},
+	{
+		"id": 2209,
+		"name": "能量枢纽",
+		"type": "LOGISTICS",
+		"stackSize": 20,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 605,
+		"preTechOverride": 2109,
+		"description": "I能量枢纽"
+	},
+	{
+		"id": 2310,
+		"name": "微型粒子对撞机",
+		"type": "PRODUCTION",
+		"stackSize": 20,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 510,
+		"preTechOverride": 2310,
+		"description": "I微型粒子对撞机"
+	},
+	{
+		"id": 2210,
+		"name": "人造恒星",
+		"type": "PRODUCTION",
+		"stackSize": 20,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 804,
+		"preTechOverride": 2111,
+		"description": "I人造恒星"
+	},
+	{
+		"id": 2103,
+		"name": "物流运输站",
+		"type": "LOGISTICS",
+		"stackSize": 10,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 602,
+		"preTechOverride": 2210,
+		"description": "I物流运输站"
+	},
+	{
+		"id": 2104,
+		"name": "星际物流运输站",
+		"type": "LOGISTICS",
+		"stackSize": 10,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 603,
+		"preTechOverride": 2211,
+		"description": "I星际物流运输站"
+	},
+	{
+		"id": 2105,
+		"name": "轨道采集器",
+		"type": "LOGISTICS",
+		"stackSize": 10,
+		"isEntity": true,
+		"canBuild": true,
+		"buildInGas": true,
+		"gridIndex": 604,
+		"preTechOverride": 2212,
+		"description": "I轨道采集器"
+	},
+	{
+		"id": 2901,
+		"name": "矩阵研究站",
+		"type": "PRODUCTION",
+		"stackSize": 50,
+		"isEntity": true,
+		"canBuild": true,
+		"gridIndex": 701,
+		"preTechOverride": 2406,
+		"description": "I矩阵研究站"
+	},
+	{
+		"id": 6001,
+		"name": "电磁矩阵",
+		"type": "MATRIX",
+		"stackSize": 200,
+		"preTechOverride": 1701,
+		"description": "I电磁矩阵"
+	},
+	{
+		"id": 6002,
+		"name": "能量矩阵",
+		"type": "MATRIX",
+		"stackSize": 200,
+		"preTechOverride": 1702,
+		"description": "I能量矩阵"
+	},
+	{
+		"id": 6003,
+		"name": "结构矩阵",
+		"type": "MATRIX",
+		"stackSize": 200,
+		"preTechOverride": 1703,
+		"description": "I结构矩阵"
+	},
+	{
+		"id": 6004,
+		"name": "信息矩阵",
+		"type": "MATRIX",
+		"stackSize": 200,
+		"preTechOverride": 1704,
+		"description": "I信息矩阵"
+	},
+	{
+		"id": 6005,
+		"name": "引力矩阵",
+		"type": "MATRIX",
+		"stackSize": 200,
+		"preTechOverride": 1705,
+		"description": "I引力矩阵"
+	},
+	{
+		"id": 6006,
+		"name": "宇宙矩阵",
+		"type": "MATRIX",
+		"stackSize": 200,
+		"preTechOverride": 1706,
+		"description": "I宇宙矩阵"
+	}
+]

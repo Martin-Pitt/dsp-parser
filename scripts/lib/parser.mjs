@@ -1120,13 +1120,15 @@ export function JSONReplacer(key, value) {
 }
 
 export function JSONReviver(key, value) {
-	if(typeof value === 'object' && typeof value.type === 'string')
+	if(typeof value === 'object' && typeof value.type === 'string' && value.value)
 	{
 		if(value.type === 'BigInt')
 			return BigInt(value.value);
 		if(value.type === 'Map')
-			return new Map(value);
+			return new Map(value.value);
+		else
+			return  value;
 	}
-	
-	else return value;
+	else
+		return value;
 }

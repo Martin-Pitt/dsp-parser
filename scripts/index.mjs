@@ -33,34 +33,9 @@ let textures = [
 	...shared.table.filter(asset => asset.fileTypeName === 'Texture2D'),
 ].map(texture => texture.body);
 
+/// Testing by trying to Save all the textures
 // try { await mkdir('textures'); } catch {}
 // await saveTextures(textures);
-
-
-
-
-
-// for(let item of Items) checkIconForExport(item);
-// for(let recipe of Recipes) checkIconForExport(recipe);
-// for(let tech of Tech) checkIconForExport(tech);
-
-
-
-// if(!item.iconPath) return;
-// let name = item.iconPath.split('/')[2];
-// let icon = findIconTexture(name);
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -92,6 +67,7 @@ function findIconTexture(name) {
 
 
 
+let spriteMap = new Map();
 function findSprites(list) {
 	let sprites = [];
 	for(let item of list)
@@ -100,7 +76,8 @@ function findSprites(list) {
 		let name = item.iconPath.split('/')[2];
 		let icon = findIconTexture(name);
 		if(!sprites.includes(icon)) sprites.push(icon);
-		item.spriteIndex = sprites.indexOf(icon);
+		// item.spriteIndex = sprites.indexOf(icon);
+		spriteMap.set(item.id, sprites.indexOf(icon));
 	}
 	return sprites;
 }
@@ -176,6 +153,7 @@ try { await mkdir('dist/spritesheets', { recursive: true }); } catch {}
 await writeFile(`dist/spritesheets/icons.png`, spritesheet);
 await writeFile(`dist/spritesheets/icons.css`, stylesheet);
 await writeFile(`dist/spritesheets/icons.html`, demo);
+await writeFile('dist/spritesheets/sprites.json', JSON.stringify(spriteMap, JSONReplacer, '\t'));
 
 
 

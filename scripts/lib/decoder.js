@@ -23,16 +23,25 @@ scene.add(new THREE.AmbientLight('rgb(255,255,255)', 1));
 const camera = new THREE.OrthographicCamera();
 
 
-async function renderTextureToBlob(texture) {
+const offscreenCanvas = document.createElement('canvas');
+const offscreenContext = offscreenCanvas.getContext('2d');
+
+async function renderTextureToRaw(texture) {
 	scene.background = texture;
 	renderer.setSize(texture.image.width, texture.image.height, false);
 	renderer.render(scene, camera);
 	
-	let blob = await new Promise(resolve => {
-		renderer.domElement.toBlob(resolve, 'image/png');
-	});
+	offscreenCanvas.width = texture.image.width;
+	offscreenCanvas.height = texture.image.height;
+	offscreenContext.drawImage(renderer.domElement, 0, 0);
+	let imageData = offscreenContext.getImageData(0, 0, offscreenCanvas.width, offscreenCanvas.height);
+	return imageData.data;
 	
-	return blob;
+	// let blob = await new Promise(resolve => {
+	// 	renderer.domElement.toBlob(resolve, 'image/png');
+	// });
+	
+	// return blob;
 }
 
 async function renderTexture(asset) {
@@ -46,9 +55,9 @@ async function renderTexture(asset) {
 	texture.format = image.format;
 	texture.needsUpdate = true;
 	
-	let blob = await renderTextureToBlob(texture);
+	let raw = await renderTextureToRaw(texture);
 	texture.dispose();
-	return blob;
+	return raw;
 }
 
 window.renderTexture = renderTexture;

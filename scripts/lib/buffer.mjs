@@ -144,7 +144,7 @@ export class BufferStreamData {
 		let val;
 		if(this.isBigEndian) val = this.buf.readBigInt64BE(this.pos);
 		else val = this.buf.readBigInt64LE(this.pos);
-		this.pos += 4;
+		this.pos += 8;
 		return val;
 	}
 	
@@ -174,7 +174,7 @@ export class BufferStreamData {
 		let val;
 		if(this.isBigEndian) val = this.buf.readBigUInt64BE(this.pos);
 		else val = this.buf.readBigUInt64LE(this.pos);
-		this.pos += 4;
+		this.pos += 8;
 		return val;
 	}
 	
@@ -198,7 +198,7 @@ export class BufferStreamData {
 	
 	readString() {
 		let length = this.readInt32();
-		if(!length) return Buffer.alloc(0);
+		if(!length || length > this.buf.length) return Buffer.alloc(0);
 		let string = this.read(length);
 		this.align();
 		return string;

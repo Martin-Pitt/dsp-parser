@@ -5,7 +5,7 @@
 		"type": "RESOURCE",
 		"miningFrom": "铁矿脉",
 		"stackSize": 100,
-		"preTechOverride": 1101,
+		"gridIndex": 1101,
 		"produce": true,
 		"description": "I铁矿"
 	},
@@ -15,7 +15,7 @@
 		"type": "RESOURCE",
 		"miningFrom": "铜矿脉",
 		"stackSize": 100,
-		"preTechOverride": 1102,
+		"gridIndex": 1102,
 		"produce": true,
 		"description": "I铜矿"
 	},
@@ -25,7 +25,7 @@
 		"type": "RESOURCE",
 		"miningFrom": "硅矿脉",
 		"stackSize": 100,
-		"preTechOverride": 1105,
+		"gridIndex": 1105,
 		"produce": true,
 		"description": "I硅石"
 	},
@@ -35,7 +35,7 @@
 		"type": "RESOURCE",
 		"miningFrom": "钛矿脉",
 		"stackSize": 100,
-		"preTechOverride": 1106,
+		"gridIndex": 1106,
 		"produce": true,
 		"description": "I钛石"
 	},
@@ -45,7 +45,7 @@
 		"type": "RESOURCE",
 		"miningFrom": "石矿脉",
 		"stackSize": 100,
-		"preTechOverride": 1103,
+		"gridIndex": 1103,
 		"produce": true,
 		"description": "I石矿"
 	},
@@ -59,7 +59,8 @@
 			"type": "BigInt",
 			"value": "2700000"
 		},
-		"preTechOverride": 1104,
+		"fuelType": 1,
+		"gridIndex": 1104,
 		"produce": true,
 		"description": "I煤矿"
 	},
@@ -73,8 +74,11 @@
 			"type": "BigInt",
 			"value": "1500000"
 		},
-		"preTechOverride": 1612,
+		"reactorInc": -0.10000000149011612,
+		"fuelType": 1,
+		"gridIndex": 1612,
 		"produce": true,
+		"mechaMaterialId": 7,
 		"description": "I木材"
 	},
 	{
@@ -87,7 +91,9 @@
 			"type": "BigInt",
 			"value": "500000"
 		},
-		"preTechOverride": 1712,
+		"reactorInc": -0.30000001192092896,
+		"fuelType": 1,
+		"gridIndex": 1712,
 		"produce": true,
 		"description": "I植物燃料"
 	},
@@ -101,7 +107,9 @@
 			"type": "BigInt",
 			"value": "4800000"
 		},
-		"preTechOverride": 1307,
+		"reactorInc": 0.4000000059604645,
+		"fuelType": 1,
+		"gridIndex": 1307,
 		"produce": true,
 		"description": "I可燃冰"
 	},
@@ -111,7 +119,7 @@
 		"type": "RESOURCE",
 		"miningFrom": "金伯利矿（珍奇）",
 		"stackSize": 50,
-		"preTechOverride": 1112,
+		"gridIndex": 1112,
 		"produce": true,
 		"description": "I金伯利矿石"
 	},
@@ -121,7 +129,7 @@
 		"type": "RESOURCE",
 		"miningFrom": "分形硅矿（珍奇）",
 		"stackSize": 50,
-		"preTechOverride": 1212,
+		"gridIndex": 1212,
 		"produce": true,
 		"description": "I分形硅石"
 	},
@@ -131,7 +139,7 @@
 		"type": "RESOURCE",
 		"miningFrom": "光栅石矿（珍奇）",
 		"stackSize": 50,
-		"preTechOverride": 1312,
+		"gridIndex": 1312,
 		"produce": true,
 		"description": "I光栅石"
 	},
@@ -141,7 +149,7 @@
 		"type": "RESOURCE",
 		"miningFrom": "刺笋矿脉（珍奇）",
 		"stackSize": 50,
-		"preTechOverride": 1412,
+		"gridIndex": 1412,
 		"produce": true,
 		"description": "I刺笋结晶"
 	},
@@ -151,8 +159,9 @@
 		"type": "RESOURCE",
 		"miningFrom": "单极磁矿（珍奇）",
 		"stackSize": 50,
-		"preTechOverride": 1512,
+		"gridIndex": 1512,
 		"produce": true,
+		"mechaMaterialId": 23,
 		"description": "I单极磁石"
 	},
 	{
@@ -160,7 +169,9 @@
 		"name": "铁块",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1201,
+		"gridIndex": 1201,
+		"produce": true,
+		"mechaMaterialId": 1,
 		"description": "I铁块"
 	},
 	{
@@ -168,7 +179,9 @@
 		"name": "铜块",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1202,
+		"gridIndex": 1202,
+		"produce": true,
+		"mechaMaterialId": 2,
 		"description": "I铜块"
 	},
 	{
@@ -176,7 +189,9 @@
 		"name": "高纯硅块",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1205,
+		"gridIndex": 1205,
+		"produce": true,
+		"mechaMaterialId": 3,
 		"description": "I高纯硅块"
 	},
 	{
@@ -184,7 +199,9 @@
 		"name": "钛块",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1206,
+		"gridIndex": 1206,
+		"produce": true,
+		"mechaMaterialId": 4,
 		"description": "I钛块"
 	},
 	{
@@ -192,7 +209,9 @@
 		"name": "石材",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1203,
+		"gridIndex": 1203,
+		"produce": true,
+		"mechaMaterialId": 8,
 		"description": "I石材"
 	},
 	{
@@ -204,7 +223,11 @@
 			"type": "BigInt",
 			"value": "6750000"
 		},
-		"preTechOverride": 1204,
+		"reactorInc": 0.5,
+		"fuelType": 1,
+		"gridIndex": 1204,
+		"produce": true,
+		"mechaMaterialId": 10,
 		"description": "I高能石墨"
 	},
 	{
@@ -212,7 +235,9 @@
 		"name": "钢材",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1401,
+		"gridIndex": 1401,
+		"produce": true,
+		"mechaMaterialId": 5,
 		"description": "I钢材"
 	},
 	{
@@ -220,7 +245,9 @@
 		"name": "钛合金",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1306,
+		"gridIndex": 1306,
+		"produce": true,
+		"mechaMaterialId": 6,
 		"description": "I钛合金"
 	},
 	{
@@ -228,7 +255,9 @@
 		"name": "玻璃",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1303,
+		"gridIndex": 1303,
+		"produce": true,
+		"mechaMaterialId": 13,
 		"description": "I玻璃"
 	},
 	{
@@ -236,7 +265,9 @@
 		"name": "钛化玻璃",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1609,
+		"gridIndex": 1609,
+		"produce": true,
+		"mechaMaterialId": 14,
 		"description": "I钛化玻璃"
 	},
 	{
@@ -244,7 +275,9 @@
 		"name": "棱镜",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1403,
+		"gridIndex": 1403,
+		"produce": true,
+		"mechaMaterialId": 19,
 		"description": "I棱镜"
 	},
 	{
@@ -256,7 +289,11 @@
 			"type": "BigInt",
 			"value": "900000"
 		},
-		"preTechOverride": 1304,
+		"reactorInc": -0.5,
+		"fuelType": 1,
+		"gridIndex": 1304,
+		"produce": true,
+		"mechaMaterialId": 15,
 		"description": "I金刚石"
 	},
 	{
@@ -264,7 +301,9 @@
 		"name": "晶格硅",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1305,
+		"gridIndex": 1305,
+		"produce": true,
+		"mechaMaterialId": 16,
 		"description": "I晶格硅"
 	},
 	{
@@ -272,7 +311,8 @@
 		"name": "齿轮",
 		"type": "COMPONENT",
 		"stackSize": 200,
-		"preTechOverride": 1501,
+		"gridIndex": 1501,
+		"produce": true,
 		"description": "I齿轮"
 	},
 	{
@@ -280,7 +320,9 @@
 		"name": "磁铁",
 		"type": "MATERIAL",
 		"stackSize": 200,
-		"preTechOverride": 1301,
+		"gridIndex": 1301,
+		"produce": true,
+		"mechaMaterialId": 22,
 		"description": "I磁铁"
 	},
 	{
@@ -288,7 +330,8 @@
 		"name": "磁线圈",
 		"type": "COMPONENT",
 		"stackSize": 200,
-		"preTechOverride": 1302,
+		"gridIndex": 1302,
+		"produce": true,
 		"description": "I磁线圈"
 	},
 	{
@@ -296,7 +339,8 @@
 		"name": "电动机",
 		"type": "COMPONENT",
 		"stackSize": 100,
-		"preTechOverride": 1404,
+		"gridIndex": 1404,
+		"produce": true,
 		"description": "I电动机"
 	},
 	{
@@ -304,7 +348,8 @@
 		"name": "电磁涡轮",
 		"type": "COMPONENT",
 		"stackSize": 100,
-		"preTechOverride": 1504,
+		"gridIndex": 1504,
+		"produce": true,
 		"description": "I电磁涡轮"
 	},
 	{
@@ -312,7 +357,8 @@
 		"name": "超级磁场环",
 		"type": "COMPONENT",
 		"stackSize": 100,
-		"preTechOverride": 1604,
+		"gridIndex": 1604,
+		"produce": true,
 		"description": "I超级磁场环"
 	},
 	{
@@ -320,7 +366,8 @@
 		"name": "粒子容器",
 		"type": "COMPONENT",
 		"stackSize": 100,
-		"preTechOverride": 1603,
+		"gridIndex": 1603,
+		"produce": true,
 		"description": "I粒子容器"
 	},
 	{
@@ -328,7 +375,8 @@
 		"name": "奇异物质",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1408,
+		"gridIndex": 1408,
+		"produce": true,
 		"description": "I奇异物质"
 	},
 	{
@@ -336,7 +384,8 @@
 		"name": "电路板",
 		"type": "COMPONENT",
 		"stackSize": 200,
-		"preTechOverride": 1402,
+		"gridIndex": 1402,
+		"produce": true,
 		"description": "I电路板"
 	},
 	{
@@ -344,7 +393,8 @@
 		"name": "处理器",
 		"type": "COMPONENT",
 		"stackSize": 200,
-		"preTechOverride": 1505,
+		"gridIndex": 1505,
+		"produce": true,
 		"description": "I处理器"
 	},
 	{
@@ -352,7 +402,8 @@
 		"name": "量子芯片",
 		"type": "COMPONENT",
 		"stackSize": 200,
-		"preTechOverride": 1611,
+		"gridIndex": 1611,
+		"produce": true,
 		"description": "I量子芯片"
 	},
 	{
@@ -360,7 +411,8 @@
 		"name": "微晶元件",
 		"type": "COMPONENT",
 		"stackSize": 200,
-		"preTechOverride": 1405,
+		"gridIndex": 1405,
+		"produce": true,
 		"description": "I微晶元件"
 	},
 	{
@@ -368,7 +420,8 @@
 		"name": "位面过滤器",
 		"type": "COMPONENT",
 		"stackSize": 200,
-		"preTechOverride": 1610,
+		"gridIndex": 1610,
+		"produce": true,
 		"description": "I位面过滤器"
 	},
 	{
@@ -376,7 +429,8 @@
 		"name": "粒子宽带",
 		"type": "COMPONENT",
 		"stackSize": 200,
-		"preTechOverride": 1411,
+		"gridIndex": 1411,
+		"produce": true,
 		"description": "I粒子宽带"
 	},
 	{
@@ -384,7 +438,8 @@
 		"name": "电浆激发器",
 		"type": "COMPONENT",
 		"stackSize": 200,
-		"preTechOverride": 1502,
+		"gridIndex": 1502,
+		"produce": true,
 		"description": "I电浆激发器"
 	},
 	{
@@ -392,7 +447,8 @@
 		"name": "光子合并器",
 		"type": "COMPONENT",
 		"stackSize": 200,
-		"preTechOverride": 1503,
+		"gridIndex": 1503,
+		"produce": true,
 		"description": "I光子合并器"
 	},
 	{
@@ -400,7 +456,8 @@
 		"name": "太阳帆",
 		"type": "PRODUCT",
 		"stackSize": 200,
-		"preTechOverride": 1708,
+		"gridIndex": 1708,
+		"produce": true,
 		"description": "I太阳帆"
 	},
 	{
@@ -410,7 +467,7 @@
 		"miningFrom": "海洋",
 		"stackSize": 20,
 		"isFluid": true,
-		"preTechOverride": 1107,
+		"gridIndex": 1107,
 		"produce": true,
 		"description": "I水"
 	},
@@ -425,7 +482,9 @@
 			"type": "BigInt",
 			"value": "4050000"
 		},
-		"preTechOverride": 1108,
+		"reactorInc": 0.20000000298023224,
+		"fuelType": 1,
+		"gridIndex": 1108,
 		"produce": true,
 		"description": "I原油"
 	},
@@ -439,7 +498,10 @@
 			"type": "BigInt",
 			"value": "4500000"
 		},
-		"preTechOverride": 1208,
+		"reactorInc": 0.30000001192092896,
+		"fuelType": 1,
+		"gridIndex": 1208,
+		"produce": true,
 		"description": "I精炼油"
 	},
 	{
@@ -449,7 +511,8 @@
 		"miningFrom": "硫酸海洋",
 		"stackSize": 20,
 		"isFluid": true,
-		"preTechOverride": 1207,
+		"gridIndex": 1207,
+		"produce": true,
 		"description": "I硫酸"
 	},
 	{
@@ -463,7 +526,10 @@
 			"type": "BigInt",
 			"value": "9000000"
 		},
-		"preTechOverride": 1109,
+		"reactorInc": 1,
+		"fuelType": 1,
+		"gridIndex": 1109,
+		"produce": true,
 		"description": "I氢"
 	},
 	{
@@ -478,9 +544,11 @@
 			"type": "BigInt",
 			"value": "9000000"
 		},
-		"preTechOverride": 1110,
+		"reactorInc": 1,
+		"fuelType": 1,
+		"gridIndex": 1110,
+		"preTechOverride": 1134,
 		"produce": true,
-		"mechaMaterialId": 1134,
 		"description": "I重氢"
 	},
 	{
@@ -490,10 +558,10 @@
 		"stackSize": 20,
 		"potential": {
 			"type": "BigInt",
-			"value": "2576980377600000000"
+			"value": "600000000"
 		},
-		"reactorInc": 2.1171588516621237e-17,
-		"preTechOverride": 1111,
+		"gridIndex": 1111,
+		"produce": true,
 		"description": "I反物质"
 	},
 	{
@@ -504,12 +572,10 @@
 		"stackSize": 100,
 		"potential": {
 			"type": "BigInt",
-			"value": "5153960755200000000"
+			"value": "1200000000"
 		},
-		"reactorInc": 68888,
-		"preTechOverride": 1602,
-		"produce": true,
-		"mechaMaterialId": 1506,
+		"gridIndex": 1602,
+		"preTechOverride": 1506,
 		"description": "I临界光子"
 	},
 	{
@@ -521,7 +587,10 @@
 			"type": "BigInt",
 			"value": "54000000"
 		},
-		"preTechOverride": 1209,
+		"reactorInc": 2,
+		"fuelType": 1,
+		"gridIndex": 1209,
+		"produce": true,
 		"description": "I氢燃料棒"
 	},
 	{
@@ -533,7 +602,10 @@
 			"type": "BigInt",
 			"value": "600000000"
 		},
-		"preTechOverride": 1210,
+		"reactorInc": 3,
+		"fuelType": 2,
+		"gridIndex": 1210,
+		"produce": true,
 		"description": "I氘核燃料棒"
 	},
 	{
@@ -545,11 +617,9 @@
 			"type": "BigInt",
 			"value": "7200000000"
 		},
-		"potential": {
-			"type": "BigInt",
-			"value": "1"
-		},
-		"preTechOverride": 1211,
+		"reactorInc": 5,
+		"fuelType": 4,
+		"gridIndex": 1211,
 		"description": "I反物质燃料棒"
 	},
 	{
@@ -557,7 +627,9 @@
 		"name": "塑料",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1308,
+		"gridIndex": 1308,
+		"produce": true,
+		"mechaMaterialId": 9,
 		"description": "I塑料"
 	},
 	{
@@ -569,7 +641,11 @@
 			"type": "BigInt",
 			"value": "96000"
 		},
-		"preTechOverride": 1310,
+		"reactorInc": -0.699999988079071,
+		"fuelType": 1,
+		"gridIndex": 1310,
+		"produce": true,
+		"mechaMaterialId": 11,
 		"description": "I石墨烯"
 	},
 	{
@@ -581,7 +657,11 @@
 			"type": "BigInt",
 			"value": "84000"
 		},
-		"preTechOverride": 1410,
+		"reactorInc": -0.800000011920929,
+		"fuelType": 1,
+		"gridIndex": 1410,
+		"produce": true,
+		"mechaMaterialId": 12,
 		"description": "I碳纳米管"
 	},
 	{
@@ -594,7 +674,11 @@
 			"type": "BigInt",
 			"value": "1800000"
 		},
-		"preTechOverride": 1309,
+		"reactorInc": -0.20000000298023224,
+		"fuelType": 1,
+		"gridIndex": 1309,
+		"produce": true,
+		"mechaMaterialId": 17,
 		"description": "I有机晶体"
 	},
 	{
@@ -602,7 +686,9 @@
 		"name": "钛晶石",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1409,
+		"gridIndex": 1409,
+		"produce": true,
+		"mechaMaterialId": 20,
 		"description": "I钛晶石"
 	},
 	{
@@ -610,7 +696,9 @@
 		"name": "卡西米尔晶体",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1407,
+		"gridIndex": 1407,
+		"produce": true,
+		"mechaMaterialId": 18,
 		"description": "I卡西米尔晶体"
 	},
 	{
@@ -618,7 +706,9 @@
 		"name": "引力透镜",
 		"type": "COMPONENT",
 		"stackSize": 100,
-		"preTechOverride": 1605,
+		"gridIndex": 1605,
+		"produce": true,
+		"mechaMaterialId": 21,
 		"description": "I引力透镜"
 	},
 	{
@@ -626,7 +716,8 @@
 		"name": "空间翘曲器",
 		"type": "COMPONENT",
 		"stackSize": 100,
-		"preTechOverride": 1608,
+		"gridIndex": 1608,
+		"produce": true,
 		"description": "I空间翘曲器"
 	},
 	{
@@ -634,7 +725,8 @@
 		"name": "湮灭约束球",
 		"type": "COMPONENT",
 		"stackSize": 20,
-		"preTechOverride": 1311,
+		"gridIndex": 1311,
+		"produce": true,
 		"description": "I湮灭约束球"
 	},
 	{
@@ -642,7 +734,7 @@
 		"name": "推进器2",
 		"type": "COMPONENT",
 		"stackSize": 200,
-		"preTechOverride": 1507,
+		"gridIndex": 1507,
 		"description": "I推进器"
 	},
 	{
@@ -650,7 +742,7 @@
 		"name": "加力推进器",
 		"type": "COMPONENT",
 		"stackSize": 100,
-		"preTechOverride": 1508,
+		"gridIndex": 1508,
 		"description": "I加力推进器"
 	},
 	{
@@ -659,7 +751,7 @@
 		"type": "LOGISTICS",
 		"stackSize": 200,
 		"isEntity": true,
-		"preTechOverride": 1509,
+		"gridIndex": 1509,
 		"description": "I配送运输机"
 	},
 	{
@@ -668,7 +760,7 @@
 		"type": "LOGISTICS",
 		"stackSize": 200,
 		"isEntity": true,
-		"preTechOverride": 1510,
+		"gridIndex": 1510,
 		"description": "I物流运输机"
 	},
 	{
@@ -677,7 +769,7 @@
 		"type": "LOGISTICS",
 		"stackSize": 50,
 		"isEntity": true,
-		"preTechOverride": 1511,
+		"gridIndex": 1511,
 		"description": "I星际物流运输船"
 	},
 	{
@@ -685,7 +777,9 @@
 		"name": "框架材料",
 		"type": "MATERIAL",
 		"stackSize": 100,
-		"preTechOverride": 1709,
+		"gridIndex": 1709,
+		"produce": true,
+		"mechaMaterialId": 24,
 		"description": "I框架材料"
 	},
 	{
@@ -693,7 +787,8 @@
 		"name": "戴森球组件",
 		"type": "COMPONENT",
 		"stackSize": 100,
-		"preTechOverride": 1710,
+		"gridIndex": 1710,
+		"produce": true,
 		"description": "I戴森球组件"
 	},
 	{
@@ -702,7 +797,7 @@
 		"type": "PRODUCT",
 		"stackSize": 20,
 		"isEntity": true,
-		"preTechOverride": 1711,
+		"gridIndex": 1711,
 		"description": "I小型运载火箭"
 	},
 	{
@@ -711,8 +806,8 @@
 		"type": "COMPONENT",
 		"stackSize": 1000,
 		"canBuild": true,
-		"gridIndex": 901,
-		"preTechOverride": 1601,
+		"gridIndex": 1601,
+		"produce": true,
 		"description": "I地基"
 	},
 	{
@@ -721,7 +816,8 @@
 		"type": "MATERIAL",
 		"stackSize": 200,
 		"ability": 1,
-		"preTechOverride": 1406,
+		"gridIndex": 1406,
+		"produce": true,
 		"description": "I增产剂 Mk.I"
 	},
 	{
@@ -730,7 +826,8 @@
 		"type": "MATERIAL",
 		"stackSize": 200,
 		"ability": 2,
-		"preTechOverride": 1506,
+		"gridIndex": 1506,
+		"produce": true,
 		"description": "I增产剂 Mk.II"
 	},
 	{
@@ -739,7 +836,8 @@
 		"type": "MATERIAL",
 		"stackSize": 200,
 		"ability": 4,
-		"preTechOverride": 1606,
+		"gridIndex": 1606,
+		"produce": true,
 		"description": "I增产剂 Mk.III"
 	},
 	{
@@ -755,8 +853,7 @@
 		],
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 301,
-		"preTechOverride": 2201,
+		"gridIndex": 2201,
 		"description": "I低速传送带"
 	},
 	{
@@ -772,8 +869,7 @@
 		],
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 302,
-		"preTechOverride": 2202,
+		"gridIndex": 2202,
 		"description": "I高速传送带"
 	},
 	{
@@ -789,8 +885,7 @@
 		],
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 303,
-		"preTechOverride": 2203,
+		"gridIndex": 2203,
 		"description": "I极速传送带"
 	},
 	{
@@ -806,8 +901,7 @@
 		],
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 304,
-		"preTechOverride": 2301,
+		"gridIndex": 2301,
 		"description": "I低速分拣器"
 	},
 	{
@@ -823,8 +917,7 @@
 		],
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 305,
-		"preTechOverride": 2302,
+		"gridIndex": 2302,
 		"description": "I高速分拣器"
 	},
 	{
@@ -840,8 +933,7 @@
 		],
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 306,
-		"preTechOverride": 2303,
+		"gridIndex": 2303,
 		"description": "I极速分拣器"
 	},
 	{
@@ -851,8 +943,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 307,
-		"preTechOverride": 2204,
+		"gridIndex": 2204,
 		"description": "I四向分流器"
 	},
 	{
@@ -862,8 +953,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 308,
-		"preTechOverride": 2205,
+		"gridIndex": 2205,
 		"description": "I自动集装机"
 	},
 	{
@@ -873,8 +963,7 @@
 		"stackSize": 100,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 309,
-		"preTechOverride": 2304,
+		"gridIndex": 2304,
 		"description": "I流速监测器"
 	},
 	{
@@ -884,8 +973,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 310,
-		"preTechOverride": 2407,
+		"gridIndex": 2407,
 		"description": "I喷涂机"
 	},
 	{
@@ -895,8 +983,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 601,
-		"preTechOverride": 2209,
+		"gridIndex": 2209,
 		"description": "I物流配送器"
 	},
 	{
@@ -906,8 +993,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 401,
-		"preTechOverride": 2206,
+		"gridIndex": 2206,
 		"description": "I小型储物仓"
 	},
 	{
@@ -917,8 +1003,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 402,
-		"preTechOverride": 2207,
+		"gridIndex": 2207,
 		"description": "I大型储物仓"
 	},
 	{
@@ -928,8 +1013,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 403,
-		"preTechOverride": 2208,
+		"gridIndex": 2208,
 		"description": "I储液罐"
 	},
 	{
@@ -945,8 +1029,7 @@
 		],
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 503,
-		"preTechOverride": 2401,
+		"gridIndex": 2401,
 		"description": "I制造台 Mk.I"
 	},
 	{
@@ -962,8 +1045,7 @@
 		],
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 504,
-		"preTechOverride": 2402,
+		"gridIndex": 2402,
 		"description": "I制造台 Mk.II"
 	},
 	{
@@ -979,8 +1061,7 @@
 		],
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 505,
-		"preTechOverride": 2403,
+		"gridIndex": 2403,
 		"description": "I制造台 Mk.III"
 	},
 	{
@@ -990,8 +1071,7 @@
 		"stackSize": 100,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 101,
-		"preTechOverride": 2101,
+		"gridIndex": 2101,
 		"description": "I电力感应塔"
 	},
 	{
@@ -1001,8 +1081,7 @@
 		"stackSize": 100,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 102,
-		"preTechOverride": 2102,
+		"gridIndex": 2102,
 		"description": "I无线输电塔"
 	},
 	{
@@ -1012,8 +1091,7 @@
 		"stackSize": 30,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 103,
-		"preTechOverride": 2103,
+		"gridIndex": 2103,
 		"description": "I卫星配电站"
 	},
 	{
@@ -1023,8 +1101,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 104,
-		"preTechOverride": 2104,
+		"gridIndex": 2104,
 		"description": "I风力涡轮机"
 	},
 	{
@@ -1034,8 +1111,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 105,
-		"preTechOverride": 2105,
+		"gridIndex": 2105,
 		"description": "I火力发电厂"
 	},
 	{
@@ -1045,8 +1121,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 108,
-		"preTechOverride": 2108,
+		"gridIndex": 2108,
 		"description": "I微型聚变发电站"
 	},
 	{
@@ -1056,8 +1131,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 107,
-		"preTechOverride": 2107,
+		"gridIndex": 2107,
 		"description": "I地热发电站"
 	},
 	{
@@ -1067,8 +1141,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 201,
-		"preTechOverride": 2305,
+		"gridIndex": 2305,
 		"description": "I采矿机"
 	},
 	{
@@ -1078,8 +1151,7 @@
 		"stackSize": 30,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 202,
-		"preTechOverride": 2306,
+		"gridIndex": 2306,
 		"description": "I大型采矿机"
 	},
 	{
@@ -1089,8 +1161,7 @@
 		"stackSize": 30,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 203,
-		"preTechOverride": 2307,
+		"gridIndex": 2307,
 		"description": "I抽水站"
 	},
 	{
@@ -1105,8 +1176,7 @@
 		],
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 501,
-		"preTechOverride": 2404,
+		"gridIndex": 2404,
 		"description": "I电弧熔炉"
 	},
 	{
@@ -1121,8 +1191,7 @@
 		],
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 502,
-		"preTechOverride": 2405,
+		"gridIndex": 2405,
 		"description": "I位面熔炉"
 	},
 	{
@@ -1132,8 +1201,7 @@
 		"stackSize": 20,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 204,
-		"preTechOverride": 2308,
+		"gridIndex": 2308,
 		"description": "I原油萃取站"
 	},
 	{
@@ -1143,8 +1211,7 @@
 		"stackSize": 30,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 506,
-		"preTechOverride": 2309,
+		"gridIndex": 2309,
 		"description": "I原油精炼厂"
 	},
 	{
@@ -1159,8 +1226,7 @@
 		],
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 508,
-		"preTechOverride": 2409,
+		"gridIndex": 2409,
 		"description": "I化工厂"
 	},
 	{
@@ -1175,8 +1241,7 @@
 		],
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 509,
-		"preTechOverride": 2410,
+		"gridIndex": 2410,
 		"description": "I化工厂 Mk.II"
 	},
 	{
@@ -1186,8 +1251,7 @@
 		"stackSize": 30,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 507,
-		"preTechOverride": 2408,
+		"gridIndex": 2408,
 		"description": "I分馏塔"
 	},
 	{
@@ -1197,8 +1261,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 106,
-		"preTechOverride": 2106,
+		"gridIndex": 2106,
 		"description": "I太阳能板"
 	},
 	{
@@ -1208,8 +1271,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 109,
-		"preTechOverride": 2411,
+		"gridIndex": 2411,
 		"description": "I蓄电器"
 	},
 	{
@@ -1224,9 +1286,10 @@
 			"type": "BigInt",
 			"value": "270000000"
 		},
-		"preTechOverride": 2412,
-		"produce": true,
-		"mechaMaterialId": 1511,
+		"reactorInc": 1,
+		"fuelType": 8,
+		"gridIndex": 2412,
+		"preTechOverride": 1511,
 		"description": "I蓄电器（满）"
 	},
 	{
@@ -1236,8 +1299,7 @@
 		"stackSize": 30,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 801,
-		"preTechOverride": 2311,
+		"gridIndex": 2311,
 		"description": "I电磁轨道弹射器"
 	},
 	{
@@ -1247,8 +1309,7 @@
 		"stackSize": 20,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 802,
-		"preTechOverride": 2110,
+		"gridIndex": 2110,
 		"description": "I射线接收站"
 	},
 	{
@@ -1258,8 +1319,7 @@
 		"stackSize": 10,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 803,
-		"preTechOverride": 2312,
+		"gridIndex": 2312,
 		"description": "I垂直发射井"
 	},
 	{
@@ -1269,8 +1329,7 @@
 		"stackSize": 20,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 605,
-		"preTechOverride": 2109,
+		"gridIndex": 2109,
 		"description": "I能量枢纽"
 	},
 	{
@@ -1280,8 +1339,7 @@
 		"stackSize": 20,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 510,
-		"preTechOverride": 2310,
+		"gridIndex": 2310,
 		"description": "I微型粒子对撞机"
 	},
 	{
@@ -1291,8 +1349,7 @@
 		"stackSize": 20,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 804,
-		"preTechOverride": 2111,
+		"gridIndex": 2111,
 		"description": "I人造恒星"
 	},
 	{
@@ -1302,8 +1359,7 @@
 		"stackSize": 10,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 602,
-		"preTechOverride": 2210,
+		"gridIndex": 2210,
 		"description": "I物流运输站"
 	},
 	{
@@ -1313,8 +1369,7 @@
 		"stackSize": 10,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 603,
-		"preTechOverride": 2211,
+		"gridIndex": 2211,
 		"description": "I星际物流运输站"
 	},
 	{
@@ -1325,8 +1380,7 @@
 		"isEntity": true,
 		"canBuild": true,
 		"buildInGas": true,
-		"gridIndex": 604,
-		"preTechOverride": 2212,
+		"gridIndex": 2212,
 		"description": "I轨道采集器"
 	},
 	{
@@ -1336,8 +1390,7 @@
 		"stackSize": 50,
 		"isEntity": true,
 		"canBuild": true,
-		"gridIndex": 701,
-		"preTechOverride": 2406,
+		"gridIndex": 2406,
 		"description": "I矩阵研究站"
 	},
 	{
@@ -1345,7 +1398,9 @@
 		"name": "电磁矩阵",
 		"type": "MATRIX",
 		"stackSize": 200,
-		"preTechOverride": 1701,
+		"gridIndex": 1701,
+		"produce": true,
+		"mechaMaterialId": 25,
 		"description": "I电磁矩阵"
 	},
 	{
@@ -1353,7 +1408,9 @@
 		"name": "能量矩阵",
 		"type": "MATRIX",
 		"stackSize": 200,
-		"preTechOverride": 1702,
+		"gridIndex": 1702,
+		"produce": true,
+		"mechaMaterialId": 26,
 		"description": "I能量矩阵"
 	},
 	{
@@ -1361,7 +1418,9 @@
 		"name": "结构矩阵",
 		"type": "MATRIX",
 		"stackSize": 200,
-		"preTechOverride": 1703,
+		"gridIndex": 1703,
+		"produce": true,
+		"mechaMaterialId": 27,
 		"description": "I结构矩阵"
 	},
 	{
@@ -1369,7 +1428,9 @@
 		"name": "信息矩阵",
 		"type": "MATRIX",
 		"stackSize": 200,
-		"preTechOverride": 1704,
+		"gridIndex": 1704,
+		"produce": true,
+		"mechaMaterialId": 28,
 		"description": "I信息矩阵"
 	},
 	{
@@ -1377,7 +1438,9 @@
 		"name": "引力矩阵",
 		"type": "MATRIX",
 		"stackSize": 200,
-		"preTechOverride": 1705,
+		"gridIndex": 1705,
+		"produce": true,
+		"mechaMaterialId": 29,
 		"description": "I引力矩阵"
 	},
 	{
@@ -1385,7 +1448,9 @@
 		"name": "宇宙矩阵",
 		"type": "MATRIX",
 		"stackSize": 200,
-		"preTechOverride": 1706,
+		"gridIndex": 1706,
+		"produce": true,
+		"mechaMaterialId": 30,
 		"description": "I宇宙矩阵"
 	}
 ]

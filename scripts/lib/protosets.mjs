@@ -1,18 +1,25 @@
 import { readFile, writeFile, mkdir, open } from 'node:fs/promises';
-import { parseProtoSet, JSONReplacer, JSONReviver } from './parser.mjs';
+import { parseProtoSet, parseDataFile, TYPE, JSONReplacer, JSONReviver } from './parser.mjs';
 import { resources } from './assetfiles.mjs';
 
 
-const ItemProtoSet = parseProtoSet(resources.getProtoSet('ItemProtoSet'));
-const RecipeProtoSet = parseProtoSet(resources.getProtoSet('RecipeProtoSet'));
-const StringProtoSet = parseProtoSet(resources.getProtoSet('StringProtoSet'));
-const TechProtoSet = parseProtoSet(resources.getProtoSet('TechProtoSet'));
 
-// try { await mkdir('dist/protoSet', { recursive: true }); } catch {}
-// await writeFile('dist/protoSet/Item.json', JSON.stringify(ItemProtoSet, JSONReplacer, '\t'));
-// await writeFile('dist/protoSet/Recipe.json', JSON.stringify(RecipeProtoSet, JSONReplacer, '\t'));
-// await writeFile('dist/protoSet/String.json', JSON.stringify(StringProtoSet, JSONReplacer, '\t'));
-// await writeFile('dist/protoSet/Tech.json', JSON.stringify(TechProtoSet, JSONReplacer, '\t'));
+
+
+export const ItemProtoSet = parseProtoSet(resources.getProtoSet('ItemProtoSet'));
+export const RecipeProtoSet = parseProtoSet(resources.getProtoSet('RecipeProtoSet'));
+export const StringProtoSet = parseProtoSet(resources.getProtoSet('StringProtoSet'));
+export const TechProtoSet = parseProtoSet(resources.getProtoSet('TechProtoSet'));
+
+// try { await mkdir('protoSet', { recursive: true }); } catch {}
+// await writeFile('protoSet/Item.json', JSON.stringify(ItemProtoSet, JSONReplacer, '\t'));
+// await writeFile('protoSet/Recipe.json', JSON.stringify(RecipeProtoSet, JSONReplacer, '\t'));
+// await writeFile('protoSet/String.json', JSON.stringify(StringProtoSet, JSONReplacer, '\t'));
+// await writeFile('protoSet/Tech.json', JSON.stringify(TechProtoSet, JSONReplacer, '\t'));
+
+
+
+
 
 
 
@@ -49,6 +56,9 @@ let items = ItemProtoSet.data.filter(item => availableItems.has(+item.id));
 
 
 
+
+
+
 /// Cleanup datasets and swap their localisation strings to en_us
 let strings = new Map(
 	StringProtoSet.data.map(StringProto => [
@@ -61,8 +71,8 @@ let strings = new Map(
 	])
 );
 
-
 let usedStrings = new Set();
+export const iconPaths = new Map();
 function translate(string) {
 	if(!string) return '';
 	let translation = strings.get(string);
@@ -77,8 +87,9 @@ const TranslateKeys = [
 const SkipKeys = [
 	'modelIndex', 'modelCount', 'hpMax', 'dropRate', 'descFields',
 	'subId', 'buildIndex', 'buildMode', 'unlockKey', 'productive',
-	'published', 'unlockValues', 'unlockFunctions', 'iconPath'
+	'published', 'unlockValues', 'unlockFunctions'
 ];
+
 
 
 function parseRaw(ElementProto) {
@@ -97,6 +108,13 @@ function parseRaw(ElementProto) {
 		// Skip over unknown & unneeded
 		if(key.startsWith('_')) continue;
 		if(SkipKeys.includes(key)) continue;
+		
+		// Extract iconPaths out
+		if(key === 'iconPath')
+		{
+			iconPaths.set(element, value);
+			continue;
+		}
 		
 		// Translate any specific text strings
 		if(TranslateKeys.includes(key))
@@ -117,6 +135,117 @@ function parseRaw(ElementProto) {
 items = items.map(parseRaw);
 recipes = recipes.map(parseRaw);
 techs = techs.map(parseRaw);
+
+
+
+// TODO: Maybe a meta.json, constants.json or w/e with additional info?
+// Plus want to throw in more translatable content that way 
+
+/*
+// Add translations for type categories
+const TypeCategories = new Set([
+	'UNKNOWN',
+	'RESOURCE',
+	'MATERIAL',
+	'COMPONENT',
+	'PRODUCT',
+	'LOGISTICS',
+	'PRODUCTION',
+	'MATRIX',
+	'SMELT',
+	'ASSEMBLE',
+	'RESEARCH',
+	'REFINE',
+	'CHEMICAL',
+	'PARTICLE',
+	'FRACTIONATE'
+]);
+
+const TranslateTypes = new Set([
+	'未知分类', // Unknown Category
+	
+	'自然资源', // Natural Resource
+	'材料', // Material
+	'组件', // Component
+	'成品', // End Product
+	
+	'物流运输', // Logistics
+	'电力运输', // ^ Power Transmission
+	'电力储存', // ^ Power Storage
+	'电力交换', // ^ Power Exchanger
+	'能量交换器', // ^ Energy Exchanger
+	'电力设备', // ^ Power Facility
+	
+	'生产设备', // Production Facility
+	'采矿设备', // ^ Mining Facility
+	'抽水设备', // ^ Fluid Pumping Facility
+	'抽油设备', // ^ Oil Extraction Facility
+	
+	'冶炼设备', // Smelting Facility
+	'制造台', // Assembler
+	'科研设备', // Research Facility
+	'精炼设备', // Refining Facility
+	'化工设备', // Chemical Facility
+	'粒子对撞机', // Particle Collider
+	'分馏设备', // Fractionation Facility
+]);
+
+const TranslateTypeCategoriesKeys = new Map([
+	['UNKNOWN', '未知分类'],
+	['RESOURCE', '自然资源'],
+	['MATERIAL', '材料'],
+	['COMPONENT', '组件'],
+	['PRODUCT', '成品'],
+	['LOGISTICS', '物流运输'],
+	['PRODUCTION', '生产设备'],
+	['MATRIX', '?'],
+	['SMELT', '冶炼设备'],
+	['ASSEMBLE', '制造台'],
+	['RESEARCH', '科研设备'],
+	['REFINE', '精炼设备'],
+	['CHEMICAL', '化工设备'],
+	['PARTICLE', '粒子对撞机'],
+	['FRACTIONATE', '分馏设备'],
+])
+
+for(const category of TranslateTypes)
+	usedStrings.add(category);
+*/
+
+
+// const Tags = new Map([
+// 	['', '未知分类'],  // Unknown Category
+// 	['', '自然资源'],  // Natural Resource
+// 	['', '材料'],  // Material
+// 	['', '组件'],  // Component
+// 	['', '成品'],  // End Product
+// 	['', '电力储存'],  // Power Storage
+// 	['', '电力运输'],  // Power Transmission
+// 	['', '电力交换'],  // Power Exchanger
+// 	['', '物流运输'],  // Logistics
+// 	['', '电力设备'],  // Power Facility
+// 	['', '冶炼设备'],  // Smelting Facility
+// 	['', '化工设备'],  // Chemical Facility
+// 	['', '精炼设备'],  // Refining Facility
+// 	['', '制造台'],  // Assembler
+// 	['', '粒子对撞机'],  // Particle Collider
+// 	['', '能量交换器'],  // Energy Exchanger
+// 	['', '科研设备'],  // Research Facility
+// 	['', '采矿设备'],  // Mining Facility
+// 	['', '抽水设备'],  // Fluid Pumping Facility
+// 	['', '抽油设备'],  // Oil Extraction Facility
+// 	['', '生产设备'],  // Production Facility
+// 	['', '分馏设备'],  // Fractionation Facility
+// 	['', '装饰物'],  // Decoration
+// 	['', '武器'],  // Weapon
+// 	['', '科学矩阵'],  // Science Matrix
+// 	['', '其他分类'],  // Other Categories
+// ]);
+
+
+
+
+
 
 
 
@@ -148,6 +277,10 @@ for(const [key, localisations] of strings)
 			if(p1) throw new Error(`Unknown tag <${p1}/>?`);
 			return match;
 		});
+
+
+
+
 
 
 
@@ -237,6 +370,7 @@ export const Items = items;
 export const Recipes = recipes;
 export const Tech = techs;
 export const Strings = strings;
+
 
 
 try { await mkdir('dist/data', { recursive: true }); } catch {}

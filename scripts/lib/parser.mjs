@@ -580,14 +580,12 @@ export function parseProtoSet(protoSetData) {
 					fuelType: 'int32',
 					buildIndex: 'int32',
 					buildMode: 'int32',
-					gridIndex: 'int32',
+					gridIndex: 'int32', // grid coords as ZYXX, where Z represents items (1) or buildings (2)
 					unlockKey: 'int32',
 					preTechOverride: 'int32',
 					produce: 'bool',
 					mechaMaterialId: 'int32',
 					dropRate: 'float',
-					_unknown1: { [TYPE]: 'byte', size: 4 },
-					_unknown2: { [TYPE]: 'byte', size: 4 },
 					descFields: { [TYPE]: 'array', shape: 'int32' },
 					description: 'string',
 				}
@@ -679,7 +677,6 @@ export function parseProtoSet(protoSetData) {
 					propertyOverrideItems: { [TYPE]: 'array', shape: 'int32' },
 					propertyItemCounts: { [TYPE]: 'array', shape: 'int32' },
 					hashNeeded: 'int64',
-					_unknown: { [TYPE]: 'byte', size: 4 }, // Probably related to repeatable tech?
 					unlockRecipes: { [TYPE]: 'array', shape: 'int32' },
 					unlockFunctions: { [TYPE]: 'array', shape: 'int32' },
 					unlockValues: { [TYPE]: 'array', shape: { [TYPE]: 'byte', size: 8} },

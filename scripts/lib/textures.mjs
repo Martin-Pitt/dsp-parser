@@ -1,6 +1,6 @@
 import { readFile, writeFile, mkdir, open } from 'node:fs/promises';
 import { parseTexture, wrapWithContainer } from './parser.mjs';
-import Jimp from 'jimp';
+import sharp from 'sharp';
 import puppeteer from 'puppeteer';
 
 
@@ -130,14 +130,15 @@ export async function saveTextures(textures, saveCallback) {
 		// 	path = `textures/${nameTexture(texture.name)}.png`;
 		// console.log(`${path} [${texture.textureFormat}]`);
 		
-		let name = texture.name;
+		const { name, width, height } = texture;
 		
 		let count = named.get(name);
 		if(!count) named.set(name, 1);
 		else named.set(name, count += 1);
 		
-		let path = `textures/${name}${count? `.${count}` : ''}.png`;
-		await writeFile(path, buffer);
+		const path = `textures/${name}${count? `.${count}` : ''}.avif`;
+		await sharp(buffer, { raw: { width, height, channels: 4 } }).avif().toFile(path);
+		// await writeFile(path, await buffer.png().toBuffer());
 	}
 	
 	
@@ -155,6 +156,8 @@ export async function saveTextures(textures, saveCallback) {
 		{
 			let { name, width, height, imageData } = texture;
 			let data = Buffer.alloc(width * height * 4);
+			
+			if(!width || !height) continue;
 			
 			// Read and flip image vertically
 			if(texture.textureFormat === 'RGBA32')
@@ -217,15 +220,19 @@ export async function saveTextures(textures, saveCallback) {
 				}
 			}
 			
-			const image = await new Promise(resolve => {
-				new Jimp({ width, height, data }, (err, image) => {
-					if(err) throw err;
-					resolve(image);
-				});
-			});
 			
-			const buffer = await image.getBufferAsync('image/png');
-			await saveFile(texture, buffer);
+			await saveFile(texture, data);
+			
+			// const image = await new Promise(resolve => {
+			// 	new Jimp({ width, height, data }, (err, image) => {
+			// 		if(err) throw err;
+			// 		resolve(image);
+			// 	});
+			// });
+			
+			// const buffer = await image.getBufferAsync('image/png');
+			// await saveFile(texture, buffer);
+			
 			// image.writeAsync(path).then(resolve);
 		}
 		
@@ -246,12 +253,12 @@ export async function saveTextures(textures, saveCallback) {
 	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
 	
-	// page.on('console', async (msg) => {
-	// 	const msgArgs = msg.args();
-	// 	for (let i = 0; i < msgArgs.length; ++i) {
-	// 		console.log(await msgArgs[i].jsonValue());
-	// 	}
-	// });
+	page.on('console', async (msg) => {
+		const msgArgs = msg.args();
+		for (let i = 0; i < msgArgs.length; ++i) {
+			console.log(await msgArgs[i].jsonValue());
+		}
+	});
 	
 	await page.setContent(`<!doctype html>
 	<html>
@@ -275,14 +282,13 @@ export async function saveTextures(textures, saveCallback) {
 			container.data = new Uint8Array(container.data.data);
 			
 			// console.log('Rendering texture…');
-			let blob = await renderTexture(container);
-			let buffer = await blob.arrayBuffer();
-			let data = new Uint8Array(buffer);
+			// let blob = await renderTexture(container);
+			// let buffer = await blob.arrayBuffer();
+			let data = await renderTexture(container);
 			return Array.from(data);
 		}, container.toJSON());
 		
 		await saveFile(texture, new Uint8Array(blob));
-		// await writeFile(path, new Uint8Array(blob));
 	}
 	
 	await page.close();

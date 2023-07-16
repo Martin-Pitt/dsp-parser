@@ -244,8 +244,93 @@ for(const category of TranslateTypes)
 
 
 
+// Extra strings to pull from localisation than can be used in UI, e.g. item descriptions
+const ExtraStrings = [
+	"未知分类", // Unknown Category
+	"自然资源", // Natural Resource
+	"材料", // Material
+	"组件", // Component
+	"成品", // End Product
+	"电力储存", // Power Storage
+	"电力运输", // Power Transmission
+	"电力交换", // Power Exchanger
+	"物流运输", // Logistics
+	"电力设备", // Power Facility
+	"冶炼设备", // Smelting Facility
+	"化工设备", // Chemical Facility
+	"精炼设备", // Refining Facility
+	"制造台", // Assembler
+	"粒子对撞机", // Particle Collider
+	"能量交换器", // Energy Exchanger
+	"科研设备", // Research Facility
+	"采矿设备", // Mining Facility
+	"抽水设备", // Fluid Pumping Facility
+	"抽油设备", // Oil Extraction Facility
+	"生产设备", // Production Facility
+	"分馏设备", // Fractionation Facility
+	"装饰物", // Decoration
+	"武器", // Weapon
+	"科学矩阵", // Science Matrix
+	"其他分类", // Other Categories
+	"化学", // Chemical
+	"核能", // Nuclear Energy
+	"质能", // Mass Energy
+	"储存", // Storage
+	"采集自", // Gathered From
+	"制造于", // Made in
+	"燃料类型", // Fuel Type
+	"能量", // Energy
+	"发电类型", // Energy Type
+	"发电功率", // Power
+	"热效率", // Energy Efficiency
+	"流体消耗", // Fluid Consumption
+	"输入功率", // Input Power
+	"输出功率", // Output Power
+	"蓄电量", // Accumulated
+	"工作功率", // Work Consumption
+	"待机功率", // Idle Consumption
+	"最大充能功率", // Max Charging Power
+	"基础发电功率", // Basic Generation
+	"增产剂效果", // Proliferator Effect
+	"喷涂增产效果", // Extra Products
+	"喷涂加速效果", // Production Speedup
+	"额外电力消耗", // Energy Consumption
+	"连接长度", // Connection Length
+	"覆盖范围", // Supply Area
+	"运载速度", // Transport Speed
+	"接口数量", // Number of Ports
+	"仓储空间", // Storage Size
+	"开采对象", // Gathering Target
+	"开采速度", // Gathering Speed
+	"运送速度", // Sorting Speed
+	"货物堆叠", // Cargo Stacking
+	"使用寿命", // Life
+	"制造速度", // Production Speed
+	"研究速度", // Research Speed
+	"弹射速度", // Eject Speed
+	"发射速度", // Launch Speed
+	"血量", // HP
+	"仓储物品", // Storage
+	"船运载量", // Carrying Capacity
+	"飞行速度", // Flight Speed
+	"制造加速", // Produce Acceleration
+	"喷涂次数", // Numbers of Sprays
+	"采集速度", // Gathering Speed
+	"配送范围", // Distribution Range
+	"风能", // Wind
+	"光伏", // Photovoltaic
+	"火力", // Thermal
+	"离子流", // Ion Current
+	"地热", // Geothermal
+	"地热强度", // Geothermal 
+	"仓储空间的后缀", //  slots
+	"水源", // Liquid Source
+	"矿脉", // Vein
+	"油田", // Oil Field
+];
 
-
+for(let extra of ExtraStrings)
+	usedStrings.add(extra);
 
 
 
@@ -269,14 +354,20 @@ for(let unused of unusedStrings)
 
 /// Convert tags such as <color="…">…</color> to HTML
 // TODO: Handle <size> if it ever gets used
+function handleCustomTags(text) {
+	return text.replaceAll(/<([a-z]+)="?(.+?)"?>(.+?)<\/\1>/g, (match, p1, p2, p3) => {
+		if(p1 === 'color') return `<span style="color: ${p2}">${p3}</span>`;
+		if(p1 === 'size') return `<span style="font-size: ${p2}px">${p3}</span>`; // throw new Error(`Unimplemented tag <size>`);
+		if(p1) throw new Error(`Unknown tag <${p1}/>?`);
+		return match;
+	});
+}
 for(const [key, localisations] of strings)
 	for(const locale in localisations)
-		localisations[locale] = localisations[locale].replaceAll(/<([a-z]+)="(.+?)">(.+?)<\/\1>/g, (match, p1, p2, p3) => {
-			if(p1 === 'color') return `<span style="color: ${p2}">${p3}</span>`;
-			if(p1 === 'size') throw new Error(`Unimplemented tag <size>`);
-			if(p1) throw new Error(`Unknown tag <${p1}/>?`);
-			return match;
-		});
+	{
+		localisations[locale] = handleCustomTags(localisations[locale]);
+		localisations[locale] = handleCustomTags(localisations[locale]); // Second round to handle any nested tags
+	}
 
 
 
@@ -381,5 +472,19 @@ await writeFile('dist/data/strings.json', JSON.stringify(Strings, JSONReplacer, 
 await writeFile('dist/data/reviver.js',
 	'// Revive the JSON data\n' +
 	'// usage: const Items = JSON.parse(json, JSONReviver);\n' +
-	'export ' + JSONReviver.toString()
+	'export ' + JSONReviver.toString() + '\n\n' +
+	'// Replacer implementation used for stringifying JSON data originally\n' +
+	'export ' + JSONReplacer.toString()
 );
+await writeFile('dist/data/translate.js', `
+function translate(string) {
+	if(!string) return '';
+	let translation = strings.get(string);
+	if(!translation) throw new Error(\`Cant find translation for: \${string} [\${string.length}]\`);
+	return translation.en_us;
+}
+
+const TranslateKeys = [
+	'name', 'description', 'conclusion', 'miningFrom', 'produceFrom'
+];
+`);

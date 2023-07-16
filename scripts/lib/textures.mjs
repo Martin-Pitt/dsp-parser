@@ -82,9 +82,7 @@ textures = Array.from(exportable.keys());
 
 
 
-
-
-export async function saveTextures(textures, saveCallback) {
+export async function loadTextureImageData(textures) {
 	/// Load streaming data
 	let streamed = textures // textures
 	.filter(texture => texture.streamData && texture.streamData.size && texture.streamData.path)
@@ -108,6 +106,11 @@ export async function saveTextures(textures, saveCallback) {
 		}
 		await fileHandle.close();
 	}
+}
+
+
+export async function renderTextures(textures, saveCallback) {
+	await loadTextureImageData(textures);
 	
 	
 	/// Sort by names
@@ -269,7 +272,7 @@ export async function saveTextures(textures, saveCallback) {
 				"three/addons/": "https://unpkg.com/three@0.151.3/examples/jsm/"
 		}}</script>
 	<body>
-		<script type="module">${await readFile('./scripts/lib/decoder.js', { encoding: 'utf8' })}</script>
+		<script type="module">${await readFile('./scripts/lib/renderer.js', { encoding: 'utf8' })}</script>
 	`);
 	// await page.waitForNetworkIdle();
 	await page.waitForSelector('body.renderer-ready');

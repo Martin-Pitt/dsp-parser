@@ -1,6 +1,18 @@
+import { inspect } from 'node:util';
 import { readFile, writeFile, mkdir, open } from 'node:fs/promises';
 import { parseProtoSet, parseDataFile, TYPE, JSONReplacer, JSONReviver } from './parser.mjs';
 import { resources } from './assetfiles.mjs';
+
+
+let version = process.argv.find(arg => arg.startsWith('--version='))?.replace('--version=', '');
+if(!version)
+{
+	console.error('Specify --version to generate meta.json correctly; e.g. npm run build -- --version=0.9.27.15466');
+	process.exit();
+}
+
+
+
 
 
 
@@ -16,8 +28,6 @@ export const TechProtoSet = parseProtoSet(resources.getProtoSet('TechProtoSet'))
 // await writeFile('protoSet/Recipe.json', JSON.stringify(RecipeProtoSet, JSONReplacer, '\t'));
 // await writeFile('protoSet/String.json', JSON.stringify(StringProtoSet, JSONReplacer, '\t'));
 // await writeFile('protoSet/Tech.json', JSON.stringify(TechProtoSet, JSONReplacer, '\t'));
-
-
 
 
 
@@ -57,19 +67,37 @@ let items = ItemProtoSet.data.filter(item => availableItems.has(+item.id));
 
 
 
+// let setNames = new Set();
+let collisions = [];
+for(let set of StringProtoSet.data)
+{
+	let matching = StringProtoSet.data.filter(s => s.name === set.name);
+	if(matching.length > 1) collisions.push(set);
+	// if(setNames.has(set.name)) console.error('Name collisions in StringProtoSet, collision on', JSON.stringify(set, null, ''));
+	// setNames.add(set.name);
+}
+
+if(collisions.length)
+{
+	console.group('Name collisions in StringProtoSet, collisions:');
+	for(let collision of collisions) console.log(inspect(collision, { colors: true, compact: true, breakLength: Infinity }));
+	console.groupEnd();
+}
+
 
 
 /// Cleanup datasets and swap their localisation strings to en_us
 let strings = new Map(
-	StringProtoSet.data.map(StringProto => [
-		StringProto.name,
-		{
-			zh_cn: StringProto.zh_cn,
-			en_us: StringProto.en_us,
-			fr_fr: StringProto.fr_fr,
-		}
+	StringProtoSet.data.map(({ name, id, sid, ...locales }) => [
+		name, { ...locales }
 	])
 );
+
+let supportedLocales = Object
+	.keys(strings.entries().next().value[1])
+	.map(locale => locale.replace('_', '-'));
+let supportedCanonicalLocales = Intl.getCanonicalLocales(supportedLocales);
+
 
 let usedStrings = new Set();
 export const iconPaths = new Map();
@@ -245,7 +273,7 @@ for(const category of TranslateTypes)
 
 
 // Extra strings to pull from localisation than can be used in UI, e.g. item descriptions
-const ExtraStrings = [
+const ExtraStringsToInclude = [
 	"未知分类", // Unknown Category
 	"自然资源", // Natural Resource
 	"材料", // Material
@@ -329,7 +357,7 @@ const ExtraStrings = [
 	"油田", // Oil Field
 ];
 
-for(let extra of ExtraStrings)
+for(let extra of ExtraStringsToInclude)
 	usedStrings.add(extra);
 
 
@@ -476,15 +504,26 @@ await writeFile('dist/data/reviver.js',
 	'// Replacer implementation used for stringifying JSON data originally\n' +
 	'export ' + JSONReplacer.toString()
 );
-await writeFile('dist/data/translate.js', `
-function translate(string) {
-	if(!string) return '';
-	let translation = strings.get(string);
-	if(!translation) throw new Error(\`Cant find translation for: \${string} [\${string.length}]\`);
-	return translation.en_us;
-}
 
-const TranslateKeys = [
-	'name', 'description', 'conclusion', 'miningFrom', 'produceFrom'
-];
-`);
+// await writeFile('dist/data/translate.js', `
+// function translate(string) {
+// 	if(!string) return '';
+// 	let translation = strings.get(string);
+// 	if(!translation) throw new Error(\`Cant find translation for: \${string} [\${string.length}]\`);
+// 	return translation.en_us;
+// }
+
+// const translateableKeys = ['name', 'description', 'conclusion', 'miningFrom', 'produceFrom'];
+// `);
+
+
+
+await writeFile('dist/data/meta.json', JSON.stringify({
+	generatedAt: new Date(),
+	version,
+	supportedLocales,
+	supportedCanonicalLocales,
+}, JSONReplacer, '\t'));
+
+
+console.log('Finished parsing data');

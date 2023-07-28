@@ -394,6 +394,8 @@ await renderTextures(
 await exportSpritesheets();
 // await exportUsedTextures();
 
+console.log('Finished exporting spritesheets');
+
 
 
 /*

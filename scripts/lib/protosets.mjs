@@ -86,6 +86,10 @@ if(collisions.length)
 
 
 
+
+
+
+
 /// Cleanup datasets and swap their localisation strings to en_us
 let strings = new Map(
 	StringProtoSet.data.map(({ name, id, sid, ...locales }) => [
@@ -93,10 +97,38 @@ let strings = new Map(
 	])
 );
 
-let supportedLocales = Object
-	.keys(strings.entries().next().value[1])
-	.map(locale => locale.replace('_', '-'));
+let internalLocales = Object.keys(strings.entries().next().value[1]);
+let supportedLocales = internalLocales.map(locale => locale.replace('_', '-'));
 let supportedCanonicalLocales = Intl.getCanonicalLocales(supportedLocales);
+
+
+
+// let localeCount = internalLocales.reduce((previous, current) => {
+// 	previous[current] = previous.total;
+// 	return previous;
+// }, { total: StringProtoSet.data.length });
+// for(let set of StringProtoSet.data)
+// {
+// 	let { name, id, sid, ...localised } = set;
+// 	for(let locale in localised)
+// 	{
+// 		let string = localised[locale];
+// 		if(string === '')
+// 		{
+// 			localeCount[locale]--;
+// 		}
+// 	}
+// }
+
+// console.log(localeCount);
+
+// for(let locale in localeCount)
+// {
+// 	if(locale === 'total') continue;
+// 	console.log(`${locale} ${((localeCount[locale] / localeCount.total) * 100).toFixed(2)}% translated strings`);
+// }
+
+
 
 
 let usedStrings = new Set();
@@ -398,6 +430,29 @@ for(const [key, localisations] of strings)
 	}
 
 
+
+
+
+
+let localeCount = internalLocales.reduce((previous, current) => {
+	previous[current] = previous.total;
+	return previous;
+}, { total: strings.size });
+for(let [name, locales] of strings)
+{
+	for(let locale in locales)
+	{
+		let string = locales[locale];
+		if(string === '') localeCount[locale]--;
+	}
+}
+
+for(let locale in localeCount)
+{
+	if(locale === 'total') continue;
+	console.log(`${locale} ${((localeCount[locale] / localeCount.total) * 100).toFixed(2)}% translated strings`);
+}
+	
 
 
 

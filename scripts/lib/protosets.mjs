@@ -4,16 +4,6 @@ import { parseProtoSet, parseDataFile, TYPE, JSONReplacer, JSONReviver } from '.
 import { resources } from './assetfiles.mjs';
 
 
-let version = process.argv.find(arg => arg.startsWith('--version='))?.replace('--version=', '');
-if(!version)
-{
-	console.error('Specify --version to generate meta.json correctly; e.g. npm run build -- --version=0.9.27.15466');
-	process.exit();
-}
-
-
-
-
 
 
 
@@ -22,13 +12,6 @@ export const ItemProtoSet = parseProtoSet(resources.getProtoSet('ItemProtoSet'))
 export const RecipeProtoSet = parseProtoSet(resources.getProtoSet('RecipeProtoSet'));
 export const StringProtoSet = parseProtoSet(resources.getProtoSet('StringProtoSet'));
 export const TechProtoSet = parseProtoSet(resources.getProtoSet('TechProtoSet'));
-
-// try { await mkdir('protoSet', { recursive: true }); } catch {}
-// await writeFile('protoSet/Item.json', JSON.stringify(ItemProtoSet, JSONReplacer, '\t'));
-// await writeFile('protoSet/Recipe.json', JSON.stringify(RecipeProtoSet, JSONReplacer, '\t'));
-// await writeFile('protoSet/String.json', JSON.stringify(StringProtoSet, JSONReplacer, '\t'));
-// await writeFile('protoSet/Tech.json', JSON.stringify(TechProtoSet, JSONReplacer, '\t'));
-
 
 
 
@@ -97,9 +80,9 @@ let strings = new Map(
 	])
 );
 
-let internalLocales = Object.keys(strings.entries().next().value[1]);
-let supportedLocales = internalLocales.map(locale => locale.replace('_', '-'));
-let supportedCanonicalLocales = Intl.getCanonicalLocales(supportedLocales);
+const internalLocales = Object.keys(strings.entries().next().value[1]);
+export const supportedLocales = internalLocales.map(locale => locale.replace('_', '-'));
+export const supportedCanonicalLocales = Intl.getCanonicalLocales(supportedLocales);
 
 
 
@@ -332,6 +315,7 @@ const ExtraStringsToInclude = [
 	"武器", // Weapon
 	"科学矩阵", // Science Matrix
 	"其他分类", // Other Categories
+	
 	"化学", // Chemical
 	"核能", // Nuclear Energy
 	"质能", // Mass Energy
@@ -387,6 +371,13 @@ const ExtraStringsToInclude = [
 	"水源", // Liquid Source
 	"矿脉", // Vein
 	"油田", // Oil Field
+	
+	"配方选取", // Select a recipe
+	"建筑公式", // Buildings
+	"组件公式", // Items
+	"公式图标", // Recipes
+	"科技图标", // Technologies
+	"升级图标", // Upgrades
 ];
 
 for(let extra of ExtraStringsToInclude)
@@ -422,13 +413,15 @@ function handleCustomTags(text) {
 		return match;
 	});
 }
+
 for(const [key, localisations] of strings)
+{
 	for(const locale in localisations)
 	{
 		localisations[locale] = handleCustomTags(localisations[locale]);
 		localisations[locale] = handleCustomTags(localisations[locale]); // Second round to handle any nested tags
 	}
-
+}
 
 
 
@@ -452,7 +445,7 @@ for(let locale in localeCount)
 	if(locale === 'total') continue;
 	console.log(`${locale} ${((localeCount[locale] / localeCount.total) * 100).toFixed(2)}% translated strings`);
 }
-	
+
 
 
 
@@ -547,19 +540,6 @@ export const Strings = strings;
 
 
 
-try { await mkdir('dist/data', { recursive: true }); } catch {}
-await writeFile('dist/data/items.json', JSON.stringify(Items, JSONReplacer, '\t'));
-await writeFile('dist/data/recipes.json', JSON.stringify(Recipes, JSONReplacer, '\t'));
-await writeFile('dist/data/tech.json', JSON.stringify(Tech, JSONReplacer, '\t'));
-await writeFile('dist/data/strings.json', JSON.stringify(Strings, JSONReplacer, '\t'));
-await writeFile('dist/data/reviver.js',
-	'// Revive the JSON data\n' +
-	'// usage: const Items = JSON.parse(json, JSONReviver);\n' +
-	'export ' + JSONReviver.toString() + '\n\n' +
-	'// Replacer implementation used for stringifying JSON data originally\n' +
-	'export ' + JSONReplacer.toString()
-);
-
 // await writeFile('dist/data/translate.js', `
 // function translate(string) {
 // 	if(!string) return '';
@@ -572,13 +552,3 @@ await writeFile('dist/data/reviver.js',
 // `);
 
 
-
-await writeFile('dist/data/meta.json', JSON.stringify({
-	generatedAt: new Date(),
-	version,
-	supportedLocales,
-	supportedCanonicalLocales,
-}, JSONReplacer, '\t'));
-
-
-console.log('Finished parsing data');

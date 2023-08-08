@@ -17,10 +17,63 @@
 */
 
 import { readFile, writeFile, mkdir, open } from 'node:fs/promises';
-import { renderTextures, loadTextureImageData } from './lib/textures.mjs';
+import { renderTextures } from './lib/textures.mjs';
 import { resources, shared } from './lib/assetfiles.mjs';
-import { Items, Recipes, Tech, iconPaths } from './lib/protosets.mjs';
+import {
+	ItemProtoSet, RecipeProtoSet, TechProtoSet, StringProtoSet,
+	Items, Recipes, Tech, Strings,
+	iconPaths, supportedLocales, supportedCanonicalLocales
+} from './lib/protosets.mjs';
+import { JSONReplacer, JSONReviver } from './lib/parser.mjs';
 import sharp from 'sharp';
+
+
+
+
+
+
+try { await mkdir('protoSet', { recursive: true }); } catch {}
+// await writeFile('protoSet/Item.json', JSON.stringify(ItemProtoSet, JSONReplacer, '\t'));
+// await writeFile('protoSet/Recipe.json', JSON.stringify(RecipeProtoSet, JSONReplacer, '\t'));
+await writeFile('protoSet/String.json', JSON.stringify(StringProtoSet, JSONReplacer, '\t'));
+// await writeFile('protoSet/Tech.json', JSON.stringify(TechProtoSet, JSONReplacer, '\t'));
+
+
+
+
+try { await mkdir('dist/data', { recursive: true }); } catch {}
+await writeFile('dist/data/items.json', JSON.stringify(Items, JSONReplacer, '\t'));
+await writeFile('dist/data/recipes.json', JSON.stringify(Recipes, JSONReplacer, '\t'));
+await writeFile('dist/data/tech.json', JSON.stringify(Tech, JSONReplacer, '\t'));
+await writeFile('dist/data/strings.json', JSON.stringify(Strings, JSONReplacer, '\t'));
+await writeFile('dist/data/reviver.js',
+	'// Revive the JSON data\n' +
+	'// usage: const Items = JSON.parse(json, JSONReviver);\n' +
+	'export ' + JSONReviver.toString() + '\n\n' +
+	'// Replacer implementation used for stringifying JSON data originally\n' +
+	'export ' + JSONReplacer.toString()
+);
+
+
+let version = process.argv.find(arg => arg.startsWith('--version='))?.replace('--version=', '');
+if(!version)
+{
+	console.error('Specify --version to generate meta.json correctly; e.g. npm run build -- --version=0.9.27.15466');
+	process.exit();
+}
+
+await writeFile('dist/data/meta.json', JSON.stringify({
+	generatedAt: new Date(),
+	version,
+	supportedLocales,
+	supportedCanonicalLocales,
+}, JSONReplacer, '\t'));
+
+
+console.log('Finished parsing data');
+
+
+
 
 
 
@@ -391,314 +444,7 @@ await renderTextures(
 
 
 // await exportAllTextures();
-await exportSpritesheets();
 // await exportUsedTextures();
 
+await exportSpritesheets();
 console.log('Finished exporting spritesheets');
-
-
-
-/*
-import { WASI } from 'wasi';
-import { argv, env } from 'node:process';
-
-
-let icon = textures.find(texture => texture.name === 'factory-icon');
-await loadTextureImageData([icon]);
-
-// console.log(icon);
-
-const nBlocks = ((icon.width + 3) >> 2) * ((icon.height + 3) >> 2);
-const texMemoryPages = (nBlocks * 16 + 65535) >> 16;
-const memory = new WebAssembly.Memory({ initial: texMemoryPages + 1 });
-
-let textureView = new Uint8Array(memory.buffer, 65536, nBlocks * 16);
-textureView.set(icon.imageData.slice(0, nBlocks * 16));
-
-
-const wasi = new WASI({
-	version: 'preview1',
-	args: argv,
-	env: { memory } // env,
-});
-
-const wasm = await WebAssembly.compile(
-//   await readFile(new URL('./lib/basis_transcoder.wasm', import.meta.url)),
-	await readFile('scripts/wasm/uastc_rgba8_srgb.wasm')
-);
-const instance = await WebAssembly.instantiate(wasm, wasi.getImportObject());
-
-wasi.start(instance);
-
-
-console.log(instance);
-*/
-
-
-
-
-
-
-/*
-const BASIS_FORMAT = {
-    // Compressed formats
-	
-    // ETC1-2
-    cTFETC1_RGB: 0,							// Opaque only, returns RGB or alpha data if cDecodeFlagsTranscodeAlphaDataToOpaqueFormats flag is specified
-    cTFETC2_RGBA: 1,							// Opaque+alpha, ETC2_EAC_A8 block followed by a ETC1 block, alpha channel will be opaque for opaque .basis files
-	
-    // BC1-5, BC7 (desktop, some mobile devices)
-    cTFBC1_RGB: 2,							// Opaque only, no punchthrough alpha support yet, transcodes alpha slice if cDecodeFlagsTranscodeAlphaDataToOpaqueFormats flag is specified
-    cTFBC3_RGBA: 3, 							// Opaque+alpha, BC4 followed by a BC1 block, alpha channel will be opaque for opaque .basis files
-    cTFBC4_R: 4,								// Red only, alpha slice is transcoded to output if cDecodeFlagsTranscodeAlphaDataToOpaqueFormats flag is specified
-    cTFBC5_RG: 5,								// XY: Two BC4 blocks, X=R and Y=Alpha, .basis file should have alpha data (if not Y will be all 255's)
-    cTFBC7_RGBA: 6,							// RGB or RGBA, mode 5 for ETC1S, modes (1,2,3,5,6,7) for UASTC
-	
-    // PVRTC1 4bpp (mobile, PowerVR devices)
-    cTFPVRTC1_4_RGB: 8,						// Opaque only, RGB or alpha if cDecodeFlagsTranscodeAlphaDataToOpaqueFormats flag is specified, nearly lowest quality of any texture format.
-    cTFPVRTC1_4_RGBA: 9,					// Opaque+alpha, most useful for simple opacity maps. If .basis file doesn't have alpha cTFPVRTC1_4_RGB will be used instead. Lowest quality of any supported texture format.
-	
-    // ASTC (mobile, Intel devices, hopefully all desktop GPU's one day)
-    cTFASTC_4x4_RGBA: 10,					// Opaque+alpha, ASTC 4x4, alpha channel will be opaque for opaque .basis files. Transcoder uses RGB/RGBA/L/LA modes, void extent, and up to two ([0,47] and [0,255]) endpoint precisions.
-	
-    // Uncompressed (raw pixel) formats
-    cTFRGBA32: 13,							// 32bpp RGBA image stored in raster (not block) order in memory, R is first byte, A is last byte.
-    cTFRGB565: 14,							// 16bpp RGB image stored in raster (not block) order in memory, R at bit position 11
-    cTFBGR565: 15,							// 16bpp RGB image stored in raster (not block) order in memory, R at bit position 0
-    cTFRGBA4444: 16,						// 16bpp RGBA image stored in raster (not block) order in memory, R at bit position 12, A at bit position 0
-	
-    cTFTotalTextureFormats: 22,
-  };
-  
-  const BASIS_DECODE_FLAGS = {
-	// PVRTC1: decode non-pow2 ETC1S texture level to the next larger power of 2 (not implemented yet, but we're going to support it). Ignored if the slice's dimensions are already a power of 2.
-	cDecodeFlagsPVRTCDecodeToNextPow2: 2,
-	
-	// When decoding to an opaque texture format, if the basis file has alpha, decode the alpha slice instead of the color slice to the output texture format.
-	// This is primarily to allow decoding of textures with alpha to multiple ETC1 textures (one for color, another for alpha).
-	cDecodeFlagsTranscodeAlphaDataToOpaqueFormats: 4,
-	
-	// Forbid usage of BC1 3 color blocks (we don't support BC1 punchthrough alpha yet).
-	// This flag is used internally when decoding to BC3.
-	cDecodeFlagsBC1ForbidThreeColorBlocks: 8,
-	
-	// The output buffer contains alpha endpoint/selector indices. 
-	// Used internally when decoding formats like ASTC that require both color and alpha data to be available when transcoding to the output format.
-	cDecodeFlagsOutputHasAlphaIndices: 16,
-	
-	cDecodeFlagsHighQuality: 32
-};
-
-
-
-
-import BASIS from './wasm/basis_transcoder.js';
-
-let wasmBinary = await readFile('scripts/wasm/basis_transcoder.wasm');
-
-
-let BasisModule;
-await new Promise(onRuntimeInitialized => {
-	BasisModule = { wasmBinary, onRuntimeInitialized };
-	BASIS(BasisModule);
-});
-
-BasisModule.initializeBasis();
-
-let icon = textures.find(texture => texture.name === 'factory-icon');
-await loadTextureImageData([icon]);
-
-
-
-
-
-
-
-
-// console.log(icon);
-
-const xBlocks = ((icon.width + 3) >> 2);
-const yBlocks = ((icon.height + 3) >> 2);
-const nBlocks = xBlocks * yBlocks;
-const bytesPerBlockOrPixel = BasisModule.getBytesPerBlockOrPixel(BASIS_FORMAT.cTFRGBA32);
-
-const dstSize = icon.width * icon.height * bytesPerBlockOrPixel;
-const dst = Buffer.alloc(dstSize);
-const compressedData = Buffer.from(icon.imageData);
-
-const mipCount = icon.mipCount;
-console.log({ xBlocks, yBlocks, nBlocks, bytesPerBlockOrPixel, mipCount });
-console.log(compressedData.length);
-
-let slice_offset = 0;
-let slice_length = compressedData.length;
-
-
-
-let status = BasisModule.transcodeUASTCImage(
- 	BASIS_FORMAT.cTFRGBA32, // target_format_int
-	dst, // output_blocks,
-	dstSize / bytesPerBlockOrPixel, // output_blocks_buf_size_in_blocks_or_pixels
-	compressedData, // compressed_data
-	xBlocks, // num_blocks_x
-	yBlocks, // num_blocks_y
-	icon.width, // orig_width
-	icon.height, // orig_height
-	0, // level_index
-	slice_offset, // slice_offset
-	slice_length, // compressedData.length, // slice_length
-	// BASIS_DECODE_FLAGS.cDecodeFlagsTranscodeAlphaDataToOpaqueFormats|
-	// BASIS_DECODE_FLAGS.cDecodeFlagsOutputHasAlphaIndices|
-	BASIS_DECODE_FLAGS.cDecodeFlagsHighQuality, // decode_flags
-	true, // has_alpha
-	false, // is_video
-	icon.width, // output_row_pitch_in_blocks_or_pixels
-	icon.height, // output_rows_in_pixels
-	-1, // channel0
-	-1, // channel1
-);
-
-if(!status) throw new Error('Unable to decode the UASTC image');
-
-
-// console.log(icon);
-console.log(dst.slice(0, 4));
-console.log(dst.slice(4, 8));
-console.log(dst.slice(8, 12));
-console.log(dst.slice(12, 16));
-
-const path = `textures/${icon.name}.avif`;
-await sharp(dst, { raw: { width: icon.width, height: icon.height, channels: 4 } }).avif().toFile(path);
-console.log('Saved as', path);
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// const basisFile = new BasisModule.BasisFile(new Uint8Array(icon.loadTextureImageData));
-
-// let width = basisFile.getImageWidth(0, 0);
-// let height = basisFile.getImageHeight(0, 0);
-// let images = basisFile.getNumImages();
-// let levels = basisFile.getNumLevels(0);
-// let has_alpha = basisFile.getHasAlpha();
-
-// console.log({
-// 	width,
-// 	height,
-// 	images,
-// 	levels,
-// 	has_alpha,
-// });
-
-// var basisFileDesc = basisFile.getFileDesc();
-
-// console.log('------');  
-// console.log('getFileDesc():');
-// console.log('version: ' + basisFileDesc.version);
-// console.log('us per frame: ' + basisFileDesc.usPerFrame);
-// console.log('total images: ' + basisFileDesc.totalImages);
-// console.log('userdata0: ' + basisFileDesc.userdata0 + ' userdata1: ' + basisFileDesc.userdata1);
-// console.log('texFormat: ' + basisFileDesc.texFormat);
-// console.log('yFlipped: ' + basisFileDesc.yFlipped + ' hasAlphaSlices: ' + basisFileDesc.hasAlphaSlices);
-
-// if (basisFileDesc.texFormat == BasisModule.basis_tex_format.cETC1S.value)
-// {
-// 	console.log('numEndpoints: ' + basisFileDesc.numEndpoints);
-// 	console.log('endpointPaletteOfs: ' + basisFileDesc.endpointPaletteOfs);
-// 	console.log('endpointPaletteLen: ' + basisFileDesc.endpointPaletteLen);
-// 	console.log('numSelectors: ' + basisFileDesc.numSelectors);
-// 	console.log('selectorPaletteOfs: ' + basisFileDesc.selectorPaletteOfs);
-// 	console.log('selectorPaletteLen: ' + basisFileDesc.selectorPaletteLen);
-// 	console.log('tablesOfs: ' + basisFileDesc.tablesOfs);
-// 	console.log('tablesLen: ' + basisFileDesc.tablesLen);
-// }
-// console.log('------');
-// console.log('getImageDesc() for all images:');
-// var image_index;
-// for (image_index = 0; image_index < basisFileDesc.totalImages; image_index++)
-// {
-// 	console.log('image: ' + image_index);
-	
-// 	var basisImageDesc = basisFile.getImageDesc(image_index);
-	
-// 	console.log('origWidth: ' + basisImageDesc.origWidth + ' origWidth: ' + basisImageDesc.origHeight);
-// 	console.log('numBlocksX: ' + basisImageDesc.numBlocksX + ' origWidth: ' + basisImageDesc.numBlocksY);
-// 	console.log('numLevels: ' + basisImageDesc.numLevels);
-// 	console.log('alphaFlag: ' + basisImageDesc.alphaFlag + ' iframeFlag: ' + basisImageDesc.iframeFlag);
-
-// 	console.log('getImageLevelDesc() for all mipmap levels:');
-// 	var level_index;
-// 	for (level_index = 0; level_index < basisImageDesc.numLevels; level_index++)
-// 	{
-// 	var basisImageLevelDesc = basisFile.getImageLevelDesc(image_index, level_index);
-	
-// 	console.log('level: ' + level_index + 
-// 		' rgb_file_offset: ' + basisImageLevelDesc.rgbFileOfs + ' rgb_file_len: ' + basisImageLevelDesc.rgbFileLen);
-
-// 	if (basisFileDesc.hasAlphaSlices)           
-// 		console.log('alpha_file_offset: ' + basisImageLevelDesc.alphaFileOfs + ' alpha_file_len: ' + basisImageLevelDesc.alphaFileLen);
-// 	}
-// }
-
-// console.log('------');
-
-// if (!width || !height || !images || !levels) {
-// 	console.warn('Invalid .basis file');
-// 	basisFile.close();
-// 	basisFile.delete();
-// }
-
-// const nBlocks = ((icon.width + 3) >> 2) * ((icon.height + 3) >> 2);
-// const texMemoryPages = (nBlocks * 16 + 65535) >> 16;
-// const memory = new WebAssembly.Memory({ initial: texMemoryPages + 1 });
-
-
-
-
-
-
-// console.log(BasisModule);
-
-
-// const ktx2File = new BasisModule.KTX2File(icon.imageData);
-// console.log(ktx2File.transcodeImage);
-
-// console.log('isValid:', ktx2File.isValid());
-
-// const basisFormat = ktx2File.isUASTC() ? BasisFormat.UASTC_4x4 : BasisFormat.ETC1S;
-// const width = ktx2File.getWidth();
-// const height = ktx2File.getHeight();
-// const layers = ktx2File.getLayers() || 1;
-// const levels = ktx2File.getLevels();
-// const hasAlpha = ktx2File.getHasAlpha();
-// const dfdTransferFn = ktx2File.getDFDTransferFunc();
-// const dfdFlags = ktx2File.getDFDFlags();
-
-
-
-// console.log({
-// 	basisFormat,
-// 	width,
-// 	height,
-// 	layers,
-// 	levels,
-// 	hasAlpha,
-// 	dfdTransferFn,
-// 	dfdFlags,
-// });

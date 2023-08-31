@@ -32,10 +32,10 @@ import sharp from 'sharp';
 
 
 
-try { await mkdir('protoSet', { recursive: true }); } catch {}
+// try { await mkdir('protoSet', { recursive: true }); } catch {}
 // await writeFile('protoSet/Item.json', JSON.stringify(ItemProtoSet, JSONReplacer, '\t'));
 // await writeFile('protoSet/Recipe.json', JSON.stringify(RecipeProtoSet, JSONReplacer, '\t'));
-await writeFile('protoSet/String.json', JSON.stringify(StringProtoSet, JSONReplacer, '\t'));
+// await writeFile('protoSet/String.json', JSON.stringify(StringProtoSet, JSONReplacer, '\t'));
 // await writeFile('protoSet/Tech.json', JSON.stringify(TechProtoSet, JSONReplacer, '\t'));
 
 
@@ -111,7 +111,7 @@ export async function exportAllTextures(withCommonBuckets = true) {
 				map.set(wxh, (map.get(wxh) || 0) + 1);
 				return map;
 			}, new Map).entries()
-		).sort((a, b) => b[1] - a[1]).map(d => d[0]).slice(0, 10);
+		).sort((a, b) => b[1] - a[1]).map(d => d[0]).slice(0, 16);
 		
 		try {
 			await mkdir('textures', { recursive: true });
@@ -443,7 +443,7 @@ await renderTextures(
 // await renderTextures([icon]);
 
 
-// await exportAllTextures();
+await exportAllTextures();
 // await exportUsedTextures();
 
 await exportSpritesheets();

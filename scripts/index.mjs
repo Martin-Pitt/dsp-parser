@@ -17,25 +17,36 @@
 */
 
 import { readFile, writeFile, mkdir, open } from 'node:fs/promises';
+import { join } from 'node:path';
+import sharp from 'sharp';
 import { renderTextures } from './lib/textures.mjs';
 import { resources, shared } from './lib/assetfiles.mjs';
-import {
-	ItemProtoSet, RecipeProtoSet, TechProtoSet, StringProtoSet,
-	Items, Recipes, Tech, Strings,
-	iconPaths, supportedLocales, supportedCanonicalLocales
-} from './lib/protosets.mjs';
+import { Items, Recipes, Tech, iconPaths } from './lib/protosets.mjs';
+// import { Strings, supportedLocales, supportedCanonicalLocales } from './lib/locales.mjs';
+import { Languages, Strings } from './lib/locales.mjs';
 import { JSONReplacer, JSONReviver } from './lib/parser.mjs';
-import sharp from 'sharp';
+import { GameDirectory } from './lib/config.mjs';
+
+
+let version = await (async () => {
+	let path = join(GameDirectory, 'Configs', 'versions');
+	let versions = await readFile(path, { encoding: 'utf8' });
+	versions = versions.split(/\r?\n/).filter(Boolean);
+	return versions.pop();
+})();
 
 
 
 
 
+
+
+
+/*
 
 // try { await mkdir('protoSet', { recursive: true }); } catch {}
 // await writeFile('protoSet/Item.json', JSON.stringify(ItemProtoSet, JSONReplacer, '\t'));
 // await writeFile('protoSet/Recipe.json', JSON.stringify(RecipeProtoSet, JSONReplacer, '\t'));
-// await writeFile('protoSet/String.json', JSON.stringify(StringProtoSet, JSONReplacer, '\t'));
 // await writeFile('protoSet/Tech.json', JSON.stringify(TechProtoSet, JSONReplacer, '\t'));
 
 
@@ -45,7 +56,7 @@ try { await mkdir('dist/data', { recursive: true }); } catch {}
 await writeFile('dist/data/items.json', JSON.stringify(Items, JSONReplacer, '\t'));
 await writeFile('dist/data/recipes.json', JSON.stringify(Recipes, JSONReplacer, '\t'));
 await writeFile('dist/data/tech.json', JSON.stringify(Tech, JSONReplacer, '\t'));
-await writeFile('dist/data/strings.json', JSON.stringify(Strings, JSONReplacer, '\t'));
+// await writeFile('dist/data/strings.json', JSON.stringify(Strings, JSONReplacer, '\t'));
 await writeFile('dist/data/reviver.js',
 	'// Revive the JSON data\n' +
 	'// usage: const Items = JSON.parse(json, JSONReviver);\n' +
@@ -55,18 +66,13 @@ await writeFile('dist/data/reviver.js',
 );
 
 
-let version = process.argv.find(arg => arg.startsWith('--version='))?.replace('--version=', '');
-if(!version)
-{
-	console.error('Specify --version to generate meta.json correctly; e.g. npm run build -- --version=0.9.27.15466');
-	process.exit();
-}
+
 
 await writeFile('dist/data/meta.json', JSON.stringify({
 	generatedAt: new Date(),
 	version,
-	supportedLocales,
-	supportedCanonicalLocales,
+	// supportedLocales,
+	// supportedCanonicalLocales,
 }, JSONReplacer, '\t'));
 
 
@@ -443,8 +449,8 @@ await renderTextures(
 // await renderTextures([icon]);
 
 
-await exportAllTextures();
+// await exportAllTextures();
 // await exportUsedTextures();
 
-await exportSpritesheets();
-console.log('Finished exporting spritesheets');
+// await exportSpritesheets();
+// console.log('Finished exporting spritesheets');

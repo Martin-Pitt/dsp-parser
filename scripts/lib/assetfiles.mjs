@@ -1,14 +1,16 @@
 import { readFile, mkdir, writeFile } from 'node:fs/promises';
 import { BufferStreamAssets } from './buffer.mjs';
 import { AssetsFile, JSONReplacer } from './parser.mjs';
+import { readGameFile } from './config.mjs';
 
-const ResourcesStream = new BufferStreamAssets(await readFile('resources.assets'));
+
+const ResourcesStream = new BufferStreamAssets(await readGameFile('DSPGAME_Data/resources.assets'));
 export const resources = new AssetsFile(ResourcesStream);
 
-const SharedStream = new BufferStreamAssets(await readFile('sharedassets0.assets'));
+const SharedStream = new BufferStreamAssets(await readGameFile('DSPGAME_Data/sharedassets0.assets'));
 export const shared = new AssetsFile(SharedStream);
 
-// const GlobalStream = new BufferStreamAssets(await readFile('globalgamemanagers.assets'));
+// const GlobalStream = new BufferStreamAssets(await readGameFile('globalgamemanagers.assets'));
 // export const glob = new AssetsFile(GlobalStream);
 
 // try { await mkdir('data'); } catch {}

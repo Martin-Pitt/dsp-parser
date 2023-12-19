@@ -2,6 +2,8 @@ import { readFile, writeFile, mkdir, open } from 'node:fs/promises';
 import { parseTexture, wrapWithContainer } from './parser.mjs';
 import sharp from 'sharp';
 import puppeteer from 'puppeteer';
+import { GameDirectory } from './config.mjs';
+import { join } from 'node:path';
 
 
 
@@ -94,7 +96,7 @@ export async function loadTextureImageData(textures) {
 	
 	for(let path in streamed)
 	{
-		let fileHandle = await open(path, 'r');
+		let fileHandle = await open(join(GameDirectory, 'DSPGAME_Data', path), 'r');
 		let queue = streamed[path];
 		for(let texture of queue)
 		{

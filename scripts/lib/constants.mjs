@@ -32,7 +32,7 @@ export const RuntimePlatform = new Map([
 	[28, 'SamsungTVPlayer'],
 ]);
 
-export const ItemTypes = new Map([
+export const ItemType = new Map([
 	[ 0, 'UNKNOWN'],
 	[ 1, 'RESOURCE'],
 	[ 2, 'MATERIAL'],
@@ -41,9 +41,10 @@ export const ItemTypes = new Map([
 	[ 5, 'LOGISTICS'],
 	[ 6, 'PRODUCTION'],
 	[ 7, 'DECORATION'],
-	[ 8, 'WEAPON'],
-	[ 9, 'MATRIX'],
-	[10, 'MONSTER'],
+	[ 8, 'TURRET'],
+	[ 9, 'DEFENSE'],
+	[10, 'DARKFOG'],
+	[11, 'MATRIX'],
 ]);
 
 export const RecipeType = new Map([
@@ -57,6 +58,20 @@ export const RecipeType = new Map([
 	[ 7, 'PHOTON_STORE'],
 	[ 8, 'FRACTIONATE'],
 	[15, 'RESEARCH'],
+]);
+
+export const AmmoType = new Map([
+	[0, 'NONE'],
+	[1, 'BULLET'],
+	[2, 'LASER'],
+	[3, 'CANNON'],
+	[4, 'PLASMA'],
+	[5, 'MISSILE'],
+]);
+
+export const Glyphs = new Map([
+	[0, 'LATIN'],
+	[1, 'CJK'],
 ]);
 
 export const TextureFormat = new Map([

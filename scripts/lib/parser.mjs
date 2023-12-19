@@ -1,5 +1,5 @@
 import { BufferStreamAssets, BufferStreamData, isValidProtoSetHeader } from './buffer.mjs';
-import { RuntimePlatform, ItemTypes, RecipeType, TextureFormat, KTXHeader } from './constants.mjs';
+import { RuntimePlatform, ItemType, AmmoType, RecipeType, TextureFormat, KTXHeader } from './constants.mjs';
 
 
 
@@ -510,9 +510,14 @@ export function parseDataFile(data, shape) {
 				case 'bool': return data.readBool();
 				case 'byte': return data.read(shape.size);
 				case 'array': return data.readArray(() => parseTyping(shape.shape));
+				case 'fixedarray':
+					let iter = shape.size, array = [];
+					while(iter --> 0) array.push(parseTyping(shape.shape));
+					return array;
 				case 'bytearray': return data.readByteArray();
                 case 'vector2': return [data.readFloat(), data.readFloat()];
-				case 'ItemType': return ItemTypes.get(data.readInt32());
+				case 'ItemType': return ItemType.get(data.readInt32());
+				case 'AmmoType': return AmmoType.get(data.readInt32());
 				case 'RecipeType': return RecipeType.get(data.readInt32());
 				case 'TextureFormat': return TextureFormat.get(data.readUInt32());
 				default: throw new Error(`Unknown shape ${JSON.stringify(shape)}`);
@@ -543,10 +548,11 @@ export function parseProtoSet(protoSetData) {
 	const filename = protoSetData.readString().toString();
 	protoSetData.pos = lastPos;
 	
+	// console.log(filename);
 	
 	if(filename === 'ItemProtoSet')
 	{
-		return parseDataFile(protoSetData, {
+		let parsed = parseDataFile(protoSetData, {
 			[TYPE]: 'object',
 			fileName: 'string',
 			tableName: 'string',
@@ -578,6 +584,9 @@ export function parseProtoSet(protoSetData) {
 					potential: 'int64',
 					reactorInc: 'float',
 					fuelType: 'int32',
+					ammoType: 'AmmoType',
+					bombType: 'int32',
+					craftType: 'int32',
 					buildIndex: 'int32',
 					buildMode: 'int32',
 					gridIndex: 'int32', // grid coords as ZYXX, where Z represents items (1) or buildings (2)
@@ -586,16 +595,24 @@ export function parseProtoSet(protoSetData) {
 					produce: 'bool',
 					mechaMaterialId: 'int32',
 					dropRate: 'float',
+					enemyDropLevel: 'int32',
+					enemyDropRange: 'vector2',
+					enemyDropCount: 'float',
+					enemyDropMask: 'int32',
 					descFields: { [TYPE]: 'array', shape: 'int32' },
 					description: 'string',
 				}
 			}
 		});
+		
+		// console.log(parsed.data);
+		
+		return parsed;
 	}
 	
 	else if(filename === 'RecipeProtoSet')
 	{
-		return parseDataFile(protoSetData, {
+		let parsed = parseDataFile(protoSetData, {
 			[TYPE]: 'object',
 			fileName: 'string',
 			tableName: 'string',
@@ -622,28 +639,10 @@ export function parseProtoSet(protoSetData) {
 				}
 			}
 		});
-	}
-	
-	else if(filename === 'StringProtoSet')
-	{
-		return parseDataFile(protoSetData, {
-			[TYPE]: 'object',
-			fileName: 'string',
-			tableName: 'string',
-			signature: 'string',
-			data: {
-				[TYPE]: 'array',
-				shape: {
-					[TYPE]: 'object',
-					name: 'string',
-					id: 'int32',
-					sid: 'string',
-					zh_cn: 'string',
-					en_us: 'string',
-					fr_fr: 'string',
-				}
-			}
-		});
+		
+		// console.log(parsed.data);
+		
+		return parsed;
 	}
 	
 	else if(filename === 'TechProtoSet')
@@ -663,6 +662,8 @@ export function parseProtoSet(protoSetData) {
 					description: 'string',
 					conclusion: 'string',
 					published: 'bool',
+					isHiddenTech: 'bool',
+					preItem: { [TYPE]: 'array', shape: 'int32' },
 					level: 'int32',
 					maxLevel: 'int32',
 					levelCoef1: 'int32',
@@ -812,6 +813,7 @@ export function parseTexture(data) {
 		file.imageData = buffer;
 	}*/
 	
+	// console.log('parseTexture');
 	
 	let file = parseDataFile(data, {
 		[TYPE]: 'object',

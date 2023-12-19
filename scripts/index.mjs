@@ -263,66 +263,66 @@ export async function exportSpritesheets() {
 		let techRows = Math.ceil(Math.sqrt(techSprites.length));
 		
 		let stylesheet = `
-		@layer icons {
-			[data-icon^="item"],
-			[data-icon^="recipe"],
-			[data-icon^="tech"] {
-				width: 80px;
-				aspect-ratio: 1;
-			}
-			[data-icon^="item"],
-			[data-icon^="recipe"] {
-				background: url('./icons-item-recipes.webp') top left / ${100 * iconRows}% auto no-repeat;
-				background-image: -webkit-image-set(
-					url('./icons-item-recipes.webp') type('image/webp'),
-					url('./icons-item-recipes.avif') type('image/avif')
-				);
-				background-image: image-set(
-					url('./icons-item-recipes.webp') type('image/webp'),
-					url('./icons-item-recipes.avif') type('image/avif')
-				);
-			}
-			[data-icon^="tech"] {
-				background: url('./icons-tech.webp') top left / ${100 * techRows}% auto no-repeat;
-				background-image: -webkit-image-set(
-					url('./icons-tech.webp') type('image/webp'),
-					url('./icons-tech.avif') type('image/avif')
-				);
-				background-image: image-set(
-					url('./icons-tech.webp') type('image/webp'),
-					url('./icons-tech.avif') type('image/avif')
-				);
-			}
-			${iconSprites
-				.flatMap(sprite => spriteItemsMap.get(sprite).map(item => {
-					const { x, y } = sprite;
-					const scale = 100 / (iconRows - 1);
-					return (
-						`[data-icon="${getCategory(item)}.${item.id}"] { ` +
-							`background-position: ${x * scale}% ${y * scale}%; ` +
-							`--x: ${x}; ` +
-							`--y: ${y}; ` +
-							`--rows: ${iconRows}; ` +
-						`}`
-					);
-				}))
-				.join('\n')
-			}
-			${techSprites.flatMap(sprite => spriteItemsMap.get(sprite).map(item => {
-					const { x, y } = sprite;
-					const scale = 100 / (techRows - 1);
-					return (
-						`[data-icon="${getCategory(item)}.${item.id}"] { ` +
-							`background-position: ${x * scale}% ${y * scale}%; ` +
-							`--x: ${x}; ` +
-							`--y: ${y}; ` +
-							`--rows: ${iconRows}; ` +
-						`}`
-					);
-				}))
-				.join('\n')
-			}
-		}`;
+@layer icons {
+	[data-icon^="item"],
+	[data-icon^="recipe"],
+	[data-icon^="tech"] {
+		width: 80px;
+		aspect-ratio: 1;
+	}
+	[data-icon^="item"],
+	[data-icon^="recipe"] {
+		background: url('./icons-item-recipes.webp') top left / ${100 * iconRows}% auto no-repeat;
+		background-image: -webkit-image-set(
+			url('./icons-item-recipes.webp') type('image/webp'),
+			url('./icons-item-recipes.avif') type('image/avif')
+		);
+		background-image: image-set(
+			url('./icons-item-recipes.webp') type('image/webp'),
+			url('./icons-item-recipes.avif') type('image/avif')
+		);
+	}
+	[data-icon^="tech"] {
+		background: url('./icons-tech.webp') top left / ${100 * techRows}% auto no-repeat;
+		background-image: -webkit-image-set(
+			url('./icons-tech.webp') type('image/webp'),
+			url('./icons-tech.avif') type('image/avif')
+		);
+		background-image: image-set(
+			url('./icons-tech.webp') type('image/webp'),
+			url('./icons-tech.avif') type('image/avif')
+		);
+	}
+	${iconSprites
+		.flatMap(sprite => spriteItemsMap.get(sprite).map(item => {
+			const { x, y } = sprite;
+			const scale = 100 / (iconRows - 1);
+			return (
+				`[data-icon="${getCategory(item)}.${item.id}"] { ` +
+					`background-position: ${x * scale}% ${y * scale}%; ` +
+					// `--x: ${x}; ` +
+					// `--y: ${y}; ` +
+					// `--rows: ${iconRows}; ` +
+				`}`
+			);
+		}))
+		.join('\n\t')
+	}
+	${techSprites.flatMap(sprite => spriteItemsMap.get(sprite).map(item => {
+			const { x, y } = sprite;
+			const scale = 100 / (techRows - 1);
+			return (
+				`[data-icon="${getCategory(item)}.${item.id}"] { ` +
+					`background-position: ${x * scale}% ${y * scale}%; ` +
+					`--x: ${x}; ` +
+					`--y: ${y}; ` +
+					`--rows: ${iconRows}; ` +
+				`}`
+			);
+		}))
+		.join('\n\t')
+	}
+}`;
 		
 		return stylesheet;
 	}

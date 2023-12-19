@@ -18,13 +18,4 @@ The texture generation scripts however aren't able to decode some of the GPU com
 
 You will need Node.js and some know how on CLI. Run the commands in your terminal when cd'd into the project.
 
-1. First you'll need to find the following game data files from Dyson Sphere Program located within it's DSPGAME_Data folder
-	- `resources.assets`
-	- `resources.assets.resS`
-	- `sharedassets0.assets`
-	- `sharedassets0.assets.resS`
-2. Copy these files into the root folder of this project
-3. Install the script dependencies via npm: `npm ci`
-4. Run the build script `npm run build -- --version=0.9.27.15466` (Replace the version with your version of DSP)
-5. The parser will now run and export updated files in the `dist` folder, this may take a while especially when generating the textures
-
+Tweak `scripts/lib/config.mjs` to point at the game directory, or make a copy of all the game files that the parser uses if you don't have DSP on your device. Run `npm run build` to convert the data which will update the `dist` folder. Texture generation may take a while.

@@ -3,21 +3,13 @@ import { format, join } from 'node:path';
 import { GameDirectory } from './config.mjs';
 import { Glyphs } from './constants.mjs';
 import { TextDecoder } from 'node:util';
+import { getLocaleTag } from './lcid.mjs';
 
 const VersionMinimum = 110;
 
 
-export const Languages = [
-	// {
-	// 	lcid,		— Culture ID, it's a .NET thing for System.Globalization, very similar to ICU
-	// 	name,		— Display name shown to user in their native language
-	// 	tags,		— Language tags
-	// 	tag,		— Just the primary language tag
-	// 	fallback,	— Fallback language (not implemented yet I think?)
-	// 	glyph,		— Which glyph set, e.g. LATIN or CJK
-	// }
-];
-export const Strings = new Map();
+export const Languages = [];
+export const Locale = {};
 
 
 
@@ -42,21 +34,6 @@ function UnescapeString(input) {
 	
 	return input;
 }
-
-
-
-
-// new string format
-// Strings[language-tag][key] = translation copy
-// {
-// 	'language-tag': new Map(
-// 		key => translation
-// 	),
-// 	'language-tag': new Map(
-// 		key => translation
-// 	)
-// }
-
 
 
 
@@ -92,17 +69,21 @@ while(true)
 	// Tags seem to be corrupted IETF BCP 47 language tags, need to fix these somehow by adding the seperator back so that they can be used in tools and libraries
 	// Added a temp fix for now for the most cases of a primary language subtag and region subtag
 	// But likely to fail when there are more of different sub tags combinations which is why I consider this corrupted
-	const kebabize = (str) => str.replace(/[A-Z]+(?![a-z])|[A-Z]/g, ($, ofs) => (ofs ? "-" : "") + $);
-	tags = kebabize(tags);
+	// const kebabize = (str) => str.replace(/[A-Z]+(?![a-z])|[A-Z]/g, ($, ofs) => (ofs ? "-" : "") + $);
+	// tags = kebabize(tags);
+	
+	// Rather than using the tags from the header, let's use the one inferred from the LCID
+	let locale = getLocaleTag(lcid);
 	
 	fallback = parseInt(fallback, 10);
 	glyph = Glyphs.get(parseInt(glyph, 10) || 0);
 	
 	let language = {
-		lcid, // Culture ID, it's a .NET thing for System.Globalization, very similar to ICU
+		lcid, // Culture ID, it's a .NET thing for System.Globalization which is very similar to ICU
 		name, // Display name shown to user in their native language
-		tags, // BCP 47 like language tag, language + capitalised country code
-		tag, // Just the primary language tag
+		// tags, // BCP 47 like language tag, language + capitalised country code
+		// tag, // Just the primary language tag
+		locale, // IETF BCP 47 Language tags
 		fallback, // Fallback language (not implemented yet I think?)
 		glyph, // Which glyph set, e.g. LATIN or CJK
 	};
@@ -128,7 +109,7 @@ while(true)
 Resources = Resources.sort((a, b) => a[1] - b[1]).map(d => d[0]);
 
 
-const NamesIndex = [];
+export const Names = [];
 for(let resource of Resources)
 {
 	let lines = (await readLocaleFile(`Names/${resource}.txt`)).split(/\r?\n/);
@@ -139,20 +120,21 @@ for(let resource of Resources)
 		
 		let key = line.split('\t').shift();
 		key = UnescapeString(key);
-		if(!NamesIndex.includes(key)) NamesIndex.push(key);
+		if(!Names.includes(key)) Names.push(key);
 	}
 }
 
 
 // Load languages
-let strings = new Array(Languages.length);
-let floats = new Array(Languages.length);
+// let strings = new Array(Languages.length);
+// let floats = new Array(Languages.length);
 
 for(let iter = 0; iter < Languages.length; ++iter)
 {
 	let language = Languages[iter];
-	let lstrings = strings[iter] = new Array(NamesIndex.length);
-	let lfloats = floats[iter] = new Array(NamesIndex.length);
+	// let lstrings = strings[iter] = new Array(Names.length);
+	// let lfloats = floats[iter] = new Array(Names.length);
+	let strings = {};
 	
 	for(let resource of Resources)
 	{
@@ -165,40 +147,42 @@ for(let iter = 0; iter < Languages.length; ++iter)
 			let [key, flags, category, value] = line.split('\t');
 			
 			key = UnescapeString(key);
-			let index = NamesIndex.indexOf(key);
+			let index = Names.indexOf(key);
 			if(index === -1 ) continue; // Unknown key! Not found in name index?
-			if(lstrings[index] != null) continue; // Key was already set, skip dupe
+			// if(lstrings[index] != null) continue; // Key was already set, skip dupe
+			if(key in strings) continue;
 			
 			value = UnescapeString(value);
-			let string = lstrings[index] = value;
+			strings[key] = value;
 			
 			if(flags.includes('#'))
 			{
-				let float = parseFloat(string);
-				lfloats[index] = isNaN(float)? 0 : float;
+				strings[key] = parseFloat(strings[key]);
+				if(isNaN(strings[key])) strings[key] = 0;
 			}
 		}
 	}
 	
 	let untranslated = 0;
-	for(let index = 0; index < NamesIndex.length; ++index)
+	for(let index = 0; index < Names.length; ++index)
 	{
-		let key = NamesIndex[index];
+		let key = Names[index];
 		
-		if(!lstrings[index])
+		if(!key in strings)
 		{
-			lstrings[index] = key;
+			strings[key] = key;
 			++untranslated;
 		}
 	}
 	
-	if(untranslated) console.error(`Missing translation in ${language.tags} — Coverage ${100 - Math.round((untranslated / NamesIndex.length) * 10000) / 100}% (${untranslated} / ${NamesIndex.length})`);
+	if(untranslated) console.error(`Missing translation in ${language.tags} — Coverage ${100 - Math.round((untranslated / Names.length) * 10000) / 100}% (${untranslated} / ${Names.length})`);
 	
+	Locale[language.lcid] = strings;
 	
-	Strings.set(language.lcid, {
-		strings: lstrings,
-		floats: lfloats,
-	});
+	// Strings.set(language.lcid, {
+	// 	strings: lstrings,
+	// 	floats: lfloats,
+	// });
 }
 
 
@@ -208,8 +192,8 @@ for(let iter = 0; iter < Languages.length; ++iter)
 // export function setCurrentLanguage(lcid) { currentLanguage = Languages.find(lang => lang.lcid === lcid) }
 // export function getCurrentLanguage() { return currentLanguage }
 // export function getLanguages() { return Languages }
-// export function Translate(key) { return Strings.get(currentLanguage.lcid).strings[key] || key }
-// export function TranslateParam(key, fallback) { return Strings.get(currentLanguage.lcid).floats[key] || fallback }
+// export function Translate(key) { return Strings.get(currentLanguage.lcid)[key] || key }
+// export function TranslateParam(key, fallback) { return Strings.get(currentLanguage.lcid)[key] || fallback }
 
 
 

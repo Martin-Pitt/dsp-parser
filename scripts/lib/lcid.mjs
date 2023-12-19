@@ -450,12 +450,12 @@ export const Tags = [
 	'fr-015',
 ];
 
-export const getLocaleIdentifier(tag) {
+export function getLocaleIdentifier(tag) {
 	let index = Tags.indexOf(tag);
 	return Identifiers[index];
 }
 
-export const getLocaleTag(identifier) {
+export function getLocaleTag(identifier) {
 	let index = Identifiers.indexOf(identifier);
 	return Tags[index];
 }

@@ -23,7 +23,7 @@ import { renderTextures } from './lib/textures.mjs';
 import { resources, shared } from './lib/assetfiles.mjs';
 import { Items, Recipes, Tech, iconPaths } from './lib/protosets.mjs';
 // import { Strings, supportedLocales, supportedCanonicalLocales } from './lib/locales.mjs';
-import { Languages, Strings } from './lib/locales.mjs';
+import { Languages, Locale } from './lib/locales.mjs';
 import { JSONReplacer, JSONReviver } from './lib/parser.mjs';
 import { GameDirectory } from './lib/config.mjs';
 
@@ -39,11 +39,6 @@ let version = await (async () => {
 
 
 
-
-
-
-/*
-
 // try { await mkdir('protoSet', { recursive: true }); } catch {}
 // await writeFile('protoSet/Item.json', JSON.stringify(ItemProtoSet, JSONReplacer, '\t'));
 // await writeFile('protoSet/Recipe.json', JSON.stringify(RecipeProtoSet, JSONReplacer, '\t'));
@@ -53,10 +48,13 @@ let version = await (async () => {
 
 
 try { await mkdir('dist/data', { recursive: true }); } catch {}
+const Meta = { generatedAt: new Date(), version };
+await writeFile('dist/data/meta.json', JSON.stringify(Meta, JSONReplacer, '\t'));
 await writeFile('dist/data/items.json', JSON.stringify(Items, JSONReplacer, '\t'));
 await writeFile('dist/data/recipes.json', JSON.stringify(Recipes, JSONReplacer, '\t'));
 await writeFile('dist/data/tech.json', JSON.stringify(Tech, JSONReplacer, '\t'));
-// await writeFile('dist/data/strings.json', JSON.stringify(Strings, JSONReplacer, '\t'));
+const Strings = Languages.map(language => ({ ...language, strings: Locale[language.lcid] }));
+await writeFile('dist/data/locale.json', JSON.stringify(Strings, JSONReplacer, '\t'));
 await writeFile('dist/data/reviver.js',
 	'// Revive the JSON data\n' +
 	'// usage: const Items = JSON.parse(json, JSONReviver);\n' +
@@ -64,18 +62,6 @@ await writeFile('dist/data/reviver.js',
 	'// Replacer implementation used for stringifying JSON data originally\n' +
 	'export ' + JSONReplacer.toString()
 );
-
-
-
-
-await writeFile('dist/data/meta.json', JSON.stringify({
-	generatedAt: new Date(),
-	version,
-	// supportedLocales,
-	// supportedCanonicalLocales,
-}, JSONReplacer, '\t'));
-
-
 console.log('Finished parsing data');
 
 
@@ -452,5 +438,5 @@ await renderTextures(
 // await exportAllTextures();
 // await exportUsedTextures();
 
-// await exportSpritesheets();
-// console.log('Finished exporting spritesheets');
+await exportSpritesheets();
+console.log('Finished exporting spritesheets');

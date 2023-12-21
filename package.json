@@ -2,7 +2,7 @@
   "name": "dsp-parser",
   "version": "0.0.0",
   "scripts": {
-    "build": "node scripts/index.mjs"
+    "build": "node scripts/build.mjs"
   },
   "dependencies": {
     "puppeteer": "^19.9.0",

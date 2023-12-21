@@ -4,6 +4,7 @@
 		"name": "T戴森球计划",
 		"description": "戴森球计划描述",
 		"published": true,
+		"iconPath": "Icons/Tech/1",
 		"hashNeeded": {
 			"type": "BigInt",
 			"value": "1"
@@ -19,6 +20,7 @@
 		"description": "电磁学描述",
 		"conclusion": "电磁学结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1001",
 		"preTechs": [
 			1
 		],
@@ -64,6 +66,7 @@
 		"description": "电磁矩阵描述",
 		"conclusion": "电磁矩阵结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1002",
 		"preTechs": [
 			1001
 		],
@@ -106,6 +109,7 @@
 		"description": "高效电浆控制描述",
 		"conclusion": "高效电浆控制结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1101",
 		"isLabTech": true,
 		"preTechs": [
 			1001
@@ -142,6 +146,7 @@
 		"description": "等离子萃取精炼描述",
 		"conclusion": "等离子萃取精炼结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1102",
 		"isLabTech": true,
 		"preTechs": [
 			1120,
@@ -173,6 +178,7 @@
 		"description": "X射线裂解描述",
 		"conclusion": "X射线裂解结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1103",
 		"isLabTech": true,
 		"preTechs": [
 			1121,
@@ -204,6 +210,7 @@
 		"description": "重整精炼描述",
 		"conclusion": "重整精炼结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1104",
 		"isLabTech": true,
 		"preTechs": [
 			1103
@@ -234,6 +241,7 @@
 		"description": "能量矩阵描述",
 		"conclusion": "能量矩阵结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1111",
 		"isLabTech": true,
 		"preTechs": [
 			1102
@@ -262,6 +270,7 @@
 		"description": "氢燃料棒描述",
 		"conclusion": "氢燃料棒结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1112",
 		"isLabTech": true,
 		"preTechs": [
 			1111
@@ -290,6 +299,7 @@
 		"description": "推进器描述",
 		"conclusion": "推进器结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1113",
 		"isLabTech": true,
 		"preTechs": [
 			1112
@@ -318,6 +328,7 @@
 		"description": "加力推进器描述",
 		"conclusion": "加力推进器结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1114",
 		"isLabTech": true,
 		"preTechs": [
 			1113
@@ -346,6 +357,7 @@
 		"description": "流体储存封装描述",
 		"conclusion": "流体储存封装结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1120",
 		"isLabTech": true,
 		"preTechs": [
 			1001
@@ -381,6 +393,7 @@
 		"description": "基础化工描述",
 		"conclusion": "基础化工结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1121",
 		"isLabTech": true,
 		"preTechs": [
 			1120,
@@ -412,6 +425,7 @@
 		"description": "高分子化工描述",
 		"conclusion": "高分子化工结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1122",
 		"isLabTech": true,
 		"preTechs": [
 			1121
@@ -443,6 +457,7 @@
 		"description": "高强度晶体描述",
 		"conclusion": "高强度晶体结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1123",
 		"isLabTech": true,
 		"preTechs": [
 			1122
@@ -473,6 +488,7 @@
 		"description": "结构矩阵描述",
 		"conclusion": "结构矩阵结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1124",
 		"isLabTech": true,
 		"preTechs": [
 			1123
@@ -503,6 +519,7 @@
 		"description": "卡西米尔晶体描述",
 		"conclusion": "卡西米尔晶体结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1125",
 		"isLabTech": true,
 		"preTechs": [
 			1124
@@ -536,6 +553,7 @@
 		"description": "高强度玻璃描述",
 		"conclusion": "高强度玻璃结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1126",
 		"isLabTech": true,
 		"preTechs": [
 			1132
@@ -566,6 +584,7 @@
 		"description": "应用型超导体描述",
 		"conclusion": "应用型超导体结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1131",
 		"isLabTech": true,
 		"preTechs": [
 			1121
@@ -595,6 +614,7 @@
 		"description": "高强度材料描述",
 		"conclusion": "高强度材料结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1132",
 		"isLabTech": true,
 		"preTechs": [
 			1131
@@ -626,6 +646,7 @@
 		"description": "粒子可控技术描述",
 		"conclusion": "粒子可控技术结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1133",
 		"isLabTech": true,
 		"preTechs": [
 			1132
@@ -659,6 +680,7 @@
 		"description": "重氢分馏描述",
 		"conclusion": "重氢分馏结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1134",
 		"isLabTech": true,
 		"preTechs": [
 			1412,
@@ -691,6 +713,7 @@
 		"description": "波函数干扰描述",
 		"conclusion": "波函数干扰结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1141",
 		"isLabTech": true,
 		"preTechs": [
 			1126,
@@ -724,6 +747,7 @@
 		"description": "微型粒子对撞机描述",
 		"conclusion": "微型粒子对撞机结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1142",
 		"isLabTech": true,
 		"preTechs": [
 			1124
@@ -757,6 +781,7 @@
 		"description": "奇异物质描述",
 		"conclusion": "奇异物质结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1143",
 		"isLabTech": true,
 		"preTechs": [
 			1142
@@ -789,6 +814,7 @@
 		"description": "人造恒星描述",
 		"conclusion": "人造恒星结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1144",
 		"isLabTech": true,
 		"preTechs": [
 			1145
@@ -825,6 +851,7 @@
 		"description": "可控湮灭反应描述",
 		"conclusion": "可控湮灭反应结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1145",
 		"isLabTech": true,
 		"preTechs": [
 			1506
@@ -856,6 +883,7 @@
 		"description": "增产剂 Mk.I描述",
 		"conclusion": "增产剂 Mk.I结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1151",
 		"isLabTech": true,
 		"preTechs": [
 			1311,
@@ -886,6 +914,7 @@
 		"description": "增产剂 Mk.II描述",
 		"conclusion": "增产剂 Mk.II结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1152",
 		"isLabTech": true,
 		"preTechs": [
 			1302,
@@ -917,6 +946,7 @@
 		"description": "增产剂 Mk.III描述",
 		"conclusion": "增产剂 Mk.III结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1153",
 		"isLabTech": true,
 		"preTechs": [
 			1152,
@@ -950,6 +980,7 @@
 		"description": "基础制造工艺描述",
 		"conclusion": "基础制造工艺结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1201",
 		"preTechs": [
 			1001
 		],
@@ -991,6 +1022,7 @@
 		"description": "高速制造工艺描述",
 		"conclusion": "高速制造工艺结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1202",
 		"isLabTech": true,
 		"preTechs": [
 			1201,
@@ -1040,6 +1072,7 @@
 		"description": "量子打印技术描述",
 		"conclusion": "量子打印技术结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1203",
 		"isLabTech": true,
 		"preTechs": [
 			1202,
@@ -1093,6 +1126,7 @@
 		"description": "处理器描述",
 		"conclusion": "处理器结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1302",
 		"isLabTech": true,
 		"preTechs": [
 			1311
@@ -1121,6 +1155,7 @@
 		"description": "量子芯片描述",
 		"conclusion": "量子芯片结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1303",
 		"isLabTech": true,
 		"preTechs": [
 			1312,
@@ -1154,6 +1189,7 @@
 		"description": "大型采矿机描述",
 		"conclusion": "大型采矿机结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1304",
 		"isLabTech": true,
 		"preTechs": [
 			1303
@@ -1190,6 +1226,7 @@
 		"description": "高级化工描述",
 		"conclusion": "高级化工结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1305",
 		"isLabTech": true,
 		"preTechs": [
 			1303,
@@ -1225,6 +1262,7 @@
 		"description": "半导体材料描述",
 		"conclusion": "半导体材料结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1311",
 		"isLabTech": true,
 		"preTechs": [
 			1201
@@ -1253,6 +1291,7 @@
 		"description": "信息矩阵描述",
 		"conclusion": "信息矩阵结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1312",
 		"isLabTech": true,
 		"preTechs": [
 			1302,
@@ -1284,6 +1323,7 @@
 		"description": "自动化冶金描述",
 		"conclusion": "自动化冶金结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1401",
 		"preTechs": [
 			1001
 		],
@@ -1326,6 +1366,7 @@
 		"description": "冶炼提纯描述",
 		"conclusion": "冶炼提纯结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1402",
 		"isLabTech": true,
 		"preTechs": [
 			1401
@@ -1356,6 +1397,7 @@
 		"description": "晶体冶炼描述",
 		"conclusion": "晶体冶炼结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1403",
 		"isLabTech": true,
 		"preTechs": [
 			1402
@@ -1388,6 +1430,7 @@
 		"description": "钢材冶炼描述",
 		"conclusion": "钢材冶炼结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1411",
 		"isLabTech": true,
 		"preTechs": [
 			1401
@@ -1434,6 +1477,7 @@
 		"description": "火力发电描述",
 		"conclusion": "火力发电结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1412",
 		"isLabTech": true,
 		"preTechs": [
 			1201
@@ -1468,6 +1512,7 @@
 		"description": "钛矿冶炼描述",
 		"conclusion": "钛矿冶炼结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1413",
 		"isLabTech": true,
 		"preTechs": [
 			1411
@@ -1498,6 +1543,7 @@
 		"description": "高强度钛合金描述",
 		"conclusion": "高强度钛合金结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1414",
 		"isLabTech": true,
 		"preTechs": [
 			1413
@@ -1530,6 +1576,7 @@
 		"description": "移山填海工程描述",
 		"conclusion": "移山填海工程结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1415",
 		"isLabTech": true,
 		"preTechs": [
 			1411
@@ -1558,6 +1605,7 @@
 		"description": "微型核聚变发电描述",
 		"conclusion": "微型核聚变发电结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1416",
 		"isLabTech": true,
 		"preTechs": [
 			1134
@@ -1594,6 +1642,7 @@
 		"description": "位面冶金描述",
 		"conclusion": "位面冶金结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1417",
 		"isLabTech": true,
 		"preTechs": [
 			1141
@@ -1631,6 +1680,7 @@
 		"description": "太阳能收集描述",
 		"conclusion": "太阳能收集结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1501",
 		"isLabTech": true,
 		"preTechs": [
 			1402,
@@ -1667,6 +1717,7 @@
 		"description": "光子变频描述",
 		"conclusion": "光子变频结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1502",
 		"isLabTech": true,
 		"preTechs": [
 			1501
@@ -1698,6 +1749,7 @@
 		"description": "太阳帆轨道系统描述",
 		"conclusion": "太阳帆轨道系统结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1503",
 		"isLabTech": true,
 		"preTechs": [
 			1502
@@ -1732,6 +1784,7 @@
 		"description": "射线接收站描述",
 		"conclusion": "射线接收站结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1504",
 		"isLabTech": true,
 		"preTechs": [
 			1503
@@ -1762,6 +1815,7 @@
 		"description": "行星电离层利用描述",
 		"conclusion": "行星电离层利用结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1505",
 		"isLabTech": true,
 		"preTechs": [
 			1504
@@ -1814,6 +1868,7 @@
 		"description": "狄拉克逆变机制描述",
 		"conclusion": "狄拉克逆变机制结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1506",
 		"isLabTech": true,
 		"preTechs": [
 			1505
@@ -1850,6 +1905,7 @@
 		"description": "宇宙矩阵描述",
 		"conclusion": "宇宙矩阵结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1507",
 		"isLabTech": true,
 		"preTechs": [
 			1506
@@ -1886,6 +1942,7 @@
 		"description": "任务完成描述",
 		"conclusion": "任务完成结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1508",
 		"isLabTech": true,
 		"preTechs": [
 			1507
@@ -1929,6 +1986,7 @@
 		"description": "能量储存描述",
 		"conclusion": "能量储存结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1511",
 		"isLabTech": true,
 		"preTechs": [
 			1403,
@@ -1963,6 +2021,7 @@
 		"description": "星际电力运输描述",
 		"conclusion": "星际电力运输结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1512",
 		"isLabTech": true,
 		"preTechs": [
 			1414,
@@ -1996,6 +2055,7 @@
 		"description": "地热开采描述",
 		"conclusion": "地热开采结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1513",
 		"isLabTech": true,
 		"preTechs": [
 			1502
@@ -2029,6 +2089,7 @@
 		"description": "高强度轻质结构描述",
 		"conclusion": "高强度轻质结构结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1521",
 		"isLabTech": true,
 		"preTechs": [
 			1503
@@ -2063,6 +2124,7 @@
 		"description": "垂直发射井描述",
 		"conclusion": "垂直发射井结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1522",
 		"isLabTech": true,
 		"preTechs": [
 			1521
@@ -2104,6 +2166,7 @@
 		"level": 1,
 		"maxLevel": 6,
 		"levelCoef1": 180000,
+		"iconPath": "Icons/Tech/1523",
 		"isLabTech": true,
 		"preTechs": [
 			1522
@@ -2155,6 +2218,7 @@
 		"description": "基础物流系统描述",
 		"conclusion": "基础物流系统结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1601",
 		"preTechs": [
 			1001
 		],
@@ -2200,6 +2264,7 @@
 		"description": "改良物流系统描述",
 		"conclusion": "改良物流系统结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1602",
 		"isLabTech": true,
 		"preTechs": [
 			1601
@@ -2240,6 +2305,7 @@
 		"description": "高效物流系统描述",
 		"conclusion": "高效物流系统结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1603",
 		"isLabTech": true,
 		"preTechs": [
 			1602
@@ -2275,6 +2341,7 @@
 		"description": "行星物流系统描述",
 		"conclusion": "行星物流系统结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1604",
 		"isLabTech": true,
 		"preTechs": [
 			1603
@@ -2311,6 +2378,7 @@
 		"description": "星际物流系统描述",
 		"conclusion": "星际物流系统结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1605",
 		"isLabTech": true,
 		"preTechs": [
 			1604,
@@ -2348,6 +2416,7 @@
 		"description": "气态行星开采描述",
 		"conclusion": "气态行星开采结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1606",
 		"isLabTech": true,
 		"preTechs": [
 			1605,
@@ -2381,6 +2450,7 @@
 		"description": "集装物流系统描述",
 		"conclusion": "集装物流系统结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1607",
 		"isLabTech": true,
 		"preTechs": [
 			1603
@@ -2416,6 +2486,7 @@
 		"description": "配送物流系统描述",
 		"conclusion": "配送物流系统结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1608",
 		"isLabTech": true,
 		"preTechs": [
 			1602
@@ -2468,6 +2539,7 @@
 		"description": "电磁驱动描述",
 		"conclusion": "电磁驱动结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1701",
 		"isLabTech": true,
 		"preTechs": [
 			1001
@@ -2496,6 +2568,7 @@
 		"description": "磁悬浮技术描述",
 		"conclusion": "磁悬浮技术结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1702",
 		"isLabTech": true,
 		"preTechs": [
 			1701
@@ -2526,6 +2599,7 @@
 		"description": "粒子磁力阱描述",
 		"conclusion": "粒子磁力阱结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1703",
 		"isLabTech": true,
 		"preTechs": [
 			1702
@@ -2557,6 +2631,7 @@
 		"description": "引力波折射描述",
 		"conclusion": "引力波折射结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1704",
 		"isLabTech": true,
 		"preTechs": [
 			1143,
@@ -2591,6 +2666,7 @@
 		"description": "引力矩阵描述",
 		"conclusion": "引力矩阵结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1705",
 		"isLabTech": true,
 		"preTechs": [
 			1303,
@@ -2625,6 +2701,7 @@
 		"description": "超级磁场发生器描述",
 		"conclusion": "超级磁场发生器结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1711",
 		"isLabTech": true,
 		"preTechs": [
 			1702
@@ -2655,6 +2732,7 @@
 		"description": "卫星配电系统描述",
 		"conclusion": "卫星配电系统结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1712",
 		"isLabTech": true,
 		"preTechs": [
 			1711
@@ -2690,6 +2768,7 @@
 		"description": "武器系统描述",
 		"conclusion": "武器系统结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1801",
 		"isLabTech": true,
 		"preTechs": [
 			1001
@@ -2728,6 +2807,7 @@
 		"description": "燃烧单元描述",
 		"conclusion": "燃烧单元结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1802",
 		"isLabTech": true,
 		"preTechs": [
 			1401
@@ -2756,6 +2836,7 @@
 		"description": "爆破单元描述",
 		"conclusion": "爆破单元结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1803",
 		"isLabTech": true,
 		"preTechs": [
 			1123
@@ -2786,6 +2867,7 @@
 		"description": "晶石爆破单元描述",
 		"conclusion": "晶石爆破单元结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1804",
 		"isLabTech": true,
 		"preTechs": [
 			1125
@@ -2820,6 +2902,7 @@
 		"description": "动力引擎描述",
 		"conclusion": "动力引擎结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1805",
 		"isLabTech": true,
 		"preTechs": [
 			1001
@@ -2848,6 +2931,7 @@
 		"description": "导弹防御塔描述",
 		"conclusion": "导弹防御塔结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1806",
 		"isLabTech": true,
 		"preTechs": [
 			1805,
@@ -2881,6 +2965,7 @@
 		"description": "聚爆加农炮描述",
 		"conclusion": "聚爆加农炮结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1807",
 		"isLabTech": true,
 		"preTechs": [
 			1806
@@ -2915,6 +3000,7 @@
 		"description": "信号塔描述",
 		"conclusion": "信号塔结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1808",
 		"isLabTech": true,
 		"preTechs": [
 			1806
@@ -2948,6 +3034,7 @@
 		"description": "行星防御系统描述",
 		"conclusion": "行星防御系统结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1809",
 		"isLabTech": true,
 		"preTechs": [
 			1807
@@ -2982,6 +3069,7 @@
 		"description": "磁化电浆炮描述",
 		"conclusion": "磁化电浆炮结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1811",
 		"isLabTech": true,
 		"preTechs": [
 			1809
@@ -3020,6 +3108,7 @@
 		"description": "钛化弹箱描述",
 		"conclusion": "钛化弹箱结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1812",
 		"isLabTech": true,
 		"preTechs": [
 			1801
@@ -3053,6 +3142,7 @@
 		"description": "超合金弹箱描述",
 		"conclusion": "超合金弹箱结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1813",
 		"isLabTech": true,
 		"preTechs": [
 			1812
@@ -3088,6 +3178,7 @@
 		"description": "高爆炮弹组描述",
 		"conclusion": "高爆炮弹组结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1814",
 		"isLabTech": true,
 		"preTechs": [
 			1807
@@ -3121,6 +3212,7 @@
 		"description": "超音速导弹组描述",
 		"conclusion": "超音速导弹组结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1815",
 		"isLabTech": true,
 		"preTechs": [
 			1814
@@ -3156,6 +3248,7 @@
 		"description": "晶石炮弹组描述",
 		"conclusion": "晶石炮弹组结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1816",
 		"isLabTech": true,
 		"preTechs": [
 			1815
@@ -3193,6 +3286,7 @@
 		"description": "引力导弹组描述",
 		"conclusion": "引力导弹组结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1817",
 		"isLabTech": true,
 		"preTechs": [
 			1816
@@ -3232,6 +3326,7 @@
 		"description": "反物质胶囊描述",
 		"conclusion": "反物质胶囊结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1818",
 		"isLabTech": true,
 		"preTechs": [
 			1145,
@@ -3269,6 +3364,7 @@
 		"description": "地面战斗机-E型描述",
 		"conclusion": "地面战斗机-E型结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1819",
 		"isLabTech": true,
 		"preTechs": [
 			1826
@@ -3332,6 +3428,7 @@
 		"description": "地面战斗机-A型描述",
 		"conclusion": "地面战斗机-A型结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1820",
 		"isLabTech": true,
 		"preTechs": [
 			1819
@@ -3365,6 +3462,7 @@
 		"description": "地面战斗机-F型描述",
 		"conclusion": "地面战斗机-F型结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1821",
 		"isLabTech": true,
 		"preTechs": [
 			1819
@@ -3400,6 +3498,7 @@
 		"description": "太空战斗机-A型描述",
 		"conclusion": "太空战斗机-A型结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1822",
 		"isLabTech": true,
 		"preTechs": [
 			1809,
@@ -3467,6 +3566,7 @@
 		"description": "太空战斗机-F型描述",
 		"conclusion": "太空战斗机-F型结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1823",
 		"isLabTech": true,
 		"preTechs": [
 			1822,
@@ -3504,6 +3604,7 @@
 		"description": "战场分析基站描述",
 		"conclusion": "战场分析基站结果",
 		"published": true,
+		"iconPath": "Icons/Tech/1826",
 		"isLabTech": true,
 		"preTechs": [
 			1801,
@@ -3537,6 +3638,7 @@
 		"preItem": [
 			5202
 		],
+		"iconPath": "Icons/Tech/1901",
 		"preTechs": [
 			1312
 		],
@@ -3568,6 +3670,7 @@
 		"preItem": [
 			5203
 		],
+		"iconPath": "Icons/Tech/1902",
 		"preTechs": [
 			1203
 		],
@@ -3599,6 +3702,7 @@
 		"preItem": [
 			5204
 		],
+		"iconPath": "Icons/Tech/1903",
 		"preTechs": [
 			1417
 		],
@@ -3630,6 +3734,7 @@
 		"preItem": [
 			5205
 		],
+		"iconPath": "Icons/Tech/1904",
 		"preTechs": [
 			1145
 		],
@@ -3659,6 +3764,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/2101",
 		"items": [
 			1101,
 			1104
@@ -3736,6 +3842,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/2102",
 		"isLabTech": true,
 		"preTechs": [
 			2101
@@ -3825,6 +3932,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/2103",
 		"isLabTech": true,
 		"preTechs": [
 			2102
@@ -3916,6 +4024,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/2104",
 		"isLabTech": true,
 		"preTechs": [
 			2103
@@ -4009,6 +4118,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/2105",
 		"isLabTech": true,
 		"preTechs": [
 			2104
@@ -4106,6 +4216,7 @@
 		"maxLevel": 10000,
 		"levelCoef1": -8100000,
 		"levelCoef2": 900000,
+		"iconPath": "Icons/Tech/2106",
 		"isLabTech": true,
 		"preTechs": [
 			2105
@@ -4179,6 +4290,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/2201",
 		"preTechsImplicit": [
 			2101
 		],
@@ -4229,6 +4341,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/2202",
 		"isLabTech": true,
 		"preTechs": [
 			2201
@@ -4279,6 +4392,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/2203",
 		"isLabTech": true,
 		"preTechs": [
 			2202
@@ -4329,6 +4443,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/2204",
 		"isLabTech": true,
 		"preTechs": [
 			2203
@@ -4381,6 +4496,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/2205",
 		"isLabTech": true,
 		"preTechs": [
 			2204
@@ -4433,6 +4549,7 @@
 		"published": true,
 		"level": 6,
 		"maxLevel": 6,
+		"iconPath": "Icons/Tech/2206",
 		"isLabTech": true,
 		"preTechs": [
 			2205
@@ -4487,6 +4604,7 @@
 		"published": true,
 		"level": 7,
 		"maxLevel": 7,
+		"iconPath": "Icons/Tech/2207",
 		"isLabTech": true,
 		"preTechs": [
 			2206
@@ -4541,6 +4659,7 @@
 		"published": true,
 		"level": 8,
 		"maxLevel": 8,
+		"iconPath": "Icons/Tech/2208",
 		"isLabTech": true,
 		"preTechs": [
 			2207
@@ -4597,6 +4716,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/2301",
 		"preTechsImplicit": [
 			2101
 		],
@@ -4649,6 +4769,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/2302",
 		"isLabTech": true,
 		"preTechs": [
 			2301
@@ -4699,6 +4820,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/2303",
 		"isLabTech": true,
 		"preTechs": [
 			2302
@@ -4765,6 +4887,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/2304",
 		"isLabTech": true,
 		"preTechs": [
 			2303
@@ -4845,6 +4968,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/2305",
 		"isLabTech": true,
 		"preTechs": [
 			2304
@@ -4911,6 +5035,7 @@
 		"published": true,
 		"level": 6,
 		"maxLevel": 6,
+		"iconPath": "Icons/Tech/2306",
 		"isLabTech": true,
 		"preTechs": [
 			2305
@@ -4981,6 +5106,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/2401",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			2101
@@ -5026,6 +5152,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/2402",
 		"isLabTech": true,
 		"preTechs": [
 			2401
@@ -5076,6 +5203,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/2403",
 		"isLabTech": true,
 		"preTechs": [
 			2402
@@ -5126,6 +5254,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/2404",
 		"isLabTech": true,
 		"preTechs": [
 			2403
@@ -5178,6 +5307,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/2405",
 		"isLabTech": true,
 		"preTechs": [
 			2404
@@ -5232,6 +5362,7 @@
 		"published": true,
 		"level": 6,
 		"maxLevel": 6,
+		"iconPath": "Icons/Tech/2406",
 		"isLabTech": true,
 		"preTechs": [
 			2405
@@ -5290,6 +5421,7 @@
 		"maxLevel": 10000,
 		"levelCoef1": -21600000,
 		"levelCoef2": 1800000,
+		"iconPath": "Icons/Tech/2407",
 		"isLabTech": true,
 		"preTechs": [
 			2406
@@ -5338,6 +5470,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/2501",
 		"preTechsImplicit": [
 			2101
 		],
@@ -5392,6 +5525,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/2502",
 		"isLabTech": true,
 		"preTechs": [
 			2501
@@ -5442,6 +5576,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/2503",
 		"isLabTech": true,
 		"preTechs": [
 			2502
@@ -5494,6 +5629,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/2504",
 		"isLabTech": true,
 		"preTechs": [
 			2503
@@ -5546,6 +5682,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/2505",
 		"isLabTech": true,
 		"preTechs": [
 			2504
@@ -5604,6 +5741,7 @@
 		"maxLevel": 10000,
 		"levelCoef1": -16200000,
 		"levelCoef2": 1800000,
+		"iconPath": "Icons/Tech/2506",
 		"isLabTech": true,
 		"preTechs": [
 			2505
@@ -5652,6 +5790,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/2601",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			2101
@@ -5697,6 +5836,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/2602",
 		"isLabTech": true,
 		"preTechs": [
 			2601
@@ -5747,6 +5887,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/2603",
 		"isLabTech": true,
 		"preTechs": [
 			2602
@@ -5799,6 +5940,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/2604",
 		"isLabTech": true,
 		"preTechs": [
 			2603
@@ -5853,6 +5995,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/2605",
 		"isLabTech": true,
 		"preTechs": [
 			2604
@@ -5911,6 +6054,7 @@
 		"maxLevel": 24,
 		"levelCoef1": -18000000,
 		"levelCoef2": 1800000,
+		"iconPath": "Icons/Tech/2606",
 		"isLabTech": true,
 		"preTechs": [
 			2605
@@ -5959,6 +6103,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/2701",
 		"preTechsImplicit": [
 			2101
 		],
@@ -6009,6 +6154,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/2702",
 		"isLabTech": true,
 		"preTechs": [
 			2701
@@ -6057,6 +6203,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/2703",
 		"isLabTech": true,
 		"preTechs": [
 			2702
@@ -6107,6 +6254,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/2704",
 		"isLabTech": true,
 		"preTechs": [
 			2703
@@ -6159,6 +6307,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/2705",
 		"isLabTech": true,
 		"preTechs": [
 			2704
@@ -6213,6 +6362,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/2801",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1001
@@ -6286,6 +6436,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/2802",
 		"isLabTech": true,
 		"preTechs": [
 			2801
@@ -6350,6 +6501,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/2803",
 		"isLabTech": true,
 		"preTechs": [
 			2802
@@ -6416,6 +6568,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/2804",
 		"isLabTech": true,
 		"preTechs": [
 			2803
@@ -6481,6 +6634,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/2805",
 		"isLabTech": true,
 		"preTechs": [
 			2804
@@ -6553,6 +6707,7 @@
 		"maxLevel": 25,
 		"levelCoef1": -8100000,
 		"levelCoef2": 900000,
+		"iconPath": "Icons/Tech/2806",
 		"isLabTech": true,
 		"preTechs": [
 			2805
@@ -6617,6 +6772,7 @@
 		"maxLevel": 10000,
 		"levelCoef1": -8100000,
 		"levelCoef2": 900000,
+		"iconPath": "Icons/Tech/2807",
 		"isLabTech": true,
 		"preTechs": [
 			2806
@@ -6662,6 +6818,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/2901",
 		"preTechsImplicit": [
 			2101
 		],
@@ -6714,6 +6871,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/2902",
 		"isLabTech": true,
 		"preTechs": [
 			2901
@@ -6764,6 +6922,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/2903",
 		"isLabTech": true,
 		"preTechs": [
 			2902
@@ -6816,6 +6975,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/2904",
 		"isLabTech": true,
 		"preTechs": [
 			2903
@@ -6869,6 +7029,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/2904",
 		"isLabTech": true,
 		"preTechs": [
 			2904
@@ -6922,6 +7083,7 @@
 		"maxLevel": 100,
 		"levelCoef1": -1800000,
 		"levelCoef2": 360000,
+		"iconPath": "Icons/Tech/2904",
 		"isLabTech": true,
 		"preTechs": [
 			2905
@@ -6963,6 +7125,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/2951",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			2101
@@ -7008,6 +7171,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/2952",
 		"isLabTech": true,
 		"preTechs": [
 			2951
@@ -7055,6 +7219,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/2953",
 		"isLabTech": true,
 		"preTechs": [
 			2952
@@ -7104,6 +7269,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/2954",
 		"isLabTech": true,
 		"preTechs": [
 			2953
@@ -7155,6 +7321,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/2955",
 		"isLabTech": true,
 		"preTechs": [
 			2954
@@ -7208,6 +7375,7 @@
 		"published": true,
 		"level": 6,
 		"maxLevel": 6,
+		"iconPath": "Icons/Tech/2956",
 		"isLabTech": true,
 		"preTechs": [
 			2955
@@ -7253,6 +7421,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/3101",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1503
@@ -7302,6 +7471,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/3102",
 		"isLabTech": true,
 		"preTechs": [
 			3101
@@ -7351,6 +7521,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/3103",
 		"isLabTech": true,
 		"preTechs": [
 			3102
@@ -7400,6 +7571,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/3104",
 		"isLabTech": true,
 		"preTechs": [
 			3103
@@ -7451,6 +7623,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/3105",
 		"isLabTech": true,
 		"preTechs": [
 			3104
@@ -7502,6 +7675,7 @@
 		"published": true,
 		"level": 6,
 		"maxLevel": 6,
+		"iconPath": "Icons/Tech/3106",
 		"isLabTech": true,
 		"preTechs": [
 			3105
@@ -7553,6 +7727,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/3201",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1504
@@ -7602,6 +7777,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/3202",
 		"isLabTech": true,
 		"preTechs": [
 			3201
@@ -7651,6 +7827,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/3203",
 		"isLabTech": true,
 		"preTechs": [
 			3202
@@ -7700,6 +7877,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/3204",
 		"isLabTech": true,
 		"preTechs": [
 			3203
@@ -7751,6 +7929,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/3205",
 		"isLabTech": true,
 		"preTechs": [
 			3204
@@ -7802,6 +7981,7 @@
 		"published": true,
 		"level": 6,
 		"maxLevel": 6,
+		"iconPath": "Icons/Tech/3206",
 		"isLabTech": true,
 		"preTechs": [
 			3205
@@ -7855,6 +8035,7 @@
 		"published": true,
 		"level": 7,
 		"maxLevel": 7,
+		"iconPath": "Icons/Tech/3207",
 		"isLabTech": true,
 		"preTechs": [
 			3206
@@ -7909,6 +8090,7 @@
 		"level": 8,
 		"maxLevel": 10000,
 		"levelCoef1": 1800000,
+		"iconPath": "Icons/Tech/3208",
 		"isLabTech": true,
 		"preTechs": [
 			3207
@@ -7954,6 +8136,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/3301",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1603
@@ -8003,6 +8186,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/3302",
 		"isLabTech": true,
 		"preTechs": [
 			3301
@@ -8052,6 +8236,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/3303",
 		"isLabTech": true,
 		"preTechs": [
 			3302
@@ -8101,6 +8286,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/3304",
 		"isLabTech": true,
 		"preTechs": [
 			3303
@@ -8150,6 +8336,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/3305",
 		"isLabTech": true,
 		"preTechs": [
 			3304
@@ -8199,6 +8386,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/4001",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1608
@@ -8246,6 +8434,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/4002",
 		"isLabTech": true,
 		"preTechs": [
 			4001
@@ -8295,6 +8484,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/4003",
 		"isLabTech": true,
 		"preTechs": [
 			4002
@@ -8344,6 +8534,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/4004",
 		"isLabTech": true,
 		"preTechs": [
 			4003
@@ -8395,6 +8586,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/4005",
 		"isLabTech": true,
 		"preTechs": [
 			4004
@@ -8448,6 +8640,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/3401",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1604
@@ -8511,6 +8704,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/3402",
 		"isLabTech": true,
 		"preTechs": [
 			3401
@@ -8574,6 +8768,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/3403",
 		"isLabTech": true,
 		"preTechs": [
 			3402
@@ -8654,6 +8849,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/3404",
 		"isLabTech": true,
 		"preTechs": [
 			3403
@@ -8750,6 +8946,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/3405",
 		"isLabTech": true,
 		"preTechs": [
 			3404
@@ -8831,6 +9028,7 @@
 		"published": true,
 		"level": 6,
 		"maxLevel": 6,
+		"iconPath": "Icons/Tech/3406",
 		"isLabTech": true,
 		"preTechs": [
 			3405
@@ -8914,6 +9112,7 @@
 		"maxLevel": 10000,
 		"levelCoef1": -21600000,
 		"levelCoef2": 1800000,
+		"iconPath": "Icons/Tech/3407",
 		"isLabTech": true,
 		"preTechs": [
 			3406
@@ -8987,6 +9186,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/3501",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1604
@@ -9050,6 +9250,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/3502",
 		"isLabTech": true,
 		"preTechs": [
 			3501
@@ -9113,6 +9314,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/3503",
 		"isLabTech": true,
 		"preTechs": [
 			3502
@@ -9193,6 +9395,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/3504",
 		"isLabTech": true,
 		"preTechs": [
 			3503
@@ -9270,6 +9473,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/3505",
 		"isLabTech": true,
 		"preTechs": [
 			3504
@@ -9349,6 +9553,7 @@
 		"published": true,
 		"level": 6,
 		"maxLevel": 6,
+		"iconPath": "Icons/Tech/3506",
 		"isLabTech": true,
 		"preTechs": [
 			3505
@@ -9428,6 +9633,7 @@
 		"published": true,
 		"level": 7,
 		"maxLevel": 7,
+		"iconPath": "Icons/Tech/3507",
 		"isLabTech": true,
 		"preTechs": [
 			3506
@@ -9509,6 +9715,7 @@
 		"published": true,
 		"level": 8,
 		"maxLevel": 8,
+		"iconPath": "Icons/Tech/3508",
 		"isLabTech": true,
 		"preTechs": [
 			3507
@@ -9577,6 +9784,7 @@
 		"level": 9,
 		"maxLevel": 11,
 		"levelCoef1": 2400000,
+		"iconPath": "Icons/Tech/3509",
 		"isLabTech": true,
 		"preTechs": [
 			3508
@@ -9665,6 +9873,7 @@
 		"level": 12,
 		"maxLevel": 13,
 		"levelCoef1": 4800000,
+		"iconPath": "Icons/Tech/3510",
 		"isLabTech": true,
 		"preTechs": [
 			3509
@@ -9752,6 +9961,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/3801",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			3508
@@ -9797,6 +10007,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/3802",
 		"isLabTech": true,
 		"preTechs": [
 			3801
@@ -9846,6 +10057,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/3803",
 		"isLabTech": true,
 		"preTechs": [
 			3802
@@ -9895,6 +10107,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/3601",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1001
@@ -9956,6 +10169,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/3602",
 		"isLabTech": true,
 		"preTechs": [
 			3601
@@ -10019,6 +10233,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/3603",
 		"isLabTech": true,
 		"preTechs": [
 			3602
@@ -10084,6 +10299,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/3604",
 		"isLabTech": true,
 		"preTechs": [
 			3603
@@ -10149,6 +10365,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/3605",
 		"isLabTech": true,
 		"preTechs": [
 			3604
@@ -10217,6 +10434,7 @@
 		"level": 6,
 		"maxLevel": 10000,
 		"levelCoef1": 3600000,
+		"iconPath": "Icons/Tech/3606",
 		"isLabTech": true,
 		"preTechs": [
 			3605
@@ -10276,6 +10494,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/3701",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1601
@@ -10335,6 +10554,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/3702",
 		"isLabTech": true,
 		"preTechs": [
 			3701
@@ -10394,6 +10614,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/3703",
 		"isLabTech": true,
 		"preTechs": [
 			3702
@@ -10455,6 +10676,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/3704",
 		"isLabTech": true,
 		"preTechs": [
 			3703
@@ -10518,6 +10740,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/3705",
 		"isLabTech": true,
 		"preTechs": [
 			3704
@@ -10581,6 +10804,7 @@
 		"published": true,
 		"level": 6,
 		"maxLevel": 6,
+		"iconPath": "Icons/Tech/3706",
 		"isLabTech": true,
 		"preTechs": [
 			3705
@@ -10646,6 +10870,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/3901",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1312
@@ -10691,6 +10916,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/3902",
 		"isLabTech": true,
 		"preTechs": [
 			3901
@@ -10736,6 +10962,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/3903",
 		"isLabTech": true,
 		"preTechs": [
 			3902
@@ -10782,6 +11009,7 @@
 		"level": 4,
 		"maxLevel": 10000,
 		"levelCoef1": 14400000,
+		"iconPath": "Icons/Tech/3904",
 		"isLabTech": true,
 		"preTechs": [
 			3903
@@ -10827,6 +11055,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/4101",
 		"isLabTech": true,
 		"items": [
 			6001
@@ -10869,6 +11098,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/4102",
 		"isLabTech": true,
 		"preTechs": [
 			4101
@@ -10914,6 +11144,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/4103",
 		"isLabTech": true,
 		"preTechs": [
 			4102
@@ -10966,6 +11197,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/4104",
 		"isLabTech": true,
 		"preTechs": [
 			4103
@@ -11017,6 +11249,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/5001",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1801
@@ -11062,6 +11295,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/5002",
 		"isLabTech": true,
 		"preTechs": [
 			5001
@@ -11109,6 +11343,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/5003",
 		"isLabTech": true,
 		"preTechs": [
 			5002
@@ -11158,6 +11393,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/5004",
 		"isLabTech": true,
 		"preTechs": [
 			5003
@@ -11209,6 +11445,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/5005",
 		"isLabTech": true,
 		"preTechs": [
 			5004
@@ -11264,6 +11501,7 @@
 		"maxLevel": 10000,
 		"levelCoef1": -16200000,
 		"levelCoef2": 1800000,
+		"iconPath": "Icons/Tech/5006",
 		"isLabTech": true,
 		"preTechs": [
 			5005
@@ -11309,6 +11547,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/5101",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1801
@@ -11354,6 +11593,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/5102",
 		"isLabTech": true,
 		"preTechs": [
 			5101
@@ -11401,6 +11641,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/5103",
 		"isLabTech": true,
 		"preTechs": [
 			5102
@@ -11450,6 +11691,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/5104",
 		"isLabTech": true,
 		"preTechs": [
 			5103
@@ -11501,6 +11743,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/5105",
 		"isLabTech": true,
 		"preTechs": [
 			5104
@@ -11556,6 +11799,7 @@
 		"maxLevel": 10000,
 		"levelCoef1": -16200000,
 		"levelCoef2": 1800000,
+		"iconPath": "Icons/Tech/5106",
 		"isLabTech": true,
 		"preTechs": [
 			5105
@@ -11601,6 +11845,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/5201",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1802
@@ -11646,6 +11891,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/5202",
 		"isLabTech": true,
 		"preTechs": [
 			5201
@@ -11693,6 +11939,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/5203",
 		"isLabTech": true,
 		"preTechs": [
 			5202
@@ -11742,6 +11989,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/5204",
 		"isLabTech": true,
 		"preTechs": [
 			5203
@@ -11793,6 +12041,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/5205",
 		"isLabTech": true,
 		"preTechs": [
 			5204
@@ -11848,6 +12097,7 @@
 		"maxLevel": 10000,
 		"levelCoef1": -16200000,
 		"levelCoef2": 1800000,
+		"iconPath": "Icons/Tech/5206",
 		"isLabTech": true,
 		"preTechs": [
 			5205
@@ -11893,6 +12143,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/5301",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1819
@@ -11940,6 +12191,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/5302",
 		"isLabTech": true,
 		"preTechs": [
 			5301
@@ -11989,6 +12241,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/5303",
 		"isLabTech": true,
 		"preTechs": [
 			5302
@@ -12054,6 +12307,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/5304",
 		"isLabTech": true,
 		"preTechs": [
 			5303
@@ -12123,6 +12377,7 @@
 		"maxLevel": 10000,
 		"levelCoef1": -16200000,
 		"levelCoef2": 1800000,
+		"iconPath": "Icons/Tech/5305",
 		"isLabTech": true,
 		"preTechs": [
 			5304
@@ -12182,6 +12437,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/5401",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1819
@@ -12229,6 +12485,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/5402",
 		"isLabTech": true,
 		"preTechs": [
 			5401
@@ -12278,6 +12535,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/5403",
 		"isLabTech": true,
 		"preTechs": [
 			5402
@@ -12343,6 +12601,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/5404",
 		"isLabTech": true,
 		"preTechs": [
 			5403
@@ -12410,6 +12669,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/5405",
 		"isLabTech": true,
 		"preTechs": [
 			5404
@@ -12469,6 +12729,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/5601",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1819
@@ -12516,6 +12777,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/5602",
 		"isLabTech": true,
 		"preTechs": [
 			5601
@@ -12565,6 +12827,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/5603",
 		"isLabTech": true,
 		"preTechs": [
 			5602
@@ -12630,6 +12893,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/5604",
 		"isLabTech": true,
 		"preTechs": [
 			5603
@@ -12697,6 +12961,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/5605",
 		"isLabTech": true,
 		"preTechs": [
 			5604
@@ -12756,6 +13021,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/5701",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1809
@@ -12805,6 +13071,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/5702",
 		"isLabTech": true,
 		"preTechs": [
 			5701
@@ -12854,6 +13121,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/5703",
 		"isLabTech": true,
 		"preTechs": [
 			5702
@@ -12905,6 +13173,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/5704",
 		"isLabTech": true,
 		"preTechs": [
 			5703
@@ -12958,6 +13227,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/5705",
 		"isLabTech": true,
 		"preTechs": [
 			5704
@@ -13003,6 +13273,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/5801",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1819
@@ -13050,6 +13321,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/5802",
 		"isLabTech": true,
 		"preTechs": [
 			5801
@@ -13099,6 +13371,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/5803",
 		"isLabTech": true,
 		"preTechs": [
 			5802
@@ -13150,6 +13423,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/5804",
 		"isLabTech": true,
 		"preTechs": [
 			5803
@@ -13201,6 +13475,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/5805",
 		"isLabTech": true,
 		"preTechs": [
 			5804
@@ -13254,6 +13529,7 @@
 		"published": true,
 		"level": 6,
 		"maxLevel": 6,
+		"iconPath": "Icons/Tech/5806",
 		"isLabTech": true,
 		"preTechs": [
 			5805
@@ -13299,6 +13575,7 @@
 		"published": true,
 		"level": 7,
 		"maxLevel": 7,
+		"iconPath": "Icons/Tech/5807",
 		"isLabTech": true,
 		"preTechs": [
 			5806
@@ -13344,6 +13621,7 @@
 		"published": true,
 		"level": 1,
 		"maxLevel": 1,
+		"iconPath": "Icons/Tech/5901",
 		"isLabTech": true,
 		"preTechsImplicit": [
 			1822
@@ -13395,6 +13673,7 @@
 		"published": true,
 		"level": 2,
 		"maxLevel": 2,
+		"iconPath": "Icons/Tech/5902",
 		"isLabTech": true,
 		"preTechs": [
 			5901
@@ -13446,6 +13725,7 @@
 		"published": true,
 		"level": 3,
 		"maxLevel": 3,
+		"iconPath": "Icons/Tech/5903",
 		"isLabTech": true,
 		"preTechs": [
 			5902
@@ -13497,6 +13777,7 @@
 		"published": true,
 		"level": 4,
 		"maxLevel": 4,
+		"iconPath": "Icons/Tech/5904",
 		"isLabTech": true,
 		"preTechs": [
 			5903
@@ -13550,6 +13831,7 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 5,
+		"iconPath": "Icons/Tech/5905",
 		"isLabTech": true,
 		"preTechs": [
 			5904
@@ -13603,6 +13885,7 @@
 		"published": true,
 		"level": 6,
 		"maxLevel": 6,
+		"iconPath": "Icons/Tech/5906",
 		"isLabTech": true,
 		"preTechs": [
 			5905
@@ -13648,6 +13931,7 @@
 		"published": true,
 		"level": 7,
 		"maxLevel": 7,
+		"iconPath": "Icons/Tech/5907",
 		"isLabTech": true,
 		"preTechs": [
 			5906

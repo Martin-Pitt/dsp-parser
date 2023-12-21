@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import { DDSLoader } from 'three/addons/loaders/DDSLoader.js';
 import { KTXLoader } from 'three/addons/loaders/KTXLoader.js';
 
-// console.log('Initialising renderer…');
+
 
 const loader = {
 	DDS: new DDSLoader(),

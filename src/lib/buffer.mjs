@@ -1,14 +1,3 @@
-"use strict";
-
-
-// // JSON doesn't support BigInts but apparently this
-// // prototype modification is a legit thing to do
-// BigInt.prototype.toJSON = function () {
-// 	if(this < Number.MAX_SAFE_INTEGER) return Number(this);
-// 	else return this.toString();
-// };
-
-
 export class BufferStreamAssets {
 	constructor(buf, isBigEndian = true) {
 		this.pos = 0;

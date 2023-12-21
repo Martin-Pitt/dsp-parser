@@ -138,6 +138,36 @@ export function parseProtoSet(protoSetData) {
 		});	
 	}
 	
+	else if(filename === 'ModelProtoSet')
+	{
+		return parseDataFile(protoSetData, {
+			[TYPE]: 'object',
+			fileName: 'string',
+			tableName: 'string',
+			signature: 'string',
+			data: {
+				[TYPE]: 'array',
+				shape: {
+					[TYPE]: 'object',
+					name: 'string',
+					id: 'int32',
+					sid: 'string',
+					type: 'ObjectType',
+					ruin: 'RuinType',
+					rendererType: 'int32',
+					hpMax: 'int32',
+					hpUpgrade: 'int32',
+					hpMax: 'int32',
+					hpRecover: 'int32',
+					ruinId: 'int32',
+					ruinCount: 'int32',
+					ruinLifeTime: 'int32',
+					prefabPath: 'string',
+				}
+			}
+		})
+	}
+	
 	else
 	{
 		throw new Error(`ProtoSet parsing for '${filename}' not implemented yet`);

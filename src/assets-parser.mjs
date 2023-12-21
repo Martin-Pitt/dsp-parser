@@ -47,6 +47,30 @@ export class AssetsParser {
 		const RecipeProtoSet = parseProtoSet(this.resources.getProtoSet('RecipeProtoSet'));
 		const TechProtoSet = parseProtoSet(this.resources.getProtoSet('TechProtoSet'));
 		
+		// const ModelProtoSet = parseProtoSet(this.resources.getProtoSet('ModelProtoSet'));
+		// writeFile(join(this.dsp.exportDirectory, 'data', 'ModelProtoSet.json'), JSON.stringify(ModelProtoSet, JSONReplacer, '\t'));
+		
+		// let gameObject = this.resources.table.find(resource => resource.fileTypeName === 'GameObject');
+		// let stream = this.resources.getAssetStream(gameObject);
+		// writeFile(join(this.dsp.exportDirectory, 'Test.json'), JSON.stringify({ gameObject, stream }, JSONReplacer, '\t'));
+		
+		// let gameObjects = this.resources.table
+		// 	.filter(resource => resource.fileTypeName === 'GameObject')
+		// 	// .slice(0, 100)
+		// 	.map(resource => this.resources.getAssetStream(resource))
+		// 	.map(stream => {
+		// 		let type = stream.readInt32();
+		// 		// let unknown;
+		// 		// if(type === 1) unknown = stream.read(4*4); else
+		// 		// if(type === 3) unknown = stream.read(10*4);
+		// 		if(type === 1) stream.pos += 4 * 4; else
+		// 		if(type === 3) stream.pos += 10 * 4;
+		// 		let tag = stream.readString().toString();
+		// 		return tag;
+		// 	});
+		// writeFile(join(this.dsp.exportDirectory, 'Test.json'), JSON.stringify(gameObjects, JSONReplacer, '\t'));
+		
+		
 		// Parse the techs
 		let techs = TechProtoSet.data.filter(tech => tech.published);
 		

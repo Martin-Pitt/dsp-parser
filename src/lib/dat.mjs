@@ -35,6 +35,22 @@ export const RecipeType = new Map([
 	[15, 'RESEARCH'],
 ]);
 
+export const ObjectType = new Map([
+	[0, 'ENTITY'],
+	[1, 'VEGETABLE'],
+	[2, 'VEIN'],
+	[3, 'PREBUILD'],
+	[4, 'ENEMY'],
+	[5, 'RUIN'],
+	[6, 'CRAFT'],
+]);
+
+export const RuinType = new Map([
+	[0, 'NONE'],
+	[1, 'HIDDEN'],
+	[2, 'NORMAL'],
+])
+
 export const TextureFormat = new Map([
 	[ 1, 'Alpha8'],
 	[ 2, 'ARGB4444'],
@@ -141,6 +157,8 @@ export function parseDataFile(data, shape) {
 				case 'ItemType': return ItemType.get(data.readInt32());
 				case 'AmmoType': return AmmoType.get(data.readInt32());
 				case 'RecipeType': return RecipeType.get(data.readInt32());
+				case 'ObjectType': return ObjectType.get(data.readInt32());
+				case 'RuinType': return RuinType.get(data.readInt32());
 				case 'TextureFormat': return TextureFormat.get(data.readUInt32());
 				default: throw new Error(`Unknown shape ${JSON.stringify(shape)}`);
 			}

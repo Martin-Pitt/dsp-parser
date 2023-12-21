@@ -39,11 +39,9 @@ export class LocaleParser {
 	}
 	
 	static UnescapeString(input) {
-		
 		// TODO: Unescape basic string escape sequences: \\, \r, \n, \t, \v, \f
 		// maybe JSON.parse a string? JSON.parse(`"${str}"`) — only prob is if the str has ", ', or ` already somewhere which would need to be escaped first
-		
-		return input;
+		return input.replace(/\\([rntvf\\])/g, ($, c) => ({ r: '\r', n: "\n", t: '\t', v: '\v', f: '\f', '\\': '\\' }[c]));
 	}
 	
 	async parse() {

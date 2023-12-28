@@ -124,6 +124,19 @@ export const TextureFormat = new Map([
 	[74, 'RGBA64']
 ]);
 
+export const AddonType = new Map([
+	[0, 'NONE'],
+	[1, 'BELT'],
+	[2, 'STORAGE'],
+]);
+
+export const MinerType = new Map([
+	[0, 'NONE'],
+	[1, 'WATER'],
+	[2, 'VEIN'],
+	[3, 'OIL'],
+]);
+
 // .dat parser
 export const TYPE = Symbol();
 export function parseDataFile(data, shape) {
@@ -134,7 +147,7 @@ export function parseDataFile(data, shape) {
 		{
 			switch(shape[TYPE] || shape)
 			{
-				case 'string': return data.readString().toString();
+				case 'string': return data.readString(typeof shape !== 'string'? shape.align : undefined).toString();
 				case 'int8': return data.readInt8();
 				case 'int16': return data.readInt16();
 				case 'int32': return data.readInt32();
@@ -145,7 +158,7 @@ export function parseDataFile(data, shape) {
 				case 'uint64': return data.readUInt64();
 				case 'float': return data.readFloat();
 				case 'double': return data.readDouble();
-				case 'bool': return data.readBool();
+				case 'bool': return data.readBool(typeof shape !== 'string'? shape.width : undefined);
 				case 'byte': return data.read(shape.size);
 				case 'array': return data.readArray(() => parseTyping(shape.shape));
 				case 'fixedarray':
@@ -154,12 +167,15 @@ export function parseDataFile(data, shape) {
 					return array;
 				case 'bytearray': return data.readByteArray();
                 case 'vector2': return [data.readFloat(), data.readFloat()];
+                case 'vector3': return [data.readFloat(), data.readFloat(), data.readFloat()];
 				case 'ItemType': return ItemType.get(data.readInt32());
 				case 'AmmoType': return AmmoType.get(data.readInt32());
 				case 'RecipeType': return RecipeType.get(data.readInt32());
 				case 'ObjectType': return ObjectType.get(data.readInt32());
 				case 'RuinType': return RuinType.get(data.readInt32());
 				case 'TextureFormat': return TextureFormat.get(data.readUInt32());
+				case 'AddonType': return AddonType.get(data.readUInt32());
+				case 'MinerType': return MinerType.get(data.readUInt32());
 				default: throw new Error(`Unknown shape ${JSON.stringify(shape)}`);
 			}
 		}

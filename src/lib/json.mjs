@@ -21,3 +21,13 @@ export function JSONReviver(key, value) {
 	else
 		return value;
 }
+
+
+export function JSONDebugReplacer(key, value) {
+	if(typeof value === 'bigint')
+		return `${value}n`;
+	if(value instanceof Map)
+		return { type: 'Map', value: Array.from(value.entries()) };
+	
+	else return value;
+}

@@ -49,7 +49,7 @@ export function parseProtoSet(protoSetData) {
 					gridIndex: 'int32', // grid coords as ZYXX, where Z represents items (1) or buildings (2)
 					unlockKey: 'int32',
 					preTechOverride: 'int32',
-					produce: 'bool',
+					productive: 'bool',
 					mechaMaterialId: 'int32',
 					dropRate: 'float',
 					enemyDropLevel: 'int32',

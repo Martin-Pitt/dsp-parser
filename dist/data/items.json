@@ -8,7 +8,7 @@
 		"iconPath": "Icons/ItemRecipe/iron-ore",
 		"gridIndex": 1101,
 		"unlockKey": -1,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			0,
 			40
@@ -24,7 +24,7 @@
 		"iconPath": "Icons/ItemRecipe/copper-ore",
 		"gridIndex": 1102,
 		"unlockKey": -1,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			0,
 			40
@@ -40,7 +40,7 @@
 		"iconPath": "Icons/ItemRecipe/silicium-ore",
 		"gridIndex": 1105,
 		"unlockKey": 6001,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			0,
 			1,
@@ -57,7 +57,7 @@
 		"iconPath": "Icons/ItemRecipe/titanium-ore",
 		"gridIndex": 1106,
 		"unlockKey": 6002,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			0,
 			40
@@ -73,7 +73,7 @@
 		"iconPath": "Icons/ItemRecipe/stone-ore",
 		"gridIndex": 1103,
 		"unlockKey": -1,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			0,
 			40
@@ -94,7 +94,7 @@
 		"fuelType": 1,
 		"gridIndex": 1104,
 		"unlockKey": -1,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			2,
 			3,
@@ -119,7 +119,7 @@
 		"fuelType": 1,
 		"gridIndex": 1714,
 		"unlockKey": -1,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 7,
 		"enemyDropRange": [
 			0,
@@ -151,7 +151,7 @@
 		"fuelType": 1,
 		"gridIndex": 1814,
 		"unlockKey": -1,
-		"produce": true,
+		"productive": true,
 		"enemyDropRange": [
 			0.004999999888241291,
 			0.004999999888241291
@@ -182,7 +182,7 @@
 		"fuelType": 1,
 		"gridIndex": 1614,
 		"unlockKey": 1120,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			2,
 			3,
@@ -201,7 +201,7 @@
 		"iconPath": "Icons/ItemRecipe/diamond-ore",
 		"gridIndex": 1114,
 		"unlockKey": 1112,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			0,
 			40
@@ -217,7 +217,7 @@
 		"iconPath": "Icons/ItemRecipe/fractal-silica",
 		"gridIndex": 1214,
 		"unlockKey": 1105,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			0,
 			40
@@ -233,7 +233,7 @@
 		"iconPath": "Icons/ItemRecipe/grating-ore",
 		"gridIndex": 1314,
 		"unlockKey": 6002,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 5,
 		"enemyDropRange": [
 			0.009999999776482582,
@@ -256,7 +256,7 @@
 		"iconPath": "Icons/ItemRecipe/bamboo-crystal",
 		"gridIndex": 1414,
 		"unlockKey": 6002,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			0,
 			40
@@ -272,7 +272,7 @@
 		"iconPath": "Icons/ItemRecipe/mono-mag-ore",
 		"gridIndex": 1514,
 		"unlockKey": 1206,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 23,
 		"enemyDropLevel": 8,
 		"enemyDropRange": [
@@ -294,7 +294,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/iron-plate",
 		"gridIndex": 1201,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 1,
 		"enemyDropRange": [
 			0.023000000044703484,
@@ -315,7 +315,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/copper-plate",
 		"gridIndex": 1202,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 2,
 		"enemyDropRange": [
 			0.032999999821186066,
@@ -336,7 +336,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/silicium-single-crystal",
 		"gridIndex": 1205,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 3,
 		"enemyDropLevel": 1,
 		"enemyDropRange": [
@@ -358,7 +358,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/titanium-plate",
 		"gridIndex": 1206,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 4,
 		"enemyDropLevel": 1,
 		"enemyDropRange": [
@@ -380,7 +380,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/stone-brick",
 		"gridIndex": 1203,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 8,
 		"enemyDropRange": [
 			0.05900000035762787,
@@ -407,7 +407,7 @@
 		"reactorInc": 0.5,
 		"fuelType": 1,
 		"gridIndex": 1204,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 10,
 		"enemyDropLevel": 1,
 		"enemyDropRange": [
@@ -432,7 +432,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/steel-plate",
 		"gridIndex": 1401,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 5,
 		"enemyDropLevel": 1,
 		"enemyDropRange": [
@@ -454,12 +454,12 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/titanium-alloy",
 		"gridIndex": 1306,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 6,
 		"enemyDropLevel": 4,
 		"enemyDropRange": [
 			0.08900000154972076,
-			0.00800000037997961
+			0.006000000052154064
 		],
 		"enemyDropCount": 3,
 		"enemyDropMask": 2147483647,
@@ -476,12 +476,12 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/glass",
 		"gridIndex": 1303,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 13,
 		"enemyDropLevel": 1,
 		"enemyDropRange": [
-			0.09700000286102295,
-			0.009999999776482582
+			0.0949999988079071,
+			0.00800000037997961
 		],
 		"enemyDropCount": 3,
 		"enemyDropMask": 2147483647,
@@ -498,12 +498,12 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/titan-glass",
 		"gridIndex": 1509,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 14,
 		"enemyDropLevel": 4,
 		"enemyDropRange": [
-			0.10700000077486038,
-			0.00800000037997961
+			0.10300000011920929,
+			0.004999999888241291
 		],
 		"enemyDropCount": 3,
 		"enemyDropMask": 2147483647,
@@ -520,12 +520,12 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/prism",
 		"gridIndex": 1403,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 19,
 		"enemyDropLevel": 1,
 		"enemyDropRange": [
-			0.11500000208616257,
-			0.009999999776482582
+			0.1080000028014183,
+			0.007000000216066837
 		],
 		"enemyDropCount": 2,
 		"enemyDropMask": 2147483647,
@@ -548,12 +548,12 @@
 		"reactorInc": -0.5,
 		"fuelType": 1,
 		"gridIndex": 1304,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 15,
 		"enemyDropLevel": 2,
 		"enemyDropRange": [
-			0.125,
-			0.00800000037997961
+			0.11500000208616257,
+			0.004999999888241291
 		],
 		"enemyDropCount": 2,
 		"enemyDropMask": 2147483647,
@@ -573,12 +573,12 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/silicium-high-purity",
 		"gridIndex": 1305,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 16,
 		"enemyDropLevel": 3,
 		"enemyDropRange": [
-			0.13300000131130219,
-			0.00800000037997961
+			0.11999999731779099,
+			0.006000000052154064
 		],
 		"enemyDropCount": 2,
 		"enemyDropMask": 2147483647,
@@ -595,10 +595,10 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/gear-wheel",
 		"gridIndex": 1501,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 1,
 		"enemyDropRange": [
-			0.14100000262260437,
+			0.12600000202655792,
 			0.009999999776482582
 		],
 		"enemyDropCount": 3,
@@ -616,10 +616,10 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/magnet",
 		"gridIndex": 1301,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 22,
 		"enemyDropRange": [
-			0.1509999930858612,
+			0.13600000739097595,
 			0.009999999776482582
 		],
 		"enemyDropCount": 3,
@@ -637,11 +637,11 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/magnetism-wire",
 		"gridIndex": 1302,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 1,
 		"enemyDropRange": [
-			0.16099999845027924,
-			0.009999999776482582
+			0.1459999978542328,
+			0.00800000037997961
 		],
 		"enemyDropCount": 3,
 		"enemyDropMask": 2147483647,
@@ -658,11 +658,11 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/electric-motor",
 		"gridIndex": 1404,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 2,
 		"enemyDropRange": [
-			0.17100000381469727,
-			0.00800000037997961
+			0.15399999916553497,
+			0.007000000216066837
 		],
 		"enemyDropCount": 2,
 		"enemyDropMask": 2147483647,
@@ -679,13 +679,13 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/mag-turbine",
 		"gridIndex": 1504,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 3,
 		"enemyDropRange": [
-			0.17900000512599945,
-			0.00800000037997961
+			0.16099999845027924,
+			0.007000000216066837
 		],
-		"enemyDropCount": 1.5,
+		"enemyDropCount": 1.2000000476837158,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -700,13 +700,13 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/hyper-magnetism-ring",
 		"gridIndex": 1604,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 4,
 		"enemyDropRange": [
-			0.18700000643730164,
-			0.00800000037997961
+			0.1679999977350235,
+			0.006000000052154064
 		],
-		"enemyDropCount": 1,
+		"enemyDropCount": 0.800000011920929,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -721,13 +721,13 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/partical-capacitor",
 		"gridIndex": 1113,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 5,
 		"enemyDropRange": [
-			0.19499999284744263,
-			0.00800000037997961
+			0.17399999499320984,
+			0.004999999888241291
 		],
-		"enemyDropCount": 1,
+		"enemyDropCount": 0.5,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -742,11 +742,11 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/strange-matter-generator",
 		"gridIndex": 1408,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 6,
 		"enemyDropRange": [
-			0.2029999941587448,
-			0.00800000037997961
+			0.17900000512599945,
+			0.004000000189989805
 		],
 		"enemyDropCount": 1,
 		"enemyDropMask": 2147483647,
@@ -763,11 +763,11 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/circuit-board",
 		"gridIndex": 1402,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 1,
 		"enemyDropRange": [
-			0.210999995470047,
-			0.009999999776482582
+			0.18299999833106995,
+			0.00800000037997961
 		],
 		"enemyDropCount": 3,
 		"enemyDropMask": 2147483647,
@@ -784,13 +784,13 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/processor",
 		"gridIndex": 1505,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 3,
 		"enemyDropRange": [
-			0.22100000083446503,
-			0.00800000037997961
+			0.19099999964237213,
+			0.004999999888241291
 		],
-		"enemyDropCount": 2,
+		"enemyDropCount": 1.5,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -805,13 +805,13 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/quantum-processor",
 		"gridIndex": 1511,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 7,
 		"enemyDropRange": [
-			0.2290000021457672,
-			0.004999999888241291
+			0.19599999487400055,
+			0.003000000026077032
 		],
-		"enemyDropCount": 1,
+		"enemyDropCount": 0.5,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -826,13 +826,13 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/micro-component",
 		"gridIndex": 1405,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 2,
 		"enemyDropRange": [
-			0.23399999737739563,
-			0.00800000037997961
+			0.19900000095367432,
+			0.007000000216066837
 		],
-		"enemyDropCount": 2,
+		"enemyDropCount": 1.5,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -847,13 +847,13 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/plane-filter",
 		"gridIndex": 1510,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 6,
 		"enemyDropRange": [
-			0.24199999868869781,
-			0.00800000037997961
+			0.20600000023841858,
+			0.004000000189989805
 		],
-		"enemyDropCount": 2,
+		"enemyDropCount": 0.800000011920929,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -868,13 +868,13 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/particle-wide-band",
 		"gridIndex": 1411,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 5,
 		"enemyDropRange": [
-			0.25,
-			0.00800000037997961
+			0.20999999344348907,
+			0.004000000189989805
 		],
-		"enemyDropCount": 2,
+		"enemyDropCount": 0.5,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -889,13 +889,13 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/plasma-generator",
 		"gridIndex": 1502,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 2,
 		"enemyDropRange": [
-			0.257999986410141,
-			0.00800000037997961
+			0.21400000154972076,
+			0.006000000052154064
 		],
-		"enemyDropCount": 2,
+		"enemyDropCount": 1.5,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -910,13 +910,13 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/photo-shifter",
 		"gridIndex": 1503,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 3,
 		"enemyDropRange": [
-			0.26600000262260437,
-			0.00800000037997961
+			0.2199999988079071,
+			0.007000000216066837
 		],
-		"enemyDropCount": 2,
+		"enemyDropCount": 1.5,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -931,7 +931,7 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/solar-collector",
 		"gridIndex": 1808,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			36,
 			1,
@@ -949,7 +949,7 @@
 		"iconPath": "Icons/ItemRecipe/water",
 		"gridIndex": 1107,
 		"unlockKey": 2306,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			0,
 			40
@@ -972,7 +972,7 @@
 		"fuelType": 1,
 		"gridIndex": 1108,
 		"unlockKey": 2307,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			2,
 			3,
@@ -996,7 +996,7 @@
 		"reactorInc": 0.30000001192092896,
 		"fuelType": 1,
 		"gridIndex": 1208,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			2,
 			3,
@@ -1015,7 +1015,7 @@
 		"isFluid": true,
 		"iconPath": "Icons/ItemRecipe/sulphuric-acid",
 		"gridIndex": 1207,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			1,
 			0,
@@ -1038,13 +1038,13 @@
 		"reactorInc": 1,
 		"fuelType": 1,
 		"gridIndex": 1109,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 3,
 		"enemyDropRange": [
-			0.27399998903274536,
+			0.22699999809265137,
 			0.00800000037997961
 		],
-		"enemyDropCount": 4,
+		"enemyDropCount": 2,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			2,
@@ -1074,13 +1074,13 @@
 		"gridIndex": 1110,
 		"unlockKey": 1120,
 		"preTechOverride": 1134,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 5,
 		"enemyDropRange": [
-			0.28200000524520874,
-			0.00800000037997961
+			0.23499999940395355,
+			0.006000000052154064
 		],
-		"enemyDropCount": 2,
+		"enemyDropCount": 1,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			2,
@@ -1103,13 +1103,13 @@
 			"value": "600000000"
 		},
 		"gridIndex": 1111,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 7,
 		"enemyDropRange": [
-			0.28999999165534973,
-			0.00800000037997961
+			0.2409999966621399,
+			0.004999999888241291
 		],
-		"enemyDropCount": 1,
+		"enemyDropCount": 0.30000001192092896,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			37,
@@ -1152,10 +1152,10 @@
 		"reactorInc": 2,
 		"fuelType": 1,
 		"gridIndex": 1209,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 4,
 		"enemyDropRange": [
-			0.2980000078678131,
+			0.2460000067949295,
 			0.004999999888241291
 		],
 		"enemyDropCount": 0.25,
@@ -1182,11 +1182,11 @@
 		"reactorInc": 3,
 		"fuelType": 2,
 		"gridIndex": 1210,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 6,
 		"enemyDropRange": [
-			0.30300000309944153,
-			0.004999999888241291
+			0.25099998712539673,
+			0.004000000189989805
 		],
 		"enemyDropCount": 0.25,
 		"enemyDropMask": 2147483647,
@@ -1214,8 +1214,8 @@
 		"gridIndex": 1211,
 		"enemyDropLevel": 8,
 		"enemyDropRange": [
-			0.30799999833106995,
-			0.004999999888241291
+			0.2549999952316284,
+			0.003000000026077032
 		],
 		"enemyDropCount": 0.25,
 		"enemyDropMask": 2147483647,
@@ -1257,12 +1257,12 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/plastic",
 		"gridIndex": 1308,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 9,
 		"enemyDropLevel": 2,
 		"enemyDropRange": [
-			0.31299999356269836,
-			0.00800000037997961
+			0.257999986410141,
+			0.006000000052154064
 		],
 		"enemyDropCount": 1.5,
 		"enemyDropMask": 2147483647,
@@ -1285,12 +1285,12 @@
 		"reactorInc": -0.699999988079071,
 		"fuelType": 1,
 		"gridIndex": 1310,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 11,
 		"enemyDropLevel": 3,
 		"enemyDropRange": [
-			0.32100000977516174,
-			0.00800000037997961
+			0.2639999985694885,
+			0.006000000052154064
 		],
 		"enemyDropCount": 2,
 		"enemyDropMask": 2147483647,
@@ -1316,12 +1316,12 @@
 		"reactorInc": -0.800000011920929,
 		"fuelType": 1,
 		"gridIndex": 1410,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 12,
 		"enemyDropLevel": 4,
 		"enemyDropRange": [
-			0.32899999618530273,
-			0.00800000037997961
+			0.27000001072883606,
+			0.006000000052154064
 		],
 		"enemyDropCount": 1.5,
 		"enemyDropMask": 2147483647,
@@ -1348,7 +1348,7 @@
 		"reactorInc": -0.20000000298023224,
 		"fuelType": 1,
 		"gridIndex": 1309,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 17,
 		"descFields": [
 			2,
@@ -1367,14 +1367,14 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/titan-crystal",
 		"gridIndex": 1409,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 20,
 		"enemyDropLevel": 3,
 		"enemyDropRange": [
-			0.3370000123977661,
-			0.00800000037997961
+			0.2759999930858612,
+			0.004999999888241291
 		],
-		"enemyDropCount": 1.5,
+		"enemyDropCount": 0.5,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -1389,14 +1389,14 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/casimir-crystal",
 		"gridIndex": 1508,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 18,
 		"enemyDropLevel": 5,
 		"enemyDropRange": [
-			0.3449999988079071,
-			0.00800000037997961
+			0.2809999883174896,
+			0.004000000189989805
 		],
-		"enemyDropCount": 1.5,
+		"enemyDropCount": 1,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -1417,10 +1417,10 @@
 		"reactorInc": 0.800000011920929,
 		"fuelType": 1,
 		"gridIndex": 1307,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 2,
 		"enemyDropRange": [
-			0.3529999852180481,
+			0.2849999964237213,
 			0.003000000026077032
 		],
 		"enemyDropCount": 1,
@@ -1447,13 +1447,13 @@
 		"reactorInc": 1.2000000476837158,
 		"fuelType": 1,
 		"gridIndex": 1407,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 4,
 		"enemyDropRange": [
-			0.35600000619888306,
+			0.2879999876022339,
 			0.003000000026077032
 		],
-		"enemyDropCount": 1,
+		"enemyDropCount": 0.699999988079071,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			2,
@@ -1477,13 +1477,13 @@
 		"reactorInc": 2,
 		"fuelType": 1,
 		"gridIndex": 1507,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 6,
 		"enemyDropRange": [
-			0.35899999737739563,
+			0.29100000858306885,
 			0.003000000026077032
 		],
-		"enemyDropCount": 1,
+		"enemyDropCount": 0.4000000059604645,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			2,
@@ -1501,14 +1501,14 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/gravity-lens",
 		"gridIndex": 1605,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 21,
 		"enemyDropLevel": 7,
 		"enemyDropRange": [
-			0.3619999885559082,
-			0.004999999888241291
+			0.2939999997615814,
+			0.003000000026077032
 		],
-		"enemyDropCount": 1,
+		"enemyDropCount": 0.30000001192092896,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -1523,13 +1523,13 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/space-warper",
 		"gridIndex": 1812,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 7,
 		"enemyDropRange": [
-			0.367000013589859,
-			0.00800000037997961
+			0.296999990940094,
+			0.004999999888241291
 		],
-		"enemyDropCount": 1,
+		"enemyDropCount": 0.5,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -1544,13 +1544,13 @@
 		"stackSize": 20,
 		"iconPath": "Icons/ItemRecipe/fusion-capacitor",
 		"gridIndex": 1311,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 7,
 		"enemyDropRange": [
-			0.375,
-			0.00800000037997961
+			0.3019999861717224,
+			0.004999999888241291
 		],
-		"enemyDropCount": 1,
+		"enemyDropCount": 0.5,
 		"enemyDropMask": 2147483647,
 		"descFields": [
 			1,
@@ -1565,11 +1565,11 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/engine",
 		"gridIndex": 1601,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 1,
 		"enemyDropRange": [
-			0.382999986410141,
-			0.009999999776482582
+			0.3070000112056732,
+			0.00800000037997961
 		],
 		"enemyDropCount": 1,
 		"enemyDropMask": 2147483647,
@@ -1586,10 +1586,10 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/fuel-thruster",
 		"gridIndex": 1602,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 3,
 		"enemyDropRange": [
-			0.3930000066757202,
+			0.3149999976158142,
 			0.00800000037997961
 		],
 		"enemyDropCount": 1,
@@ -1607,10 +1607,10 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/ion-thruster",
 		"gridIndex": 1603,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 5,
 		"enemyDropRange": [
-			0.4009999930858612,
+			0.3230000138282776,
 			0.00800000037997961
 		],
 		"enemyDropCount": 1,
@@ -1638,7 +1638,8 @@
 			1,
 			40
 		],
-		"description": "I配送运输机"
+		"description": "I配送运输机",
+		"prefabDesc": {}
 	},
 	{
 		"id": 5001,
@@ -1657,7 +1658,8 @@
 			1,
 			40
 		],
-		"description": "I物流运输机"
+		"description": "I物流运输机",
+		"prefabDesc": {}
 	},
 	{
 		"id": 5002,
@@ -1675,7 +1677,8 @@
 			1,
 			40
 		],
-		"description": "I星际物流运输船"
+		"description": "I星际物流运输船",
+		"prefabDesc": {}
 	},
 	{
 		"id": 1125,
@@ -1684,7 +1687,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/frame-material",
 		"gridIndex": 1809,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 24,
 		"descFields": [
 			1,
@@ -1699,7 +1702,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/dyson-sphere-component",
 		"gridIndex": 1810,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			1,
 			40
@@ -1731,11 +1734,11 @@
 		"buildIndex": 901,
 		"buildMode": 4,
 		"gridIndex": 1704,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 2,
 		"enemyDropRange": [
-			0.4090000092983246,
-			0.00800000037997961
+			0.3310000002384186,
+			0.007000000216066837
 		],
 		"enemyDropCount": 10,
 		"enemyDropMask": 2147483647,
@@ -1760,7 +1763,7 @@
 		"reactorInc": 0.30000001192092896,
 		"fuelType": 1,
 		"gridIndex": 1406,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			29,
 			41,
@@ -1789,7 +1792,7 @@
 		"reactorInc": 0.6000000238418579,
 		"fuelType": 1,
 		"gridIndex": 1506,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			29,
 			41,
@@ -1818,7 +1821,7 @@
 		"reactorInc": 1.5,
 		"fuelType": 1,
 		"gridIndex": 1606,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			29,
 			41,
@@ -1842,7 +1845,7 @@
 		"ability": 700,
 		"ammoType": "BULLET",
 		"gridIndex": 1312,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			48,
 			55,
@@ -1863,7 +1866,7 @@
 		"ability": 1300,
 		"ammoType": "BULLET",
 		"gridIndex": 1412,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			48,
 			55,
@@ -1884,7 +1887,7 @@
 		"ability": 3200,
 		"ammoType": "BULLET",
 		"gridIndex": 1512,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			48,
 			55,
@@ -1905,7 +1908,7 @@
 		"ability": 4500,
 		"ammoType": "CANNON",
 		"gridIndex": 1613,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			48,
 			55,
@@ -1927,7 +1930,7 @@
 		"ability": 10000,
 		"ammoType": "CANNON",
 		"gridIndex": 1713,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			48,
 			55,
@@ -1949,7 +1952,7 @@
 		"ability": 22000,
 		"ammoType": "CANNON",
 		"gridIndex": 1813,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			48,
 			55,
@@ -1971,7 +1974,7 @@
 		"ability": 30000,
 		"ammoType": "PLASMA",
 		"gridIndex": 1612,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			48,
 			55,
@@ -1993,7 +1996,7 @@
 		"ability": 150000,
 		"ammoType": "PLASMA",
 		"gridIndex": 1712,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			48,
 			55,
@@ -2016,7 +2019,7 @@
 		"ability": 2100,
 		"ammoType": "MISSILE",
 		"gridIndex": 1313,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			48,
 			55,
@@ -2039,7 +2042,7 @@
 		"ability": 5400,
 		"ammoType": "MISSILE",
 		"gridIndex": 1413,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			48,
 			55,
@@ -2062,7 +2065,7 @@
 		"ability": 12000,
 		"ammoType": "MISSILE",
 		"gridIndex": 1513,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			48,
 			55,
@@ -2086,7 +2089,7 @@
 		"hpMax": 1500,
 		"craftType": 1,
 		"gridIndex": 1607,
-		"produce": true,
+		"productive": true,
 		"descFields": [
 			53,
 			48,
@@ -2097,7 +2100,8 @@
 			1,
 			40
 		],
-		"description": "I地面战斗机-E型"
+		"description": "I地面战斗机-E型",
+		"prefabDesc": {}
 	},
 	{
 		"id": 5102,
@@ -2121,7 +2125,8 @@
 			1,
 			40
 		],
-		"description": "I地面战斗机-A型"
+		"description": "I地面战斗机-A型",
+		"prefabDesc": {}
 	},
 	{
 		"id": 5103,
@@ -2145,7 +2150,8 @@
 			1,
 			40
 		],
-		"description": "I地面战斗机-F型"
+		"description": "I地面战斗机-F型",
+		"prefabDesc": {}
 	},
 	{
 		"id": 5111,
@@ -2169,7 +2175,8 @@
 			1,
 			40
 		],
-		"description": "I太空战斗机-A型"
+		"description": "I太空战斗机-A型",
+		"prefabDesc": {}
 	},
 	{
 		"id": 5112,
@@ -2196,7 +2203,8 @@
 			1,
 			40
 		],
-		"description": "I太空战斗机-F型"
+		"description": "I太空战斗机-F型",
+		"prefabDesc": {}
 	},
 	{
 		"id": 5201,
@@ -2207,10 +2215,10 @@
 		"iconPath": "Icons/ItemRecipe/memory",
 		"gridIndex": 1807,
 		"unlockKey": -2,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 4,
 		"enemyDropRange": [
-			0.4169999957084656,
+			0.33799999952316284,
 			0.011500000022351742
 		],
 		"enemyDropCount": 3,
@@ -2230,10 +2238,10 @@
 		"iconPath": "Icons/ItemRecipe/silicon-neuron",
 		"gridIndex": 1709,
 		"unlockKey": -2,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 6,
 		"enemyDropRange": [
-			0.4284999966621399,
+			0.34950000047683716,
 			0.008500000461935997
 		],
 		"enemyDropCount": 2,
@@ -2253,10 +2261,10 @@
 		"iconPath": "Icons/ItemRecipe/reassembler",
 		"gridIndex": 1711,
 		"unlockKey": -2,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 5,
 		"enemyDropRange": [
-			0.43700000643730164,
+			0.3580000102519989,
 			0.00800000037997961
 		],
 		"enemyDropCount": 2,
@@ -2276,10 +2284,10 @@
 		"iconPath": "Icons/ItemRecipe/negentropy",
 		"gridIndex": 1710,
 		"unlockKey": -2,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 7,
 		"enemyDropRange": [
-			0.4449999928474426,
+			0.3659999966621399,
 			0.006000000052154064
 		],
 		"enemyDropCount": 2,
@@ -2299,10 +2307,10 @@
 		"iconPath": "Icons/ItemRecipe/virtual-particle",
 		"gridIndex": 1112,
 		"unlockKey": -2,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 8,
 		"enemyDropRange": [
-			0.45100000500679016,
+			0.3720000088214874,
 			0.009999999776482582
 		],
 		"enemyDropCount": 4,
@@ -2329,10 +2337,10 @@
 		"fuelType": 1,
 		"gridIndex": 1708,
 		"unlockKey": -2,
-		"produce": true,
+		"productive": true,
 		"enemyDropLevel": 1,
 		"enemyDropRange": [
-			0.460999995470047,
+			0.38199999928474426,
 			0.014399999752640724
 		],
 		"enemyDropCount": 6,
@@ -2374,7 +2382,13 @@
 			1,
 			40
 		],
-		"description": "I低速传送带"
+		"description": "I低速传送带",
+		"prefabDesc": {
+			"belt": {
+				"beltPrototype": 2001,
+				"speed": 1
+			}
+		}
 	},
 	{
 		"id": 2002,
@@ -2403,7 +2417,13 @@
 			1,
 			40
 		],
-		"description": "I高速传送带"
+		"description": "I高速传送带",
+		"prefabDesc": {
+			"belt": {
+				"beltPrototype": 2002,
+				"speed": 2
+			}
+		}
 	},
 	{
 		"id": 2003,
@@ -2432,7 +2452,13 @@
 			1,
 			40
 		],
-		"description": "I极速传送带"
+		"description": "I极速传送带",
+		"prefabDesc": {
+			"belt": {
+				"beltPrototype": 2003,
+				"speed": 5
+			}
+		}
 	},
 	{
 		"id": 2011,
@@ -2464,7 +2490,21 @@
 			1,
 			40
 		],
-		"description": "I低速分拣器"
+		"description": "I低速分拣器",
+		"prefabDesc": {
+			"buildCondition": {},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "300"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "150"
+				}
+			}
+		}
 	},
 	{
 		"id": 2012,
@@ -2496,7 +2536,21 @@
 			1,
 			40
 		],
-		"description": "I高速分拣器"
+		"description": "I高速分拣器",
+		"prefabDesc": {
+			"buildCondition": {},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "600"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "150"
+				}
+			}
+		}
 	},
 	{
 		"id": 2013,
@@ -2528,7 +2582,21 @@
 			1,
 			40
 		],
-		"description": "I极速分拣器"
+		"description": "I极速分拣器",
+		"prefabDesc": {
+			"buildCondition": {},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "1200"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "150"
+				}
+			}
+		}
 	},
 	{
 		"id": 2020,
@@ -2550,7 +2618,41 @@
 			1,
 			40
 		],
-		"description": "I四向分流器"
+		"description": "I四向分流器",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						0,
+						0.09000000357627869,
+						1.2799999713897705
+					],
+					[
+						1.2799999713897705,
+						0.09000000357627869,
+						0
+					],
+					[
+						0,
+						0.09000000357627869,
+						-1.2799999713897705
+					],
+					[
+						-1.2799999713897705,
+						0.09000000357627869,
+						0
+					]
+				],
+				"multiLevel": true,
+				"multiLevelAllowInserter": true,
+				"multiLevelAllowRotate": true,
+				"lapJoint": [
+					0,
+					2.6666669845581055,
+					0
+				]
+			}
+		}
 	},
 	{
 		"id": 2040,
@@ -2573,7 +2675,52 @@
 			1,
 			40
 		],
-		"description": "I自动集装机"
+		"description": "I自动集装机",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						1.100000023841858,
+						0.30000001192092896,
+						1.5
+					],
+					[
+						-1.100000023841858,
+						0.30000001192092896,
+						1.5
+					],
+					[
+						1.100000023841858,
+						0.30000001192092896,
+						-1.5
+					],
+					[
+						-1.100000023841858,
+						0.30000001192092896,
+						-1.5
+					]
+				],
+				"multiLevel": true,
+				"multiLevelAllowInserter": true,
+				"lapJoint": [
+					0,
+					2.6659998893737793,
+					0
+				],
+				"dragBuild": true
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "2400"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "150"
+				}
+			}
+		}
 	},
 	{
 		"id": 2030,
@@ -2596,7 +2743,29 @@
 			1,
 			40
 		],
-		"description": "I流速监测器"
+		"description": "I流速监测器",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						0,
+						0,
+						0
+					]
+				]
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "600"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "150"
+				}
+			}
+		}
 	},
 	{
 		"id": 2313,
@@ -2619,7 +2788,45 @@
 			1,
 			40
 		],
-		"description": "I喷涂机"
+		"description": "I喷涂机",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						0.3499999940395355,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-0.3499999940395355,
+						0.30000001192092896,
+						-2
+					],
+					[
+						0.3499999940395355,
+						0.30000001192092896,
+						2
+					],
+					[
+						-0.3499999940395355,
+						0.30000001192092896,
+						2
+					]
+				],
+				"multiLevel": true
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "1500"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "75"
+				}
+			}
+		}
 	},
 	{
 		"id": 2107,
@@ -2644,7 +2851,21 @@
 			1,
 			40
 		],
-		"description": "I物流配送器"
+		"description": "I物流配送器",
+		"prefabDesc": {
+			"buildCondition": {},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "30000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "300"
+				}
+			}
+		}
 	},
 	{
 		"id": 2101,
@@ -2668,7 +2889,44 @@
 			1,
 			40
 		],
-		"description": "I小型储物仓"
+		"description": "I小型储物仓",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						1.4500000476837158,
+						0.30000001192092896,
+						-1.4500000476837158
+					],
+					[
+						-1.4500000476837158,
+						0.30000001192092896,
+						-1.4500000476837158
+					],
+					[
+						-1.4500000476837158,
+						0.30000001192092896,
+						1.4500000476837158
+					],
+					[
+						1.4500000476837158,
+						0.30000001192092896,
+						1.4500000476837158
+					]
+				],
+				"multiLevel": true,
+				"multiLevelAllowInserter": true,
+				"multiLevelAlternativeIds": [
+					2020
+				],
+				"lapJoint": [
+					0,
+					2.6666665077209473,
+					0
+				],
+				"dragBuild": true
+			}
+		}
 	},
 	{
 		"id": 2102,
@@ -2692,7 +2950,47 @@
 			1,
 			40
 		],
-		"description": "I大型储物仓"
+		"description": "I大型储物仓",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						2.8499999046325684,
+						0.30000001192092896,
+						1.899999976158142
+					],
+					[
+						2.8499999046325684,
+						0.30000001192092896,
+						-1.899999976158142
+					],
+					[
+						-2.8499999046325684,
+						0.30000001192092896,
+						-1.899999976158142
+					],
+					[
+						-2.8499999046325684,
+						0.30000001192092896,
+						1.899999976158142
+					]
+				],
+				"multiLevel": true,
+				"multiLevelAllowInserter": true,
+				"multiLevelAlternativeIds": [
+					3009
+				],
+				"multiLevelAlternativeYawTransposes": [
+					true
+				],
+				"lapJoint": [
+					0,
+					4,
+					0
+				],
+				"dragBuild": true
+			}
+		}
 	},
 	{
 		"id": 2106,
@@ -2714,7 +3012,40 @@
 			1,
 			40
 		],
-		"description": "I储液罐"
+		"description": "I储液罐",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						0,
+						0.09000000357627869,
+						2.3299999237060547
+					],
+					[
+						2.3299999237060547,
+						0.09000000357627869,
+						0
+					],
+					[
+						0,
+						0.09000000357627869,
+						-2.3299999237060547
+					],
+					[
+						-2.3299999237060547,
+						0.09000000357627869,
+						0
+					]
+				],
+				"multiLevel": true,
+				"lapJoint": [
+					0,
+					4,
+					0
+				],
+				"dragBuild": true
+			}
+		}
 	},
 	{
 		"id": 2303,
@@ -2745,7 +3076,48 @@
 			1,
 			40
 		],
-		"description": "I制造台 Mk.I"
+		"description": "I制造台 Mk.I",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-2,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-2,
+						0.30000001192092896,
+						-2
+					]
+				],
+				"dragBuild": true
+			},
+			"assembler": {
+				"speed": 7500
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "4500"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "200"
+				}
+			}
+		}
 	},
 	{
 		"id": 2304,
@@ -2776,7 +3148,48 @@
 			1,
 			40
 		],
-		"description": "I制造台 Mk.II"
+		"description": "I制造台 Mk.II",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-2,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-2,
+						0.30000001192092896,
+						-2
+					]
+				],
+				"dragBuild": true
+			},
+			"assembler": {
+				"speed": 10000
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "9000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "300"
+				}
+			}
+		}
 	},
 	{
 		"id": 2305,
@@ -2807,7 +3220,48 @@
 			1,
 			40
 		],
-		"description": "I制造台 Mk.III"
+		"description": "I制造台 Mk.III",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-2,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-2,
+						0.30000001192092896,
+						-2
+					]
+				],
+				"dragBuild": true
+			},
+			"assembler": {
+				"speed": 15000
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "18000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "400"
+				}
+			}
+		}
 	},
 	{
 		"id": 2318,
@@ -2838,7 +3292,48 @@
 			1,
 			40
 		],
-		"description": "I制造台 Mk.IV"
+		"description": "I制造台 Mk.IV",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-2,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-2,
+						0.30000001192092896,
+						-2
+					]
+				],
+				"dragBuild": true
+			},
+			"assembler": {
+				"speed": 30000
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "45000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "900"
+				}
+			}
+		}
 	},
 	{
 		"id": 2201,
@@ -2862,7 +3357,28 @@
 			1,
 			40
 		],
-		"description": "I电力感应塔"
+		"description": "I电力感应塔",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						0,
+						0.20000000298023224,
+						0
+					]
+				]
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 22.5,
+				"coverRadius": 10.5,
+				"powerPoint": [
+					0,
+					4,
+					0
+				]
+			}
+		}
 	},
 	{
 		"id": 2202,
@@ -2888,7 +3404,28 @@
 			1,
 			40
 		],
-		"description": "I无线输电塔"
+		"description": "I无线输电塔",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						0,
+						0.20000000298023224,
+						0
+					]
+				]
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 45.5,
+				"coverRadius": 6.5,
+				"powerPoint": [
+					0,
+					6.599999904632568,
+					0
+				]
+			}
+		}
 	},
 	{
 		"id": 2212,
@@ -2913,7 +3450,43 @@
 			1,
 			40
 		],
-		"description": "I卫星配电站"
+		"description": "I卫星配电站",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						0,
+						0.30000001192092896,
+						1.850000023841858
+					],
+					[
+						1.850000023841858,
+						0.30000001192092896,
+						0
+					],
+					[
+						0,
+						0.30000001192092896,
+						-1.850000023841858
+					],
+					[
+						-1.850000023841858,
+						0.30000001192092896,
+						0
+					]
+				]
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 53.5,
+				"coverRadius": 26.5,
+				"powerPoint": [
+					0,
+					4,
+					0
+				]
+			}
+		}
 	},
 	{
 		"id": 2203,
@@ -2939,7 +3512,70 @@
 			1,
 			40
 		],
-		"description": "I风力涡轮机"
+		"description": "I风力涡轮机",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-2,
+						0.12999999523162842,
+						0
+					],
+					[
+						1,
+						0.12999999523162842,
+						1.7300000190734863
+					],
+					[
+						1,
+						0.12999999523162842,
+						-1.7300000190734863
+					],
+					[
+						-0.6000000238418579,
+						0.12999999523162842,
+						-1
+					],
+					[
+						1.1200000047683716,
+						0.12999999523162842,
+						0
+					],
+					[
+						-0.6000000238418579,
+						0.12999999523162842,
+						1
+					]
+				],
+				"landOffset": 0.15000000596046448,
+				"allowBuildInWater": true,
+				"needBuildInWaterTech": true,
+				"waterTypes": [
+					1000
+				],
+				"dragBuild": true,
+				"dragBuildDistOverride": [
+					10.5,
+					10.5
+				]
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 16.5,
+				"coverRadius": 7.699999809265137,
+				"powerPoint": [
+					0,
+					0.4000000059604645,
+					0
+				],
+				"generator": true,
+				"wind": true,
+				"genEnergyPerTick": {
+					"type": "BigInt",
+					"value": "5000"
+				}
+			}
+		}
 	},
 	{
 		"id": 2204,
@@ -2964,7 +3600,64 @@
 			1,
 			40
 		],
-		"description": "I火力发电厂"
+		"description": "I火力发电厂",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-2.4000000953674316,
+						0.30000001192092896,
+						3.700000047683716
+					],
+					[
+						-2.4000000953674316,
+						0.30000001192092896,
+						-2.799999952316284
+					],
+					[
+						-2.4000000953674316,
+						0.30000001192092896,
+						0
+					],
+					[
+						0.800000011920929,
+						0.30000001192092896,
+						3.799999952316284
+					],
+					[
+						1.600000023841858,
+						0.30000001192092896,
+						-2.799999952316284
+					],
+					[
+						1,
+						0.30000001192092896,
+						0
+					]
+				],
+				"dragBuild": true
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 11.75,
+				"coverRadius": 4.5,
+				"powerPoint": [
+					0,
+					1.8799999952316284,
+					0
+				],
+				"generator": true,
+				"genEnergyPerTick": {
+					"type": "BigInt",
+					"value": "36000"
+				},
+				"useFuelPerTick": {
+					"type": "BigInt",
+					"value": "45000"
+				},
+				"fuelMask": 1
+			}
+		}
 	},
 	{
 		"id": 2211,
@@ -2988,7 +3681,64 @@
 			1,
 			40
 		],
-		"description": "I微型聚变发电站"
+		"description": "I微型聚变发电站",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-2.4000000953674316,
+						0.30000001192092896,
+						3.700000047683716
+					],
+					[
+						-2.4000000953674316,
+						0.30000001192092896,
+						-2.799999952316284
+					],
+					[
+						-2.4000000953674316,
+						0.30000001192092896,
+						0
+					],
+					[
+						0.800000011920929,
+						0.30000001192092896,
+						3.799999952316284
+					],
+					[
+						1.600000023841858,
+						0.30000001192092896,
+						-2.799999952316284
+					],
+					[
+						1,
+						0.30000001192092896,
+						0
+					]
+				],
+				"dragBuild": true
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 11.75,
+				"coverRadius": 4.5,
+				"powerPoint": [
+					0,
+					1.8799999952316284,
+					0
+				],
+				"generator": true,
+				"genEnergyPerTick": {
+					"type": "BigInt",
+					"value": "250000"
+				},
+				"useFuelPerTick": {
+					"type": "BigInt",
+					"value": "250000"
+				},
+				"fuelMask": 2
+			}
+		}
 	},
 	{
 		"id": 2213,
@@ -3012,7 +3762,51 @@
 			1,
 			40
 		],
-		"description": "I地热发电站"
+		"description": "I地热发电站",
+		"prefabDesc": {
+			"buildCondition": {
+				"waterPoints": [
+					[
+						0,
+						-0.5,
+						-1.2999999523162842
+					],
+					[
+						0.5,
+						-0.5,
+						1.2999999523162842
+					],
+					[
+						-0.5,
+						-0.5,
+						1.2999999523162842
+					]
+				],
+				"waterTypes": [
+					-1
+				],
+				"dragBuild": true,
+				"dragBuildDistOverride": [
+					12,
+					12
+				]
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 22,
+				"powerPoint": [
+					0,
+					1.2000000476837158,
+					0
+				],
+				"generator": true,
+				"geothermal": true,
+				"genEnergyPerTick": {
+					"type": "BigInt",
+					"value": "80000"
+				}
+			}
+		}
 	},
 	{
 		"id": 2301,
@@ -3038,7 +3832,63 @@
 			1,
 			40
 		],
-		"description": "I采矿机"
+		"description": "I采矿机",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-2.6500000953674316,
+						0.20000000298023224,
+						-4.300000190734863
+					],
+					[
+						2.6500000953674316,
+						0.20000000298023224,
+						-4.300000190734863
+					],
+					[
+						0,
+						0.20000000298023224,
+						-3.200000047683716
+					],
+					[
+						-1.899999976158142,
+						0.20000000298023224,
+						2.0999999046325684
+					],
+					[
+						1.899999976158142,
+						0.20000000298023224,
+						2.0999999046325684
+					],
+					[
+						1.899999976158142,
+						0.11999999731779099,
+						3.5999999046325684
+					],
+					[
+						-1.899999976158142,
+						0.11999999731779099,
+						3.5999999046325684
+					]
+				],
+				"veinMiner": true
+			},
+			"miner": {
+				"period": 1200000
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "7000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "400"
+				}
+			}
+		}
 	},
 	{
 		"id": 2316,
@@ -3064,7 +3914,58 @@
 			1,
 			40
 		],
-		"description": "I大型采矿机"
+		"description": "I大型采矿机",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						3.200000047683716,
+						0.20000000298023224,
+						0
+					],
+					[
+						-3.200000047683716,
+						0.20000000298023224,
+						0
+					],
+					[
+						0,
+						0.20000000298023224,
+						-3.200000047683716
+					],
+					[
+						0,
+						0.20000000298023224,
+						3.200000047683716
+					]
+				],
+				"veinMiner": true
+			},
+			"miner": {
+				"period": 600000
+			},
+			"station": {
+				"maxItemCount": 5000,
+				"maxItemKinds": 1,
+				"dronePoint": [
+					0,
+					10,
+					-2
+				],
+				"isVeinCollector": true
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "49000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "2800"
+				}
+			}
+		}
 	},
 	{
 		"id": 2306,
@@ -3089,7 +3990,74 @@
 			1,
 			40
 		],
-		"description": "I抽水站"
+		"description": "I抽水站",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-0.699999988079071,
+						0.5,
+						2.799999952316284
+					],
+					[
+						0.699999988079071,
+						0.5,
+						2.799999952316284
+					],
+					[
+						1.0499999523162842,
+						0.5,
+						1.9500000476837158
+					],
+					[
+						-1.0499999523162842,
+						0.5,
+						1.9500000476837158
+					]
+				],
+				"waterPoints": [
+					[
+						-0.4000000059604645,
+						0.029999999329447746,
+						-2.5999999046325684
+					],
+					[
+						0.4000000059604645,
+						0.029999999329447746,
+						-2.5999999046325684
+					],
+					[
+						-1.25,
+						0.029999999329447746,
+						-1.7999999523162842
+					],
+					[
+						1.25,
+						0.029999999329447746,
+						-1.7999999523162842
+					]
+				],
+				"waterTypes": [
+					1000,
+					1116
+				],
+				"dragBuild": true
+			},
+			"miner": {
+				"period": 720000
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "5000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "200"
+				}
+			}
+		}
 	},
 	{
 		"id": 2302,
@@ -3119,7 +4087,48 @@
 			1,
 			40
 		],
-		"description": "I电弧熔炉"
+		"description": "I电弧熔炉",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-1.5,
+						0.30000001192092896,
+						1.5
+					],
+					[
+						1.5,
+						0.30000001192092896,
+						1.5
+					],
+					[
+						-1.5,
+						0.30000001192092896,
+						-1.5
+					],
+					[
+						1.5,
+						0.30000001192092896,
+						-1.5
+					]
+				],
+				"dragBuild": true
+			},
+			"assembler": {
+				"speed": 10000
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "6000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "200"
+				}
+			}
+		}
 	},
 	{
 		"id": 2315,
@@ -3149,7 +4158,48 @@
 			1,
 			40
 		],
-		"description": "I位面熔炉"
+		"description": "I位面熔炉",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-1.5,
+						0.30000001192092896,
+						1.5
+					],
+					[
+						1.5,
+						0.30000001192092896,
+						1.5
+					],
+					[
+						-1.5,
+						0.30000001192092896,
+						-1.5
+					],
+					[
+						1.5,
+						0.30000001192092896,
+						-1.5
+					]
+				],
+				"dragBuild": true
+			},
+			"assembler": {
+				"speed": 20000
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "24000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "800"
+				}
+			}
+		}
 	},
 	{
 		"id": 2319,
@@ -3179,7 +4229,48 @@
 			1,
 			40
 		],
-		"description": "I熔炉 Mk.III"
+		"description": "I熔炉 Mk.III",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-1.5,
+						0.30000001192092896,
+						1.5
+					],
+					[
+						1.5,
+						0.30000001192092896,
+						1.5
+					],
+					[
+						-1.5,
+						0.30000001192092896,
+						-1.5
+					],
+					[
+						1.5,
+						0.30000001192092896,
+						-1.5
+					]
+				],
+				"dragBuild": true
+			},
+			"assembler": {
+				"speed": 30000
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "48000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "1600"
+				}
+			}
+		}
 	},
 	{
 		"id": 2307,
@@ -3204,7 +4295,68 @@
 			1,
 			40
 		],
-		"description": "I原油萃取站"
+		"description": "I原油萃取站",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						0,
+						1,
+						5.5
+					],
+					[
+						-2.700000047683716,
+						1,
+						4.800000190734863
+					],
+					[
+						2.700000047683716,
+						1,
+						4.800000190734863
+					],
+					[
+						-3.3499999046325684,
+						1,
+						2.950000047683716
+					],
+					[
+						3.3499999046325684,
+						1,
+						2.950000047683716
+					],
+					[
+						1.399999976158142,
+						1,
+						-3.3499999046325684
+					],
+					[
+						-1.399999976158142,
+						1,
+						-3.3499999046325684
+					],
+					[
+						0,
+						1,
+						-5.28000020980835
+					]
+				],
+				"oilMiner": true
+			},
+			"miner": {
+				"period": 600000
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "14000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "400"
+				}
+			}
+		}
 	},
 	{
 		"id": 2308,
@@ -3228,7 +4380,63 @@
 			1,
 			40
 		],
-		"description": "I原油精炼厂"
+		"description": "I原油精炼厂",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						0,
+						0.30000001192092896,
+						3.299999952316284
+					],
+					[
+						1.9800000190734863,
+						0.30000001192092896,
+						2
+					],
+					[
+						-1.9800000190734863,
+						0.30000001192092896,
+						2
+					],
+					[
+						-2.049999952316284,
+						0.30000001192092896,
+						-1
+					],
+					[
+						2.049999952316284,
+						0.30000001192092896,
+						-1
+					],
+					[
+						1.2000000476837158,
+						0.30000001192092896,
+						-3.950000047683716
+					],
+					[
+						-1.2000000476837158,
+						0.30000001192092896,
+						-3.950000047683716
+					]
+				],
+				"dragBuild": true
+			},
+			"assembler": {
+				"speed": 10000
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "16000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "400"
+				}
+			}
+		}
 	},
 	{
 		"id": 2309,
@@ -3257,7 +4465,62 @@
 			1,
 			40
 		],
-		"description": "I化工厂"
+		"description": "I化工厂",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-4.199999809265137,
+						0.30000001192092896,
+						0
+					],
+					[
+						-2,
+						0.30000001192092896,
+						3.380000114440918
+					],
+					[
+						2.799999952316284,
+						0.30000001192092896,
+						2.799999952316284
+					],
+					[
+						4.800000190734863,
+						0.30000001192092896,
+						0.5
+					],
+					[
+						2.819999933242798,
+						0.30000001192092896,
+						-1.5499999523162842
+					],
+					[
+						-2.200000047683716,
+						0.30000001192092896,
+						-1.7999999523162842
+					]
+				],
+				"dragBuild": true,
+				"dragBuildDistOverride": [
+					8.399999618530273,
+					4.5
+				]
+			},
+			"assembler": {
+				"speed": 10000
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "12000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "400"
+				}
+			}
+		}
 	},
 	{
 		"id": 2317,
@@ -3286,7 +4549,62 @@
 			1,
 			40
 		],
-		"description": "I化工厂 Mk.II"
+		"description": "I化工厂 Mk.II",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-4.199999809265137,
+						0.30000001192092896,
+						0
+					],
+					[
+						-2,
+						0.30000001192092896,
+						3.380000114440918
+					],
+					[
+						2.799999952316284,
+						0.30000001192092896,
+						2.799999952316284
+					],
+					[
+						4.800000190734863,
+						0.30000001192092896,
+						0.5
+					],
+					[
+						2.819999933242798,
+						0.30000001192092896,
+						-1.5499999523162842
+					],
+					[
+						-2.200000047683716,
+						0.30000001192092896,
+						-1.7999999523162842
+					]
+				],
+				"dragBuild": true,
+				"dragBuildDistOverride": [
+					8.399999618530273,
+					4.5
+				]
+			},
+			"assembler": {
+				"speed": 20000
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "36000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "600"
+				}
+			}
+		}
 	},
 	{
 		"id": 2314,
@@ -3309,7 +4627,49 @@
 			1,
 			40
 		],
-		"description": "I分馏塔"
+		"description": "I分馏塔",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						0,
+						0.09000000357627869,
+						2.3299999237060547
+					],
+					[
+						2.3299999237060547,
+						0.09000000357627869,
+						0
+					],
+					[
+						0,
+						0.09000000357627869,
+						-2.3299999237060547
+					],
+					[
+						-2.3299999237060547,
+						0.09000000357627869,
+						0
+					]
+				],
+				"dragBuild": true,
+				"dragBuildDistOverride": [
+					5.5,
+					5.5
+				]
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "12000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "300"
+				}
+			}
+		}
 	},
 	{
 		"id": 2205,
@@ -3333,7 +4693,69 @@
 			1,
 			40
 		],
-		"description": "I太阳能板"
+		"description": "I太阳能板",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						0,
+						0.10999999940395355,
+						-1.649999976158142
+					],
+					[
+						-1.649999976158142,
+						0.10999999940395355,
+						0
+					],
+					[
+						0,
+						0.10999999940395355,
+						1.649999976158142
+					],
+					[
+						1.649999976158142,
+						0.10999999940395355,
+						0
+					],
+					[
+						0.5,
+						0.10999999940395355,
+						-0.5
+					],
+					[
+						-0.5,
+						0.10999999940395355,
+						-0.5
+					],
+					[
+						-0.5,
+						0.10999999940395355,
+						0.5
+					],
+					[
+						0.5,
+						0.10999999940395355,
+						0.5
+					]
+				],
+				"dragBuild": true
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 6.75,
+				"powerPoint": [
+					0,
+					0.5,
+					0
+				],
+				"generator": true,
+				"photovoltaic": true,
+				"genEnergyPerTick": {
+					"type": "BigInt",
+					"value": "6000"
+				}
+			}
+		}
 	},
 	{
 		"id": 2206,
@@ -3358,7 +4780,66 @@
 			1,
 			40
 		],
-		"description": "I蓄电器"
+		"description": "I蓄电器",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						1.25,
+						0.30000001192092896,
+						1.25
+					],
+					[
+						-1.25,
+						0.30000001192092896,
+						1.25
+					],
+					[
+						-1.649999976158142,
+						0.30000001192092896,
+						0
+					],
+					[
+						1.649999976158142,
+						0.30000001192092896,
+						0
+					],
+					[
+						1.25,
+						0.30000001192092896,
+						-1.4500000476837158
+					],
+					[
+						-1.25,
+						0.30000001192092896,
+						-1.4500000476837158
+					]
+				],
+				"dragBuild": true
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 4.199999809265137,
+				"powerPoint": [
+					0,
+					1.7000000476837158,
+					0
+				],
+				"accumulator": true,
+				"inputEnergyPerTick": {
+					"type": "BigInt",
+					"value": "25000"
+				},
+				"outputEnergyPerTick": {
+					"type": "BigInt",
+					"value": "37500"
+				},
+				"maxAcuEnergy": {
+					"type": "BigInt",
+					"value": "540000000"
+				}
+			}
+		}
 	},
 	{
 		"id": 2207,
@@ -3394,7 +4875,66 @@
 			1,
 			40
 		],
-		"description": "I蓄电器（满）"
+		"description": "I蓄电器（满）",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						1.25,
+						0.30000001192092896,
+						1.25
+					],
+					[
+						-1.25,
+						0.30000001192092896,
+						1.25
+					],
+					[
+						-1.649999976158142,
+						0.30000001192092896,
+						0
+					],
+					[
+						1.649999976158142,
+						0.30000001192092896,
+						0
+					],
+					[
+						1.25,
+						0.30000001192092896,
+						-1.4500000476837158
+					],
+					[
+						-1.25,
+						0.30000001192092896,
+						-1.4500000476837158
+					]
+				],
+				"dragBuild": true
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 4.199999809265137,
+				"powerPoint": [
+					0,
+					1.7000000476837158,
+					0
+				],
+				"accumulator": true,
+				"inputEnergyPerTick": {
+					"type": "BigInt",
+					"value": "25000"
+				},
+				"outputEnergyPerTick": {
+					"type": "BigInt",
+					"value": "37500"
+				},
+				"maxAcuEnergy": {
+					"type": "BigInt",
+					"value": "540000000"
+				}
+			}
+		}
 	},
 	{
 		"id": 2311,
@@ -3418,7 +4958,49 @@
 			1,
 			40
 		],
-		"description": "I电磁轨道弹射器"
+		"description": "I电磁轨道弹射器",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-2.4000000953674316,
+						0.30000001192092896,
+						2.4000000953674316
+					],
+					[
+						2.4000000953674316,
+						0.30000001192092896,
+						2.4000000953674316
+					],
+					[
+						2.4000000953674316,
+						0.30000001192092896,
+						-2.4000000953674316
+					],
+					[
+						-2.4000000953674316,
+						0.30000001192092896,
+						-2.4000000953674316
+					]
+				],
+				"dragBuild": true,
+				"dragBuildDistOverride": [
+					10.600000381469727,
+					10.600000381469727
+				]
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "30000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "1000"
+				}
+			}
+		}
 	},
 	{
 		"id": 2208,
@@ -3442,7 +5024,60 @@
 			1,
 			40
 		],
-		"description": "I射线接收站"
+		"description": "I射线接收站",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-3.799999952316284,
+						0.30000001192092896,
+						0
+					],
+					[
+						3.799999952316284,
+						0.30000001192092896,
+						0
+					],
+					[
+						0,
+						0.30000001192092896,
+						2.9000000953674316
+					],
+					[
+						0,
+						0.30000001192092896,
+						-2.9000000953674316
+					]
+				],
+				"dragBuild": true,
+				"dragBuildDistOverride": [
+					9.404999732971191,
+					9.404999732971191
+				]
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 22.5,
+				"coverRadius": 10.5,
+				"powerPoint": [
+					0,
+					3,
+					0
+				],
+				"generator": true,
+				"gamma": true,
+				"genEnergyPerTick": {
+					"type": "BigInt",
+					"value": "100000"
+				},
+				"catalystId": 1209,
+				"productId": 1208,
+				"productHeat": {
+					"type": "BigInt",
+					"value": "1200000000"
+				}
+			}
+		}
 	},
 	{
 		"id": 2312,
@@ -3466,7 +5101,65 @@
 			1,
 			40
 		],
-		"description": "I垂直发射井"
+		"description": "I垂直发射井",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-8.619999885559082,
+						0.30000001192092896,
+						8.5
+					],
+					[
+						8.619999885559082,
+						0.30000001192092896,
+						8.5
+					],
+					[
+						0,
+						0.30000001192092896,
+						5.800000190734863
+					],
+					[
+						5.949999809265137,
+						0.30000001192092896,
+						0
+					],
+					[
+						-5.949999809265137,
+						0.30000001192092896,
+						0
+					],
+					[
+						-3.700000047683716,
+						0.30000001192092896,
+						-7
+					],
+					[
+						3.700000047683716,
+						0.30000001192092896,
+						-7
+					],
+					[
+						0,
+						0.30000001192092896,
+						-9.649999618530273
+					]
+				],
+				"dragBuild": true
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "300000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "1000"
+				}
+			}
+		}
 	},
 	{
 		"id": 2209,
@@ -3491,7 +5184,59 @@
 			1,
 			40
 		],
-		"description": "I能量枢纽"
+		"description": "I能量枢纽",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						3.799999952316284,
+						0.30000001192092896,
+						3.799999952316284
+					],
+					[
+						3.799999952316284,
+						0.30000001192092896,
+						-3.799999952316284
+					],
+					[
+						-3.799999952316284,
+						0.30000001192092896,
+						-3.799999952316284
+					],
+					[
+						-3.799999952316284,
+						0.30000001192092896,
+						3.799999952316284
+					]
+				],
+				"dragBuild": true,
+				"dragBuildDistOverride": [
+					12.149999618530273,
+					12.149999618530273
+				]
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 15.5,
+				"coverRadius": 7,
+				"powerPoint": [
+					0,
+					3.549999952316284,
+					0
+				],
+				"exchanger": true,
+				"exchangeEnergyPerTick": {
+					"type": "BigInt",
+					"value": "900000"
+				},
+				"emptyId": 2206,
+				"fullId": 2207,
+				"maxExcEnergy": {
+					"type": "BigInt",
+					"value": "540000000"
+				}
+			}
+		}
 	},
 	{
 		"id": 2310,
@@ -3515,7 +5260,67 @@
 			1,
 			40
 		],
-		"description": "I微型粒子对撞机"
+		"description": "I微型粒子对撞机",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						4.650000095367432,
+						0.30000001192092896,
+						2.799999952316284
+					],
+					[
+						4.5,
+						0.30000001192092896,
+						0.4000000059604645
+					],
+					[
+						3.8499999046325684,
+						0.30000001192092896,
+						-1.899999976158142
+					],
+					[
+						0.25,
+						0.30000001192092896,
+						-2.5
+					],
+					[
+						0.25,
+						0.30000001192092896,
+						2.6500000953674316
+					],
+					[
+						-5.150000095367432,
+						0.30000001192092896,
+						2.5
+					],
+					[
+						-5.150000095367432,
+						0.30000001192092896,
+						-2.5999999046325684
+					]
+				],
+				"dragBuild": true,
+				"dragBuildDistOverride": [
+					12,
+					6
+				]
+			},
+			"assembler": {
+				"speed": 10000
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "200000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "2000"
+				}
+			}
+		}
 	},
 	{
 		"id": 2210,
@@ -3540,7 +5345,54 @@
 			1,
 			40
 		],
-		"description": "I人造恒星"
+		"description": "I人造恒星",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						0,
+						0.30000001192092896,
+						3.5199999809265137
+					],
+					[
+						3.5199999809265137,
+						0.30000001192092896,
+						0
+					],
+					[
+						0,
+						0.30000001192092896,
+						-3.5199999809265137
+					],
+					[
+						-3.5199999809265137,
+						0.30000001192092896,
+						0
+					]
+				],
+				"dragBuild": true
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 15,
+				"coverRadius": 5,
+				"powerPoint": [
+					0,
+					1.440000057220459,
+					0
+				],
+				"generator": true,
+				"genEnergyPerTick": {
+					"type": "BigInt",
+					"value": "1200000"
+				},
+				"useFuelPerTick": {
+					"type": "BigInt",
+					"value": "1200000"
+				},
+				"fuelMask": 4
+			}
+		}
 	},
 	{
 		"id": 2103,
@@ -3566,7 +5418,83 @@
 			1,
 			40
 		],
-		"description": "I物流运输站"
+		"description": "I物流运输站",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						4,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-4,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-4,
+						0.30000001192092896,
+						2
+					],
+					[
+						4,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						-4
+					],
+					[
+						-2,
+						0.30000001192092896,
+						-4
+					],
+					[
+						-2,
+						0.30000001192092896,
+						4
+					],
+					[
+						2,
+						0.30000001192092896,
+						4
+					]
+				]
+			},
+			"station": {
+				"maxItemCount": 5000,
+				"maxItemKinds": 4,
+				"maxDroneCount": 50,
+				"maxEnergyAcc": {
+					"type": "BigInt",
+					"value": "180000000"
+				},
+				"dronePoint": [
+					0,
+					26,
+					0
+				],
+				"shipPoint": [
+					0,
+					26,
+					0
+				]
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "200000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "1000"
+				}
+			}
+		}
 	},
 	{
 		"id": 2104,
@@ -3592,7 +5520,85 @@
 			1,
 			40
 		],
-		"description": "I星际物流运输站"
+		"description": "I星际物流运输站",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						4,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-4,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-4,
+						0.30000001192092896,
+						2
+					],
+					[
+						4,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						-4
+					],
+					[
+						-2,
+						0.30000001192092896,
+						-4
+					],
+					[
+						-2,
+						0.30000001192092896,
+						4
+					],
+					[
+						2,
+						0.30000001192092896,
+						4
+					]
+				]
+			},
+			"station": {
+				"isStellar": true,
+				"maxItemCount": 10000,
+				"maxItemKinds": 5,
+				"maxDroneCount": 100,
+				"maxShipCount": 10,
+				"maxEnergyAcc": {
+					"type": "BigInt",
+					"value": "12000000000"
+				},
+				"dronePoint": [
+					0,
+					26,
+					0
+				],
+				"shipPoint": [
+					0,
+					30.350000381469727,
+					0
+				]
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "1000000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "1000"
+				}
+			}
+		}
 	},
 	{
 		"id": 2105,
@@ -3617,7 +5623,77 @@
 			1,
 			40
 		],
-		"description": "I轨道采集器"
+		"description": "I轨道采集器",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						4,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-4,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-4,
+						0.30000001192092896,
+						2
+					],
+					[
+						4,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						-4
+					],
+					[
+						-2,
+						0.30000001192092896,
+						-4
+					],
+					[
+						-2,
+						0.30000001192092896,
+						4
+					],
+					[
+						2,
+						0.30000001192092896,
+						4
+					]
+				]
+			},
+			"station": {
+				"isStellar": true,
+				"maxItemCount": 5000,
+				"maxItemKinds": 6,
+				"maxDroneCount": 50,
+				"maxShipCount": 10,
+				"maxEnergyAcc": {
+					"type": "BigInt",
+					"value": "8000000000"
+				},
+				"dronePoint": [
+					0,
+					26,
+					0
+				],
+				"shipPoint": [
+					0,
+					30.350000381469727,
+					0
+				],
+				"isCollector": true,
+				"collectSpeed": 8
+			},
+			"power": {}
+		}
 	},
 	{
 		"id": 2901,
@@ -3647,7 +5723,58 @@
 			1,
 			40
 		],
-		"description": "I矩阵研究站"
+		"description": "I矩阵研究站",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-2.799999952316284,
+						0.4000000059604645,
+						2.799999952316284
+					],
+					[
+						2.799999952316284,
+						0.4000000059604645,
+						2.799999952316284
+					],
+					[
+						2.799999952316284,
+						0.4000000059604645,
+						-2.799999952316284
+					],
+					[
+						-2.799999952316284,
+						0.4000000059604645,
+						-2.799999952316284
+					]
+				],
+				"multiLevel": true,
+				"multiLevelAlternativeIds": [
+					2902
+				],
+				"lapJoint": [
+					0,
+					4,
+					0
+				],
+				"dragBuild": true
+			},
+			"lab": {
+				"assembleSpeed": 10000,
+				"researchSpeed": 1
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "8000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "200"
+				}
+			}
+		}
 	},
 	{
 		"id": 2902,
@@ -3677,7 +5804,58 @@
 			1,
 			40
 		],
-		"description": "I矩阵研究站 Mk.II"
+		"description": "I矩阵研究站 Mk.II",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						-2.799999952316284,
+						0.4000000059604645,
+						2.799999952316284
+					],
+					[
+						2.799999952316284,
+						0.4000000059604645,
+						2.799999952316284
+					],
+					[
+						2.799999952316284,
+						0.4000000059604645,
+						-2.799999952316284
+					],
+					[
+						-2.799999952316284,
+						0.4000000059604645,
+						-2.799999952316284
+					]
+				],
+				"multiLevel": true,
+				"multiLevelAlternativeIds": [
+					2901
+				],
+				"lapJoint": [
+					0,
+					4,
+					0
+				],
+				"dragBuild": true
+			},
+			"lab": {
+				"assembleSpeed": 30000,
+				"researchSpeed": 1
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "32000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "800"
+				}
+			}
+		}
 	},
 	{
 		"id": 3001,
@@ -3705,7 +5883,45 @@
 			1,
 			40
 		],
-		"description": "I高斯机枪塔"
+		"description": "I高斯机枪塔",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						2,
+						0.30000001192092896,
+						2
+					],
+					[
+						-2,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-2,
+						0.30000001192092896,
+						-2
+					]
+				],
+				"dragBuild": true
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "4000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "400"
+				}
+			}
+		}
 	},
 	{
 		"id": 3002,
@@ -3732,7 +5948,45 @@
 			1,
 			40
 		],
-		"description": "I高频激光塔"
+		"description": "I高频激光塔",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						2,
+						0.30000001192092896,
+						2
+					],
+					[
+						-2,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-2,
+						0.30000001192092896,
+						-2
+					]
+				],
+				"dragBuild": true
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "50000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "1000"
+				}
+			}
+		}
 	},
 	{
 		"id": 3003,
@@ -3760,7 +6014,49 @@
 			1,
 			40
 		],
-		"description": "I聚爆加农炮"
+		"description": "I聚爆加农炮",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						2.5,
+						0.30000001192092896,
+						3
+					],
+					[
+						-2.5,
+						0.30000001192092896,
+						3
+					],
+					[
+						2.5,
+						0.30000001192092896,
+						-3
+					],
+					[
+						-2.5,
+						0.30000001192092896,
+						-3
+					]
+				],
+				"dragBuild": true,
+				"dragBuildDistOverride": [
+					7.599999904632568,
+					7.599999904632568
+				]
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "12500"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "500"
+				}
+			}
+		}
 	},
 	{
 		"id": 3004,
@@ -3788,7 +6084,49 @@
 			1,
 			40
 		],
-		"description": "I磁化电浆炮"
+		"description": "I磁化电浆炮",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						4,
+						0.30000001192092896,
+						4
+					],
+					[
+						-4,
+						0.30000001192092896,
+						4
+					],
+					[
+						4,
+						0.30000001192092896,
+						-4
+					],
+					[
+						-4,
+						0.30000001192092896,
+						-4
+					]
+				],
+				"dragBuild": true,
+				"dragBuildDistOverride": [
+					11.5,
+					11.5
+				]
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "28000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "1400"
+				}
+			}
+		}
 	},
 	{
 		"id": 3005,
@@ -3817,7 +6155,45 @@
 			1,
 			40
 		],
-		"description": "I导弹防御塔"
+		"description": "I导弹防御塔",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						3,
+						0.30000001192092896,
+						3
+					],
+					[
+						-3,
+						0.30000001192092896,
+						3
+					],
+					[
+						3,
+						0.30000001192092896,
+						-3
+					],
+					[
+						-3,
+						0.30000001192092896,
+						-3
+					]
+				],
+				"dragBuild": true
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "10000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "500"
+				}
+			}
+		}
 	},
 	{
 		"id": 3007,
@@ -3842,7 +6218,43 @@
 			1,
 			40
 		],
-		"description": "I信标"
+		"description": "I信标",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						2,
+						0.30000001192092896,
+						2
+					],
+					[
+						-2,
+						0.30000001192092896,
+						2
+					],
+					[
+						2,
+						0.30000001192092896,
+						-2
+					],
+					[
+						-2,
+						0.30000001192092896,
+						-2
+					]
+				]
+			},
+			"power": {
+				"node": true,
+				"connectDistance": 60.5,
+				"coverRadius": 14.5,
+				"powerPoint": [
+					0,
+					4,
+					0
+				]
+			}
+		}
 	},
 	{
 		"id": 3008,
@@ -3865,7 +6277,44 @@
 			1,
 			40
 		],
-		"description": "I护盾发生器"
+		"description": "I护盾发生器",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						3.5,
+						0.30000001192092896,
+						3.5
+					],
+					[
+						-3.5,
+						0.30000001192092896,
+						3.5
+					],
+					[
+						3.5,
+						0.30000001192092896,
+						-3.5
+					],
+					[
+						-3.5,
+						0.30000001192092896,
+						-3.5
+					]
+				]
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "400000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "200000"
+				}
+			}
+		}
 	},
 	{
 		"id": 3009,
@@ -3890,7 +6339,54 @@
 			1,
 			40
 		],
-		"description": "I战场分析基站"
+		"description": "I战场分析基站",
+		"prefabDesc": {
+			"buildCondition": {
+				"landPoints": [
+					[
+						3,
+						0.30000001192092896,
+						2.299999952316284
+					],
+					[
+						3,
+						0.30000001192092896,
+						-2.299999952316284
+					],
+					[
+						-3,
+						0.30000001192092896,
+						2.299999952316284
+					],
+					[
+						-3,
+						0.30000001192092896,
+						-2.299999952316284
+					]
+				],
+				"lapJoint": [
+					0,
+					8,
+					0
+				],
+				"dragBuild": true,
+				"dragBuildDistOverride": [
+					10,
+					10
+				]
+			},
+			"power": {
+				"consumer": true,
+				"workEnergyPerTick": {
+					"type": "BigInt",
+					"value": "40000"
+				},
+				"idleEnergyPerTick": {
+					"type": "BigInt",
+					"value": "1000"
+				}
+			}
+		}
 	},
 	{
 		"id": 6001,
@@ -3899,7 +6395,7 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/t-matrix",
 		"gridIndex": 1801,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 25,
 		"descFields": [
 			1,
@@ -3914,7 +6410,7 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/e-matrix",
 		"gridIndex": 1802,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 26,
 		"descFields": [
 			1,
@@ -3929,7 +6425,7 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/c-matrix",
 		"gridIndex": 1803,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 27,
 		"descFields": [
 			1,
@@ -3944,7 +6440,7 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/i-matrix",
 		"gridIndex": 1804,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 28,
 		"descFields": [
 			1,
@@ -3959,7 +6455,7 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/g-matrix",
 		"gridIndex": 1805,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 29,
 		"descFields": [
 			1,
@@ -3974,7 +6470,7 @@
 		"stackSize": 200,
 		"iconPath": "Icons/ItemRecipe/u-matrix",
 		"gridIndex": 1806,
-		"produce": true,
+		"productive": true,
 		"mechaMaterialId": 30,
 		"descFields": [
 			1,

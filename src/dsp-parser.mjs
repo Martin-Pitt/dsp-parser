@@ -42,6 +42,14 @@ export class DSPParser {
 		console.log('• TextureParser');
 		console.log('TextureParser loading');
 		this.textureParser.load();
+		
+		return {
+			meta: this.assetsParser.meta,
+			items: this.assetsParser.items,
+			recipes: this.assetsParser.recipes,
+			techs: this.assetsParser.techs,
+			data: this.localeParser.data,
+		};
 	}
 	
 	async writeToFiles() {

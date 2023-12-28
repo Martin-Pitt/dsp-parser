@@ -183,13 +183,19 @@ export class BufferStreamData {
 		return val;
 	}
 	
-	readBool() { return !!this.readInt32() }
+	readBool(width = 4) {
+		switch(width) {
+			case 4: return !!this.readInt32();
+			case 2: return !!this.readInt16();
+			case 1: return !!this.readInt8();
+		}
+	}
 	
-	readString() {
+	readString(align = true) {
 		let length = this.readInt32();
 		if(!length || length > this.buf.length) return Buffer.alloc(0);
 		let string = this.read(length);
-		this.align();
+		if(align) this.align();
 		return string;
 	}
 	

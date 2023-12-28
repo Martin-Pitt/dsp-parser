@@ -11258,11 +11258,11 @@
 			6001
 		],
 		"itemPoints": [
-			40
+			10
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "9000"
+			"value": "36000"
 		},
 		"unlockFunctions": [
 			61
@@ -11310,7 +11310,7 @@
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "36000"
+			"value": "72000"
 		},
 		"unlockFunctions": [
 			61
@@ -11354,9 +11354,9 @@
 			6003
 		],
 		"itemPoints": [
-			5,
-			5,
-			5
+			10,
+			10,
+			10
 		],
 		"hashNeeded": {
 			"type": "BigInt",
@@ -11510,7 +11510,7 @@
 			6006
 		],
 		"itemPoints": [
-			8
+			4
 		],
 		"hashNeeded": {
 			"type": "BigInt",
@@ -11523,13 +11523,13 @@
 			{
 				"type": "Buffer",
 				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
+					154,
+					153,
+					153,
+					153,
+					153,
+					153,
+					201,
 					63
 				]
 			}
@@ -11652,9 +11652,9 @@
 			6003
 		],
 		"itemPoints": [
-			5,
-			5,
-			5
+			10,
+			10,
+			10
 		],
 		"hashNeeded": {
 			"type": "BigInt",
@@ -11710,7 +11710,7 @@
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "360000"
+			"value": "480000"
 		},
 		"unlockFunctions": [
 			62
@@ -11764,7 +11764,7 @@
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "720000"
+			"value": "1440000"
 		},
 		"unlockFunctions": [
 			62
@@ -11797,8 +11797,8 @@
 		"published": true,
 		"level": 6,
 		"maxLevel": 10000,
-		"levelCoef1": -16200000,
-		"levelCoef2": 1800000,
+		"levelCoef1": -54000000,
+		"levelCoef2": 5400000,
 		"iconPath": "Icons/Tech/5106",
 		"isLabTech": true,
 		"preTechs": [
@@ -11808,11 +11808,11 @@
 			6006
 		],
 		"itemPoints": [
-			8
+			4
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "36000000"
+			"value": "135000000"
 		},
 		"unlockFunctions": [
 			62
@@ -11821,13 +11821,13 @@
 			{
 				"type": "Buffer",
 				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
+					154,
+					153,
+					153,
+					153,
+					153,
+					153,
+					201,
 					63
 				]
 			}
@@ -11950,9 +11950,9 @@
 			6003
 		],
 		"itemPoints": [
-			5,
-			5,
-			5
+			10,
+			10,
+			10
 		],
 		"hashNeeded": {
 			"type": "BigInt",
@@ -12106,7 +12106,7 @@
 			6006
 		],
 		"itemPoints": [
-			8
+			4
 		],
 		"hashNeeded": {
 			"type": "BigInt",
@@ -12119,13 +12119,13 @@
 			{
 				"type": "Buffer",
 				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
+					154,
+					153,
+					153,
+					153,
+					153,
+					153,
+					201,
 					63
 				]
 			}
@@ -12158,7 +12158,7 @@
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "72000"
+			"value": "108000"
 		},
 		"unlockFunctions": [
 			67
@@ -12202,13 +12202,13 @@
 			6003
 		],
 		"itemPoints": [
-			5,
-			5,
-			5
+			10,
+			10,
+			10
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "144000"
+			"value": "180000"
 		},
 		"unlockFunctions": [
 			67
@@ -12260,7 +12260,7 @@
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "360000"
+			"value": "480000"
 		},
 		"unlockFunctions": [
 			67,
@@ -12276,7 +12276,7 @@
 					51,
 					51,
 					51,
-					211,
+					195,
 					63
 				]
 			},
@@ -12289,7 +12289,7 @@
 					0,
 					0,
 					0,
-					224,
+					208,
 					63
 				]
 			}
@@ -12338,13 +12338,13 @@
 			{
 				"type": "Buffer",
 				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					224,
+					51,
+					51,
+					51,
+					51,
+					51,
+					51,
+					195,
 					63
 				]
 			},
@@ -12357,7 +12357,7 @@
 					0,
 					0,
 					0,
-					224,
+					208,
 					63
 				]
 			}
@@ -12375,8 +12375,8 @@
 		"published": true,
 		"level": 5,
 		"maxLevel": 10000,
-		"levelCoef1": -16200000,
-		"levelCoef2": 1800000,
+		"levelCoef1": -43200000,
+		"levelCoef2": 5400000,
 		"iconPath": "Icons/Tech/5305",
 		"isLabTech": true,
 		"preTechs": [
@@ -12386,11 +12386,11 @@
 			6006
 		],
 		"itemPoints": [
-			8
+			4
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "39600000"
+			"value": "84600000"
 		},
 		"unlockFunctions": [
 			67,
@@ -12400,26 +12400,26 @@
 			{
 				"type": "Buffer",
 				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					224,
+					154,
+					153,
+					153,
+					153,
+					153,
+					153,
+					201,
 					63
 				]
 			},
 			{
 				"type": "Buffer",
 				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					224,
+					154,
+					153,
+					153,
+					153,
+					153,
+					153,
+					201,
 					63
 				]
 			}
@@ -12496,9 +12496,9 @@
 			6003
 		],
 		"itemPoints": [
-			5,
-			5,
-			5
+			10,
+			10,
+			10
 		],
 		"hashNeeded": {
 			"type": "BigInt",
@@ -12547,14 +12547,14 @@
 			6004
 		],
 		"itemPoints": [
-			6,
-			6,
-			6,
-			6
+			10,
+			10,
+			10,
+			10
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "300000"
+			"value": "288000"
 		},
 		"unlockFunctions": [
 			68,
@@ -12788,9 +12788,9 @@
 			6003
 		],
 		"itemPoints": [
-			5,
-			5,
-			5
+			10,
+			10,
+			10
 		],
 		"hashNeeded": {
 			"type": "BigInt",
@@ -12846,7 +12846,7 @@
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "300000"
+			"value": "360000"
 		},
 		"unlockFunctions": [
 			69,
@@ -12974,7 +12974,7 @@
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "1440000"
+			"value": "1800000"
 		},
 		"unlockFunctions": [
 			69,
@@ -13060,7 +13060,7 @@
 		],
 		"position": [
 			9,
-			-87
+			-91
 		]
 	},
 	{
@@ -13110,7 +13110,7 @@
 		],
 		"position": [
 			13,
-			-87
+			-91
 		]
 	},
 	{
@@ -13140,7 +13140,7 @@
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "300000"
+			"value": "360000"
 		},
 		"unlockFunctions": [
 			74
@@ -13162,7 +13162,7 @@
 		],
 		"position": [
 			17,
-			-87
+			-91
 		]
 	},
 	{
@@ -13216,7 +13216,7 @@
 		],
 		"position": [
 			21,
-			-87
+			-91
 		]
 	},
 	{
@@ -13240,7 +13240,7 @@
 		],
 		"hashNeeded": {
 			"type": "BigInt",
-			"value": "1440000"
+			"value": "1800000"
 		},
 		"unlockFunctions": [
 			74
@@ -13262,7 +13262,7 @@
 		],
 		"position": [
 			25,
-			-87
+			-91
 		]
 	},
 	{
@@ -13633,10 +13633,10 @@
 			6004
 		],
 		"itemPoints": [
-			5,
-			5,
-			5,
-			5
+			10,
+			10,
+			10,
+			10
 		],
 		"hashNeeded": {
 			"type": "BigInt",
@@ -13967,6 +13967,304 @@
 		"position": [
 			33,
 			-83
+		]
+	},
+	{
+		"id": 6001,
+		"name": "T全局耐久度提升",
+		"description": "全局耐久度提升描述1",
+		"conclusion": "全局耐久度提升结果1",
+		"published": true,
+		"level": 1,
+		"maxLevel": 1,
+		"iconPath": "Icons/Tech/6001",
+		"isLabTech": true,
+		"preTechsImplicit": [
+			2101
+		],
+		"items": [
+			6001
+		],
+		"itemPoints": [
+			10
+		],
+		"hashNeeded": {
+			"type": "BigInt",
+			"value": "72000"
+		},
+		"unlockFunctions": [
+			84
+		],
+		"unlockValues": [
+			{
+				"type": "Buffer",
+				"data": [
+					123,
+					20,
+					174,
+					71,
+					225,
+					122,
+					164,
+					63
+				]
+			}
+		],
+		"position": [
+			9,
+			-87
+		]
+	},
+	{
+		"id": 6002,
+		"name": "T全局耐久度提升",
+		"description": "全局耐久度提升描述1",
+		"conclusion": "全局耐久度提升结果1",
+		"published": true,
+		"level": 2,
+		"maxLevel": 2,
+		"iconPath": "Icons/Tech/6002",
+		"isLabTech": true,
+		"preTechs": [
+			6001
+		],
+		"items": [
+			6001,
+			6002
+		],
+		"itemPoints": [
+			10,
+			10
+		],
+		"hashNeeded": {
+			"type": "BigInt",
+			"value": "144000"
+		},
+		"unlockFunctions": [
+			84
+		],
+		"unlockValues": [
+			{
+				"type": "Buffer",
+				"data": [
+					123,
+					20,
+					174,
+					71,
+					225,
+					122,
+					164,
+					63
+				]
+			}
+		],
+		"position": [
+			13,
+			-87
+		]
+	},
+	{
+		"id": 6003,
+		"name": "T全局耐久度提升",
+		"description": "全局耐久度提升描述1",
+		"conclusion": "全局耐久度提升结果1",
+		"published": true,
+		"level": 3,
+		"maxLevel": 3,
+		"iconPath": "Icons/Tech/6003",
+		"isLabTech": true,
+		"preTechs": [
+			6002
+		],
+		"items": [
+			6001,
+			6002,
+			6003
+		],
+		"itemPoints": [
+			10,
+			10,
+			10
+		],
+		"hashNeeded": {
+			"type": "BigInt",
+			"value": "216000"
+		},
+		"unlockFunctions": [
+			84
+		],
+		"unlockValues": [
+			{
+				"type": "Buffer",
+				"data": [
+					123,
+					20,
+					174,
+					71,
+					225,
+					122,
+					164,
+					63
+				]
+			}
+		],
+		"position": [
+			17,
+			-87
+		]
+	},
+	{
+		"id": 6004,
+		"name": "T全局耐久度提升",
+		"description": "全局耐久度提升描述1",
+		"conclusion": "全局耐久度提升结果1",
+		"published": true,
+		"level": 4,
+		"maxLevel": 4,
+		"iconPath": "Icons/Tech/6004",
+		"isLabTech": true,
+		"preTechs": [
+			6003
+		],
+		"items": [
+			6001,
+			6002,
+			6003,
+			6004
+		],
+		"itemPoints": [
+			10,
+			10,
+			10,
+			10
+		],
+		"hashNeeded": {
+			"type": "BigInt",
+			"value": "360000"
+		},
+		"unlockFunctions": [
+			84
+		],
+		"unlockValues": [
+			{
+				"type": "Buffer",
+				"data": [
+					123,
+					20,
+					174,
+					71,
+					225,
+					122,
+					164,
+					63
+				]
+			}
+		],
+		"position": [
+			21,
+			-87
+		]
+	},
+	{
+		"id": 6005,
+		"name": "T全局耐久度提升",
+		"description": "全局耐久度提升描述1",
+		"conclusion": "全局耐久度提升结果1",
+		"published": true,
+		"level": 5,
+		"maxLevel": 5,
+		"iconPath": "Icons/Tech/6005",
+		"isLabTech": true,
+		"preTechs": [
+			6004
+		],
+		"items": [
+			6001,
+			6002,
+			6003,
+			6004,
+			6005
+		],
+		"itemPoints": [
+			6,
+			6,
+			6,
+			6,
+			6
+		],
+		"hashNeeded": {
+			"type": "BigInt",
+			"value": "900000"
+		},
+		"unlockFunctions": [
+			84
+		],
+		"unlockValues": [
+			{
+				"type": "Buffer",
+				"data": [
+					123,
+					20,
+					174,
+					71,
+					225,
+					122,
+					164,
+					63
+				]
+			}
+		],
+		"position": [
+			25,
+			-87
+		]
+	},
+	{
+		"id": 6006,
+		"name": "T全局耐久度提升",
+		"description": "全局耐久度提升描述1",
+		"conclusion": "全局耐久度提升结果1",
+		"published": true,
+		"level": 6,
+		"maxLevel": 10000,
+		"levelCoef1": -3150000,
+		"levelCoef2": 450000,
+		"iconPath": "Icons/Tech/6006",
+		"isLabTech": true,
+		"preTechs": [
+			6005
+		],
+		"items": [
+			6006
+		],
+		"itemPoints": [
+			4
+		],
+		"hashNeeded": {
+			"type": "BigInt",
+			"value": "4500000"
+		},
+		"unlockFunctions": [
+			84
+		],
+		"unlockValues": [
+			{
+				"type": "Buffer",
+				"data": [
+					123,
+					20,
+					174,
+					71,
+					225,
+					122,
+					164,
+					63
+				]
+			}
+		],
+		"position": [
+			29,
+			-87
 		]
 	}
 ]

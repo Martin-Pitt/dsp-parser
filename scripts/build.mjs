@@ -1,4 +1,4 @@
-import { DSPParser } from "../src/dsp-parser.mjs";
+import { DSPParser } from '../src/dsp-parser.mjs';
 
 
 const parser = new DSPParser;

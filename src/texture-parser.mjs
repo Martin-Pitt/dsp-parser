@@ -80,7 +80,7 @@ export class TextureParser {
 	dsp;
 	
 	exportTexturesDirectory = 'textures';
-	exportSpritesheetsDirectory = 'spritesheets';
+	exportSpritesheetsDirectory = '';
 	
 	textures;
 	
@@ -105,11 +105,11 @@ export class TextureParser {
 		.map(texture => texture.body);
 	}
 	
-	async exportAll(textures, withCommonBuckets = true) {
+	async exportAll(directory = './dist/textures', textures, withCommonBuckets = true) {
 		if(!withCommonBuckets)
 		{
 			/// Simple way to export all textures
-			try { await mkdir(join(this.dsp.exportDirectory, this.exportTexturesDirectory)); } catch {}
+			try { await mkdir(directory, { recursive: true }); } catch {}
 			await this.renderer.render(textures);
 		}
 		
@@ -125,8 +125,8 @@ export class TextureParser {
 			).sort((a, b) => b[1] - a[1]).map(d => d[0]).slice(0, 16);
 			
 			try {
-				await mkdir(join(this.dsp.exportDirectory, this.exportTexturesDirectory), { recursive: true });
-				for(let wxh of CommonWxH) await mkdir(join(this.dsp.exportDirectory, this.exportTexturesDirectory, wxh), { recursive: true });
+				await mkdir(directory, { recursive: true });
+				for(let wxh of CommonWxH) await mkdir(join(directory, wxh), { recursive: true });
 			} catch {}
 			
 			const named = new Map();
@@ -141,13 +141,13 @@ export class TextureParser {
 				else named.set(name, count += 1);
 				if(count) name = `${name}.${count}`;
 				
-				const path = join(this.dsp.exportDirectory, this.exportTexturesDirectory, `${name}.avif`);
+				const path = join(directory, `${name}.avif`);
 				await sharp(buffer, { raw: { width, height, channels: 4 } }).avif().toFile(path);
 			});
 		}
 	}
 	
-	async exportSpritesheets() {
+	async exportSpritesheets(directory = './dist/spritesheets') {
 		/// Create spritesheets w/ css
 		let itemSpriteMap = new Map();
 		let spriteItemsMap = new Map();
@@ -266,7 +266,6 @@ export class TextureParser {
 		
 		
 		// Save out
-		let directory = join(this.dsp.exportDirectory, this.exportSpritesheetsDirectory);
 		try { await mkdir(directory, { recursive: true }); } catch {}
 		await writeFile(join(directory, 'icons-item-recipes.png'), await iconSpritesheet.png().toBuffer());
 		await writeFile(join(directory, 'icons-item-recipes.webp'), await iconSpritesheet.webp({ quality: 90, alphaQuality: 70 }).toBuffer());

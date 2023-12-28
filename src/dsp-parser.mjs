@@ -52,15 +52,17 @@ export class DSPParser {
 		};
 	}
 	
-	async writeToFiles() {
+	async writeToFiles(exportDirectory = './dist') {
 		console.log('Exporting data');
-		try { await mkdir(join(this.exportDirectory, 'data'), { recursive: true }); } catch {}
-		await writeFile(join(this.exportDirectory, 'data', 'meta.json'), JSON.stringify(this.assetsParser.meta, JSONReplacer, '\t'));
-		await writeFile(join(this.exportDirectory, 'data', 'items.json'), JSON.stringify(this.assetsParser.items, JSONReplacer, '\t'));
-		await writeFile(join(this.exportDirectory, 'data', 'recipes.json'), JSON.stringify(this.assetsParser.recipes, JSONReplacer, '\t'));
-		await writeFile(join(this.exportDirectory, 'data', 'tech.json'), JSON.stringify(this.assetsParser.techs, JSONReplacer, '\t'));
-		await writeFile(join(this.exportDirectory, 'data', 'locale.json'), JSON.stringify(this.localeParser.data, JSONReplacer, '\t'));
-		await writeFile(join(this.exportDirectory, 'data', 'reviver.js'),
+		const dataDirectory = join(exportDirectory, 'data');
+		const spriteDirectory = join(exportDirectory, 'spritesheets');
+		try { await mkdir(dataDirectory, { recursive: true }); } catch {}
+		await writeFile(join(dataDirectory, 'meta.json'), JSON.stringify(this.assetsParser.meta, JSONReplacer, '\t'));
+		await writeFile(join(dataDirectory, 'items.json'), JSON.stringify(this.assetsParser.items, JSONReplacer, '\t'));
+		await writeFile(join(dataDirectory, 'recipes.json'), JSON.stringify(this.assetsParser.recipes, JSONReplacer, '\t'));
+		await writeFile(join(dataDirectory, 'tech.json'), JSON.stringify(this.assetsParser.techs, JSONReplacer, '\t'));
+		await writeFile(join(dataDirectory, 'locale.json'), JSON.stringify(this.localeParser.data, JSONReplacer, '\t'));
+		await writeFile(join(dataDirectory, 'reviver.js'),
 			'// Revive the JSON data\n' +
 			'// usage: const Items = JSON.parse(json, JSONReviver);\n' +
 			'export ' + JSONReviver.toString() + '\n\n' +
@@ -69,6 +71,6 @@ export class DSPParser {
 		);
 		
 		console.log('Exporting spritesheets');
-		await this.textureParser.exportSpritesheets();
+		await this.textureParser.exportSpritesheets(spriteDirectory);
 	}
 }

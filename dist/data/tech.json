@@ -1,7 +1,7 @@
 [
 	{
-		"id": 1,
 		"name": "T戴森球计划",
+		"id": 1,
 		"description": "戴森球计划描述",
 		"published": true,
 		"iconPath": "Icons/Tech/1",
@@ -15,8 +15,8 @@
 		]
 	},
 	{
-		"id": 1001,
 		"name": "T电磁学",
+		"id": 1001,
 		"description": "电磁学描述",
 		"conclusion": "电磁学结果",
 		"published": true,
@@ -61,8 +61,8 @@
 		]
 	},
 	{
-		"id": 1002,
 		"name": "T电磁矩阵",
+		"id": 1002,
 		"description": "电磁矩阵描述",
 		"conclusion": "电磁矩阵结果",
 		"published": true,
@@ -104,8 +104,8 @@
 		]
 	},
 	{
-		"id": 1101,
 		"name": "T高效电浆控制",
+		"id": 1101,
 		"description": "高效电浆控制描述",
 		"conclusion": "高效电浆控制结果",
 		"published": true,
@@ -141,8 +141,8 @@
 		]
 	},
 	{
-		"id": 1102,
 		"name": "T等离子萃取精炼",
+		"id": 1102,
 		"description": "等离子萃取精炼描述",
 		"conclusion": "等离子萃取精炼结果",
 		"published": true,
@@ -173,8 +173,8 @@
 		]
 	},
 	{
-		"id": 1103,
 		"name": "TX射线裂解",
+		"id": 1103,
 		"description": "X射线裂解描述",
 		"conclusion": "X射线裂解结果",
 		"published": true,
@@ -205,8 +205,8 @@
 		]
 	},
 	{
-		"id": 1104,
 		"name": "T重整精炼",
+		"id": 1104,
 		"description": "重整精炼描述",
 		"conclusion": "重整精炼结果",
 		"published": true,
@@ -236,8 +236,8 @@
 		]
 	},
 	{
-		"id": 1111,
 		"name": "T能量矩阵",
+		"id": 1111,
 		"description": "能量矩阵描述",
 		"conclusion": "能量矩阵结果",
 		"published": true,
@@ -265,8 +265,8 @@
 		]
 	},
 	{
-		"id": 1112,
 		"name": "T氢燃料棒",
+		"id": 1112,
 		"description": "氢燃料棒描述",
 		"conclusion": "氢燃料棒结果",
 		"published": true,
@@ -294,8 +294,8 @@
 		]
 	},
 	{
-		"id": 1113,
 		"name": "T推进器",
+		"id": 1113,
 		"description": "推进器描述",
 		"conclusion": "推进器结果",
 		"published": true,
@@ -323,8 +323,8 @@
 		]
 	},
 	{
-		"id": 1114,
 		"name": "T加力推进器",
+		"id": 1114,
 		"description": "加力推进器描述",
 		"conclusion": "加力推进器结果",
 		"published": true,
@@ -352,8 +352,8 @@
 		]
 	},
 	{
-		"id": 1120,
 		"name": "T流体储存封装",
+		"id": 1120,
 		"description": "流体储存封装描述",
 		"conclusion": "流体储存封装结果",
 		"published": true,
@@ -388,8 +388,8 @@
 		]
 	},
 	{
-		"id": 1121,
 		"name": "T基础化工",
+		"id": 1121,
 		"description": "基础化工描述",
 		"conclusion": "基础化工结果",
 		"published": true,
@@ -420,8 +420,8 @@
 		]
 	},
 	{
-		"id": 1122,
 		"name": "T高分子化工",
+		"id": 1122,
 		"description": "高分子化工描述",
 		"conclusion": "高分子化工结果",
 		"published": true,
@@ -452,8 +452,8 @@
 		]
 	},
 	{
-		"id": 1123,
 		"name": "T高强度晶体",
+		"id": 1123,
 		"description": "高强度晶体描述",
 		"conclusion": "高强度晶体结果",
 		"published": true,
@@ -483,8 +483,8 @@
 		]
 	},
 	{
-		"id": 1124,
 		"name": "T结构矩阵",
+		"id": 1124,
 		"description": "结构矩阵描述",
 		"conclusion": "结构矩阵结果",
 		"published": true,
@@ -514,8 +514,8 @@
 		]
 	},
 	{
-		"id": 1125,
 		"name": "T卡西米尔晶体",
+		"id": 1125,
 		"description": "卡西米尔晶体描述",
 		"conclusion": "卡西米尔晶体结果",
 		"published": true,
@@ -548,8 +548,8 @@
 		]
 	},
 	{
-		"id": 1126,
 		"name": "T高强度玻璃",
+		"id": 1126,
 		"description": "高强度玻璃描述",
 		"conclusion": "高强度玻璃结果",
 		"published": true,
@@ -579,8 +579,8 @@
 		]
 	},
 	{
-		"id": 1131,
 		"name": "T应用型超导体",
+		"id": 1131,
 		"description": "应用型超导体描述",
 		"conclusion": "应用型超导体结果",
 		"published": true,
@@ -609,8 +609,8 @@
 		]
 	},
 	{
-		"id": 1132,
 		"name": "T高强度材料",
+		"id": 1132,
 		"description": "高强度材料描述",
 		"conclusion": "高强度材料结果",
 		"published": true,
@@ -641,8 +641,8 @@
 		]
 	},
 	{
-		"id": 1133,
 		"name": "T粒子可控技术",
+		"id": 1133,
 		"description": "粒子可控技术描述",
 		"conclusion": "粒子可控技术结果",
 		"published": true,
@@ -675,8 +675,8 @@
 		]
 	},
 	{
-		"id": 1134,
 		"name": "T重氢分馏",
+		"id": 1134,
 		"description": "重氢分馏描述",
 		"conclusion": "重氢分馏结果",
 		"published": true,
@@ -708,8 +708,8 @@
 		]
 	},
 	{
-		"id": 1141,
 		"name": "T波函数干扰",
+		"id": 1141,
 		"description": "波函数干扰描述",
 		"conclusion": "波函数干扰结果",
 		"published": true,
@@ -742,8 +742,8 @@
 		]
 	},
 	{
-		"id": 1142,
 		"name": "T微型粒子对撞机",
+		"id": 1142,
 		"description": "微型粒子对撞机描述",
 		"conclusion": "微型粒子对撞机结果",
 		"published": true,
@@ -776,8 +776,8 @@
 		]
 	},
 	{
-		"id": 1143,
 		"name": "T奇异物质",
+		"id": 1143,
 		"description": "奇异物质描述",
 		"conclusion": "奇异物质结果",
 		"published": true,
@@ -809,8 +809,8 @@
 		]
 	},
 	{
-		"id": 1144,
 		"name": "T人造恒星",
+		"id": 1144,
 		"description": "人造恒星描述",
 		"conclusion": "人造恒星结果",
 		"published": true,
@@ -846,8 +846,8 @@
 		]
 	},
 	{
-		"id": 1145,
 		"name": "T可控湮灭反应",
+		"id": 1145,
 		"description": "可控湮灭反应描述",
 		"conclusion": "可控湮灭反应结果",
 		"published": true,
@@ -878,8 +878,8 @@
 		]
 	},
 	{
-		"id": 1151,
 		"name": "T增产剂 Mk.I",
+		"id": 1151,
 		"description": "增产剂 Mk.I描述",
 		"conclusion": "增产剂 Mk.I结果",
 		"published": true,
@@ -909,8 +909,8 @@
 		]
 	},
 	{
-		"id": 1152,
 		"name": "T增产剂 Mk.II",
+		"id": 1152,
 		"description": "增产剂 Mk.II描述",
 		"conclusion": "增产剂 Mk.II结果",
 		"published": true,
@@ -941,8 +941,8 @@
 		]
 	},
 	{
-		"id": 1153,
 		"name": "T增产剂 Mk.III",
+		"id": 1153,
 		"description": "增产剂 Mk.III描述",
 		"conclusion": "增产剂 Mk.III结果",
 		"published": true,
@@ -975,8 +975,8 @@
 		]
 	},
 	{
-		"id": 1201,
 		"name": "T基础制造工艺",
+		"id": 1201,
 		"description": "基础制造工艺描述",
 		"conclusion": "基础制造工艺结果",
 		"published": true,
@@ -1017,8 +1017,8 @@
 		]
 	},
 	{
-		"id": 1202,
 		"name": "T高速制造工艺",
+		"id": 1202,
 		"description": "高速制造工艺描述",
 		"conclusion": "高速制造工艺结果",
 		"published": true,
@@ -1047,19 +1047,7 @@
 			7
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					224,
-					63
-				]
-			}
+			0.5
 		],
 		"position": [
 			29,
@@ -1067,8 +1055,8 @@
 		]
 	},
 	{
-		"id": 1203,
 		"name": "T量子打印技术",
+		"id": 1203,
 		"description": "量子打印技术描述",
 		"conclusion": "量子打印技术结果",
 		"published": true,
@@ -1101,19 +1089,7 @@
 			7
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					224,
-					63
-				]
-			}
+			0.5
 		],
 		"position": [
 			49,
@@ -1121,8 +1097,8 @@
 		]
 	},
 	{
-		"id": 1302,
 		"name": "T处理器",
+		"id": 1302,
 		"description": "处理器描述",
 		"conclusion": "处理器结果",
 		"published": true,
@@ -1150,8 +1126,8 @@
 		]
 	},
 	{
-		"id": 1303,
 		"name": "T量子芯片",
+		"id": 1303,
 		"description": "量子芯片描述",
 		"conclusion": "量子芯片结果",
 		"published": true,
@@ -1184,8 +1160,8 @@
 		]
 	},
 	{
-		"id": 1304,
 		"name": "T大型采矿机",
+		"id": 1304,
 		"description": "大型采矿机描述",
 		"conclusion": "大型采矿机结果",
 		"published": true,
@@ -1221,8 +1197,8 @@
 		]
 	},
 	{
-		"id": 1305,
 		"name": "T高级化工",
+		"id": 1305,
 		"description": "高级化工描述",
 		"conclusion": "高级化工结果",
 		"published": true,
@@ -1257,8 +1233,8 @@
 		]
 	},
 	{
-		"id": 1311,
 		"name": "T半导体材料",
+		"id": 1311,
 		"description": "半导体材料描述",
 		"conclusion": "半导体材料结果",
 		"published": true,
@@ -1286,8 +1262,8 @@
 		]
 	},
 	{
-		"id": 1312,
 		"name": "T信息矩阵",
+		"id": 1312,
 		"description": "信息矩阵描述",
 		"conclusion": "信息矩阵结果",
 		"published": true,
@@ -1318,8 +1294,8 @@
 		]
 	},
 	{
-		"id": 1401,
 		"name": "T自动化冶金",
+		"id": 1401,
 		"description": "自动化冶金描述",
 		"conclusion": "自动化冶金结果",
 		"published": true,
@@ -1361,8 +1337,8 @@
 		]
 	},
 	{
-		"id": 1402,
 		"name": "T冶炼提纯",
+		"id": 1402,
 		"description": "冶炼提纯描述",
 		"conclusion": "冶炼提纯结果",
 		"published": true,
@@ -1392,8 +1368,8 @@
 		]
 	},
 	{
-		"id": 1403,
 		"name": "T晶体冶炼",
+		"id": 1403,
 		"description": "晶体冶炼描述",
 		"conclusion": "晶体冶炼结果",
 		"published": true,
@@ -1425,8 +1401,8 @@
 		]
 	},
 	{
-		"id": 1411,
 		"name": "T钢材冶炼",
+		"id": 1411,
 		"description": "钢材冶炼描述",
 		"conclusion": "钢材冶炼结果",
 		"published": true,
@@ -1452,19 +1428,7 @@
 			37
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					54,
-					161,
-					64
-				]
-			}
+			2203
 		],
 		"position": [
 			17,
@@ -1472,8 +1436,8 @@
 		]
 	},
 	{
-		"id": 1412,
 		"name": "T火力发电",
+		"id": 1412,
 		"description": "火力发电描述",
 		"conclusion": "火力发电结果",
 		"published": true,
@@ -1507,8 +1471,8 @@
 		]
 	},
 	{
-		"id": 1413,
 		"name": "T钛矿冶炼",
+		"id": 1413,
 		"description": "钛矿冶炼描述",
 		"conclusion": "钛矿冶炼结果",
 		"published": true,
@@ -1538,8 +1502,8 @@
 		]
 	},
 	{
-		"id": 1414,
 		"name": "T高强度钛合金",
+		"id": 1414,
 		"description": "高强度钛合金描述",
 		"conclusion": "高强度钛合金结果",
 		"published": true,
@@ -1571,8 +1535,8 @@
 		]
 	},
 	{
-		"id": 1415,
 		"name": "T移山填海工程",
+		"id": 1415,
 		"description": "移山填海工程描述",
 		"conclusion": "移山填海工程结果",
 		"published": true,
@@ -1600,8 +1564,8 @@
 		]
 	},
 	{
-		"id": 1416,
 		"name": "T微型核聚变发电",
+		"id": 1416,
 		"description": "微型核聚变发电描述",
 		"conclusion": "微型核聚变发电结果",
 		"published": true,
@@ -1637,8 +1601,8 @@
 		]
 	},
 	{
-		"id": 1417,
 		"name": "T位面冶金",
+		"id": 1417,
 		"description": "位面冶金描述",
 		"conclusion": "位面冶金结果",
 		"published": true,
@@ -1675,8 +1639,8 @@
 		]
 	},
 	{
-		"id": 1501,
 		"name": "T太阳能收集",
+		"id": 1501,
 		"description": "太阳能收集描述",
 		"conclusion": "太阳能收集结果",
 		"published": true,
@@ -1712,8 +1676,8 @@
 		]
 	},
 	{
-		"id": 1502,
 		"name": "T光子变频",
+		"id": 1502,
 		"description": "光子变频描述",
 		"conclusion": "光子变频结果",
 		"published": true,
@@ -1744,8 +1708,8 @@
 		]
 	},
 	{
-		"id": 1503,
 		"name": "T太阳帆轨道系统",
+		"id": 1503,
 		"description": "太阳帆轨道系统描述",
 		"conclusion": "太阳帆轨道系统结果",
 		"published": true,
@@ -1779,8 +1743,8 @@
 		]
 	},
 	{
-		"id": 1504,
 		"name": "T射线接收站",
+		"id": 1504,
 		"description": "射线接收站描述",
 		"conclusion": "射线接收站结果",
 		"published": true,
@@ -1810,8 +1774,8 @@
 		]
 	},
 	{
-		"id": 1505,
 		"name": "T行星电离层利用",
+		"id": 1505,
 		"description": "行星电离层利用描述",
 		"conclusion": "行星电离层利用结果",
 		"published": true,
@@ -1843,19 +1807,7 @@
 			8
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			49,
@@ -1863,8 +1815,8 @@
 		]
 	},
 	{
-		"id": 1506,
 		"name": "T狄拉克逆变机制",
+		"id": 1506,
 		"description": "狄拉克逆变机制描述",
 		"conclusion": "狄拉克逆变机制结果",
 		"published": true,
@@ -1900,8 +1852,8 @@
 		]
 	},
 	{
-		"id": 1507,
 		"name": "T宇宙矩阵",
+		"id": 1507,
 		"description": "宇宙矩阵描述",
 		"conclusion": "宇宙矩阵结果",
 		"published": true,
@@ -1937,8 +1889,8 @@
 		]
 	},
 	{
-		"id": 1508,
 		"name": "T任务完成",
+		"id": 1508,
 		"description": "任务完成描述",
 		"conclusion": "任务完成结果",
 		"published": true,
@@ -1961,19 +1913,7 @@
 			99
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			69,
@@ -1981,8 +1921,8 @@
 		]
 	},
 	{
-		"id": 1511,
 		"name": "T能量储存",
+		"id": 1511,
 		"description": "能量储存描述",
 		"conclusion": "能量储存结果",
 		"published": true,
@@ -2016,8 +1956,8 @@
 		]
 	},
 	{
-		"id": 1512,
 		"name": "T星际电力运输",
+		"id": 1512,
 		"description": "星际电力运输描述",
 		"conclusion": "星际电力运输结果",
 		"published": true,
@@ -2050,8 +1990,8 @@
 		]
 	},
 	{
-		"id": 1513,
 		"name": "T地热开采",
+		"id": 1513,
 		"description": "地热开采描述",
 		"conclusion": "地热开采结果",
 		"published": true,
@@ -2084,8 +2024,8 @@
 		]
 	},
 	{
-		"id": 1521,
 		"name": "T高强度轻质结构",
+		"id": 1521,
 		"description": "高强度轻质结构描述",
 		"conclusion": "高强度轻质结构结果",
 		"published": true,
@@ -2119,8 +2059,8 @@
 		]
 	},
 	{
-		"id": 1522,
 		"name": "T垂直发射井",
+		"id": 1522,
 		"description": "垂直发射井描述",
 		"conclusion": "垂直发射井结果",
 		"published": true,
@@ -2158,8 +2098,8 @@
 		]
 	},
 	{
-		"id": 1523,
 		"name": "T戴森球应力系统",
+		"id": 1523,
 		"description": "戴森球应力系统描述",
 		"conclusion": "戴森球应力系统结果",
 		"published": true,
@@ -2193,19 +2133,7 @@
 			26
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					46,
-					64
-				]
-			}
+			15
 		],
 		"position": [
 			49,
@@ -2213,8 +2141,8 @@
 		]
 	},
 	{
-		"id": 1601,
 		"name": "T基础物流系统",
+		"id": 1601,
 		"description": "基础物流系统描述",
 		"conclusion": "基础物流系统结果",
 		"published": true,
@@ -2259,8 +2187,8 @@
 		]
 	},
 	{
-		"id": 1602,
 		"name": "T改良物流系统",
+		"id": 1602,
 		"description": "改良物流系统描述",
 		"conclusion": "改良物流系统结果",
 		"published": true,
@@ -2300,8 +2228,8 @@
 		]
 	},
 	{
-		"id": 1603,
 		"name": "T高效物流系统",
+		"id": 1603,
 		"description": "高效物流系统描述",
 		"conclusion": "高效物流系统结果",
 		"published": true,
@@ -2336,8 +2264,8 @@
 		]
 	},
 	{
-		"id": 1604,
 		"name": "T行星物流系统",
+		"id": 1604,
 		"description": "行星物流系统描述",
 		"conclusion": "行星物流系统结果",
 		"published": true,
@@ -2373,8 +2301,8 @@
 		]
 	},
 	{
-		"id": 1605,
 		"name": "T星际物流系统",
+		"id": 1605,
 		"description": "星际物流系统描述",
 		"conclusion": "星际物流系统结果",
 		"published": true,
@@ -2411,8 +2339,8 @@
 		]
 	},
 	{
-		"id": 1606,
 		"name": "T气态行星开采",
+		"id": 1606,
 		"description": "气态行星开采描述",
 		"conclusion": "气态行星开采结果",
 		"published": true,
@@ -2445,8 +2373,8 @@
 		]
 	},
 	{
-		"id": 1607,
 		"name": "T集装物流系统",
+		"id": 1607,
 		"description": "集装物流系统描述",
 		"conclusion": "集装物流系统结果",
 		"published": true,
@@ -2481,8 +2409,8 @@
 		]
 	},
 	{
-		"id": 1608,
 		"name": "T配送物流系统",
+		"id": 1608,
 		"description": "配送物流系统描述",
 		"conclusion": "配送物流系统结果",
 		"published": true,
@@ -2514,19 +2442,7 @@
 			32
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			25,
@@ -2534,8 +2450,8 @@
 		]
 	},
 	{
-		"id": 1701,
 		"name": "T电磁驱动",
+		"id": 1701,
 		"description": "电磁驱动描述",
 		"conclusion": "电磁驱动结果",
 		"published": true,
@@ -2563,8 +2479,8 @@
 		]
 	},
 	{
-		"id": 1702,
 		"name": "T磁悬浮技术",
+		"id": 1702,
 		"description": "磁悬浮技术描述",
 		"conclusion": "磁悬浮技术结果",
 		"published": true,
@@ -2594,8 +2510,8 @@
 		]
 	},
 	{
-		"id": 1703,
 		"name": "T粒子磁力阱",
+		"id": 1703,
 		"description": "粒子磁力阱描述",
 		"conclusion": "粒子磁力阱结果",
 		"published": true,
@@ -2626,8 +2542,8 @@
 		]
 	},
 	{
-		"id": 1704,
 		"name": "T引力波折射",
+		"id": 1704,
 		"description": "引力波折射描述",
 		"conclusion": "引力波折射结果",
 		"published": true,
@@ -2661,8 +2577,8 @@
 		]
 	},
 	{
-		"id": 1705,
 		"name": "T引力矩阵",
+		"id": 1705,
 		"description": "引力矩阵描述",
 		"conclusion": "引力矩阵结果",
 		"published": true,
@@ -2696,8 +2612,8 @@
 		]
 	},
 	{
-		"id": 1711,
 		"name": "T超级磁场发生器",
+		"id": 1711,
 		"description": "超级磁场发生器描述",
 		"conclusion": "超级磁场发生器结果",
 		"published": true,
@@ -2727,8 +2643,8 @@
 		]
 	},
 	{
-		"id": 1712,
 		"name": "T卫星配电系统",
+		"id": 1712,
 		"description": "卫星配电系统描述",
 		"conclusion": "卫星配电系统结果",
 		"published": true,
@@ -2763,8 +2679,8 @@
 		]
 	},
 	{
-		"id": 1801,
 		"name": "T武器系统",
+		"id": 1801,
 		"description": "武器系统描述",
 		"conclusion": "武器系统结果",
 		"published": true,
@@ -2802,8 +2718,8 @@
 		]
 	},
 	{
-		"id": 1802,
 		"name": "T燃烧单元",
+		"id": 1802,
 		"description": "燃烧单元描述",
 		"conclusion": "燃烧单元结果",
 		"published": true,
@@ -2831,8 +2747,8 @@
 		]
 	},
 	{
-		"id": 1803,
 		"name": "T爆破单元",
+		"id": 1803,
 		"description": "爆破单元描述",
 		"conclusion": "爆破单元结果",
 		"published": true,
@@ -2862,8 +2778,8 @@
 		]
 	},
 	{
-		"id": 1804,
 		"name": "T晶石爆破单元",
+		"id": 1804,
 		"description": "晶石爆破单元描述",
 		"conclusion": "晶石爆破单元结果",
 		"published": true,
@@ -2897,8 +2813,8 @@
 		]
 	},
 	{
-		"id": 1805,
 		"name": "T动力引擎",
+		"id": 1805,
 		"description": "动力引擎描述",
 		"conclusion": "动力引擎结果",
 		"published": true,
@@ -2926,8 +2842,8 @@
 		]
 	},
 	{
-		"id": 1806,
 		"name": "T导弹防御塔",
+		"id": 1806,
 		"description": "导弹防御塔描述",
 		"conclusion": "导弹防御塔结果",
 		"published": true,
@@ -2960,8 +2876,8 @@
 		]
 	},
 	{
-		"id": 1807,
 		"name": "T聚爆加农炮",
+		"id": 1807,
 		"description": "聚爆加农炮描述",
 		"conclusion": "聚爆加农炮结果",
 		"published": true,
@@ -2995,8 +2911,8 @@
 		]
 	},
 	{
-		"id": 1808,
 		"name": "T信号塔",
+		"id": 1808,
 		"description": "信号塔描述",
 		"conclusion": "信号塔结果",
 		"published": true,
@@ -3029,8 +2945,8 @@
 		]
 	},
 	{
-		"id": 1809,
 		"name": "T行星防御系统",
+		"id": 1809,
 		"description": "行星防御系统描述",
 		"conclusion": "行星防御系统结果",
 		"published": true,
@@ -3064,8 +2980,8 @@
 		]
 	},
 	{
-		"id": 1811,
 		"name": "T磁化电浆炮",
+		"id": 1811,
 		"description": "磁化电浆炮描述",
 		"conclusion": "磁化电浆炮结果",
 		"published": true,
@@ -3103,8 +3019,8 @@
 		]
 	},
 	{
-		"id": 1812,
 		"name": "T钛化弹箱",
+		"id": 1812,
 		"description": "钛化弹箱描述",
 		"conclusion": "钛化弹箱结果",
 		"published": true,
@@ -3137,8 +3053,8 @@
 		]
 	},
 	{
-		"id": 1813,
 		"name": "T超合金弹箱",
+		"id": 1813,
 		"description": "超合金弹箱描述",
 		"conclusion": "超合金弹箱结果",
 		"published": true,
@@ -3173,8 +3089,8 @@
 		]
 	},
 	{
-		"id": 1814,
 		"name": "T高爆炮弹组",
+		"id": 1814,
 		"description": "高爆炮弹组描述",
 		"conclusion": "高爆炮弹组结果",
 		"published": true,
@@ -3207,8 +3123,8 @@
 		]
 	},
 	{
-		"id": 1815,
 		"name": "T超音速导弹组",
+		"id": 1815,
 		"description": "超音速导弹组描述",
 		"conclusion": "超音速导弹组结果",
 		"published": true,
@@ -3243,8 +3159,8 @@
 		]
 	},
 	{
-		"id": 1816,
 		"name": "T晶石炮弹组",
+		"id": 1816,
 		"description": "晶石炮弹组描述",
 		"conclusion": "晶石炮弹组结果",
 		"published": true,
@@ -3281,8 +3197,8 @@
 		]
 	},
 	{
-		"id": 1817,
 		"name": "T引力导弹组",
+		"id": 1817,
 		"description": "引力导弹组描述",
 		"conclusion": "引力导弹组结果",
 		"published": true,
@@ -3321,8 +3237,8 @@
 		]
 	},
 	{
-		"id": 1818,
 		"name": "T反物质胶囊",
+		"id": 1818,
 		"description": "反物质胶囊描述",
 		"conclusion": "反物质胶囊结果",
 		"published": true,
@@ -3359,8 +3275,8 @@
 		]
 	},
 	{
-		"id": 1819,
 		"name": "T地面战斗机-E型",
+		"id": 1819,
 		"description": "地面战斗机-E型描述",
 		"conclusion": "地面战斗机-E型结果",
 		"published": true,
@@ -3390,32 +3306,8 @@
 			78
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					16,
-					64
-				]
-			}
+			1,
+			4
 		],
 		"position": [
 			21,
@@ -3423,8 +3315,8 @@
 		]
 	},
 	{
-		"id": 1820,
 		"name": "T地面战斗机-A型",
+		"id": 1820,
 		"description": "地面战斗机-A型描述",
 		"conclusion": "地面战斗机-A型结果",
 		"published": true,
@@ -3457,8 +3349,8 @@
 		]
 	},
 	{
-		"id": 1821,
 		"name": "T地面战斗机-F型",
+		"id": 1821,
 		"description": "地面战斗机-F型描述",
 		"conclusion": "地面战斗机-F型结果",
 		"published": true,
@@ -3493,8 +3385,8 @@
 		]
 	},
 	{
-		"id": 1822,
 		"name": "T太空战斗机-A型",
+		"id": 1822,
 		"description": "太空战斗机-A型描述",
 		"conclusion": "太空战斗机-A型结果",
 		"published": true,
@@ -3528,32 +3420,8 @@
 			80
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					16,
-					64
-				]
-			}
+			1,
+			4
 		],
 		"position": [
 			41,
@@ -3561,8 +3429,8 @@
 		]
 	},
 	{
-		"id": 1823,
 		"name": "T太空战斗机-F型",
+		"id": 1823,
 		"description": "太空战斗机-F型描述",
 		"conclusion": "太空战斗机-F型结果",
 		"published": true,
@@ -3599,8 +3467,8 @@
 		]
 	},
 	{
-		"id": 1826,
 		"name": "T战场分析基站",
+		"id": 1826,
 		"description": "战场分析基站描述",
 		"conclusion": "战场分析基站结果",
 		"published": true,
@@ -3629,8 +3497,8 @@
 		]
 	},
 	{
-		"id": 1901,
 		"name": "T数字模拟计算",
+		"id": 1901,
 		"description": "数字模拟计算描述",
 		"conclusion": "数字模拟计算结果",
 		"published": true,
@@ -3661,8 +3529,8 @@
 		]
 	},
 	{
-		"id": 1902,
 		"name": "T物质重组技术",
+		"id": 1902,
 		"description": "物质重组技术描述",
 		"conclusion": "物质重组技术结果",
 		"published": true,
@@ -3693,8 +3561,8 @@
 		]
 	},
 	{
-		"id": 1903,
 		"name": "T负熵递归",
+		"id": 1903,
 		"description": "负熵递归描述",
 		"conclusion": "负熵递归结果",
 		"published": true,
@@ -3725,8 +3593,8 @@
 		]
 	},
 	{
-		"id": 1904,
 		"name": "T金色燃料棒",
+		"id": 1904,
 		"description": "金色燃料棒描述",
 		"conclusion": "金色燃料棒结果",
 		"published": true,
@@ -3757,8 +3625,8 @@
 		]
 	},
 	{
-		"id": 2101,
 		"name": "T机甲核心",
+		"id": 2101,
 		"description": "机甲核心描述",
 		"conclusion": "机甲核心结果",
 		"published": true,
@@ -3789,45 +3657,9 @@
 			82
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					208,
-					18,
-					147,
-					65
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					76,
-					221,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			80000000,
+			30000,
+			1
 		],
 		"position": [
 			9,
@@ -3835,8 +3667,8 @@
 		]
 	},
 	{
-		"id": 2102,
 		"name": "T机甲核心",
+		"id": 2102,
 		"description": "机甲核心描述",
 		"conclusion": "机甲核心结果",
 		"published": true,
@@ -3866,58 +3698,10 @@
 			83
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					132,
-					215,
-					167,
-					65
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					76,
-					221,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					105,
-					64
-				]
-			}
+			200000000,
+			30000,
+			1,
+			200
 		],
 		"position": [
 			13,
@@ -3925,8 +3709,8 @@
 		]
 	},
 	{
-		"id": 2103,
 		"name": "T机甲核心",
+		"id": 2103,
 		"description": "机甲核心描述",
 		"conclusion": "机甲核心结果",
 		"published": true,
@@ -3958,58 +3742,10 @@
 			83
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					132,
-					215,
-					183,
-					65
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					76,
-					221,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					105,
-					64
-				]
-			}
+			400000000,
+			30000,
+			2,
+			200
 		],
 		"position": [
 			17,
@@ -4017,8 +3753,8 @@
 		]
 	},
 	{
-		"id": 2104,
 		"name": "T机甲核心",
+		"id": 2104,
 		"description": "机甲核心描述",
 		"conclusion": "机甲核心结果",
 		"published": true,
@@ -4052,58 +3788,10 @@
 			83
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					132,
-					215,
-					199,
-					65
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					76,
-					221,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					105,
-					64
-				]
-			}
+			800000000,
+			30000,
+			2,
+			200
 		],
 		"position": [
 			21,
@@ -4111,8 +3799,8 @@
 		]
 	},
 	{
-		"id": 2105,
 		"name": "T机甲核心",
+		"id": 2105,
 		"description": "机甲核心描述",
 		"conclusion": "机甲核心结果",
 		"published": true,
@@ -4148,58 +3836,10 @@
 			83
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					132,
-					215,
-					215,
-					65
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					76,
-					221,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					105,
-					64
-				]
-			}
+			1600000000,
+			30000,
+			2,
+			200
 		],
 		"position": [
 			25,
@@ -4207,8 +3847,8 @@
 		]
 	},
 	{
-		"id": 2106,
 		"name": "T机甲核心",
+		"id": 2106,
 		"description": "机甲核心描述2",
 		"conclusion": "机甲核心结果2",
 		"published": true,
@@ -4237,45 +3877,9 @@
 			83
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					163,
-					225,
-					225,
-					65
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					136,
-					211,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					105,
-					64
-				]
-			}
+			2400000000,
+			20000,
+			200
 		],
 		"position": [
 			29,
@@ -4283,8 +3887,8 @@
 		]
 	},
 	{
-		"id": 2201,
 		"name": "T机械骨骼",
+		"id": 2201,
 		"description": "机械骨骼描述",
 		"conclusion": "机械骨骼结果",
 		"published": true,
@@ -4314,19 +3918,7 @@
 			3
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			9,
@@ -4334,8 +3926,8 @@
 		]
 	},
 	{
-		"id": 2202,
 		"name": "T机械骨骼",
+		"id": 2202,
 		"description": "机械骨骼描述2",
 		"conclusion": "机械骨骼结果",
 		"published": true,
@@ -4365,19 +3957,7 @@
 			3
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			13,
@@ -4385,8 +3965,8 @@
 		]
 	},
 	{
-		"id": 2203,
 		"name": "T机械骨骼",
+		"id": 2203,
 		"description": "机械骨骼描述2",
 		"conclusion": "机械骨骼结果",
 		"published": true,
@@ -4416,19 +3996,7 @@
 			3
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			17,
@@ -4436,8 +4004,8 @@
 		]
 	},
 	{
-		"id": 2204,
 		"name": "T机械骨骼",
+		"id": 2204,
 		"description": "机械骨骼描述2",
 		"conclusion": "机械骨骼结果",
 		"published": true,
@@ -4469,19 +4037,7 @@
 			3
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			21,
@@ -4489,8 +4045,8 @@
 		]
 	},
 	{
-		"id": 2205,
 		"name": "T机械骨骼",
+		"id": 2205,
 		"description": "机械骨骼描述2",
 		"conclusion": "机械骨骼结果",
 		"published": true,
@@ -4522,19 +4078,7 @@
 			3
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			25,
@@ -4542,8 +4086,8 @@
 		]
 	},
 	{
-		"id": 2206,
 		"name": "T机械骨骼",
+		"id": 2206,
 		"description": "机械骨骼描述2",
 		"conclusion": "机械骨骼结果",
 		"published": true,
@@ -4577,19 +4121,7 @@
 			3
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			29,
@@ -4597,8 +4129,8 @@
 		]
 	},
 	{
-		"id": 2207,
 		"name": "T机械骨骼",
+		"id": 2207,
 		"description": "机械骨骼描述2",
 		"conclusion": "机械骨骼结果",
 		"published": true,
@@ -4632,19 +4164,7 @@
 			3
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			33,
@@ -4652,8 +4172,8 @@
 		]
 	},
 	{
-		"id": 2208,
 		"name": "T机械骨骼",
+		"id": 2208,
 		"description": "机械骨骼描述2",
 		"conclusion": "机械骨骼结果",
 		"published": true,
@@ -4689,19 +4209,7 @@
 			3
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			37,
@@ -4709,8 +4217,8 @@
 		]
 	},
 	{
-		"id": 2301,
 		"name": "T机舱容量",
+		"id": 2301,
 		"description": "机舱容量描述",
 		"conclusion": "机舱容量结果",
 		"published": true,
@@ -4742,19 +4250,7 @@
 			5
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			9,
@@ -4762,8 +4258,8 @@
 		]
 	},
 	{
-		"id": 2302,
 		"name": "T机舱容量",
+		"id": 2302,
 		"description": "机舱容量描述",
 		"conclusion": "机舱容量结果",
 		"published": true,
@@ -4793,19 +4289,7 @@
 			5
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			13,
@@ -4813,8 +4297,8 @@
 		]
 	},
 	{
-		"id": 2303,
 		"name": "T机舱容量",
+		"id": 2303,
 		"description": "机舱容量描述",
 		"conclusion": "机舱容量结果",
 		"published": true,
@@ -4847,32 +4331,8 @@
 			33
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			1,
+			2
 		],
 		"position": [
 			17,
@@ -4880,8 +4340,8 @@
 		]
 	},
 	{
-		"id": 2304,
 		"name": "T机舱容量",
+		"id": 2304,
 		"description": "机舱容量描述2",
 		"conclusion": "机舱容量结果",
 		"published": true,
@@ -4915,45 +4375,9 @@
 			33
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			1,
+			1,
+			2
 		],
 		"position": [
 			21,
@@ -4961,8 +4385,8 @@
 		]
 	},
 	{
-		"id": 2305,
 		"name": "T机舱容量",
+		"id": 2305,
 		"description": "机舱容量描述2",
 		"conclusion": "机舱容量结果",
 		"published": true,
@@ -4995,32 +4419,8 @@
 			33
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2,
+			2
 		],
 		"position": [
 			25,
@@ -5028,8 +4428,8 @@
 		]
 	},
 	{
-		"id": 2306,
 		"name": "T机舱容量",
+		"id": 2306,
 		"description": "机舱容量描述2",
 		"conclusion": "机舱容量结果",
 		"published": true,
@@ -5066,32 +4466,8 @@
 			33
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2,
+			2
 		],
 		"position": [
 			29,
@@ -5099,8 +4475,8 @@
 		]
 	},
 	{
-		"id": 2401,
 		"name": "T通讯控制",
+		"id": 2401,
 		"description": "通讯控制描述",
 		"conclusion": "通讯控制结果1",
 		"published": true,
@@ -5125,19 +4501,7 @@
 			1
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			9,
@@ -5145,8 +4509,8 @@
 		]
 	},
 	{
-		"id": 2402,
 		"name": "T通讯控制",
+		"id": 2402,
 		"description": "通讯控制描述2",
 		"conclusion": "通讯控制结果2",
 		"published": true,
@@ -5176,19 +4540,7 @@
 			1
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			13,
@@ -5196,8 +4548,8 @@
 		]
 	},
 	{
-		"id": 2403,
 		"name": "T通讯控制",
+		"id": 2403,
 		"description": "通讯控制描述3",
 		"conclusion": "通讯控制结果3",
 		"published": true,
@@ -5227,19 +4579,7 @@
 			9
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			17,
@@ -5247,8 +4587,8 @@
 		]
 	},
 	{
-		"id": 2404,
 		"name": "T通讯控制",
+		"id": 2404,
 		"description": "通讯控制描述2",
 		"conclusion": "通讯控制结果4",
 		"published": true,
@@ -5280,19 +4620,7 @@
 			1
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					8,
-					64
-				]
-			}
+			3
 		],
 		"position": [
 			21,
@@ -5300,8 +4628,8 @@
 		]
 	},
 	{
-		"id": 2405,
 		"name": "T通讯控制",
+		"id": 2405,
 		"description": "通讯控制描述2",
 		"conclusion": "通讯控制结果5",
 		"published": true,
@@ -5335,19 +4663,7 @@
 			1
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					8,
-					64
-				]
-			}
+			3
 		],
 		"position": [
 			25,
@@ -5355,8 +4671,8 @@
 		]
 	},
 	{
-		"id": 2406,
 		"name": "T通讯控制",
+		"id": 2406,
 		"description": "通讯控制描述3",
 		"conclusion": "通讯控制结果6",
 		"published": true,
@@ -5392,19 +4708,7 @@
 			9
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			29,
@@ -5412,8 +4716,8 @@
 		]
 	},
 	{
-		"id": 2407,
 		"name": "T通讯控制",
+		"id": 2407,
 		"description": "通讯控制描述2",
 		"conclusion": "通讯控制结果7",
 		"published": true,
@@ -5443,19 +4747,7 @@
 			1
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					8,
-					64
-				]
-			}
+			3
 		],
 		"position": [
 			33,
@@ -5463,8 +4755,8 @@
 		]
 	},
 	{
-		"id": 2501,
 		"name": "T能量回路",
+		"id": 2501,
 		"description": "能量回路描述",
 		"conclusion": "能量回路结果",
 		"published": true,
@@ -5498,19 +4790,7 @@
 			2
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					106,
-					8,
-					65
-				]
-			}
+			200000
 		],
 		"position": [
 			9,
@@ -5518,8 +4798,8 @@
 		]
 	},
 	{
-		"id": 2502,
 		"name": "T能量回路",
+		"id": 2502,
 		"description": "能量回路描述",
 		"conclusion": "能量回路结果",
 		"published": true,
@@ -5549,19 +4829,7 @@
 			2
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					106,
-					8,
-					65
-				]
-			}
+			200000
 		],
 		"position": [
 			13,
@@ -5569,8 +4837,8 @@
 		]
 	},
 	{
-		"id": 2503,
 		"name": "T能量回路",
+		"id": 2503,
 		"description": "能量回路描述",
 		"conclusion": "能量回路结果",
 		"published": true,
@@ -5602,19 +4870,7 @@
 			2
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					106,
-					8,
-					65
-				]
-			}
+			200000
 		],
 		"position": [
 			17,
@@ -5622,8 +4878,8 @@
 		]
 	},
 	{
-		"id": 2504,
 		"name": "T能量回路",
+		"id": 2504,
 		"description": "能量回路描述",
 		"conclusion": "能量回路结果",
 		"published": true,
@@ -5655,19 +4911,7 @@
 			2
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					106,
-					8,
-					65
-				]
-			}
+			200000
 		],
 		"position": [
 			21,
@@ -5675,8 +4919,8 @@
 		]
 	},
 	{
-		"id": 2505,
 		"name": "T能量回路",
+		"id": 2505,
 		"description": "能量回路描述",
 		"conclusion": "能量回路结果",
 		"published": true,
@@ -5712,19 +4956,7 @@
 			2
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					106,
-					40,
-					65
-				]
-			}
+			800000
 		],
 		"position": [
 			25,
@@ -5732,8 +4964,8 @@
 		]
 	},
 	{
-		"id": 2506,
 		"name": "T能量回路",
+		"id": 2506,
 		"description": "能量回路描述",
 		"conclusion": "能量回路结果",
 		"published": true,
@@ -5763,19 +4995,7 @@
 			2
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					128,
-					132,
-					46,
-					65
-				]
-			}
+			1000000
 		],
 		"position": [
 			29,
@@ -5783,8 +5003,8 @@
 		]
 	},
 	{
-		"id": 2601,
 		"name": "T无人机引擎",
+		"id": 2601,
 		"description": "无人机引擎描述",
 		"conclusion": "无人机引擎结果",
 		"published": true,
@@ -5809,19 +5029,7 @@
 			10
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			9,
@@ -5829,8 +5037,8 @@
 		]
 	},
 	{
-		"id": 2602,
 		"name": "T无人机引擎",
+		"id": 2602,
 		"description": "无人机引擎描述2",
 		"conclusion": "无人机引擎结果",
 		"published": true,
@@ -5860,19 +5068,7 @@
 			10
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			13,
@@ -5880,8 +5076,8 @@
 		]
 	},
 	{
-		"id": 2603,
 		"name": "T无人机引擎",
+		"id": 2603,
 		"description": "无人机引擎描述2",
 		"conclusion": "无人机引擎结果",
 		"published": true,
@@ -5913,19 +5109,7 @@
 			10
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			17,
@@ -5933,8 +5117,8 @@
 		]
 	},
 	{
-		"id": 2604,
 		"name": "T无人机引擎",
+		"id": 2604,
 		"description": "无人机引擎描述2",
 		"conclusion": "无人机引擎结果",
 		"published": true,
@@ -5968,19 +5152,7 @@
 			10
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					8,
-					64
-				]
-			}
+			3
 		],
 		"position": [
 			21,
@@ -5988,8 +5160,8 @@
 		]
 	},
 	{
-		"id": 2605,
 		"name": "T无人机引擎",
+		"id": 2605,
 		"description": "无人机引擎描述2",
 		"conclusion": "无人机引擎结果",
 		"published": true,
@@ -6025,19 +5197,7 @@
 			10
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					8,
-					64
-				]
-			}
+			3
 		],
 		"position": [
 			25,
@@ -6045,8 +5205,8 @@
 		]
 	},
 	{
-		"id": 2606,
 		"name": "T无人机引擎",
+		"id": 2606,
 		"description": "无人机引擎描述2",
 		"conclusion": "无人机引擎结果",
 		"published": true,
@@ -6076,19 +5236,7 @@
 			10
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					8,
-					64
-				]
-			}
+			3
 		],
 		"position": [
 			29,
@@ -6096,8 +5244,8 @@
 		]
 	},
 	{
-		"id": 2701,
 		"name": "T批量建造",
+		"id": 2701,
 		"description": "批量建造描述",
 		"conclusion": "批量建造结果",
 		"published": true,
@@ -6127,19 +5275,7 @@
 			28
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					192,
-					98,
-					64
-				]
-			}
+			150
 		],
 		"position": [
 			9,
@@ -6147,8 +5283,8 @@
 		]
 	},
 	{
-		"id": 2702,
 		"name": "T批量建造",
+		"id": 2702,
 		"description": "批量建造描述2",
 		"conclusion": "批量建造结果2",
 		"published": true,
@@ -6176,19 +5312,7 @@
 			28
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					192,
-					114,
-					64
-				]
-			}
+			300
 		],
 		"position": [
 			13,
@@ -6196,8 +5320,8 @@
 		]
 	},
 	{
-		"id": 2703,
 		"name": "T批量建造",
+		"id": 2703,
 		"description": "批量建造描述2",
 		"conclusion": "批量建造结果2",
 		"published": true,
@@ -6227,19 +5351,7 @@
 			28
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					32,
-					140,
-					64
-				]
-			}
+			900
 		],
 		"position": [
 			17,
@@ -6247,8 +5359,8 @@
 		]
 	},
 	{
-		"id": 2704,
 		"name": "T批量建造",
+		"id": 2704,
 		"description": "批量建造描述2",
 		"conclusion": "批量建造结果2",
 		"published": true,
@@ -6280,19 +5392,7 @@
 			28
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					32,
-					172,
-					64
-				]
-			}
+			3600
 		],
 		"position": [
 			21,
@@ -6300,8 +5400,8 @@
 		]
 	},
 	{
-		"id": 2705,
 		"name": "T批量建造",
+		"id": 2705,
 		"description": "批量建造描述5",
 		"conclusion": "批量建造结果5",
 		"published": true,
@@ -6335,19 +5435,7 @@
 			28
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					48,
-					65
-				]
-			}
+			1048576
 		],
 		"position": [
 			25,
@@ -6355,8 +5443,8 @@
 		]
 	},
 	{
-		"id": 2801,
 		"name": "T能量护盾",
+		"id": 2801,
 		"description": "解锁能量护盾描述",
 		"conclusion": "解锁能量护盾结果",
 		"published": true,
@@ -6383,45 +5471,9 @@
 			66
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					132,
-					215,
-					151,
-					65
-				]
-			}
+			1,
+			2,
+			100000000
 		],
 		"position": [
 			9,
@@ -6429,8 +5481,8 @@
 		]
 	},
 	{
-		"id": 2802,
 		"name": "T能量护盾",
+		"id": 2802,
 		"description": "能量护盾描述",
 		"conclusion": "能量护盾结果",
 		"published": true,
@@ -6461,32 +5513,8 @@
 			66
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					224,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					132,
-					215,
-					167,
-					65
-				]
-			}
+			0.5,
+			200000000
 		],
 		"position": [
 			13,
@@ -6494,8 +5522,8 @@
 		]
 	},
 	{
-		"id": 2803,
 		"name": "T能量护盾",
+		"id": 2803,
 		"description": "能量护盾描述",
 		"conclusion": "能量护盾结果",
 		"published": true,
@@ -6528,32 +5556,8 @@
 			66
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					224,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					132,
-					215,
-					167,
-					65
-				]
-			}
+			0.5,
+			200000000
 		],
 		"position": [
 			17,
@@ -6561,8 +5565,8 @@
 		]
 	},
 	{
-		"id": 2804,
 		"name": "T能量护盾",
+		"id": 2804,
 		"description": "能量护盾描述",
 		"conclusion": "能量护盾结果",
 		"published": true,
@@ -6594,32 +5598,8 @@
 			66
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					132,
-					215,
-					167,
-					65
-				]
-			}
+			1,
+			200000000
 		],
 		"position": [
 			21,
@@ -6627,8 +5607,8 @@
 		]
 	},
 	{
-		"id": 2805,
 		"name": "T能量护盾",
+		"id": 2805,
 		"description": "能量护盾描述",
 		"conclusion": "能量护盾结果",
 		"published": true,
@@ -6665,32 +5645,8 @@
 			66
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					163,
-					225,
-					177,
-					65
-				]
-			}
+			1,
+			300000000
 		],
 		"position": [
 			25,
@@ -6698,8 +5654,8 @@
 		]
 	},
 	{
-		"id": 2806,
 		"name": "T能量护盾",
+		"id": 2806,
 		"description": "能量护盾描述",
 		"conclusion": "能量护盾结果",
 		"published": true,
@@ -6730,32 +5686,8 @@
 			66
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					101,
-					205,
-					189,
-					65
-				]
-			}
+			1,
+			500000000
 		],
 		"position": [
 			29,
@@ -6763,8 +5695,8 @@
 		]
 	},
 	{
-		"id": 2807,
 		"name": "T能量护盾",
+		"id": 2807,
 		"description": "能量护盾描述7",
 		"conclusion": "能量护盾结果7",
 		"published": true,
@@ -6791,19 +5723,7 @@
 			66
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					101,
-					205,
-					189,
-					65
-				]
-			}
+			500000000
 		],
 		"position": [
 			33,
@@ -6811,8 +5731,8 @@
 		]
 	},
 	{
-		"id": 2901,
 		"name": "T驱动引擎",
+		"id": 2901,
 		"description": "驱动引擎描述",
 		"conclusion": "驱动引擎结果1",
 		"published": true,
@@ -6844,19 +5764,7 @@
 			4
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			9,
@@ -6864,8 +5772,8 @@
 		]
 	},
 	{
-		"id": 2902,
 		"name": "T驱动引擎",
+		"id": 2902,
 		"description": "驱动引擎描述2",
 		"conclusion": "驱动引擎结果2",
 		"published": true,
@@ -6895,19 +5803,7 @@
 			4
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			13,
@@ -6915,8 +5811,8 @@
 		]
 	},
 	{
-		"id": 2903,
 		"name": "T驱动引擎",
+		"id": 2903,
 		"description": "驱动引擎描述3",
 		"conclusion": "驱动引擎结果3",
 		"published": true,
@@ -6948,19 +5844,7 @@
 			11
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					64,
-					143,
-					64
-				]
-			}
+			1000
 		],
 		"position": [
 			17,
@@ -6968,8 +5852,8 @@
 		]
 	},
 	{
-		"id": 2904,
 		"name": "T驱动引擎",
+		"id": 2904,
 		"description": "驱动引擎描述4",
 		"conclusion": "驱动引擎结果4",
 		"published": true,
@@ -7002,19 +5886,7 @@
 			4
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					8,
-					64
-				]
-			}
+			3
 		],
 		"position": [
 			21,
@@ -7022,8 +5894,8 @@
 		]
 	},
 	{
-		"id": 2905,
 		"name": "T驱动引擎",
+		"id": 2905,
 		"description": "驱动引擎描述5",
 		"conclusion": "驱动引擎结果5",
 		"published": true,
@@ -7054,19 +5926,7 @@
 			27
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					8,
-					64
-				]
-			}
+			3
 		],
 		"position": [
 			25,
@@ -7074,8 +5934,8 @@
 		]
 	},
 	{
-		"id": 2906,
 		"name": "T驱动引擎",
+		"id": 2906,
 		"description": "驱动引擎描述5",
 		"conclusion": "驱动引擎结果5",
 		"published": true,
@@ -7098,19 +5958,7 @@
 			27
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					8,
-					64
-				]
-			}
+			3
 		],
 		"position": [
 			29,
@@ -7118,8 +5966,8 @@
 		]
 	},
 	{
-		"id": 2951,
 		"name": "T自动重建",
+		"id": 2951,
 		"description": "自动重建描述",
 		"conclusion": "自动重建结果",
 		"published": true,
@@ -7144,19 +5992,7 @@
 			76
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			9,
@@ -7164,8 +6000,8 @@
 		]
 	},
 	{
-		"id": 2952,
 		"name": "T自动重建",
+		"id": 2952,
 		"description": "自动重建描述",
 		"conclusion": "自动重建结果",
 		"published": true,
@@ -7192,19 +6028,7 @@
 			76
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					8,
-					64
-				]
-			}
+			3
 		],
 		"position": [
 			13,
@@ -7212,8 +6036,8 @@
 		]
 	},
 	{
-		"id": 2953,
 		"name": "T自动重建",
+		"id": 2953,
 		"description": "自动重建描述",
 		"conclusion": "自动重建结果",
 		"published": true,
@@ -7242,19 +6066,7 @@
 			76
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					24,
-					64
-				]
-			}
+			6
 		],
 		"position": [
 			17,
@@ -7262,8 +6074,8 @@
 		]
 	},
 	{
-		"id": 2954,
 		"name": "T自动重建",
+		"id": 2954,
 		"description": "自动重建描述",
 		"conclusion": "自动重建结果",
 		"published": true,
@@ -7294,19 +6106,7 @@
 			76
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					46,
-					64
-				]
-			}
+			15
 		],
 		"position": [
 			21,
@@ -7314,8 +6114,8 @@
 		]
 	},
 	{
-		"id": 2955,
 		"name": "T自动重建",
+		"id": 2955,
 		"description": "自动重建描述",
 		"conclusion": "自动重建结果",
 		"published": true,
@@ -7348,19 +6148,7 @@
 			76
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					62,
-					64
-				]
-			}
+			30
 		],
 		"position": [
 			25,
@@ -7368,8 +6156,8 @@
 		]
 	},
 	{
-		"id": 2956,
 		"name": "T自动重建",
+		"id": 2956,
 		"description": "自动重建描述6",
 		"conclusion": "自动重建结果6",
 		"published": true,
@@ -7394,19 +6182,7 @@
 			76
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					128,
-					135,
-					195,
-					64
-				]
-			}
+			9999
 		],
 		"position": [
 			29,
@@ -7414,8 +6190,8 @@
 		]
 	},
 	{
-		"id": 3101,
 		"name": "T太阳帆寿命",
+		"id": 3101,
 		"description": "太阳帆寿命描述",
 		"conclusion": "太阳帆寿命结果",
 		"published": true,
@@ -7444,19 +6220,7 @@
 			12
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					192,
-					114,
-					64
-				]
-			}
+			300
 		],
 		"position": [
 			9,
@@ -7464,8 +6228,8 @@
 		]
 	},
 	{
-		"id": 3102,
 		"name": "T太阳帆寿命",
+		"id": 3102,
 		"description": "太阳帆寿命描述",
 		"conclusion": "太阳帆寿命结果",
 		"published": true,
@@ -7494,19 +6258,7 @@
 			12
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					192,
-					114,
-					64
-				]
-			}
+			300
 		],
 		"position": [
 			13,
@@ -7514,8 +6266,8 @@
 		]
 	},
 	{
-		"id": 3103,
 		"name": "T太阳帆寿命",
+		"id": 3103,
 		"description": "太阳帆寿命描述",
 		"conclusion": "太阳帆寿命结果",
 		"published": true,
@@ -7544,19 +6296,7 @@
 			12
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					192,
-					130,
-					64
-				]
-			}
+			600
 		],
 		"position": [
 			17,
@@ -7564,8 +6304,8 @@
 		]
 	},
 	{
-		"id": 3104,
 		"name": "T太阳帆寿命",
+		"id": 3104,
 		"description": "太阳帆寿命描述",
 		"conclusion": "太阳帆寿命结果",
 		"published": true,
@@ -7596,19 +6336,7 @@
 			12
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					192,
-					130,
-					64
-				]
-			}
+			600
 		],
 		"position": [
 			21,
@@ -7616,8 +6344,8 @@
 		]
 	},
 	{
-		"id": 3105,
 		"name": "T太阳帆寿命",
+		"id": 3105,
 		"description": "太阳帆寿命描述",
 		"conclusion": "太阳帆寿命结果",
 		"published": true,
@@ -7648,19 +6376,7 @@
 			12
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					32,
-					140,
-					64
-				]
-			}
+			900
 		],
 		"position": [
 			25,
@@ -7668,8 +6384,8 @@
 		]
 	},
 	{
-		"id": 3106,
 		"name": "T太阳帆寿命",
+		"id": 3106,
 		"description": "太阳帆寿命描述",
 		"conclusion": "太阳帆寿命结果",
 		"published": true,
@@ -7700,19 +6416,7 @@
 			12
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					32,
-					140,
-					64
-				]
-			}
+			900
 		],
 		"position": [
 			29,
@@ -7720,8 +6424,8 @@
 		]
 	},
 	{
-		"id": 3201,
 		"name": "T射线传输效率",
+		"id": 3201,
 		"description": "射线传输效率描述",
 		"conclusion": "射线传输效率结果",
 		"published": true,
@@ -7750,19 +6454,7 @@
 			13
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					205,
-					204,
-					204,
-					204,
-					204,
-					204,
-					236,
-					63
-				]
-			}
+			0.9
 		],
 		"position": [
 			9,
@@ -7770,8 +6462,8 @@
 		]
 	},
 	{
-		"id": 3202,
 		"name": "T射线传输效率",
+		"id": 3202,
 		"description": "射线传输效率描述",
 		"conclusion": "射线传输效率结果",
 		"published": true,
@@ -7800,19 +6492,7 @@
 			13
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					205,
-					204,
-					204,
-					204,
-					204,
-					204,
-					236,
-					63
-				]
-			}
+			0.9
 		],
 		"position": [
 			13,
@@ -7820,8 +6500,8 @@
 		]
 	},
 	{
-		"id": 3203,
 		"name": "T射线传输效率",
+		"id": 3203,
 		"description": "射线传输效率描述",
 		"conclusion": "射线传输效率结果",
 		"published": true,
@@ -7850,19 +6530,7 @@
 			13
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					205,
-					204,
-					204,
-					204,
-					204,
-					204,
-					236,
-					63
-				]
-			}
+			0.9
 		],
 		"position": [
 			17,
@@ -7870,8 +6538,8 @@
 		]
 	},
 	{
-		"id": 3204,
 		"name": "T射线传输效率",
+		"id": 3204,
 		"description": "射线传输效率描述",
 		"conclusion": "射线传输效率结果",
 		"published": true,
@@ -7902,19 +6570,7 @@
 			13
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					205,
-					204,
-					204,
-					204,
-					204,
-					204,
-					236,
-					63
-				]
-			}
+			0.9
 		],
 		"position": [
 			21,
@@ -7922,8 +6578,8 @@
 		]
 	},
 	{
-		"id": 3205,
 		"name": "T射线传输效率",
+		"id": 3205,
 		"description": "射线传输效率描述",
 		"conclusion": "射线传输效率结果",
 		"published": true,
@@ -7954,19 +6610,7 @@
 			13
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					205,
-					204,
-					204,
-					204,
-					204,
-					204,
-					236,
-					63
-				]
-			}
+			0.9
 		],
 		"position": [
 			25,
@@ -7974,8 +6618,8 @@
 		]
 	},
 	{
-		"id": 3206,
 		"name": "T射线传输效率",
+		"id": 3206,
 		"description": "射线传输效率描述",
 		"conclusion": "射线传输效率结果",
 		"published": true,
@@ -8008,19 +6652,7 @@
 			13
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					205,
-					204,
-					204,
-					204,
-					204,
-					204,
-					236,
-					63
-				]
-			}
+			0.9
 		],
 		"position": [
 			29,
@@ -8028,8 +6660,8 @@
 		]
 	},
 	{
-		"id": 3207,
 		"name": "T射线传输效率",
+		"id": 3207,
 		"description": "射线传输效率描述",
 		"conclusion": "射线传输效率结果",
 		"published": true,
@@ -8062,19 +6694,7 @@
 			13
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					235,
-					63
-				]
-			}
+			0.85
 		],
 		"position": [
 			33,
@@ -8082,8 +6702,8 @@
 		]
 	},
 	{
-		"id": 3208,
 		"name": "T射线传输效率",
+		"id": 3208,
 		"description": "射线传输效率描述",
 		"conclusion": "射线传输效率结果",
 		"published": true,
@@ -8109,19 +6729,7 @@
 			13
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					235,
-					63
-				]
-			}
+			0.85
 		],
 		"position": [
 			37,
@@ -8129,8 +6737,8 @@
 		]
 	},
 	{
-		"id": 3301,
 		"name": "T分拣器货物叠加",
+		"id": 3301,
 		"description": "分拣器货物叠加描述",
 		"conclusion": "分拣器货物叠加结果",
 		"published": true,
@@ -8159,19 +6767,7 @@
 			14
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			9,
@@ -8179,8 +6775,8 @@
 		]
 	},
 	{
-		"id": 3302,
 		"name": "T分拣器货物叠加",
+		"id": 3302,
 		"description": "分拣器货物叠加描述",
 		"conclusion": "分拣器货物叠加结果",
 		"published": true,
@@ -8209,19 +6805,7 @@
 			14
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					8,
-					64
-				]
-			}
+			3
 		],
 		"position": [
 			13,
@@ -8229,8 +6813,8 @@
 		]
 	},
 	{
-		"id": 3303,
 		"name": "T分拣器货物叠加",
+		"id": 3303,
 		"description": "分拣器货物叠加描述",
 		"conclusion": "分拣器货物叠加结果",
 		"published": true,
@@ -8259,19 +6843,7 @@
 			14
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					16,
-					64
-				]
-			}
+			4
 		],
 		"position": [
 			17,
@@ -8279,8 +6851,8 @@
 		]
 	},
 	{
-		"id": 3304,
 		"name": "T分拣器货物叠加",
+		"id": 3304,
 		"description": "分拣器货物叠加描述",
 		"conclusion": "分拣器货物叠加结果",
 		"published": true,
@@ -8309,19 +6881,7 @@
 			14
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					20,
-					64
-				]
-			}
+			5
 		],
 		"position": [
 			21,
@@ -8329,8 +6889,8 @@
 		]
 	},
 	{
-		"id": 3305,
 		"name": "T分拣器货物叠加",
+		"id": 3305,
 		"description": "分拣器货物叠加描述",
 		"conclusion": "分拣器货物叠加结果",
 		"published": true,
@@ -8359,19 +6919,7 @@
 			14
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					24,
-					64
-				]
-			}
+			6
 		],
 		"position": [
 			25,
@@ -8379,8 +6927,8 @@
 		]
 	},
 	{
-		"id": 4001,
 		"name": "T配送范围",
+		"id": 4001,
 		"description": "配送范围描述",
 		"conclusion": "配送范围结果",
 		"published": true,
@@ -8407,19 +6955,7 @@
 			36
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					52,
-					64
-				]
-			}
+			20
 		],
 		"position": [
 			9,
@@ -8427,8 +6963,8 @@
 		]
 	},
 	{
-		"id": 4002,
 		"name": "T配送范围",
+		"id": 4002,
 		"description": "配送范围描述",
 		"conclusion": "配送范围结果",
 		"published": true,
@@ -8457,19 +6993,7 @@
 			36
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					52,
-					64
-				]
-			}
+			20
 		],
 		"position": [
 			13,
@@ -8477,8 +7001,8 @@
 		]
 	},
 	{
-		"id": 4003,
 		"name": "T配送范围",
+		"id": 4003,
 		"description": "配送范围描述",
 		"conclusion": "配送范围结果",
 		"published": true,
@@ -8507,19 +7031,7 @@
 			36
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					62,
-					64
-				]
-			}
+			30
 		],
 		"position": [
 			17,
@@ -8527,8 +7039,8 @@
 		]
 	},
 	{
-		"id": 4004,
 		"name": "T配送范围",
+		"id": 4004,
 		"description": "配送范围描述",
 		"conclusion": "配送范围结果",
 		"published": true,
@@ -8559,19 +7071,7 @@
 			36
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					62,
-					64
-				]
-			}
+			30
 		],
 		"position": [
 			21,
@@ -8579,8 +7079,8 @@
 		]
 	},
 	{
-		"id": 4005,
 		"name": "T配送范围",
+		"id": 4005,
 		"description": "配送范围描述",
 		"conclusion": "配送范围结果",
 		"published": true,
@@ -8613,19 +7113,7 @@
 			36
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					68,
-					64
-				]
-			}
+			40
 		],
 		"position": [
 			25,
@@ -8633,8 +7121,8 @@
 		]
 	},
 	{
-		"id": 3401,
 		"name": "T运输船引擎",
+		"id": 3401,
 		"description": "运输船引擎描述",
 		"conclusion": "运输船引擎结果1",
 		"published": true,
@@ -8664,32 +7152,8 @@
 			34
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.2,
+			0.1
 		],
 		"position": [
 			9,
@@ -8697,8 +7161,8 @@
 		]
 	},
 	{
-		"id": 3402,
 		"name": "T运输船引擎",
+		"id": 3402,
 		"description": "运输船引擎描述",
 		"conclusion": "运输船引擎结果2",
 		"published": true,
@@ -8728,32 +7192,8 @@
 			34
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.2,
+			0.1
 		],
 		"position": [
 			13,
@@ -8761,8 +7201,8 @@
 		]
 	},
 	{
-		"id": 3403,
 		"name": "T运输船引擎",
+		"id": 3403,
 		"description": "运输船引擎描述2",
 		"conclusion": "运输船引擎结果3",
 		"published": true,
@@ -8796,45 +7236,9 @@
 			16
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					195,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					224,
-					63
-				]
-			}
+			0.3,
+			0.15,
+			0.5
 		],
 		"position": [
 			17,
@@ -8842,8 +7246,8 @@
 		]
 	},
 	{
-		"id": 3404,
 		"name": "T运输船引擎",
+		"id": 3404,
 		"description": "运输船引擎描述3",
 		"conclusion": "运输船引擎结果4",
 		"published": true,
@@ -8880,58 +7284,10 @@
 			17
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					195,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					224,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			0.3,
+			0.15,
+			0.5,
+			1
 		],
 		"position": [
 			21,
@@ -8939,8 +7295,8 @@
 		]
 	},
 	{
-		"id": 3405,
 		"name": "T运输船引擎",
+		"id": 3405,
 		"description": "运输船引擎描述2",
 		"conclusion": "运输船引擎结果5",
 		"published": true,
@@ -8975,45 +7331,9 @@
 			16
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					217,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					195,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					224,
-					63
-				]
-			}
+			0.4,
+			0.15,
+			0.5
 		],
 		"position": [
 			25,
@@ -9021,8 +7341,8 @@
 		]
 	},
 	{
-		"id": 3406,
 		"name": "T运输船引擎",
+		"id": 3406,
 		"description": "运输船引擎描述2",
 		"conclusion": "运输船引擎结果6",
 		"published": true,
@@ -9057,45 +7377,9 @@
 			16
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					217,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					195,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					224,
-					63
-				]
-			}
+			0.4,
+			0.15,
+			0.5
 		],
 		"position": [
 			29,
@@ -9103,8 +7387,8 @@
 		]
 	},
 	{
-		"id": 3407,
 		"name": "T运输船引擎",
+		"id": 3407,
 		"description": "运输船引擎描述2",
 		"conclusion": "运输船引擎结果7",
 		"published": true,
@@ -9133,45 +7417,9 @@
 			16
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					224,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					224,
-					63
-				]
-			}
+			0.5,
+			0.2,
+			0.5
 		],
 		"position": [
 			33,
@@ -9179,8 +7427,8 @@
 		]
 	},
 	{
-		"id": 3501,
 		"name": "T运输机舱扩容",
+		"id": 3501,
 		"description": "运输机舱扩容描述",
 		"conclusion": "运输机舱扩容结果1",
 		"published": true,
@@ -9210,32 +7458,8 @@
 			18
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					20,
-					64
-				]
-			}
+			1,
+			5
 		],
 		"position": [
 			9,
@@ -9243,8 +7467,8 @@
 		]
 	},
 	{
-		"id": 3502,
 		"name": "T运输机舱扩容",
+		"id": 3502,
 		"description": "运输机舱扩容描述2",
 		"conclusion": "运输机舱扩容结果2",
 		"published": true,
@@ -9274,32 +7498,8 @@
 			18
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					20,
-					64
-				]
-			}
+			1,
+			5
 		],
 		"position": [
 			13,
@@ -9307,8 +7507,8 @@
 		]
 	},
 	{
-		"id": 3503,
 		"name": "T运输机舱扩容",
+		"id": 3503,
 		"description": "运输机舱扩容描述3",
 		"conclusion": "运输机舱扩容结果3",
 		"published": true,
@@ -9342,45 +7542,9 @@
 			19
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					20,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					89,
-					64
-				]
-			}
+			2,
+			5,
+			100
 		],
 		"position": [
 			17,
@@ -9388,8 +7552,8 @@
 		]
 	},
 	{
-		"id": 3504,
 		"name": "T运输机舱扩容",
+		"id": 3504,
 		"description": "运输机舱扩容描述4",
 		"conclusion": "运输机舱扩容结果4",
 		"published": true,
@@ -9420,45 +7584,9 @@
 			19
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					36,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					89,
-					64
-				]
-			}
+			2,
+			10,
+			100
 		],
 		"position": [
 			21,
@@ -9466,8 +7594,8 @@
 		]
 	},
 	{
-		"id": 3505,
 		"name": "T运输机舱扩容",
+		"id": 3505,
 		"description": "运输机舱扩容描述4",
 		"conclusion": "运输机舱扩容结果5",
 		"published": true,
@@ -9500,45 +7628,9 @@
 			19
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					36,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					89,
-					64
-				]
-			}
+			2,
+			10,
+			100
 		],
 		"position": [
 			25,
@@ -9546,8 +7638,8 @@
 		]
 	},
 	{
-		"id": 3506,
 		"name": "T运输机舱扩容",
+		"id": 3506,
 		"description": "运输机舱扩容描述4",
 		"conclusion": "运输机舱扩容结果5",
 		"published": true,
@@ -9580,45 +7672,9 @@
 			19
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					36,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					89,
-					64
-				]
-			}
+			2,
+			10,
+			100
 		],
 		"position": [
 			29,
@@ -9626,8 +7682,8 @@
 		]
 	},
 	{
-		"id": 3507,
 		"name": "T运输机舱扩容",
+		"id": 3507,
 		"description": "运输机舱扩容描述4",
 		"conclusion": "运输机舱扩容结果5",
 		"published": true,
@@ -9662,45 +7718,9 @@
 			19
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					36,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					105,
-					64
-				]
-			}
+			2,
+			10,
+			200
 		],
 		"position": [
 			33,
@@ -9708,10 +7728,10 @@
 		]
 	},
 	{
-		"id": 3508,
 		"name": "T运输机舱扩容",
-		"description": "运输机舱扩容描述4",
-		"conclusion": "运输机舱扩容结果5",
+		"id": 3508,
+		"description": "运输机舱扩容描述6",
+		"conclusion": "运输机舱扩容结果7",
 		"published": true,
 		"level": 8,
 		"maxLevel": 8,
@@ -9743,32 +7763,8 @@
 			19
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					52,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					105,
-					64
-				]
-			}
+			20,
+			200
 		],
 		"position": [
 			37,
@@ -9776,8 +7772,8 @@
 		]
 	},
 	{
-		"id": 3509,
 		"name": "T运输机舱扩容",
+		"id": 3509,
 		"description": "运输机舱扩容描述5",
 		"conclusion": "运输机舱扩容结果6",
 		"published": true,
@@ -9806,58 +7802,10 @@
 			31
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					52,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					105,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					64,
-					143,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					64,
-					159,
-					64
-				]
-			}
+			20,
+			200,
+			1000,
+			2000
 		],
 		"position": [
 			41,
@@ -9865,8 +7813,8 @@
 		]
 	},
 	{
-		"id": 3510,
 		"name": "T运输机舱扩容",
+		"id": 3510,
 		"description": "运输机舱扩容描述5",
 		"conclusion": "运输机舱扩容结果6",
 		"published": true,
@@ -9895,58 +7843,10 @@
 			31
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					52,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					105,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					64,
-					143,
-					64
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					64,
-					159,
-					64
-				]
-			}
+			20,
+			200,
+			1000,
+			2000
 		],
 		"position": [
 			45,
@@ -9954,8 +7854,8 @@
 		]
 	},
 	{
-		"id": 3801,
 		"name": "T运输站集装物流",
+		"id": 3801,
 		"description": "运输站集装物流描述1",
 		"conclusion": "运输站集装物流结果1",
 		"published": true,
@@ -9980,19 +7880,7 @@
 			29
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			37,
@@ -10000,8 +7888,8 @@
 		]
 	},
 	{
-		"id": 3802,
 		"name": "T运输站集装物流",
+		"id": 3802,
 		"description": "运输站集装物流描述2",
 		"conclusion": "运输站集装物流结果2",
 		"published": true,
@@ -10030,19 +7918,7 @@
 			29
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			41,
@@ -10050,8 +7926,8 @@
 		]
 	},
 	{
-		"id": 3803,
 		"name": "T运输站集装物流",
+		"id": 3803,
 		"description": "运输站集装物流描述2",
 		"conclusion": "运输站集装物流结果2",
 		"published": true,
@@ -10080,19 +7956,7 @@
 			29
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			45,
@@ -10100,8 +7964,8 @@
 		]
 	},
 	{
-		"id": 3601,
 		"name": "T矿物利用",
+		"id": 3601,
 		"description": "矿物利用描述",
 		"conclusion": "矿物利用结果",
 		"published": true,
@@ -10126,35 +7990,13 @@
 		},
 		"unlockFunctions": [
 			20,
-			21
+			21,
+			85
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					20,
-					174,
-					71,
-					225,
-					122,
-					20,
-					238,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.94,
+			0.1,
+			0.04
 		],
 		"position": [
 			9,
@@ -10162,8 +8004,8 @@
 		]
 	},
 	{
-		"id": 3602,
 		"name": "T矿物利用",
+		"id": 3602,
 		"description": "矿物利用描述2",
 		"conclusion": "矿物利用结果",
 		"published": true,
@@ -10190,35 +8032,13 @@
 		},
 		"unlockFunctions": [
 			20,
-			21
+			21,
+			85
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					20,
-					174,
-					71,
-					225,
-					122,
-					20,
-					238,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.94,
+			0.1,
+			0.04
 		],
 		"position": [
 			13,
@@ -10226,8 +8046,8 @@
 		]
 	},
 	{
-		"id": 3603,
 		"name": "T矿物利用",
+		"id": 3603,
 		"description": "矿物利用描述2",
 		"conclusion": "矿物利用结果",
 		"published": true,
@@ -10256,35 +8076,13 @@
 		},
 		"unlockFunctions": [
 			20,
-			21
+			21,
+			85
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					20,
-					174,
-					71,
-					225,
-					122,
-					20,
-					238,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.94,
+			0.1,
+			0.04
 		],
 		"position": [
 			17,
@@ -10292,8 +8090,8 @@
 		]
 	},
 	{
-		"id": 3604,
 		"name": "T矿物利用",
+		"id": 3604,
 		"description": "矿物利用描述2",
 		"conclusion": "矿物利用结果",
 		"published": true,
@@ -10322,35 +8120,13 @@
 		},
 		"unlockFunctions": [
 			20,
-			21
+			21,
+			85
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					20,
-					174,
-					71,
-					225,
-					122,
-					20,
-					238,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.94,
+			0.1,
+			0.04
 		],
 		"position": [
 			21,
@@ -10358,8 +8134,8 @@
 		]
 	},
 	{
-		"id": 3605,
 		"name": "T矿物利用",
+		"id": 3605,
 		"description": "矿物利用描述2",
 		"conclusion": "矿物利用结果",
 		"published": true,
@@ -10390,35 +8166,13 @@
 		},
 		"unlockFunctions": [
 			20,
-			21
+			21,
+			85
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					20,
-					174,
-					71,
-					225,
-					122,
-					20,
-					238,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.94,
+			0.1,
+			0.04
 		],
 		"position": [
 			25,
@@ -10426,8 +8180,8 @@
 		]
 	},
 	{
-		"id": 3606,
 		"name": "T矿物利用",
+		"id": 3606,
 		"description": "矿物利用描述2",
 		"conclusion": "矿物利用结果",
 		"published": true,
@@ -10451,35 +8205,13 @@
 		},
 		"unlockFunctions": [
 			20,
-			21
+			21,
+			85
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					20,
-					174,
-					71,
-					225,
-					122,
-					20,
-					238,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.94,
+			0.1,
+			0.04
 		],
 		"position": [
 			29,
@@ -10487,8 +8219,8 @@
 		]
 	},
 	{
-		"id": 3701,
 		"name": "T垂直建造",
+		"id": 3701,
 		"description": "垂直建造描述",
 		"conclusion": "垂直建造结果",
 		"published": true,
@@ -10514,32 +8246,8 @@
 			25
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			1,
+			2
 		],
 		"position": [
 			9,
@@ -10547,8 +8255,8 @@
 		]
 	},
 	{
-		"id": 3702,
 		"name": "T垂直建造",
+		"id": 3702,
 		"description": "垂直建造描述",
 		"conclusion": "垂直建造结果",
 		"published": true,
@@ -10574,32 +8282,8 @@
 			25
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			1,
+			2
 		],
 		"position": [
 			13,
@@ -10607,8 +8291,8 @@
 		]
 	},
 	{
-		"id": 3703,
 		"name": "T垂直建造",
+		"id": 3703,
 		"description": "垂直建造描述",
 		"conclusion": "垂直建造结果",
 		"published": true,
@@ -10636,32 +8320,8 @@
 			25
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			1,
+			2
 		],
 		"position": [
 			17,
@@ -10669,8 +8329,8 @@
 		]
 	},
 	{
-		"id": 3704,
 		"name": "T垂直建造",
+		"id": 3704,
 		"description": "垂直建造描述",
 		"conclusion": "垂直建造结果",
 		"published": true,
@@ -10700,32 +8360,8 @@
 			25
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			1,
+			2
 		],
 		"position": [
 			21,
@@ -10733,8 +8369,8 @@
 		]
 	},
 	{
-		"id": 3705,
 		"name": "T垂直建造",
+		"id": 3705,
 		"description": "垂直建造描述",
 		"conclusion": "垂直建造结果",
 		"published": true,
@@ -10764,32 +8400,8 @@
 			25
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			1,
+			2
 		],
 		"position": [
 			25,
@@ -10797,8 +8409,8 @@
 		]
 	},
 	{
-		"id": 3706,
 		"name": "T垂直建造",
+		"id": 3706,
 		"description": "垂直建造描述",
 		"conclusion": "垂直建造结果",
 		"published": true,
@@ -10830,32 +8442,8 @@
 			25
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			1,
+			2
 		],
 		"position": [
 			29,
@@ -10863,8 +8451,8 @@
 		]
 	},
 	{
-		"id": 3901,
 		"name": "T研究速度",
+		"id": 3901,
 		"description": "研究速度描述",
 		"conclusion": "研究速度结果",
 		"published": true,
@@ -10889,19 +8477,7 @@
 			22
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			9,
@@ -10909,8 +8485,8 @@
 		]
 	},
 	{
-		"id": 3902,
 		"name": "T研究速度",
+		"id": 3902,
 		"description": "研究速度描述",
 		"conclusion": "研究速度结果",
 		"published": true,
@@ -10935,19 +8511,7 @@
 			22
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			13,
@@ -10955,8 +8519,8 @@
 		]
 	},
 	{
-		"id": 3903,
 		"name": "T研究速度",
+		"id": 3903,
 		"description": "研究速度描述",
 		"conclusion": "研究速度结果",
 		"published": true,
@@ -10981,19 +8545,7 @@
 			22
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			17,
@@ -11001,8 +8553,8 @@
 		]
 	},
 	{
-		"id": 3904,
 		"name": "T研究速度",
+		"id": 3904,
 		"description": "研究速度描述",
 		"conclusion": "研究速度结果",
 		"published": true,
@@ -11028,19 +8580,7 @@
 			22
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			21,
@@ -11048,8 +8588,8 @@
 		]
 	},
 	{
-		"id": 4101,
 		"name": "T宇宙探索",
+		"id": 4101,
 		"description": "宇宙探索描述1",
 		"conclusion": "宇宙探索结果1",
 		"published": true,
@@ -11071,19 +8611,7 @@
 			23
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			9,
@@ -11091,8 +8619,8 @@
 		]
 	},
 	{
-		"id": 4102,
 		"name": "T宇宙探索",
+		"id": 4102,
 		"description": "宇宙探索描述2",
 		"conclusion": "宇宙探索结果2",
 		"published": true,
@@ -11117,19 +8645,7 @@
 			23
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			13,
@@ -11137,8 +8653,8 @@
 		]
 	},
 	{
-		"id": 4103,
 		"name": "T宇宙探索",
+		"id": 4103,
 		"description": "宇宙探索描述3",
 		"conclusion": "宇宙探索结果3",
 		"published": true,
@@ -11170,19 +8686,7 @@
 			23
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					8,
-					64
-				]
-			}
+			3
 		],
 		"position": [
 			17,
@@ -11190,8 +8694,8 @@
 		]
 	},
 	{
-		"id": 4104,
 		"name": "T宇宙探索",
+		"id": 4104,
 		"description": "宇宙探索描述4",
 		"conclusion": "宇宙探索结果4",
 		"published": true,
@@ -11222,19 +8726,7 @@
 			23
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					16,
-					64
-				]
-			}
+			4
 		],
 		"position": [
 			21,
@@ -11242,8 +8734,8 @@
 		]
 	},
 	{
-		"id": 5001,
 		"name": "T动能武器伤害",
+		"id": 5001,
 		"description": "动能武器伤害描述",
 		"conclusion": "动能武器伤害结果",
 		"published": true,
@@ -11268,19 +8760,7 @@
 			61
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.1
 		],
 		"position": [
 			9,
@@ -11288,8 +8768,8 @@
 		]
 	},
 	{
-		"id": 5002,
 		"name": "T动能武器伤害",
+		"id": 5002,
 		"description": "动能武器伤害描述",
 		"conclusion": "动能武器伤害结果",
 		"published": true,
@@ -11316,19 +8796,7 @@
 			61
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.1
 		],
 		"position": [
 			13,
@@ -11336,8 +8804,8 @@
 		]
 	},
 	{
-		"id": 5003,
 		"name": "T动能武器伤害",
+		"id": 5003,
 		"description": "动能武器伤害描述",
 		"conclusion": "动能武器伤害结果",
 		"published": true,
@@ -11366,19 +8834,7 @@
 			61
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			}
+			0.2
 		],
 		"position": [
 			17,
@@ -11386,8 +8842,8 @@
 		]
 	},
 	{
-		"id": 5004,
 		"name": "T动能武器伤害",
+		"id": 5004,
 		"description": "动能武器伤害描述",
 		"conclusion": "动能武器伤害结果",
 		"published": true,
@@ -11418,19 +8874,7 @@
 			61
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
-					63
-				]
-			}
+			0.3
 		],
 		"position": [
 			21,
@@ -11438,8 +8882,8 @@
 		]
 	},
 	{
-		"id": 5005,
 		"name": "T动能武器伤害",
+		"id": 5005,
 		"description": "动能武器伤害描述",
 		"conclusion": "动能武器伤害结果",
 		"published": true,
@@ -11472,19 +8916,7 @@
 			61
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
-					63
-				]
-			}
+			0.3
 		],
 		"position": [
 			25,
@@ -11492,8 +8924,8 @@
 		]
 	},
 	{
-		"id": 5006,
 		"name": "T动能武器伤害",
+		"id": 5006,
 		"description": "动能武器伤害描述",
 		"conclusion": "动能武器伤害结果",
 		"published": true,
@@ -11520,19 +8952,7 @@
 			61
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			}
+			0.2
 		],
 		"position": [
 			29,
@@ -11540,8 +8960,8 @@
 		]
 	},
 	{
-		"id": 5101,
 		"name": "T能量武器伤害",
+		"id": 5101,
 		"description": "能量武器伤害描述",
 		"conclusion": "能量武器伤害结果",
 		"published": true,
@@ -11566,19 +8986,7 @@
 			62
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.1
 		],
 		"position": [
 			9,
@@ -11586,8 +8994,8 @@
 		]
 	},
 	{
-		"id": 5102,
 		"name": "T能量武器伤害",
+		"id": 5102,
 		"description": "能量武器伤害描述",
 		"conclusion": "能量武器伤害结果",
 		"published": true,
@@ -11614,19 +9022,7 @@
 			62
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.1
 		],
 		"position": [
 			13,
@@ -11634,8 +9030,8 @@
 		]
 	},
 	{
-		"id": 5103,
 		"name": "T能量武器伤害",
+		"id": 5103,
 		"description": "能量武器伤害描述",
 		"conclusion": "能量武器伤害结果",
 		"published": true,
@@ -11664,19 +9060,7 @@
 			62
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			}
+			0.2
 		],
 		"position": [
 			17,
@@ -11684,8 +9068,8 @@
 		]
 	},
 	{
-		"id": 5104,
 		"name": "T能量武器伤害",
+		"id": 5104,
 		"description": "能量武器伤害描述",
 		"conclusion": "能量武器伤害结果",
 		"published": true,
@@ -11716,19 +9100,7 @@
 			62
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
-					63
-				]
-			}
+			0.3
 		],
 		"position": [
 			21,
@@ -11736,8 +9108,8 @@
 		]
 	},
 	{
-		"id": 5105,
 		"name": "T能量武器伤害",
+		"id": 5105,
 		"description": "能量武器伤害描述",
 		"conclusion": "能量武器伤害结果",
 		"published": true,
@@ -11770,19 +9142,7 @@
 			62
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
-					63
-				]
-			}
+			0.3
 		],
 		"position": [
 			25,
@@ -11790,8 +9150,8 @@
 		]
 	},
 	{
-		"id": 5106,
 		"name": "T能量武器伤害",
+		"id": 5106,
 		"description": "能量武器伤害描述",
 		"conclusion": "能量武器伤害结果",
 		"published": true,
@@ -11818,19 +9178,7 @@
 			62
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			}
+			0.2
 		],
 		"position": [
 			29,
@@ -11838,8 +9186,8 @@
 		]
 	},
 	{
-		"id": 5201,
 		"name": "T爆炸武器伤害",
+		"id": 5201,
 		"description": "爆炸武器伤害描述",
 		"conclusion": "爆炸武器伤害结果",
 		"published": true,
@@ -11864,19 +9212,7 @@
 			63
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.1
 		],
 		"position": [
 			9,
@@ -11884,8 +9220,8 @@
 		]
 	},
 	{
-		"id": 5202,
 		"name": "T爆炸武器伤害",
+		"id": 5202,
 		"description": "爆炸武器伤害描述",
 		"conclusion": "爆炸武器伤害结果",
 		"published": true,
@@ -11912,19 +9248,7 @@
 			63
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.1
 		],
 		"position": [
 			13,
@@ -11932,8 +9256,8 @@
 		]
 	},
 	{
-		"id": 5203,
 		"name": "T爆炸武器伤害",
+		"id": 5203,
 		"description": "爆炸武器伤害描述",
 		"conclusion": "爆炸武器伤害结果",
 		"published": true,
@@ -11962,19 +9286,7 @@
 			63
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			}
+			0.2
 		],
 		"position": [
 			17,
@@ -11982,8 +9294,8 @@
 		]
 	},
 	{
-		"id": 5204,
 		"name": "T爆炸武器伤害",
+		"id": 5204,
 		"description": "爆炸武器伤害描述",
 		"conclusion": "爆炸武器伤害结果",
 		"published": true,
@@ -12014,19 +9326,7 @@
 			63
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
-					63
-				]
-			}
+			0.3
 		],
 		"position": [
 			21,
@@ -12034,8 +9334,8 @@
 		]
 	},
 	{
-		"id": 5205,
 		"name": "T爆炸武器伤害",
+		"id": 5205,
 		"description": "爆炸武器伤害描述",
 		"conclusion": "爆炸武器伤害结果",
 		"published": true,
@@ -12068,19 +9368,7 @@
 			63
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
-					63
-				]
-			}
+			0.3
 		],
 		"position": [
 			25,
@@ -12088,8 +9376,8 @@
 		]
 	},
 	{
-		"id": 5206,
 		"name": "T爆炸武器伤害",
+		"id": 5206,
 		"description": "爆炸武器伤害描述",
 		"conclusion": "爆炸武器伤害结果",
 		"published": true,
@@ -12116,19 +9404,7 @@
 			63
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			}
+			0.2
 		],
 		"position": [
 			29,
@@ -12136,8 +9412,8 @@
 		]
 	},
 	{
-		"id": 5301,
 		"name": "T战斗无人机伤害",
+		"id": 5301,
 		"description": "战斗无人机伤害描述",
 		"conclusion": "战斗无人机伤害结果",
 		"published": true,
@@ -12164,19 +9440,7 @@
 			67
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.1
 		],
 		"position": [
 			9,
@@ -12184,8 +9448,8 @@
 		]
 	},
 	{
-		"id": 5302,
 		"name": "T战斗无人机伤害",
+		"id": 5302,
 		"description": "战斗无人机伤害描述",
 		"conclusion": "战斗无人机伤害结果",
 		"published": true,
@@ -12214,19 +9478,7 @@
 			67
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.1
 		],
 		"position": [
 			13,
@@ -12234,8 +9486,8 @@
 		]
 	},
 	{
-		"id": 5303,
 		"name": "T战斗无人机伤害",
+		"id": 5303,
 		"description": "战斗无人机伤害描述",
 		"conclusion": "战斗无人机伤害结果",
 		"published": true,
@@ -12267,32 +9519,8 @@
 			71
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					195,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					208,
-					63
-				]
-			}
+			0.15,
+			0.25
 		],
 		"position": [
 			17,
@@ -12300,8 +9528,8 @@
 		]
 	},
 	{
-		"id": 5304,
 		"name": "T战斗无人机伤害",
+		"id": 5304,
 		"description": "战斗无人机伤害描述",
 		"conclusion": "战斗无人机伤害结果",
 		"published": true,
@@ -12335,32 +9563,8 @@
 			71
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					195,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					208,
-					63
-				]
-			}
+			0.15,
+			0.25
 		],
 		"position": [
 			21,
@@ -12368,8 +9572,8 @@
 		]
 	},
 	{
-		"id": 5305,
 		"name": "T战斗无人机伤害",
+		"id": 5305,
 		"description": "战斗无人机伤害描述",
 		"conclusion": "战斗无人机伤害结果",
 		"published": true,
@@ -12397,32 +9601,8 @@
 			71
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			}
+			0.2,
+			0.2
 		],
 		"position": [
 			25,
@@ -12430,8 +9610,8 @@
 		]
 	},
 	{
-		"id": 5401,
 		"name": "T战斗无人机攻击速度",
+		"id": 5401,
 		"description": "战斗无人机攻击速度描述",
 		"conclusion": "战斗无人机攻击速度结果",
 		"published": true,
@@ -12458,19 +9638,7 @@
 			68
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.1
 		],
 		"position": [
 			9,
@@ -12478,8 +9646,8 @@
 		]
 	},
 	{
-		"id": 5402,
 		"name": "T战斗无人机攻击速度",
+		"id": 5402,
 		"description": "战斗无人机攻击速度描述",
 		"conclusion": "战斗无人机攻击速度结果",
 		"published": true,
@@ -12508,19 +9676,7 @@
 			68
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.1
 		],
 		"position": [
 			13,
@@ -12528,8 +9684,8 @@
 		]
 	},
 	{
-		"id": 5403,
 		"name": "T战斗无人机攻击速度",
+		"id": 5403,
 		"description": "战斗无人机攻击速度描述",
 		"conclusion": "战斗无人机攻击速度结果",
 		"published": true,
@@ -12561,32 +9717,8 @@
 			72
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
-					63
-				]
-			}
+			0.2,
+			0.3
 		],
 		"position": [
 			17,
@@ -12594,8 +9726,8 @@
 		]
 	},
 	{
-		"id": 5404,
 		"name": "T战斗无人机攻击速度",
+		"id": 5404,
 		"description": "战斗无人机攻击速度描述",
 		"conclusion": "战斗无人机攻击速度结果",
 		"published": true,
@@ -12629,32 +9761,8 @@
 			72
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
-					63
-				]
-			}
+			0.2,
+			0.3
 		],
 		"position": [
 			21,
@@ -12662,8 +9770,8 @@
 		]
 	},
 	{
-		"id": 5405,
 		"name": "T战斗无人机攻击速度",
+		"id": 5405,
 		"description": "战斗无人机攻击速度描述",
 		"conclusion": "战斗无人机攻击速度结果",
 		"published": true,
@@ -12689,32 +9797,8 @@
 			72
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					217,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					217,
-					63
-				]
-			}
+			0.4,
+			0.4
 		],
 		"position": [
 			25,
@@ -12722,8 +9806,8 @@
 		]
 	},
 	{
-		"id": 5601,
 		"name": "T战斗无人机耐久",
+		"id": 5601,
 		"description": "战斗无人机耐久描述",
 		"conclusion": "战斗无人机耐久结果",
 		"published": true,
@@ -12750,19 +9834,7 @@
 			69
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.1
 		],
 		"position": [
 			9,
@@ -12770,8 +9842,8 @@
 		]
 	},
 	{
-		"id": 5602,
 		"name": "T战斗无人机耐久",
+		"id": 5602,
 		"description": "战斗无人机耐久描述",
 		"conclusion": "战斗无人机耐久结果",
 		"published": true,
@@ -12800,19 +9872,7 @@
 			69
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.1
 		],
 		"position": [
 			13,
@@ -12820,8 +9880,8 @@
 		]
 	},
 	{
-		"id": 5603,
 		"name": "T战斗无人机耐久",
+		"id": 5603,
 		"description": "战斗无人机耐久描述",
 		"conclusion": "战斗无人机耐久结果",
 		"published": true,
@@ -12853,32 +9913,8 @@
 			73
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
-					63
-				]
-			}
+			0.2,
+			0.3
 		],
 		"position": [
 			17,
@@ -12886,8 +9922,8 @@
 		]
 	},
 	{
-		"id": 5604,
 		"name": "T战斗无人机耐久",
+		"id": 5604,
 		"description": "战斗无人机耐久描述",
 		"conclusion": "战斗无人机耐久结果",
 		"published": true,
@@ -12921,32 +9957,8 @@
 			73
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
-					63
-				]
-			}
+			0.2,
+			0.3
 		],
 		"position": [
 			21,
@@ -12954,8 +9966,8 @@
 		]
 	},
 	{
-		"id": 5605,
 		"name": "T战斗无人机耐久",
+		"id": 5605,
 		"description": "战斗无人机耐久描述",
 		"conclusion": "战斗无人机耐久结果",
 		"published": true,
@@ -12981,32 +9993,8 @@
 			73
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					217,
-					63
-				]
-			},
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					217,
-					63
-				]
-			}
+			0.4,
+			0.4
 		],
 		"position": [
 			25,
@@ -13014,8 +10002,8 @@
 		]
 	},
 	{
-		"id": 5701,
 		"name": "T行星护盾",
+		"id": 5701,
 		"description": "行星护盾描述",
 		"conclusion": "行星护盾结果",
 		"published": true,
@@ -13044,19 +10032,7 @@
 			74
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					185,
-					63
-				]
-			}
+			0.1
 		],
 		"position": [
 			9,
@@ -13064,8 +10040,8 @@
 		]
 	},
 	{
-		"id": 5702,
 		"name": "T行星护盾",
+		"id": 5702,
 		"description": "行星护盾描述",
 		"conclusion": "行星护盾结果",
 		"published": true,
@@ -13094,19 +10070,7 @@
 			74
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					195,
-					63
-				]
-			}
+			0.15
 		],
 		"position": [
 			13,
@@ -13114,8 +10078,8 @@
 		]
 	},
 	{
-		"id": 5703,
 		"name": "T行星护盾",
+		"id": 5703,
 		"description": "行星护盾描述",
 		"conclusion": "行星护盾结果",
 		"published": true,
@@ -13146,19 +10110,7 @@
 			74
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					154,
-					153,
-					153,
-					153,
-					153,
-					153,
-					201,
-					63
-				]
-			}
+			0.2
 		],
 		"position": [
 			17,
@@ -13166,8 +10118,8 @@
 		]
 	},
 	{
-		"id": 5704,
 		"name": "T行星护盾",
+		"id": 5704,
 		"description": "行星护盾描述",
 		"conclusion": "行星护盾结果",
 		"published": true,
@@ -13200,19 +10152,7 @@
 			74
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					208,
-					63
-				]
-			}
+			0.25
 		],
 		"position": [
 			21,
@@ -13220,8 +10160,8 @@
 		]
 	},
 	{
-		"id": 5705,
 		"name": "T行星护盾",
+		"id": 5705,
 		"description": "行星护盾描述",
 		"conclusion": "行星护盾结果",
 		"published": true,
@@ -13246,19 +10186,7 @@
 			74
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					51,
-					51,
-					51,
-					51,
-					51,
-					51,
-					211,
-					63
-				]
-			}
+			0.3
 		],
 		"position": [
 			25,
@@ -13266,8 +10194,8 @@
 		]
 	},
 	{
-		"id": 5801,
 		"name": "T地面编队扩容",
+		"id": 5801,
 		"description": "地面编队扩容描述2",
 		"conclusion": "地面编队扩容结果2",
 		"published": true,
@@ -13294,19 +10222,7 @@
 			78
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			9,
@@ -13314,8 +10230,8 @@
 		]
 	},
 	{
-		"id": 5802,
 		"name": "T地面编队扩容",
+		"id": 5802,
 		"description": "地面编队扩容描述2",
 		"conclusion": "地面编队扩容结果2",
 		"published": true,
@@ -13344,19 +10260,7 @@
 			78
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			13,
@@ -13364,8 +10268,8 @@
 		]
 	},
 	{
-		"id": 5803,
 		"name": "T地面编队扩容",
+		"id": 5803,
 		"description": "地面编队扩容描述1",
 		"conclusion": "地面编队扩容结果1",
 		"published": true,
@@ -13396,19 +10300,7 @@
 			77
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			17,
@@ -13416,8 +10308,8 @@
 		]
 	},
 	{
-		"id": 5804,
 		"name": "T地面编队扩容",
+		"id": 5804,
 		"description": "地面编队扩容描述2",
 		"conclusion": "地面编队扩容结果2",
 		"published": true,
@@ -13448,19 +10340,7 @@
 			78
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					16,
-					64
-				]
-			}
+			4
 		],
 		"position": [
 			21,
@@ -13468,8 +10348,8 @@
 		]
 	},
 	{
-		"id": 5805,
 		"name": "T地面编队扩容",
+		"id": 5805,
 		"description": "地面编队扩容描述1",
 		"conclusion": "地面编队扩容结果1",
 		"published": true,
@@ -13502,19 +10382,7 @@
 			77
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			25,
@@ -13522,8 +10390,8 @@
 		]
 	},
 	{
-		"id": 5806,
 		"name": "T地面编队扩容",
+		"id": 5806,
 		"description": "地面编队扩容描述1",
 		"conclusion": "地面编队扩容结果1",
 		"published": true,
@@ -13548,19 +10416,7 @@
 			77
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			29,
@@ -13568,8 +10424,8 @@
 		]
 	},
 	{
-		"id": 5807,
 		"name": "T地面编队扩容",
+		"id": 5807,
 		"description": "地面编队扩容描述1",
 		"conclusion": "地面编队扩容结果1",
 		"published": true,
@@ -13594,19 +10450,7 @@
 			77
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			33,
@@ -13614,8 +10458,8 @@
 		]
 	},
 	{
-		"id": 5901,
 		"name": "T太空编队扩容",
+		"id": 5901,
 		"description": "太空编队扩容描述2",
 		"conclusion": "太空编队扩容结果2",
 		"published": true,
@@ -13646,19 +10490,7 @@
 			80
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					16,
-					64
-				]
-			}
+			4
 		],
 		"position": [
 			9,
@@ -13666,8 +10498,8 @@
 		]
 	},
 	{
-		"id": 5902,
 		"name": "T太空编队扩容",
+		"id": 5902,
 		"description": "太空编队扩容描述2",
 		"conclusion": "太空编队扩容结果2",
 		"published": true,
@@ -13698,19 +10530,7 @@
 			80
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					16,
-					64
-				]
-			}
+			4
 		],
 		"position": [
 			13,
@@ -13718,8 +10538,8 @@
 		]
 	},
 	{
-		"id": 5903,
 		"name": "T太空编队扩容",
+		"id": 5903,
 		"description": "太空编队扩容描述1",
 		"conclusion": "太空编队扩容结果1",
 		"published": true,
@@ -13750,19 +10570,7 @@
 			79
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			17,
@@ -13770,8 +10578,8 @@
 		]
 	},
 	{
-		"id": 5904,
 		"name": "T太空编队扩容",
+		"id": 5904,
 		"description": "太空编队扩容描述1",
 		"conclusion": "太空编队扩容结果1",
 		"published": true,
@@ -13804,19 +10612,7 @@
 			79
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			21,
@@ -13824,8 +10620,8 @@
 		]
 	},
 	{
-		"id": 5905,
 		"name": "T太空编队扩容",
+		"id": 5905,
 		"description": "太空编队扩容描述1",
 		"conclusion": "太空编队扩容结果1",
 		"published": true,
@@ -13858,19 +10654,7 @@
 			79
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					240,
-					63
-				]
-			}
+			1
 		],
 		"position": [
 			25,
@@ -13878,8 +10662,8 @@
 		]
 	},
 	{
-		"id": 5906,
 		"name": "T太空编队扩容",
+		"id": 5906,
 		"description": "太空编队扩容描述1",
 		"conclusion": "太空编队扩容结果1",
 		"published": true,
@@ -13904,19 +10688,7 @@
 			79
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			29,
@@ -13924,8 +10696,8 @@
 		]
 	},
 	{
-		"id": 5907,
 		"name": "T太空编队扩容",
+		"id": 5907,
 		"description": "太空编队扩容描述1",
 		"conclusion": "太空编队扩容结果1",
 		"published": true,
@@ -13950,19 +10722,7 @@
 			79
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					0,
-					64
-				]
-			}
+			2
 		],
 		"position": [
 			33,
@@ -13970,8 +10730,8 @@
 		]
 	},
 	{
-		"id": 6001,
 		"name": "T全局耐久度提升",
+		"id": 6001,
 		"description": "全局耐久度提升描述1",
 		"conclusion": "全局耐久度提升结果1",
 		"published": true,
@@ -13996,19 +10756,7 @@
 			84
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					123,
-					20,
-					174,
-					71,
-					225,
-					122,
-					164,
-					63
-				]
-			}
+			0.04
 		],
 		"position": [
 			9,
@@ -14016,8 +10764,8 @@
 		]
 	},
 	{
-		"id": 6002,
 		"name": "T全局耐久度提升",
+		"id": 6002,
 		"description": "全局耐久度提升描述1",
 		"conclusion": "全局耐久度提升结果1",
 		"published": true,
@@ -14044,19 +10792,7 @@
 			84
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					123,
-					20,
-					174,
-					71,
-					225,
-					122,
-					164,
-					63
-				]
-			}
+			0.04
 		],
 		"position": [
 			13,
@@ -14064,8 +10800,8 @@
 		]
 	},
 	{
-		"id": 6003,
 		"name": "T全局耐久度提升",
+		"id": 6003,
 		"description": "全局耐久度提升描述1",
 		"conclusion": "全局耐久度提升结果1",
 		"published": true,
@@ -14094,19 +10830,7 @@
 			84
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					123,
-					20,
-					174,
-					71,
-					225,
-					122,
-					164,
-					63
-				]
-			}
+			0.04
 		],
 		"position": [
 			17,
@@ -14114,8 +10838,8 @@
 		]
 	},
 	{
-		"id": 6004,
 		"name": "T全局耐久度提升",
+		"id": 6004,
 		"description": "全局耐久度提升描述1",
 		"conclusion": "全局耐久度提升结果1",
 		"published": true,
@@ -14146,19 +10870,7 @@
 			84
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					123,
-					20,
-					174,
-					71,
-					225,
-					122,
-					164,
-					63
-				]
-			}
+			0.04
 		],
 		"position": [
 			21,
@@ -14166,8 +10878,8 @@
 		]
 	},
 	{
-		"id": 6005,
 		"name": "T全局耐久度提升",
+		"id": 6005,
 		"description": "全局耐久度提升描述1",
 		"conclusion": "全局耐久度提升结果1",
 		"published": true,
@@ -14200,19 +10912,7 @@
 			84
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					123,
-					20,
-					174,
-					71,
-					225,
-					122,
-					164,
-					63
-				]
-			}
+			0.04
 		],
 		"position": [
 			25,
@@ -14220,8 +10920,8 @@
 		]
 	},
 	{
-		"id": 6006,
 		"name": "T全局耐久度提升",
+		"id": 6006,
 		"description": "全局耐久度提升描述1",
 		"conclusion": "全局耐久度提升结果1",
 		"published": true,
@@ -14248,19 +10948,7 @@
 			84
 		],
 		"unlockValues": [
-			{
-				"type": "Buffer",
-				"data": [
-					123,
-					20,
-					174,
-					71,
-					225,
-					122,
-					164,
-					63
-				]
-			}
+			0.04
 		],
 		"position": [
 			29,

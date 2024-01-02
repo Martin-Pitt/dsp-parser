@@ -1,3 +1,20 @@
+/*
+	Parser for Unity .assets and .dat files
+	Referenced multiple different other resources and projects:
+	- [d0sboots/dyson-sphere-program](https://github.com/d0sboots/dyson-sphere-program/) (Apache 2.0)
+		how to parse the .dat file
+	- [SeriousCache/UABE](https://github.com/SeriousCache/UABE) (EPL 2.0)
+		great help in parsing .assets file
+	- [Perfare/AssetStudio](https://github.com/Perfare/AssetStudio/) (MIT)
+		great help in parsing, esp. Texture2D which was confusing in UABE
+	- [snack-x/unity-parser](https://github.com/snack-x/unity-parser) (MIT)
+		used this for the initial BufferStream implementation
+		unity-parser then also references:
+			https://github.com/marcan/deresuteme/blob/master/decode.py (Apache 2.0)
+			https://github.com/RaduMC/UnityStudio (MIT)
+	- [Unity Documentation on Serialization rules](https://docs.unity3d.com/Manual/script-Serialization.html)
+*/
+
 import { readFile, writeFile, mkdir, open } from 'node:fs/promises';
 import { join } from 'node:path';
 import { JSONReplacer, JSONReviver } from './lib/json.mjs';
@@ -27,15 +44,17 @@ export class DSPParser {
 		await this.assetsParser.load();
 		
 		console.log('AssetParser parsing ProtoSets');
-		this.assetsParser.parseProtoSets();
+		await this.assetsParser.parseProtoSets();
 		
 		// Parse Locale folder
 		console.log('• LocaleParser');
 		console.log('LocaleParser parsing Locale files');
 		await this.localeParser.parse();
+		
 		console.log('LocaleParser loading JP translations');
 		await this.localeParser.loadJP();
 		// await this.localeParser.loadCrowdin();
+		
 		console.log('LocaleParser simplifying');
 		this.localeParser.simplify(); // More simple data structure for web apps
 		

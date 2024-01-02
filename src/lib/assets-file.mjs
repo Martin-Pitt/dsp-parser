@@ -289,6 +289,7 @@ export class AssetsFile {
 	}
 	
 	getProtoSet(name) {
+		// console.log(name);
 		let assetStream = this.getAssetStream(name);
 		if(!isValidProtoSetHeader(assetStream)) throw 'ProtoSet header bits not as expected!';
 		return assetStream;
@@ -310,12 +311,12 @@ export class AssetsFile {
 		let asset = { pathID, fileID, type: resource.fileTypeName };
 		// if(!asset.type) asset._classID = resource.classID;
 		
+		// console.log(asset.type);
 		found.set(pathID, asset);
-		let data;
 		switch(asset.type)
 		{
 			case 'GameObject':
-				data = parseDataFile(stream, {
+				let data = parseDataFile(stream, {
 					[TYPE]: 'object',
 					components: {
 						[TYPE]: 'array',
@@ -338,7 +339,7 @@ export class AssetsFile {
 			case 'MonoBehaviour':
 				let { script } = parseDataFile(stream, {
 					[TYPE]: 'object',
-					_gameObject: {
+					gameObject: {
 						[TYPE]: 'object',
 						fileID: 'int32',
 						pathID: 'int64',
@@ -350,532 +351,329 @@ export class AssetsFile {
 						pathID: 'int64',
 					},
 					name: { [TYPE]: 'string', align: false },
-					// _unknown0: { [TYPE]: 'byte', size: 4 },
-					// _unknown1: { [TYPE]: 'string', align: false },
 				});
-				// Object.assign(asset, data);
+				asset.script = script;
+				asset.stream = stream;
 				
-				let bytesLeft = stream.buf.length - stream.pos;
-				
-				// PowerDesc
-				// if(bytesLeft === 152) // = total bytes per the data type definition below
-				if(script.pathID === 856n)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						node: 'bool',
-						connectDistance: 'float',
-						coverRadius: 'float',
-						powerPoint: 'vector3',
-						
-						generator: 'bool',
-						photovoltaic: 'bool',
-						wind: 'bool',
-						gamma: 'bool',
-						geothermal: 'bool',
-						genEnergyPerTick: 'int64',
-						useFuelPerTick: 'int64',
-						fuelMask: 'int32',
-						catalystId: 'int32',
-						productId: 'int32',
-						productHeat: 'int64',
-						
-						accumulator: 'bool',
-						inputEnergyPerTick: 'int64',
-						outputEnergyPerTick: 'int64',
-						maxAcuEnergy: 'int64',
-						
-						exchanger: 'bool',
-						exchangeEnergyPerTick: 'int64',
-						emptyId: 'int32',
-						fullId: 'int32',
-						
-						consumer: 'bool',
-						charger: 'bool',
-						workEnergyPerTick: 'int64',
-						idleEnergyPerTick: 'int64',
-					});
-					asset.type += ':PowerDesc';
-					Object.assign(asset, data);
-				}
-				
-				// BuildConditionConfig
-				else if(script.pathID === 1950n) // bytesLeft >= 96)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						landPoints: { [TYPE]: 'array', shape: 'vector3' },
-						landOffset: 'float',
-						allowBuildInWater: 'bool',
-						needBuildInWaterTech: 'bool',
-						waterPoints: { [TYPE]: 'array', shape: 'vector3' },
-						waterTypes: { [TYPE]: 'array', shape: 'int32' },
-						multiLevel: 'bool',
-						multiLevelAllowInserter: 'bool',
-						multiLevelAllowRotate: 'bool',
-						multiLevelAlternativeIds: { [TYPE]: 'array', shape: 'int32' },
-						multiLevelAlternativeYawTransposes: { [TYPE]: 'array', shape: 'bool' },
-						addonType: 'AddonType',
-						lapJoint: 'vector3',
-						veinMiner: 'bool',
-						oilMiner: 'bool',
-						dragBuild: 'bool',
-						dragBuildDistOverride: 'vector2',
-						blueprintBoxSizeOverride: 'vector2',
-					});
-					asset.type += ':BuildConditionConfig';
-					Object.assign(asset, data);
-				}
-				
-				// BeltDesc
-				else if(script.pathID === 1364n) // bytesLeft === 8)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						beltPrototype: 'int32',
-						speed: 'int32',
-					});
-					asset.type += ':BeltDesc';
-					Object.assign(asset, data);
-				}
-				
-				// MinerDesc
-				else if(script.pathID === 708n) // bytesLeft === 8)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						minerType: 'MinerType',
-						periodf: 'float',
-					});
-					asset.type += ':MinerDesc';
-					Object.assign(asset, data);
-				}
-				
-				// AssemblerDesc
-				else if(script.pathID === 1392n) // (bytesLeft === 8)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						recipeType: 'RecipeType',
-						speedf: 'float',
-					});
-					asset.type += ':AssemblerDesc';
-					Object.assign(asset, data);
-				}
-				
-				// LabDesc
-				else if(script.pathID === 1889n) // bytesLeft === 8)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						assembleSpeed: 'float',
-						researchSpeed: 'float',
-					});
-					asset.type += ':LabDesc';
-					Object.assign(asset, data);
-				}
-				
-				// StationDesc
-				else if(script.pathID === 2012n) // bytesLeft === 64)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						isStellar: 'bool',
-						maxItemCount: 'int32',
-						maxItemKinds: 'int32',
-						maxDroneCount: 'int32',
-						maxShipCount: 'int32',
-						maxEnergyAcc: 'int64',
-						dronePoint: 'vector3',
-						shipPoint: 'vector3',
-						
-						// Collector
-						isCollector: 'bool',
-						collectSpeed: 'int32',
-						isVeinCollector: 'bool',
-					});
-					asset.type += ':StationDesc';
-					Object.assign(asset, data);
-				}
-				
-				// SpraycoaterDesc
-				else if(bytesLeft === 8)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						incCapacity: 'int32',
-						incItemIdLength: 'int32', // incItemId: { [TYPE]: 'array', shape: 'int32' },
-					});
-					asset.type += ':SpraycoaterDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}
-				
-				/*
-				// StorageDesc
-				else if(bytesLeft === 8)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						colCount: 'int32',
-						rowCount: 'int32',
-					});
-					asset.type += ':StorageDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// TankDesc
-				else if(bytesLeft === 4)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						fluidStorageCount: 'int32',
-					});
-					asset.type += ':TankDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// InserterDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						sttf: 'float',
-						delayf: 'float',
-						canStack: 'bool',
-						stackSize: 'int32',
-					});
-					asset.type += ':InserterDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// FieldGeneratorDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						energyCapacity: 'int64',
-						energyRequire0: 'int64',
-						energyRequire1: 'int64',
-					});
-					asset.type += ':FieldGeneratorDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// BeaconDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						signalRadius: 'float',
-						ROF: 'int32',
-						spaceSignalRange: 'float',
-						pitchUpMax: 'float',
-						pitchDownMax: 'float',
-					});
-					asset.type += ':BeaconDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// AmmoDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						blastRadius0: 'float',
-						blastRadius1: 'float',
-						blastFallof: 'float',
-						moveAcc: 'float',
-						turnAcc: 'float',
-						hitIndex: 'int32',
-					});
-					asset.type += ':AmmoDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// DispenserDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						maxCourierCount: 'int32',
-						maxEnergyAcc: 'int64',
-					});
-					asset.type += ':DispenserDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// EjectorDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						pivotY: 'float',
-						muzzleY: 'float',
-						chargeFrame: 'int32',
-						coldFrame: 'int32',
-						bulletProtoId: 'int32',
-					});
-					asset.type += ':EjectorDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// SiloDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						chargeFrame: 'int32',
-						coldFrame: 'int32',
-						bulletProtoId: 'int32',
-					});
-					asset.type += ':SiloDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// AnimDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						prepare_length: 'float',
-						working_length: 'float',
-					});
-					asset.type += ':AnimDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// MinimapConfig
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						type: 'int32',
-					});
-					asset.type += ':MinimapConfig?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// AudioDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						audio0: 'string',
-						audio1: 'string',
-						audio2: 'string',
-						logic: 'int32',
-						radius0: 'float',
-						radius1: 'float',
-						falloff: 'float',
-						volume: 'float',
-						pitch: 'float',
-						doppler: 'float',
-					});
-					asset.type += ':AudioDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// MonitorDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						offset: 'int32',
-						targetCargoBytes: 'int32',
-						periodTickCount: 'int32',
-						passOperator: 'int32',
-						passColorId: 'int32',
-						failColorId: 'int32',
-						systemWarningMode: 'int32',
-						monitorMode: 'int32',
-						cargoFilter: 'int32',
-						signalId: 'int32',
-						spawnOperator: 'int32',
-					});
-					asset.type += ':MonitorDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// SpeakerDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						tone: 'int32',
-						volume: 'int32',
-						pitch: 'int32',
-						length: 'float',
-						repeat: 'bool',
-					});
-					asset.type += ':SpeakerDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// SplitterDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-					});
-					asset.type += ':SplitterDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// PilerDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-					});
-					asset.type += ':PilerDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// BattleBaseDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						maxEnergyAcc: 'int64',
-						pickRange: 'float',
-					});
-					asset.type += ':BattleBaseDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// ConstructionModuleDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						droneCount: 'int32',
-						buildRange: 'float',
-						droneEjectPos: 'vector3',
-					});
-					asset.type += ':ConstructionModuleDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// DroneDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-					});
-					asset.type += ':DroneDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// SlotConfig
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						selectCenter: 'vector3',
-						selectSize: 'vector3',
-						selectDistance: 'float',
-						selectAlpha: 'float',
-						signHeight: 'float',
-						signSize: 'float',
-						overrideBarWidth: 'float',
-						overrideBarHeight: 'float',
-						slotPoses: { [TYPE]: 'array', shape: 'transform' },
-						insertPoses: { [TYPE]: 'array', shape: 'transform' },
-						addonAreaCol: { [TYPE]: 'array', shape: 'transform' },
-						addonAreaCenter: { [TYPE]: 'array', shape: 'vector3' },
-					});
-					asset.type += ':SlotConfig?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// CraftDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						roughRadius: 'float',
-						colliderComplexityOverride: 'int32',
-					});
-					asset.type += ':CraftDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				/*
-				// EnemyDesc
-				else if(bytesLeft === ?)
-				{
-					data = parseDataFile(stream, {
-						[TYPE]: 'object',
-						selectCircleRadius: 'float',
-						roughRadius: 'float',
-						colliderComplexityOverride: 'int32',
-						sandCount: 'int32',
-						overrideBarWidth: 'float',
-						overrideBarHeight: 'float',
-					});
-					asset.type += ':EnemyDesc?';
-					Object.assign(asset, data);
-					asset.script = script;
-				}*/
-				
-				else
-				{
-					asset.type += `:${script.pathID}`;
-				}
-				
-				bytesLeft = stream.buf.length - stream.pos;
-				if(bytesLeft)
-				{
-					asset._unknownBytesLeft = bytesLeft;
-					asset._stream = stream.buf.subarray(stream.pos, stream.pos + bytesLeft);
-				}
-				
+				// let bytesLeft = stream.buf.length - stream.pos;
+				// bytesLeft = stream.buf.length - stream.pos;
+				// if(bytesLeft)
+				// {
+				// 	asset._unknownBytesLeft = bytesLeft;
+				// 	asset._stream = stream.buf.subarray(stream.pos, stream.pos + bytesLeft);
+				// }
 			break;
 		}
 		
 		return asset;
+	}
+	
+	monoBehaviourParsers = {
+		PowerDesc: {
+			[TYPE]: 'object',
+			node: 'bool',
+			connectDistance: 'float',
+			coverRadius: 'float',
+			powerPoint: 'vector3',
+			
+			generator: 'bool',
+			photovoltaic: 'bool',
+			wind: 'bool',
+			gamma: 'bool',
+			geothermal: 'bool',
+			genEnergyPerTick: 'int64',
+			useFuelPerTick: 'int64',
+			fuelMask: 'int32',
+			catalystId: 'int32',
+			productId: 'int32',
+			productHeat: 'int64',
+			
+			accumulator: 'bool',
+			inputEnergyPerTick: 'int64',
+			outputEnergyPerTick: 'int64',
+			maxAcuEnergy: 'int64',
+			
+			exchanger: 'bool',
+			exchangeEnergyPerTick: 'int64',
+			emptyId: 'int32',
+			fullId: 'int32',
+			
+			consumer: 'bool',
+			charger: 'bool',
+			workEnergyPerTick: 'int64',
+			idleEnergyPerTick: 'int64',
+		},
+		BuildConditionConfig: {
+			[TYPE]: 'object',
+			landPoints: { [TYPE]: 'array', shape: 'vector3' },
+			landOffset: 'float',
+			allowBuildInWater: 'bool',
+			needBuildInWaterTech: 'bool',
+			waterPoints: { [TYPE]: 'array', shape: 'vector3' },
+			waterTypes: { [TYPE]: 'array', shape: 'int32' },
+			multiLevel: 'bool',
+			multiLevelAllowInserter: 'bool',
+			multiLevelAllowRotate: 'bool',
+			multiLevelAlternativeIds: { [TYPE]: 'array', shape: 'int32' },
+			multiLevelAlternativeYawTransposes: { [TYPE]: 'array', shape: 'bool' },
+			addonType: 'AddonType',
+			lapJoint: 'vector3',
+			veinMiner: 'bool',
+			oilMiner: 'bool',
+			dragBuild: 'bool',
+			dragBuildDistOverride: 'vector2',
+			blueprintBoxSizeOverride: 'vector2',
+		},
+		StationDesc: {
+			[TYPE]: 'object',
+			isStellar: 'bool',
+			maxItemCount: 'int32',
+			maxItemKinds: 'int32',
+			maxDroneCount: 'int32',
+			maxShipCount: 'int32',
+			maxEnergyAcc: 'int64',
+			dronePoint: 'vector3',
+			shipPoint: 'vector3',
+			
+			// Collector
+			isCollector: 'bool',
+			collectSpeed: 'int32',
+			isVeinCollector: 'bool',
+		},
+		BeltDesc: {
+			[TYPE]: 'object',
+			beltPrototype: 'int32',
+			speed: 'int32',
+		},
+		MinerDesc: {
+			[TYPE]: 'object',
+			minerType: 'MinerType',
+			periodf: 'float',
+		},
+		AssemblerDesc: {
+			[TYPE]: 'object',
+			recipeType: 'RecipeType',
+			speedf: 'float',
+		},
+		LabDesc: {
+			[TYPE]: 'object',
+			assembleSpeed: 'float',
+			researchSpeed: 'float',
+		},
+		SpraycoaterDesc: {
+			[TYPE]: 'object',
+			incCapacity: 'int32',
+			incItemId: { [TYPE]: 'array', shape: 'int32' },
+		},
+		StorageDesc: {
+			[TYPE]: 'object',
+			colCount: 'int32',
+			rowCount: 'int32',
+		},
+		TankDesc: {
+			[TYPE]: 'object',
+			fluidStorageCount: 'int32',
+		},
+		InserterDesc: {
+			[TYPE]: 'object',
+			sttf: 'float',
+			delayf: 'float',
+			canStack: 'bool',
+			stackSize: 'int32',
+		},
+		FieldGeneratorDesc: {
+			[TYPE]: 'object',
+			energyCapacity: 'int64',
+			energyRequire0: 'int64',
+			energyRequire1: 'int64',
+		},
+		BeaconDesc: {
+			[TYPE]: 'object',
+			signalRadius: 'float',
+			ROF: 'int32',
+			spaceSignalRange: 'float',
+			pitchUpMax: 'float',
+			pitchDownMax: 'float',
+		},
+		AmmoDesc: {
+			[TYPE]: 'object',
+			blastRadius0: 'float',
+			blastRadius1: 'float',
+			blastFallof: 'float',
+			moveAcc: 'float',
+			turnAcc: 'float',
+			hitIndex: 'int32',
+		},
+		DispenserDesc: {
+			[TYPE]: 'object',
+			maxCourierCount: 'int32',
+			maxEnergyAcc: 'int64',
+		},
+		EjectorDesc: {
+			[TYPE]: 'object',
+			pivotY: 'float',
+			muzzleY: 'float',
+			chargeFrame: 'int32',
+			coldFrame: 'int32',
+			bulletProtoId: 'int32',
+		},
+		SiloDesc: {
+			[TYPE]: 'object',
+			chargeFrame: 'int32',
+			coldFrame: 'int32',
+			bulletProtoId: 'int32',
+		},
+		AnimDesc: {
+			[TYPE]: 'object',
+			prepare_length: 'float',
+			working_length: 'float',
+		},
+		MinimapConfig: {
+			[TYPE]: 'object',
+			type: 'int32',
+		},
+		AudioDesc: {
+			[TYPE]: 'object',
+			audio0: 'string',
+			audio1: 'string',
+			audio2: 'string',
+			logic: 'int32',
+			radius0: 'float',
+			radius1: 'float',
+			falloff: 'float',
+			volume: 'float',
+			pitch: 'float',
+			doppler: 'float',
+		},
+		MonitorDesc: {
+			[TYPE]: 'object',
+			offset: 'int32',
+			targetCargoBytes: 'int32',
+			periodTickCount: 'int32',
+			passOperator: 'int32',
+			passColorId: 'int32',
+			failColorId: 'int32',
+			systemWarningMode: 'int32',
+			monitorMode: 'int32',
+			cargoFilter: 'int32',
+			signalId: 'int32',
+			spawnOperator: 'int32',
+		},
+		SpeakerDesc: {
+			[TYPE]: 'object',
+			tone: 'int32',
+			volume: 'int32',
+			pitch: 'int32',
+			length: 'float',
+			repeat: 'bool',
+		},
+		SplitterDesc: {
+			[TYPE]: 'object',
+		},
+		PilerDesc: {
+			[TYPE]: 'object',
+		},
+		BattleBaseDesc: {
+			[TYPE]: 'object',
+			maxEnergyAcc: 'int64',
+			pickRange: 'float',
+		},
+		ConstructionModuleDesc: {
+			[TYPE]: 'object',
+			droneCount: 'int32',
+			buildRange: 'float',
+			droneEjectPos: 'vector3',
+		},
+		DroneDesc: {
+			[TYPE]: 'object',
+		},
+		SlotConfig: {
+			[TYPE]: 'object',
+			selectCenter: 'vector3',
+			selectSize: 'vector3',
+			selectDistance: 'float',
+			selectAlpha: 'float',
+			signHeight: 'float',
+			signSize: 'float',
+			overrideBarWidth: 'float',
+			overrideBarHeight: 'float',
+			// TODO: These arrays seem to refer to Transform components by fileID/pathID, unable to track these right now, may have to deserialize deeply into nested components like Transform components which can have child transforms etc.
+			slotPoses: { [TYPE]: 'array', shape: 'transform' },
+			insertPoses: { [TYPE]: 'array', shape: 'transform' },
+			addonAreaCol: { [TYPE]: 'array', shape: 'transform' },
+			addonAreaCenter: { [TYPE]: 'array', shape: 'vector3' },
+		},
+		CraftDesc: {
+			[TYPE]: 'object',
+			roughRadius: 'float',
+			colliderComplexityOverride: 'int32',
+		},
+		EnemyDesc: {
+			[TYPE]: 'object',
+			selectCircleRadius: 'float',
+			roughRadius: 'float',
+			colliderComplexityOverride: 'int32',
+			sandCount: 'int32',
+			overrideBarWidth: 'float',
+			overrideBarHeight: 'float',
+		},
+		FractionatorDesc: {
+			[TYPE]: 'object',
+			recipeType: 'RecipeType',
+			fluidInputMax: 'int32',
+			productOutputMax: 'int32',
+			fluidOutputMax: 'int32',
+		},
+		TurretDesc: {
+			[TYPE]: 'object',
+			type: 'TurretType',
+			ammoType: 'AmmoType',
+			vsCaps: 'uint32',
+			defaultDir: 'vector3',
+			ROF: 'int32',
+			roundInterval: 'int32',
+			muzzleInterval: 'int32',
+			muzzleCount: 'uint32',
+			minAttackRange: 'float',
+			maxAttackRange: 'float',
+			spaceAttackRange: 'float',
+			pitchUpMax: 'float',
+			pitchDownMax: 'float',
+			damageScale: 'float',
+			muzzleY: 'float',
+			aimSpeed: 'float',
+			uniformAngleSpeed: 'float',
+			angleAcc: 'float',
+			addEnemyExpBase: 'int32',
+			addEnemyThreatBase: 'int32',
+			addEnemyHatredBase: 'int32',
+			addEnemyExpCoef: 'float',
+			addEnemyThreatCoef: 'float',
+			addEnemyHatredCoef: 'float',
+		},
+	};
+	
+	cachedMonoBehaviourArgType = [];
+	cachedMonoBehaviourArgStream = [];
+	cachedMonoBehaviourData = new Map();
+	parseMonoBehaviour(type, stream) {
+		if(!type in this.monoBehaviourParsers) throw new Error('Unknown MonoBehaviour type: ' + type);
+		
+		let a = this.cachedMonoBehaviourArgType.indexOf(type);
+		let b = this.cachedMonoBehaviourArgStream.indexOf(stream);
+		if(a !== -1 && b !== -1)
+		{
+			let cacheHit = this.cachedMonoBehaviourData.get(`${a}-${b}`);
+			if(cacheHit) return cacheHit;
+		}
+		
+		let data = parseDataFile(stream, this.monoBehaviourParsers[type]);
+		
+		if(a === -1) { a = this.cachedMonoBehaviourArgType.length; this.cachedMonoBehaviourArgType.push(type); }
+		if(b === -1) { b = this.cachedMonoBehaviourArgStream.length; this.cachedMonoBehaviourArgStream.push(stream); }
+		this.cachedMonoBehaviourData.set(`${a}-${b}`, data);
+		
+		return data;
 	}
 }
 

@@ -22,6 +22,14 @@ export const AmmoType = new Map([
 	[5, 'MISSILE'],
 ]);
 
+export const TurretType = new Map([
+	[1, 'GAUSS'],
+	[2, 'LASER'],
+	[3, 'CANNON'],
+	[4, 'PLASMA'],
+	[5, 'MISSILE'],
+]);
+
 export const RecipeType = new Map([
 	[ 0, 'NONE'],
 	[ 1, 'SMELT'],
@@ -49,7 +57,7 @@ export const RuinType = new Map([
 	[0, 'NONE'],
 	[1, 'HIDDEN'],
 	[2, 'NORMAL'],
-])
+]);
 
 export const TextureFormat = new Map([
 	[ 1, 'Alpha8'],
@@ -168,6 +176,11 @@ export function parseDataFile(data, shape) {
 				case 'bytearray': return data.readByteArray();
                 case 'vector2': return [data.readFloat(), data.readFloat()];
                 case 'vector3': return [data.readFloat(), data.readFloat(), data.readFloat()];
+				case 'transform': return parseTyping({
+					[TYPE]: 'object',
+					fileID: 'int32',
+					pathID: 'int64',
+				});
 				case 'ItemType': return ItemType.get(data.readInt32());
 				case 'AmmoType': return AmmoType.get(data.readInt32());
 				case 'RecipeType': return RecipeType.get(data.readInt32());
@@ -176,6 +189,7 @@ export function parseDataFile(data, shape) {
 				case 'TextureFormat': return TextureFormat.get(data.readUInt32());
 				case 'AddonType': return AddonType.get(data.readUInt32());
 				case 'MinerType': return MinerType.get(data.readUInt32());
+				case 'TurretType': return TurretType.get(data.readUInt32());
 				default: throw new Error(`Unknown shape ${JSON.stringify(shape)}`);
 			}
 		}
@@ -193,6 +207,11 @@ export function parseDataFile(data, shape) {
 		
 		else throw new Error(`Unknown shape: '${JSON.stringify(shape)}'`);
 	}
-	
-	return parseTyping(shape);
+	try {
+		let result = parseTyping(shape);
+		return result;
+	}
+	catch(e) {
+		throw new Error(`Parsing shape: '${JSON.stringify(shape)}', ${e.message}`);
+	}
 }

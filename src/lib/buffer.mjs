@@ -184,16 +184,22 @@ export class BufferStreamData {
 	}
 	
 	readBool(width = 4) {
+		let value;
 		switch(width) {
-			case 4: return !!this.readInt32();
-			case 2: return !!this.readInt16();
-			case 1: return !!this.readInt8();
+			case 4: value = this.readInt32(); break;
+			case 2: value = this.readInt16(); break;
+			case 1: value = this.readInt8(); break;
+			default: throw new Error('Unspecified width for bool');
 		}
+		if(value === 0) return false;
+		if(value === 1) return true;
+		else throw new Error(`Byte (${value}) does not read as bool`);
 	}
 	
 	readString(align = true) {
 		let length = this.readInt32();
-		if(!length || length > this.buf.length) return Buffer.alloc(0);
+		if(!length) return Buffer.alloc(0);
+		if(length > this.buf.length) throw new Error('String length exceeds buffer length');
 		let string = this.read(length);
 		if(align) this.align();
 		return string;
@@ -202,6 +208,7 @@ export class BufferStreamData {
 	readArray(callback) {
 		let results = [];
 		let length = this.readInt32();
+		if(length > this.buf.length) throw new Error('Array length exceeds buffer length');
 		for(let index = 0; index < length; ++index)
 		{
 			let result = callback(index, length);
@@ -212,6 +219,7 @@ export class BufferStreamData {
 	
 	readByteArray() {
 		let length = this.readInt32();
+		if(length > this.buf.length) throw new Error('ByteArray length exceeds buffer length');
 		return this.read(length);
 	}
 	

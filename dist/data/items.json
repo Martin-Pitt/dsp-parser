@@ -147,7 +147,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/coal-ore",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "2700000"
 		},
 		"fuelType": 1,
@@ -195,7 +195,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/wood",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "1500000"
 		},
 		"reactorInc": -0.10000000149011612,
@@ -251,7 +251,7 @@
 		"stackSize": 500,
 		"iconPath": "Icons/ItemRecipe/plant-fuel",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "500000"
 		},
 		"reactorInc": -0.30000001192092896,
@@ -306,7 +306,7 @@
 		"stackSize": 50,
 		"iconPath": "Icons/ItemRecipe/gas-hydrate",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "4800000"
 		},
 		"reactorInc": 0.4000000059604645,
@@ -668,7 +668,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/graphite",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "6750000"
 		},
 		"reactorInc": 0.5,
@@ -891,7 +891,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/diamond",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "900000"
 		},
 		"reactorInc": -0.5,
@@ -1555,7 +1555,7 @@
 		"isFluid": true,
 		"iconPath": "Icons/ItemRecipe/oil",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "4050000"
 		},
 		"reactorInc": 0.20000000298023224,
@@ -1604,7 +1604,7 @@
 		"isFluid": true,
 		"iconPath": "Icons/ItemRecipe/refined-oil",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "4500000"
 		},
 		"reactorInc": 0.30000001192092896,
@@ -1685,7 +1685,7 @@
 		"isFluid": true,
 		"iconPath": "Icons/ItemRecipe/hydrogen",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "9000000"
 		},
 		"reactorInc": 1,
@@ -1747,7 +1747,7 @@
 		"isFluid": true,
 		"iconPath": "Icons/ItemRecipe/deuterium",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "9000000"
 		},
 		"reactorInc": 1,
@@ -1808,7 +1808,7 @@
 		"stackSize": 20,
 		"iconPath": "Icons/ItemRecipe/anti-matter",
 		"potential": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "600000000"
 		},
 		"gridIndex": 1111,
@@ -1850,7 +1850,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/photon-capacitor-full",
 		"potential": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "1200000000"
 		},
 		"gridIndex": 1213,
@@ -1885,7 +1885,7 @@
 		"stackSize": 30,
 		"iconPath": "Icons/ItemRecipe/hydrogen-energy-fuel",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "54000000"
 		},
 		"reactorInc": 2,
@@ -1939,7 +1939,7 @@
 		"stackSize": 30,
 		"iconPath": "Icons/ItemRecipe/deuterium-energy-fuel",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "600000000"
 		},
 		"reactorInc": 3,
@@ -1993,7 +1993,7 @@
 		"stackSize": 30,
 		"iconPath": "Icons/ItemRecipe/antimatter-energy-fuel",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "7200000000"
 		},
 		"reactorInc": 5,
@@ -2046,7 +2046,7 @@
 		"stackSize": 50,
 		"iconPath": "Icons/ItemRecipe/virtual-energy-fuel",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "72000000000"
 		},
 		"reactorInc": 11,
@@ -2126,7 +2126,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/graphene",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "96000"
 		},
 		"reactorInc": -0.699999988079071,
@@ -2182,7 +2182,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/nanotube",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "84000"
 		},
 		"reactorInc": -0.800000011920929,
@@ -2238,7 +2238,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/crystal-rubber",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "1800000"
 		},
 		"reactorInc": -0.20000000298023224,
@@ -2358,7 +2358,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/explosive",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "9720000"
 		},
 		"reactorInc": 0.800000011920929,
@@ -2413,7 +2413,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/high-explosive",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "21600000"
 		},
 		"reactorInc": 1.2000000476837158,
@@ -2467,7 +2467,7 @@
 		"stackSize": 100,
 		"iconPath": "Icons/ItemRecipe/particle-explosive",
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "54000000"
 		},
 		"reactorInc": 2,
@@ -2937,7 +2937,7 @@
 		"hpMax": 12,
 		"ability": 1,
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "3240000"
 		},
 		"reactorInc": 0.30000001192092896,
@@ -3009,7 +3009,7 @@
 		"hpMax": 24,
 		"ability": 2,
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "8856000"
 		},
 		"reactorInc": 0.6000000238418579,
@@ -3081,7 +3081,7 @@
 		"hpMax": 60,
 		"ability": 4,
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "21255000"
 		},
 		"reactorInc": 1.5,
@@ -4261,7 +4261,7 @@
 		"iconPath": "Icons/ItemRecipe/energy-fragment",
 		"ability": 50,
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "3600000"
 		},
 		"reactorInc": 0.20000000298023224,
@@ -4623,11 +4623,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "300"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "150"
 			}
 		},
@@ -4759,11 +4759,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "600"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "150"
 			}
 		},
@@ -4895,11 +4895,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1200"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "150"
 			}
 		},
@@ -5156,11 +5156,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "2400"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "150"
 			}
 		},
@@ -5283,11 +5283,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "600"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "150"
 			}
 		},
@@ -5425,11 +5425,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1500"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "75"
 			}
 		},
@@ -5553,11 +5553,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "30000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "300"
 			}
 		},
@@ -6120,11 +6120,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "4500"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "200"
 			}
 		},
@@ -6280,11 +6280,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "9000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "300"
 			}
 		},
@@ -6440,11 +6440,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "18000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "400"
 			}
 		},
@@ -6600,11 +6600,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "45000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "900"
 			}
 		},
@@ -7127,18 +7127,18 @@
 			"gamma": false,
 			"geothermal": false,
 			"genEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "5000"
 			},
 			"useFuelPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "0"
 			},
 			"fuelMask": 0,
 			"catalystId": 0,
 			"productId": 0,
 			"productHeat": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "0"
 			}
 		},
@@ -7305,18 +7305,18 @@
 			"gamma": false,
 			"geothermal": false,
 			"genEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "36000"
 			},
 			"useFuelPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "45000"
 			},
 			"fuelMask": 1,
 			"catalystId": 0,
 			"productId": 0,
 			"productHeat": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "0"
 			}
 		},
@@ -7475,18 +7475,18 @@
 			"gamma": false,
 			"geothermal": false,
 			"genEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "250000"
 			},
 			"useFuelPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "250000"
 			},
 			"fuelMask": 2,
 			"catalystId": 0,
 			"productId": 0,
 			"productHeat": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "0"
 			}
 		},
@@ -7622,18 +7622,18 @@
 			"gamma": false,
 			"geothermal": true,
 			"genEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "80000"
 			},
 			"useFuelPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "0"
 			},
 			"fuelMask": 0,
 			"catalystId": 0,
 			"productId": 0,
 			"productHeat": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "0"
 			}
 		},
@@ -7784,11 +7784,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "7000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "400"
 			}
 		},
@@ -7936,7 +7936,7 @@
 			"maxDroneCount": 0,
 			"maxShipCount": 0,
 			"maxEnergyAcc": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "0"
 			},
 			"dronePoint": [
@@ -7964,11 +7964,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "49000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "2800"
 			}
 		},
@@ -8135,11 +8135,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "5000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "200"
 			}
 		},
@@ -8298,11 +8298,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "6000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "200"
 			}
 		},
@@ -8457,11 +8457,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "24000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "800"
 			}
 		},
@@ -8616,11 +8616,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "48000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1600"
 			}
 		},
@@ -8779,11 +8779,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "14000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "400"
 			}
 		},
@@ -8948,11 +8948,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "16000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "400"
 			}
 		},
@@ -9112,11 +9112,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "12000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "400"
 			}
 		},
@@ -9276,11 +9276,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "36000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "600"
 			}
 		},
@@ -9415,11 +9415,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "12000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "300"
 			}
 		},
@@ -9581,18 +9581,18 @@
 			"gamma": false,
 			"geothermal": false,
 			"genEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "6000"
 			},
 			"useFuelPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "0"
 			},
 			"fuelMask": 0,
 			"catalystId": 0,
 			"productId": 0,
 			"productHeat": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "0"
 			}
 		},
@@ -9738,15 +9738,15 @@
 			],
 			"accumulator": true,
 			"inputEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "25000"
 			},
 			"outputEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "37500"
 			},
 			"maxAcuEnergy": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "540000000"
 			}
 		},
@@ -9792,7 +9792,7 @@
 		"modelCount": 1,
 		"hpMax": 1200,
 		"heatValue": {
-			"type": "BigInt",
+			":type": "BigInt",
 			"value": "540000000"
 		},
 		"reactorInc": 1,
@@ -9907,15 +9907,15 @@
 			],
 			"accumulator": true,
 			"inputEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "25000"
 			},
 			"outputEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "37500"
 			},
 			"maxAcuEnergy": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "540000000"
 			}
 		},
@@ -10072,11 +10072,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "30000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1000"
 			}
 		},
@@ -10222,18 +10222,18 @@
 			"gamma": true,
 			"geothermal": false,
 			"genEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "100000"
 			},
 			"useFuelPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "0"
 			},
 			"fuelMask": 0,
 			"catalystId": 1209,
 			"productId": 1208,
 			"productHeat": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1200000000"
 			}
 		},
@@ -10393,11 +10393,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "300000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1000"
 			}
 		},
@@ -10539,13 +10539,13 @@
 			],
 			"exchanger": true,
 			"exchangeEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "900000"
 			},
 			"emptyId": 2206,
 			"fullId": 2207,
 			"maxExcEnergy": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "540000000"
 			}
 		},
@@ -10709,11 +10709,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "200000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "2000"
 			}
 		},
@@ -10859,18 +10859,18 @@
 			"gamma": false,
 			"geothermal": false,
 			"genEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1200000"
 			},
 			"useFuelPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1200000"
 			},
 			"fuelMask": 4,
 			"catalystId": 0,
 			"productId": 0,
 			"productHeat": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "0"
 			}
 		},
@@ -11040,7 +11040,7 @@
 			"maxDroneCount": 50,
 			"maxShipCount": 0,
 			"maxEnergyAcc": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "180000000"
 			},
 			"dronePoint": [
@@ -11064,11 +11064,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "200000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1000"
 			}
 		},
@@ -11242,7 +11242,7 @@
 			"maxDroneCount": 100,
 			"maxShipCount": 10,
 			"maxEnergyAcc": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "12000000000"
 			},
 			"dronePoint": [
@@ -11266,11 +11266,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1000000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1000"
 			}
 		},
@@ -11430,7 +11430,7 @@
 			"maxDroneCount": 50,
 			"maxShipCount": 10,
 			"maxEnergyAcc": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "8000000000"
 			},
 			"dronePoint": [
@@ -11607,11 +11607,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "8000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "200"
 			}
 		},
@@ -11775,11 +11775,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "32000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "800"
 			}
 		},
@@ -11927,11 +11927,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "3500"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "150"
 			}
 		},
@@ -12115,11 +12115,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "50000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "2000"
 			}
 		},
@@ -12305,11 +12305,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "12500"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "500"
 			}
 		},
@@ -12502,11 +12502,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "28000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1400"
 			}
 		},
@@ -12700,11 +12700,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "10000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "300"
 			}
 		},
@@ -13039,11 +13039,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "400000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "200000"
 			}
 		},
@@ -13052,15 +13052,15 @@
 		},
 		"_FieldGeneratorDesc": {
 			"energyCapacity": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "8640000000"
 			},
 			"energyRequire0": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1440000000"
 			},
 			"energyRequire1": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "2880000000"
 			}
 		},
@@ -13196,11 +13196,11 @@
 			"consumer": true,
 			"charger": false,
 			"workEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "40000"
 			},
 			"idleEnergyPerTick": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "1000"
 			}
 		},
@@ -13210,7 +13210,7 @@
 		},
 		"_BattleBaseDesc": {
 			"maxEnergyAcc": {
-				"type": "BigInt",
+				":type": "BigInt",
 				"value": "120000000"
 			},
 			"pickRange": 90

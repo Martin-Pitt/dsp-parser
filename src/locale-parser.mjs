@@ -192,6 +192,7 @@ export class LocaleParser {
 	}
 	
 	// Gets the translation from the JP community, see: https://docs.google.com/spreadsheets/d/1U9Y3iV7pfYGvlsl_tjvxX5mN0L_YrLlxdnCNnpMAyso/
+	// Based on the code from https://github.com/appuns/DSPJapanesePlugin/ — we've done the same approach where we setup a google script macro that allows us to fetch the data
 	async loadJP() {
 		let jp = {
 			lcid: getLocaleIdentifier('ja-JP'),
@@ -215,6 +216,8 @@ export class LocaleParser {
 	// Download community translations from Crowdin
 	async loadCrowdin() {
 		// TODO: See API at https://developer.crowdin.com/api/v2/
+		// https://crowdin.com/project/dyson-sphere-program
+		// https://dspcd.github.io/translation-converter/
 	}
 	
 	// Combines languages & translations strings together

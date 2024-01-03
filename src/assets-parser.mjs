@@ -302,7 +302,7 @@ export function getDescField(index, item, level = 0) {
 			else value = '-';
 			break;
 		case 19:
-			// The number in the descField should be multiplied by the current game's mining speed scaling, e.g. Vein Utilisation
+			// The number in the descField should be multiplied by the current game's mining speed scaling
 			if(item._MinerDesc.type === 'VEIN')
 				value = [60 / (item._MinerDesc.period / 600000), '每分每矿脉'];
 			else if(item._MinerDesc.type === 'OIL')
@@ -379,7 +379,7 @@ export function getDescField(index, item, level = 0) {
 				value = '+' + num.toFixed(0) + '%';
 			break;
 		case 32:
-			value = [item._StationDesc.collectSpeed, 'x']; // The number in the descField should be multiplied by the current game's mining speed scaling, e.g. Vein Utilisation
+			value = [item._StationDesc.collectSpeed, 'x']; // The number in the descField should be multiplied by the current game's mining speed scaling
 			break;
 		case 33:
 			value = [item._LabDesc.researchSpeed * 60, ' Hash/s']; // The number in the descField should be multiplied by the current game's tech speed

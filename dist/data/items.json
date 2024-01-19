@@ -231,7 +231,7 @@
 			},
 			{
 				"key": "机甲功率提升",
-				"value": "-0%"
+				"value": "0%"
 			},
 			{
 				"key": "采集自",
@@ -286,7 +286,7 @@
 			},
 			{
 				"key": "机甲功率提升",
-				"value": "-0%"
+				"value": "0%"
 			},
 			{
 				"key": "采集自",
@@ -1504,7 +1504,7 @@
 			{
 				"key": "使用寿命",
 				"value": [
-					"?",
+					"-",
 					"空格秒"
 				]
 			},
@@ -2268,7 +2268,7 @@
 			},
 			{
 				"key": "机甲功率提升",
-				"value": "-0%"
+				"value": "0%"
 			},
 			{
 				"key": "制造于",
@@ -2733,7 +2733,7 @@
 			},
 			{
 				"key": "飞行速度",
-				"value": "-"
+				"value": "- m/s"
 			},
 			{
 				"key": "制造于",
@@ -2771,7 +2771,7 @@
 			},
 			{
 				"key": "飞行速度",
-				"value": "-"
+				"value": "- m/s"
 			},
 			{
 				"key": "制造于",
@@ -2972,11 +2972,11 @@
 			},
 			{
 				"key": "喷涂加速效果",
-				"value": "+25.0%"
+				"value": "+25%"
 			},
 			{
 				"key": "额外电力消耗",
-				"value": "+30.0%"
+				"value": "+30%"
 			},
 			{
 				"key": "燃料类型",
@@ -3040,15 +3040,15 @@
 			},
 			{
 				"key": "喷涂增产效果",
-				"value": "+20.0%"
+				"value": "+20%"
 			},
 			{
 				"key": "喷涂加速效果",
-				"value": "+50.0%"
+				"value": "+50%"
 			},
 			{
 				"key": "额外电力消耗",
-				"value": "+70.0%"
+				"value": "+70%"
 			},
 			{
 				"key": "燃料类型",
@@ -3112,15 +3112,15 @@
 			},
 			{
 				"key": "喷涂增产效果",
-				"value": "+25.0%"
+				"value": "+25%"
 			},
 			{
 				"key": "喷涂加速效果",
-				"value": "+100.0%"
+				"value": "+100%"
 			},
 			{
 				"key": "额外电力消耗",
-				"value": "+150.0%"
+				"value": "+150%"
 			},
 			{
 				"key": "燃料类型",
@@ -3168,7 +3168,7 @@
 		"_descFields": [
 			{
 				"key": "伤害",
-				"value": "7.0 hp"
+				"value": "7 hp"
 			},
 			{
 				"key": "伤害类型",
@@ -3219,7 +3219,7 @@
 		"_descFields": [
 			{
 				"key": "伤害",
-				"value": "13.0 hp"
+				"value": "13 hp"
 			},
 			{
 				"key": "伤害类型",
@@ -3270,7 +3270,7 @@
 		"_descFields": [
 			{
 				"key": "伤害",
-				"value": "32.0 hp"
+				"value": "32 hp"
 			},
 			{
 				"key": "伤害类型",
@@ -3322,7 +3322,7 @@
 		"_descFields": [
 			{
 				"key": "伤害",
-				"value": "45.0 hp"
+				"value": "45 hp"
 			},
 			{
 				"key": "伤害类型",
@@ -3378,7 +3378,7 @@
 		"_descFields": [
 			{
 				"key": "伤害",
-				"value": "100.0 hp"
+				"value": "100 hp"
 			},
 			{
 				"key": "伤害类型",
@@ -3434,7 +3434,7 @@
 		"_descFields": [
 			{
 				"key": "伤害",
-				"value": "220.0 hp"
+				"value": "220 hp"
 			},
 			{
 				"key": "伤害类型",
@@ -3490,7 +3490,7 @@
 		"_descFields": [
 			{
 				"key": "伤害",
-				"value": "300.0 hp"
+				"value": "300 hp"
 			},
 			{
 				"key": "伤害类型",
@@ -3546,7 +3546,7 @@
 		"_descFields": [
 			{
 				"key": "伤害",
-				"value": "1500.0 hp"
+				"value": "1500 hp"
 			},
 			{
 				"key": "伤害类型",
@@ -3611,7 +3611,7 @@
 		"_descFields": [
 			{
 				"key": "伤害",
-				"value": "21.0 hp"
+				"value": "21 hp"
 			},
 			{
 				"key": "伤害类型",
@@ -3676,7 +3676,7 @@
 		"_descFields": [
 			{
 				"key": "伤害",
-				"value": "54.0 hp"
+				"value": "54 hp"
 			},
 			{
 				"key": "伤害类型",
@@ -3741,7 +3741,7 @@
 		"_descFields": [
 			{
 				"key": "伤害",
-				"value": "120.0 hp"
+				"value": "120 hp"
 			},
 			{
 				"key": "伤害类型",
@@ -3798,7 +3798,10 @@
 		"description": "I地面战斗机-E型",
 		"_typeString": "成品",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "15 hp"
+			},
 			null,
 			{
 				"key": "伤害类型",
@@ -3848,7 +3851,10 @@
 		"description": "I地面战斗机-A型",
 		"_typeString": "成品",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "15 hp"
+			},
 			null,
 			{
 				"key": "伤害类型",
@@ -3898,7 +3904,10 @@
 		"description": "I地面战斗机-F型",
 		"_typeString": "成品",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "15 hp"
+			},
 			null,
 			{
 				"key": "伤害类型",
@@ -3975,7 +3984,10 @@
 		},
 		"_typeString": "成品",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "80 hp"
+			},
 			null,
 			{
 				"key": "伤害类型",
@@ -4057,7 +4069,10 @@
 		},
 		"_typeString": "成品",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "80 hp"
+			},
 			{
 				"key": "伤害类型",
 				"value": "-"
@@ -4370,10 +4385,13 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "3 hp"
+			},
 			{
 				"key": "运载速度",
-				"value": "6.00/s"
+				"value": "6/s"
 			},
 			{
 				"key": "制造于",
@@ -4441,10 +4459,13 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "3 hp"
+			},
 			{
 				"key": "运载速度",
-				"value": "12.00/s"
+				"value": "12/s"
 			},
 			{
 				"key": "制造于",
@@ -4512,10 +4533,13 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "3 hp"
+			},
 			{
 				"key": "运载速度",
-				"value": "30.00/s"
+				"value": "30/s"
 			},
 			{
 				"key": "制造于",
@@ -4633,11 +4657,14 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "3 hp"
+			},
 			{
 				"key": "运送速度",
 				"value": [
-					"2",
+					2,
 					"往返每秒每格"
 				]
 			},
@@ -4769,11 +4796,14 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "3 hp"
+			},
 			{
 				"key": "运送速度",
 				"value": [
-					"3",
+					3,
 					"往返每秒每格"
 				]
 			},
@@ -4905,11 +4935,14 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "3 hp"
+			},
 			{
 				"key": "运送速度",
 				"value": [
-					"6",
+					6,
 					"往返每秒每格"
 				]
 			},
@@ -5039,7 +5072,10 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "5 hp"
+			},
 			{
 				"key": "接口数量",
 				"value": 4
@@ -5169,7 +5205,10 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "5 hp"
+			},
 			{
 				"key": "工作功率",
 				"value": "144 KW"
@@ -5293,7 +5332,10 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "3 hp"
+			},
 			{
 				"key": "工作功率",
 				"value": "36 KW"
@@ -5446,7 +5488,10 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "8 hp"
+			},
 			{
 				"key": "工作功率",
 				"value": "90 KW"
@@ -5566,7 +5611,10 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "12 hp"
+			},
 			{
 				"key": "最大充能功率",
 				"value": "9 MW"
@@ -5713,7 +5761,10 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "8 hp"
+			},
 			{
 				"key": "仓储空间",
 				"value": [
@@ -5853,7 +5904,10 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "16 hp"
+			},
 			{
 				"key": "仓储空间",
 				"value": [
@@ -5978,7 +6032,10 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "12 hp"
+			},
 			{
 				"key": "流体容量",
 				"value": 10000
@@ -6130,10 +6187,13 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "10 hp"
+			},
 			{
 				"key": "制造速度",
-				"value": "0.750x"
+				"value": "0.75x"
 			},
 			{
 				"key": "工作功率",
@@ -6290,10 +6350,13 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "10 hp"
+			},
 			{
 				"key": "制造速度",
-				"value": "1.000x"
+				"value": "1x"
 			},
 			{
 				"key": "工作功率",
@@ -6450,10 +6513,13 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "10 hp"
+			},
 			{
 				"key": "制造速度",
-				"value": "1.500x"
+				"value": "1.5x"
 			},
 			{
 				"key": "工作功率",
@@ -6610,10 +6676,13 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "制造速度",
-				"value": "3.000x"
+				"value": "3x"
 			},
 			{
 				"key": "工作功率",
@@ -6726,14 +6795,17 @@
 		},
 		"_typeString": "电力运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "5 hp"
+			},
 			{
 				"key": "连接长度",
-				"value": "22.00 m"
+				"value": "22 m"
 			},
 			{
 				"key": "覆盖范围",
-				"value": "10.00 m"
+				"value": "10 m"
 			},
 			{
 				"key": "制造于",
@@ -6843,14 +6915,17 @@
 		},
 		"_typeString": "电力运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "6 hp"
+			},
 			{
 				"key": "连接长度",
-				"value": "45.00 m"
+				"value": "45 m"
 			},
 			{
 				"key": "覆盖范围",
-				"value": "6.00 m"
+				"value": "6 m"
 			},
 			{
 				"key": "工作功率",
@@ -6979,14 +7054,17 @@
 		},
 		"_typeString": "电力运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "8 hp"
+			},
 			{
 				"key": "连接长度",
-				"value": "53.00 m"
+				"value": "53 m"
 			},
 			{
 				"key": "覆盖范围",
-				"value": "26.00 m"
+				"value": "26 m"
 			},
 			{
 				"key": "待机功率",
@@ -7147,7 +7225,10 @@
 		},
 		"_typeString": "电力设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "8 hp"
+			},
 			{
 				"key": "发电类型",
 				"value": "离子流"
@@ -7158,11 +7239,11 @@
 			},
 			{
 				"key": "连接长度",
-				"value": "16.00 m"
+				"value": "16 m"
 			},
 			{
 				"key": "覆盖范围",
-				"value": "7.20 m"
+				"value": "7.2 m"
 			},
 			{
 				"key": "制造于",
@@ -7322,7 +7403,10 @@
 		},
 		"_typeString": "电力设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "20 hp"
+			},
 			{
 				"key": "发电类型",
 				"value": "离子流"
@@ -7492,7 +7576,10 @@
 		},
 		"_typeString": "电力设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "20 hp"
+			},
 			{
 				"key": "发电类型",
 				"value": "离子流"
@@ -7639,7 +7726,10 @@
 		},
 		"_typeString": "电力设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "20 hp"
+			},
 			{
 				"key": "发电类型",
 				"value": "地热"
@@ -7794,7 +7884,10 @@
 		},
 		"_typeString": "采矿设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "12 hp"
+			},
 			{
 				"key": "开采对象",
 				"value": "-"
@@ -7974,7 +8067,10 @@
 		},
 		"_typeString": "采矿设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "20 hp"
+			},
 			{
 				"key": "开采对象",
 				"value": "-"
@@ -8145,7 +8241,10 @@
 		},
 		"_typeString": "抽水设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "10 hp"
+			},
 			{
 				"key": "开采对象",
 				"value": "-"
@@ -8308,10 +8407,13 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "10 hp"
+			},
 			{
 				"key": "制造速度",
-				"value": "1.000x"
+				"value": "1x"
 			},
 			{
 				"key": "工作功率",
@@ -8467,10 +8569,13 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "15 hp"
+			},
 			{
 				"key": "制造速度",
-				"value": "2.000x"
+				"value": "2x"
 			},
 			{
 				"key": "工作功率",
@@ -8626,10 +8731,13 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "制造速度",
-				"value": "3.000x"
+				"value": "3x"
 			},
 			{
 				"key": "工作功率",
@@ -8789,7 +8897,10 @@
 		},
 		"_typeString": "抽油设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "20 hp"
+			},
 			{
 				"key": "开采对象",
 				"value": "-"
@@ -8958,10 +9069,13 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "18 hp"
+			},
 			{
 				"key": "制造速度",
-				"value": "1.000x"
+				"value": "1x"
 			},
 			{
 				"key": "工作功率",
@@ -9122,10 +9236,13 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "12 hp"
+			},
 			{
 				"key": "制造速度",
-				"value": "1.000x"
+				"value": "1x"
 			},
 			{
 				"key": "工作功率",
@@ -9286,10 +9403,13 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "12 hp"
+			},
 			{
 				"key": "制造速度",
-				"value": "2.000x"
+				"value": "2x"
 			},
 			{
 				"key": "工作功率",
@@ -9431,7 +9551,10 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "12 hp"
+			},
 			{
 				"key": "工作功率",
 				"value": "720 KW"
@@ -9601,7 +9724,10 @@
 		},
 		"_typeString": "电力设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "10 hp"
+			},
 			{
 				"key": "发电类型",
 				"value": "离子流"
@@ -9755,7 +9881,10 @@
 		},
 		"_typeString": "电力储存",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "12 hp"
+			},
 			{
 				"key": "输入功率",
 				"value": "1 MW"
@@ -9925,7 +10054,10 @@
 		"_typeString": "电力储存",
 		"_fuelTypeString": "储存",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "12 hp"
+			},
 			{
 				"key": "燃料类型",
 				"value": "储存"
@@ -10085,10 +10217,13 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "20 hp"
+			},
 			{
 				"key": "弹射速度",
-				"value": "20.00/min"
+				"value": "20/min"
 			},
 			{
 				"key": "工作功率",
@@ -10242,7 +10377,10 @@
 		},
 		"_typeString": "电力设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "发电类型",
 				"value": "离子流"
@@ -10403,10 +10541,13 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "80 hp"
+			},
 			{
 				"key": "发射速度",
-				"value": "5.00/min"
+				"value": "5/min"
 			},
 			{
 				"key": "工作功率",
@@ -10554,7 +10695,10 @@
 		},
 		"_typeString": "电力运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "输入功率",
 				"value": "54 MW"
@@ -10719,10 +10863,13 @@
 		},
 		"_typeString": "生产设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "制造速度",
-				"value": "1.000x"
+				"value": "1x"
 			},
 			{
 				"key": "工作功率",
@@ -10879,7 +11026,10 @@
 		},
 		"_typeString": "电力设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "20 hp"
+			},
 			{
 				"key": "发电类型",
 				"value": "离子流"
@@ -11074,7 +11224,10 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "50 hp"
+			},
 			{
 				"key": "仓储物品",
 				"value": [
@@ -11276,7 +11429,10 @@
 		},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "80 hp"
+			},
 			{
 				"key": "仓储物品",
 				"value": [
@@ -11453,7 +11609,10 @@
 		"_PowerDesc": {},
 		"_typeString": "物流运输",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "80 hp"
+			},
 			{
 				"key": "开采对象",
 				"value": "气态行星"
@@ -11617,7 +11776,10 @@
 		},
 		"_typeString": "科研设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "12 hp"
+			},
 			{
 				"key": "制造速度",
 				"value": "NaNx"
@@ -11785,7 +11947,10 @@
 		},
 		"_typeString": "科研设备",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "制造速度",
 				"value": "NaNx"
@@ -11955,7 +12120,7 @@
 			"maxAttackRange": 44,
 			"spaceAttackRange": 0,
 			"pitchUpMax": 70,
-			"pitchDownMax": 70,
+			"pitchDownMax": 90,
 			"damageScale": 1,
 			"muzzleY": 3.700000047683716,
 			"aimSpeed": 1.2000000476837158,
@@ -11970,7 +12135,10 @@
 		},
 		"_typeString": "武器",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "防御塔类型",
 				"value": "动能武器"
@@ -11990,7 +12158,7 @@
 			{
 				"key": "射击速度",
 				"value": [
-					"6.00",
+					6,
 					"发每秒"
 				]
 			},
@@ -12143,7 +12311,7 @@
 			"maxAttackRange": 40,
 			"spaceAttackRange": 0,
 			"pitchUpMax": 70,
-			"pitchDownMax": 70,
+			"pitchDownMax": 90,
 			"damageScale": 2,
 			"muzzleY": 4.5,
 			"aimSpeed": 1.399999976158142,
@@ -12158,7 +12326,10 @@
 		},
 		"_typeString": "武器",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "防御塔类型",
 				"value": "能量武器"
@@ -12173,7 +12344,7 @@
 			},
 			{
 				"key": "每秒伤害",
-				"value": "120.00 hp"
+				"value": "120 hp"
 			},
 			{
 				"key": "工作功率",
@@ -12348,7 +12519,10 @@
 		},
 		"_typeString": "武器",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "防御塔类型",
 				"value": "动能加爆破武器"
@@ -12368,7 +12542,7 @@
 			{
 				"key": "射击速度",
 				"value": [
-					"1.00",
+					1,
 					"发每秒"
 				]
 			},
@@ -12545,7 +12719,10 @@
 		},
 		"_typeString": "武器",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "防御塔类型",
 				"value": "能量武器"
@@ -12565,7 +12742,7 @@
 			{
 				"key": "射击速度",
 				"value": [
-					"1.00",
+					1,
 					"发每秒"
 				]
 			},
@@ -12743,7 +12920,10 @@
 		},
 		"_typeString": "武器",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "防御塔类型",
 				"value": "爆破武器"
@@ -12767,7 +12947,7 @@
 			{
 				"key": "射击速度",
 				"value": [
-					"2.50",
+					2.5,
 					"发每秒"
 				]
 			},
@@ -12908,18 +13088,21 @@
 		},
 		"_typeString": "防御设施",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "连接长度",
-				"value": "60.00 m"
+				"value": "60 m"
 			},
 			{
 				"key": "覆盖范围",
 				"value": [
 					"电力",
-					"14.00 m / ",
+					"14 m / ",
 					"信号",
-					"64.00 m"
+					"64 m"
 				]
 			},
 			{
@@ -13066,7 +13249,10 @@
 		},
 		"_typeString": "防御设施",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "工作功率",
 				"value": "24 MW"
@@ -13229,7 +13415,10 @@
 		},
 		"_typeString": "防御设施",
 		"_descFields": [
-			null,
+			{
+				"key": "最大耐久度",
+				"value": "30 hp"
+			},
 			{
 				"key": "工作功率",
 				"value": "2 MW"
@@ -13242,9 +13431,9 @@
 				"key": "覆盖范围",
 				"value": [
 					"建造",
-					"60.00 m / ",
+					"60 m / ",
 					"拾取",
-					"90.00 m"
+					"90 m"
 				]
 			},
 			{

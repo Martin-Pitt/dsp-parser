@@ -201,9 +201,21 @@ export function getDescField(index, item, level = 0) {
 	}
 	
 	// These should be the current game's damage scaling for each damage type
+	const MiningSpeedScale = 1.0;
+	const LogisticBotCarry = '-';
+	const LogisticBotSpeed = '-';
+	const LogisticBotDeliveryRange = '-';
+	const LogisticDroneCarry = '-';
+	const LogisticDroneSpeed = '-';
+	const LogisticShipCarry = '-';
+	const ResearchSpeed = 1.0;
+	const SolarSailLife = '-';
 	const KineticDamageScale = 1.0;
 	const EnergyDamageScale = 1.0;
 	const BlastDamageScale = 1.0;
+	// const GlobalHPEnhancement = ?
+	// CombatShipDurabilityRatio = ?
+	// CombatDroneDurabilityRatio = ?
 	
 	let speed = ProliferatorSpeedMilliTable[level] + 1.0;
 	let extra = ProliferatorExtraMilliTable[level] + 1.0;
@@ -271,20 +283,20 @@ export function getDescField(index, item, level = 0) {
 			break;
 		case 13:
 			if(item._PowerDesc.connectDistance > 0)
-				value = (item._PowerDesc.connectDistance - 0.5).toFixed(2) + ' m';
+				value = +(item._PowerDesc.connectDistance - 0.5).toFixed(2) + ' m';
 			else value = '0';
 			break;
 		case 14:
 			if(item._PowerDesc?.coverRadius > 0 && item._BeaconDesc?.signalRadius > 0)
-				value = ['电力', (item._PowerDesc.coverRadius - 0.5).toFixed(2) + ' m / ', '信号', item._BeaconDesc.signalRadius.toFixed(2) + ' m'];
+				value = ['电力', +(item._PowerDesc.coverRadius - 0.5).toFixed(2) + ' m / ', '信号', +item._BeaconDesc.signalRadius.toFixed(2) + ' m'];
 			else if(item._PowerDesc.coverRadius > 0)
-				value = (item._PowerDesc.coverRadius - 0.5).toFixed(2) + ' m';
+				value = +(item._PowerDesc.coverRadius - 0.5).toFixed(2) + ' m';
 			else if(item._BattleBaseDesc?.pickRange > 0 && item._ConstructionModuleDesc?.buildRange > 0)
-				value = ['建造', item._ConstructionModuleDesc.buildRange.toFixed(2) + ' m / ', '拾取', item._BattleBaseDesc.pickRange.toFixed(2) + ' m'];
+				value = ['建造', +item._ConstructionModuleDesc.buildRange.toFixed(2) + ' m / ', '拾取', +item._BattleBaseDesc.pickRange.toFixed(2) + ' m'];
 			else value = '0';
 			break;
 		case 15:
-			if(item._BeltDesc) value = (item._BeltDesc.speed * 60 / 10).toFixed(2) + '/s';
+			if(item._BeltDesc) value = +(item._BeltDesc.speed * 60 / 10).toFixed(2) + '/s';
 			else value = '0';
 			break;
 		case 16:
@@ -304,16 +316,16 @@ export function getDescField(index, item, level = 0) {
 		case 19:
 			// The number in the descField should be multiplied by the current game's mining speed scaling
 			if(item._MinerDesc.type === 'VEIN')
-				value = [60 / (item._MinerDesc.period / 600000), '每分每矿脉'];
+				value = [+(60 / (item._MinerDesc.period / 600000) * MiningSpeedScale).toFixed(1), '每分每矿脉'];
 			else if(item._MinerDesc.type === 'OIL')
-				value = [1, 'x'];
+				value = [MiningSpeedScale, 'x'];
 			else if(item._MinerDesc.type === 'WATER')
-				value = [60 / (item._MinerDesc.period / 600000), '/min'];
+				value = [+(60 / (item._MinerDesc.period / 600000) * MiningSpeedScale).toFixed(1), '/min'];
 			else value = '-';
 			break;
 		case 20:
 			if(item._InserterDesc)
-				value = [(300000 / item._InserterDesc.stt).toFixed(0), '往返每秒每格'];
+				value = [+(300000 / item._InserterDesc.stt).toFixed(0), '往返每秒每格'];
 			else
 				value = '';
 			break;
@@ -327,13 +339,13 @@ export function getDescField(index, item, level = 0) {
 		case 34:
 		case 35:
 			if(item._AssemblerDesc)
-				value = (item._AssemblerDesc.speed / 10000).toFixed(3) + 'x';
+				value = +(item._AssemblerDesc.speed / 10000).toFixed(3) + 'x';
 			else if(item._LabDesc)
-				value = (item._LabDesc.assemblerSpeed / 10000).toFixed(3) + 'x';
+				value = +(item._LabDesc.assemblerSpeed / 10000).toFixed(3) + 'x';
 			else if(item._EjectorDesc)
-				value = (3600 / (item._EjectorDesc.chargeFrame + item._EjectorDesc.coldFrame)).toFixed(2) + '/min';
+				value = +(3600 / (item._EjectorDesc.chargeFrame + item._EjectorDesc.coldFrame)).toFixed(2) + '/min';
 			else if(item._SiloDesc)
-				value = (3600 / (item._SiloDesc.chargeFrame + item._SiloDesc.coldFrame)).toFixed(2) + '/min';
+				value = +(3600 / (item._SiloDesc.chargeFrame + item._SiloDesc.coldFrame)).toFixed(2) + '/min';
 			else
 				value = '-';
 			break;
@@ -343,14 +355,14 @@ export function getDescField(index, item, level = 0) {
 		case 24:
 			value = [item._StationDesc.maxItemKinds, '仓储物品种类后缀'];
 			break;
-		case 25: 
-			value = '-'; // This should be the Logistic Drone carry amount upgrade
+		case 25:
+			value = LogisticDroneCarry;
 			break;
 		case 26:
-			value = '-'; // This should be the Logistic Ship carry amount upgrade
+			value = LogisticShipCarry;
 			break;
 		case 27:
-			value = '-'; // This should be the Logistic Drone speed .toFixed(3) + ' m/s';
+			value = LogisticDroneSpeed + ' m/s'; // +LogisticDroneSpeed.toFixed(3) + ' m/s';
 			break;
 		case 28:
 			value = item.ability + ' %';
@@ -369,23 +381,23 @@ export function getDescField(index, item, level = 0) {
 			if(level > 0)
 			{
 				value = item.productive
-				      ? `<color=#61D8FFB8>${(num > 0? '+' : '') + num.toFixed(3)}%</color>`
-				      : `<color=#FD965EB8>${(num > 0? '+' : '') + num.toFixed(3)}%</color>`;
+				      ? `<color=#61D8FFB8>${(num > 0? '+' : '') + +num.toFixed(3)}%</color>`
+				      : `<color=#FD965EB8>${(num > 0? '+' : '') + +num.toFixed(3)}%</color>`;
 			}
 			
 			else if(num <= 0)
-				value = num.toFixed(0) + '%';
+				value = +num.toFixed(0) + '%';
 			else
-				value = '+' + num.toFixed(0) + '%';
+				value = '+' + +num.toFixed(0) + '%';
 			break;
 		case 32:
-			value = [item._StationDesc.collectSpeed, 'x']; // The number in the descField should be multiplied by the current game's mining speed scaling
+			value = [item._StationDesc.collectSpeed * MiningSpeedScale, 'x'];
 			break;
 		case 33:
-			value = [item._LabDesc.researchSpeed * 60, ' Hash/s']; // The number in the descField should be multiplied by the current game's tech speed
+			value = [item._LabDesc.researchSpeed * 60 * ResearchSpeed, ' Hash/s'];
 			break;
 		case 36:
-			value = ['?', '空格秒']; // The question mark here should be the current game's solar sail life
+			value = [SolarSailLife, '空格秒'];
 			break;
 		case 37:
 			value = kmg(item.potential, true) + 'J';
@@ -398,26 +410,26 @@ export function getDescField(index, item, level = 0) {
 			else value = '加速生产';
 			break;
 		case 41:
-			value = `+${(ProliferatorExtraTable[item.ability] * 0.1).toFixed(1)}%`;
+			value = `+${+(ProliferatorExtraTable[item.ability] * 0.1).toFixed(1)}%`;
 			break;
 		case 42:
-			value = `+${(ProliferatorSpeedTable[item.ability] * 0.1).toFixed(1)}%`;
+			value = `+${+(ProliferatorSpeedTable[item.ability] * 0.1).toFixed(1)}%`;
 			break;
 		case 43:
-			value = `+${(ProliferatorPowerTable[item.ability] * 0.1).toFixed(1)}%`;
+			value = `+${+(ProliferatorPowerTable[item.ability] * 0.1).toFixed(1)}%`;
 			break;
 		case 44:
-			value = '-'; // This should be the current game's Logistic Distribution Bot max delivery range upgrade
+			value = LogisticBotDeliveryRange;
 			break;
 		case 45:
-			value = '-'; // This should be the Logistic Bot carry amount upgrade
+			value = LogisticBotCarry;
 			break;
 		case 46:
-			value = '-'; // This should be the Logistic Bot speed .toFixed(2) + ' m/s';
+			value = LogisticBotSpeed + ' m/s'; // +LogisticBotSpeed.toFixed(2) + ' m/s';
 			break;
 		case 47:
 			value = [
-				level? `<color=#61D8FFB8>${item.hpMax * speed + 0.1}</color>` : item.hpMax,
+				level? `<color=#61D8FFB8>${(item.hpMax * speed + 0.1).toFixed(4)}</color>` : item.hpMax,
 				(item.ammoType && item.ammoType !== 'NONE')? '弹药数量单位' : '',
 			];
 			break;
@@ -439,10 +451,10 @@ export function getDescField(index, item, level = 0) {
 				damage /= 100;
 				
 				if(damage)
-					value = `${ability.toFixed(1)} <color=#61D8FFB8>+ ${num15.toFixed(2)}</color> hp`;
+					value = `${+ability.toFixed(1)} <color=#61D8FFB8>+ ${+damage.toFixed(2)}</color> hp`;
 				
 				else
-					value = ability.toFixed(1) + ' hp';
+					value = +ability.toFixed(1) + ' hp';
 			}
 			
 			else if(item._UnitDesc)
@@ -456,10 +468,10 @@ export function getDescField(index, item, level = 0) {
 			{
 				let { muzzleCount, ROF, roundInterval, muzzleInterval } = item._TurretDesc;
 				if(muzzleCount <= 1)
-					value = [(ROF * 60 / roundInterval).toFixed(2), '发每秒'];
+					value = [+(ROF * 60 / roundInterval).toFixed(2), '发每秒'];
 				
 				else
-					value = [(ROF * 60 * muzzleCount / (roundInterval + muzzleInterval * (muzzleCount - 1))).toFixed(2), '发每秒'];
+					value = [+(ROF * 60 * muzzleCount / (roundInterval + muzzleInterval * (muzzleCount - 1))).toFixed(2), '发每秒'];
 			}
 			
 			else if(item._UnitDesc)
@@ -470,7 +482,7 @@ export function getDescField(index, item, level = 0) {
 			break;
 		case 50:
 			if(item._TurretDesc)
-				value = (100 * item._TurretDesc.damageScale * EnergyDamageScale * 0.6).toFixed(2) + ' hp';
+				value = +(100 * item._TurretDesc.damageScale * EnergyDamageScale * 0.6).toFixed(2) + ' hp';
 			else
 				value = '-';
 			break;
@@ -496,11 +508,16 @@ export function getDescField(index, item, level = 0) {
 			}
 			break;
 		case 53:
-			if(item._UnitDesc)
-			{
-				// Leaving this for now
-				value = '-';
-			}
+			// value = 1 + GlobalHPEnhancement;
+			// value = (value * 1000 + 0.5) / 1000;
+			
+			// Leaving this for now
+			// if(item._UnitDesc)
+			// {
+			// 	value = '-';
+			// }
+			
+			value = +(item.hpMax / 100).toFixed(1) + ' hp';
 			break;
 		case 54:
 			if(!level) value = `+${item.ability}%`; 
@@ -545,18 +562,18 @@ export function getDescField(index, item, level = 0) {
 				value = '-';
 			
 			else if(item._TurretDesc.minAttackRange)
-				value = `${item._TurretDesc.minAttackRange} ~ ${item._TurretDesc.maxAttackRange} m`;
+				value = `${+item._TurretDesc.minAttackRange.toFixed(4)} ~ ${+item._TurretDesc.maxAttackRange.toFixed(4)} m`;
 			
 			else
-				value = item._TurretDesc.maxAttackRange + ' m';
+				value = +item._TurretDesc.maxAttackRange.toFixed(4) + ' m';
 			break;
 		case 58:
-			value = item._TurretDesc? item._TurretDesc.spaceAttackRange + ' m' : '-';
+			value = item._TurretDesc? +item._TurretDesc.spaceAttackRange.toFixed(4) + ' m' : '-';
 		case 59:
-			value = item._UnitDesc? item._UnitDesc.maxMovementSpeed + ' m/s' : '-';
+			value = item._UnitDesc? +item._UnitDesc.maxMovementSpeed.toFixed(4) + ' m/s' : '-';
 			break;
 		case 60:
-			value = item._UnitDesc? item._UnitDesc.attackRange0 + ' m' : '-';
+			value = item._UnitDesc? +item._UnitDesc.attackRange0.toFixed(4) + ' m' : '-';
 			break;
 		case 61:
 			if(item.ammoType === 'CANNON')
@@ -571,7 +588,7 @@ export function getDescField(index, item, level = 0) {
 			
 			else if(item.ammoType === 'MISSILE')
 			{
-				value = item._AmmoDesc.blastRadius1 + ' m';
+				value = +item._AmmoDesc.blastRadius1.toFixed(4) + ' m';
 			}
 			break;
 		case 62:

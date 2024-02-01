@@ -17,7 +17,7 @@
 
 import { readFile, writeFile, mkdir, open } from 'node:fs/promises';
 import { join } from 'node:path';
-import { JSONReplacer, JSONReviver } from './lib/json.mjs';
+import { JSONReplacer, JSONReviver, JSONRecurse } from './lib/json.mjs';
 import { AssetsParser } from './assets-parser.mjs';
 import { LocaleParser } from './locale-parser.mjs';
 import { TextureParser } from './texture-parser.mjs';
@@ -86,7 +86,9 @@ export class DSPParser {
 			'// usage: const Items = JSON.parse(json, JSONReviver);\n' +
 			'export ' + JSONReviver.toString() + '\n\n' +
 			'// Replacer implementation used for stringifying JSON data originally\n' +
-			'export ' + JSONReplacer.toString()
+			'export ' + JSONReplacer.toString() + '\n\n' +
+			'// For recursively reviving JSON objects\n' +
+			'export ' + JSONRecurse.toString()
 		);
 		
 		console.log('Exporting spritesheets');

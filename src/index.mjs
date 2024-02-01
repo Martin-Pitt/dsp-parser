@@ -1,4 +1,4 @@
-import { JSONReplacer, JSONReviver } from './lib/json.mjs';
+import { JSONReplacer, JSONReviver, JSONRecurse } from './lib/json.mjs';
 import { AddonType, AmmoType, ItemType, MinerType, ObjectType, RecipeType, RuinType, TextureFormat } from './lib/dat.mjs';
 import { DSPParser } from '../src/dsp-parser.mjs';
 import * as LCID from './lib/lcid.mjs';
@@ -37,6 +37,7 @@ export {
 	
 	JSONReplacer,
 	JSONReviver,
+	JSONRecurse,
 	
 	LCID,
 };

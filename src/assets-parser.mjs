@@ -661,7 +661,7 @@ export class AssetsParser {
 				if(!value) continue;
 				if(Array.isArray(value) && !value.length) continue;
 				if(key === 'hpMax' && value === 1) continue;
-				if(key === 'ammoType' && value === 'NONE') continue;
+				if((key === 'ammoType' || key === 'bombType') && value === 'NONE') continue;
 				if(key === 'enemyDropRange' && value[0] === 0 && value[1] === 0) continue;
 				
 				// Others
@@ -891,7 +891,7 @@ export class AssetsParser {
 			},
 			{
 				item: ItemInserter, descName: 'InserterDesc',
-				preCheck({ bytesLeft }) { return bytesLeft === 16 },
+				preCheck({ bytesLeft }) { return bytesLeft === 20 },
 				descCheck({ desc }) { return 0.01 < desc.sttf <= 10.0 && desc.stackSize === 1 },
 			},
 			{
@@ -919,7 +919,7 @@ export class AssetsParser {
 			},
 			{
 				item: ItemMissile, descName: 'AmmoDesc',
-				preCheck({ bytesLeft }) { return bytesLeft === 24 },
+				preCheck({ bytesLeft }) { return bytesLeft === 28 },
 				descCheck({ desc }) { return (
 					0.1 <= desc.blastRadius0 && desc.blastRadius0 <= 1000.0 &&
 					0.1 <= desc.blastRadius1 && desc.blastRadius1 <= 1000.0 &&

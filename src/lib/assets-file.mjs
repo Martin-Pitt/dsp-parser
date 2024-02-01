@@ -476,6 +476,7 @@ export class AssetsFile {
 		},
 		InserterDesc: {
 			[TYPE]: 'object',
+			grade: 'int32',
 			sttf: 'float',
 			delayf: 'float',
 			canStack: 'bool',
@@ -503,6 +504,7 @@ export class AssetsFile {
 			moveAcc: 'float',
 			turnAcc: 'float',
 			hitIndex: 'int32',
+			parameter0: 'int32',
 		},
 		DispenserDesc: {
 			[TYPE]: 'object',

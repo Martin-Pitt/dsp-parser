@@ -22,6 +22,13 @@ export const AmmoType = new Map([
 	[5, 'MISSILE'],
 ]);
 
+export const BombType = new Map([
+	[0, 'NONE'],
+	[1, 'LIQUID'],
+	[2, 'EXPLOSIVE_UNIT'],
+	[3, 'EMCAPSULE'],
+]);
+
 export const TurretType = new Map([
 	[1, 'GAUSS'],
 	[2, 'LASER'],
@@ -183,6 +190,7 @@ export function parseDataFile(data, shape) {
 				});
 				case 'ItemType': return ItemType.get(data.readInt32());
 				case 'AmmoType': return AmmoType.get(data.readInt32());
+				case 'BombType': return BombType.get(data.readInt32());
 				case 'RecipeType': return RecipeType.get(data.readInt32());
 				case 'ObjectType': return ObjectType.get(data.readInt32());
 				case 'RuinType': return RuinType.get(data.readInt32());

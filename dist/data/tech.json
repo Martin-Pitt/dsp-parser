@@ -6051,7 +6051,7 @@
 		"maxLevel": 100,
 		"levelCoef1": -1800000,
 		"levelCoef2": 360000,
-		"iconPath": "Icons/Tech/2904",
+		"iconPath": "Icons/Tech/2906",
 		"isLabTech": true,
 		"preTechs": [
 			2905

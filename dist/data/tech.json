@@ -5817,6 +5817,7 @@
 		"preTechs": [
 			2806
 		],
+		"preTechsMax": true,
 		"items": [
 			6006
 		],
@@ -8216,6 +8217,7 @@
 		"preTechs": [
 			3509
 		],
+		"preTechsMax": true,
 		"items": [
 			6006
 		],
